@@ -241,11 +241,22 @@ export default function LobbyistsPage() {
                     </div>
                   </div>
 
-                  {/* Topic */}
-                  <div className="flex items-center gap-2 mt-2">
+                  {/* Lobbying Goals */}
+                  <div className="bg-slate-50 rounded-lg p-2.5 mt-2 mb-2">
+                    <div className="text-xs text-slate-400 font-medium mb-0.5">Lobbying Goal</div>
+                    <div className="text-xs text-slate-600">{r.lobbyingGoals}</div>
+                  </div>
+
+                  {/* Topic + Techniques */}
+                  <div className="flex items-center gap-2 flex-wrap">
                     <span className="text-xs bg-slate-100 text-slate-600 px-2.5 py-1 rounded-full">{r.subjectMatter}</span>
-                    <span className="text-xs text-slate-400">{r.topic}</span>
-                    <span className="ml-auto text-xs text-slate-400">Registered: {r.registrationDate}</span>
+                    {r.activityTypes.map((a) => (
+                      <span key={a} className="text-xs bg-indigo-50 text-indigo-600 px-2 py-0.5 rounded-full">{a}</span>
+                    ))}
+                    {r.formerPublicOffices.some((o) => o !== "None") && (
+                      <span className="text-xs bg-red-50 text-red-700 px-2 py-0.5 rounded-full font-medium">Former Gov</span>
+                    )}
+                    <span className="ml-auto text-xs text-slate-400">Reg: {r.registrationNo}</span>
                   </div>
                 </div>
               ))}
@@ -309,12 +320,18 @@ export default function LobbyistsPage() {
               </thead>
               <tbody>
                 {filteredRegistry.map((r, i) => (
-                  <tr key={i} className="border-b border-slate-100 last:border-0 hover:bg-slate-50 transition">
+                  <tr key={i} className="border-b border-slate-100 last:border-0 hover:bg-slate-50 transition align-top">
                     <td className="px-5 py-3">
                       <div className="text-sm font-medium text-slate-900">{r.lobbyistName}</div>
                       <div className="text-xs text-slate-400">{r.lobbyistTitle}</div>
+                      {r.formerPublicOffices.some((o) => o !== "None") && (
+                        <span className="text-xs bg-red-50 text-red-700 px-2 py-0.5 rounded-full font-medium mt-1 inline-block">Former Gov</span>
+                      )}
                     </td>
-                    <td className="px-5 py-3 text-sm text-slate-600">{r.organization}</td>
+                    <td className="px-5 py-3">
+                      <div className="text-sm text-slate-600">{r.organization}</div>
+                      {r.clientName && <div className="text-xs text-slate-400 mt-0.5">Client: {r.clientName}</div>}
+                    </td>
                     <td className="px-5 py-3">
                       <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                         r.type === "Consultant" ? "bg-purple-50 text-purple-700" :
@@ -325,10 +342,19 @@ export default function LobbyistsPage() {
                     <td className="px-5 py-3">
                       <div className="text-sm text-slate-900">{r.lobbiedPerson}</div>
                       <div className="text-xs text-slate-400">{r.lobbiedTitle}</div>
+                      <div className="text-xs text-slate-300 mt-0.5">{r.targetMinisterOffices.length} offices, {r.targetMinistries.length} ministries</div>
                     </td>
-                    <td className="px-5 py-3 text-xs text-slate-500 max-w-xs">{r.topic}</td>
+                    <td className="px-5 py-3 text-xs text-slate-500 max-w-xs">
+                      <div>{r.topic}</div>
+                      <div className="flex flex-wrap gap-1 mt-1">
+                        {r.activityTypes.map((a) => (
+                          <span key={a} className="text-xs bg-indigo-50 text-indigo-600 px-1.5 py-0.5 rounded">{a}</span>
+                        ))}
+                      </div>
+                    </td>
                     <td className="px-5 py-3">
                       <span className="text-xs bg-green-50 text-green-700 px-2 py-0.5 rounded-full font-medium">{r.status}</span>
+                      <div className="text-xs text-slate-300 mt-1">{r.registrationNo}</div>
                     </td>
                   </tr>
                 ))}

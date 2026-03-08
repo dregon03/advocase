@@ -1,29 +1,158 @@
+export type CommunicationTechnique =
+  | "Arranging Meetings"
+  | "Attending Meetings"
+  | "Telephone Calls"
+  | "Informal Communication"
+  | "Presentations"
+  | "Grassroots Lobbying"
+  | "Written Communication";
+
+export type LobbyingActivityType =
+  | "Legislative proposal"
+  | "Bill or resolution"
+  | "Regulation"
+  | "Policy and/or program"
+  | "Privatize/outsource"
+  | "Grant/contribution"
+  | "Contract";
+
+export type FormerPublicOffice =
+  | "Minister of Cabinet"
+  | "Employee in office of a minister"
+  | "Deputy/Associate/Assistant Deputy Minister"
+  | "CEO/Chair of agency, board, or commission"
+  | "Senior employee of agency/board/commission"
+  | "None";
+
 export interface LobbyistRegistration {
   lobbyistName: string;
   lobbyistTitle: string;
   organization: string;
   type: "Consultant" | "In-house" | "Organization";
+  registrationNo: string;
+  initialFilingDate: string;
+  lastAmendmentDate: string;
+
+  // Client info
+  clientName?: string;
+  clientDescription?: string;
+  parentCorporation?: string;
+  subsidiaries?: string[];
+
+  // Lobbying targets (specific)
+  targetMinisterOffices: string[];
+  targetMinistries: string[];
+  targetMPPs: string[];
+  targetAgencies: string[];
+
+  // Legacy fields for backward compat
   lobbiedPerson: string;
   lobbiedTitle: string;
   lobbiedOrg: string;
+
+  // Subject matter & activity
+  subjectMatters: string[];
+  subjectMatter: string; // primary
+  activityTypes: LobbyingActivityType[];
+  lobbyingGoals: string;
   topic: string;
-  subjectMatter: string;
+
+  // Communication
+  communicationTechniques: CommunicationTechnique[];
+
+  // Revolving door
+  formerPublicOffices: FormerPublicOffice[];
+
+  // Funding
+  receivedGovFunding: boolean;
+  majorContributors?: string[];
+
   registrationDate: string;
   status: "Active" | "Inactive";
 }
 
-// Sample data modeled on Ontario lobbyist registry format
 export const lobbyistRegistrations: LobbyistRegistration[] = [
+  {
+    lobbyistName: "Rod Elliot",
+    lobbyistTitle: "Senior Consultant",
+    organization: "Global Public Affairs Inc.",
+    type: "Consultant",
+    registrationNo: "CL1224-20110208090212",
+    initialFilingDate: "2011-02-08",
+    lastAmendmentDate: "2026-03-06",
+    clientName: "Koch Companies Public Sector, LLC",
+    clientDescription: "Koch companies manufacture a wide variety of products, including transportation fuels, building and consumer products, electronic connectors, fibers, fertilizers, membrane filtration and pollution control equipment.",
+    parentCorporation: "KOCH Industries, Inc.",
+    subsidiaries: ["Georgia-Pacific Canada, LLC", "INVISTA (Canada) Company", "Juno"],
+    targetMinisterOffices: [
+      "Office of the Premier and Cabinet Office",
+      "Office of the Minister of Economic Development Job Creation and Trade",
+      "Office of the Minister of Finance",
+      "Office of the Minister of Labour Immigration Training and Skills Development",
+      "Office of the Minister of the Environment Conservation and Parks",
+      "Office of the President of the Treasury Board",
+      "Office of the Minister of Natural Resources",
+      "Office of the Minister of Energy and Mines",
+    ],
+    targetMinistries: [
+      "Ministry of Economic Development Job Creation and Trade",
+      "Ministry of Finance",
+      "Ministry of Labour Immigration Training and Skills Development",
+      "Ministry of the Environment Conservation and Parks",
+      "Ministry of Natural Resources",
+      "Ministry of Energy and Mines",
+    ],
+    targetMPPs: [
+      "Member for Durham",
+      "Member for Lanark—Frontenac—Kingston",
+      "Member for Leeds—Grenville—Thousand Islands and Rideau Lakes",
+      "Member for Mushkegowuk—James Bay",
+      "Member for Niagara West",
+      "Member for Nipissing",
+      "Member for Northumberland—Peterborough South",
+      "Member for Parry Sound—Muskoka",
+      "Member for Vaughan—Woodbridge",
+    ],
+    targetAgencies: ["Independent Electricity System Operator", "Ontario Energy Board", "Ontario Labour Relations Board"],
+    lobbiedPerson: "Stephen Lecce",
+    lobbiedTitle: "Minister of Economic Development",
+    lobbiedOrg: "Ministry of Economic Development, Job Creation and Trade",
+    subjectMatters: ["Agriculture", "Economic development and trade", "Energy", "Environment", "Forestry", "Industry", "International trade", "Manufacturing", "Natural resources", "Northern development", "Taxation and finance"],
+    subjectMatter: "Energy",
+    activityTypes: ["Policy and/or program"],
+    lobbyingGoals: "Facilitate communication with Ontario government officials related to Ontario's energy profile and topics such as wood products, labour, and taxation.",
+    topic: "Energy policy, wood products, labour, and taxation",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Telephone Calls", "Informal Communication", "Presentations", "Grassroots Lobbying", "Written Communication"],
+    formerPublicOffices: ["Employee in office of a minister"],
+    receivedGovFunding: false,
+    registrationDate: "2011-02-08",
+    status: "Active",
+  },
   {
     lobbyistName: "David McGuinty",
     lobbyistTitle: "Senior Consultant",
     organization: "Global Public Affairs",
     type: "Consultant",
+    registrationNo: "CL2045-20250115033100",
+    initialFilingDate: "2025-01-15",
+    lastAmendmentDate: "2025-11-15",
+    clientName: "Canadian Manufacturers & Exporters",
+    clientDescription: "National trade and industry association representing manufacturers and exporters across Canada.",
+    targetMinisterOffices: ["Office of the Minister of Economic Development Job Creation and Trade", "Office of the Minister of Finance"],
+    targetMinistries: ["Ministry of Economic Development Job Creation and Trade", "Ministry of Finance"],
+    targetMPPs: [],
+    targetAgencies: [],
     lobbiedPerson: "Stephen Lecce",
     lobbiedTitle: "Minister of Economic Development",
     lobbiedOrg: "Ministry of Economic Development, Job Creation and Trade",
-    topic: "Trade policy — interprovincial barrier reduction",
+    subjectMatters: ["Economic development and trade", "International trade", "Manufacturing"],
     subjectMatter: "Trade & Commerce",
+    activityTypes: ["Policy and/or program", "Bill or resolution"],
+    lobbyingGoals: "Advocate for reduction of interprovincial trade barriers and alignment of Ontario's trade policy with federal free trade initiatives.",
+    topic: "Trade policy — interprovincial barrier reduction",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Written Communication"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: false,
     registrationDate: "2025-11-15",
     status: "Active",
   },
@@ -32,11 +161,25 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "VP, Government Relations",
     organization: "Ontario Real Estate Association",
     type: "In-house",
+    registrationNo: "PP3892-20240301030500",
+    initialFilingDate: "2024-03-01",
+    lastAmendmentDate: "2025-09-22",
+    clientDescription: "Provincial trade association representing 90,000+ real estate professionals across Ontario.",
+    targetMinisterOffices: ["Office of the Minister of Municipal Affairs and Housing", "Office of the Minister of Finance"],
+    targetMinistries: ["Ministry of Municipal Affairs and Housing", "Ministry of Finance"],
+    targetMPPs: ["Member for Etobicoke—Lakeshore", "Member for Scarborough—Guildwood"],
+    targetAgencies: [],
     lobbiedPerson: "Rob Flack",
     lobbiedTitle: "Minister of Municipal Affairs and Housing",
     lobbiedOrg: "Ministry of Municipal Affairs and Housing",
-    topic: "Housing supply — development approval timelines",
+    subjectMatters: ["Housing", "Municipal affairs", "Taxation and finance"],
     subjectMatter: "Housing",
+    activityTypes: ["Bill or resolution", "Policy and/or program", "Regulation"],
+    lobbyingGoals: "Accelerate development approval timelines, reduce barriers to housing supply, reform development charges to incentivize new construction.",
+    topic: "Housing supply — development approval timelines",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Presentations", "Written Communication"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: false,
     registrationDate: "2025-09-22",
     status: "Active",
   },
@@ -45,11 +188,26 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Managing Director",
     organization: "Crestview Strategy",
     type: "Consultant",
+    registrationNo: "CL5501-20250601034200",
+    initialFilingDate: "2025-06-01",
+    lastAmendmentDate: "2025-10-03",
+    clientName: "Ontario General Contractors Association",
+    clientDescription: "Trade association representing general contractors and construction firms in Ontario.",
+    targetMinisterOffices: ["Office of the Minister of Red Tape Reduction", "Office of the Minister of Municipal Affairs and Housing"],
+    targetMinistries: ["Ministry of Red Tape Reduction", "Ministry of Municipal Affairs and Housing"],
+    targetMPPs: [],
+    targetAgencies: [],
     lobbiedPerson: "Andrea Khanjin",
     lobbiedTitle: "Minister of Red Tape Reduction",
     lobbiedOrg: "Ministry of Red Tape Reduction",
-    topic: "Regulatory reform — construction permitting",
+    subjectMatters: ["Housing", "Industry", "Municipal affairs"],
     subjectMatter: "Regulation",
+    activityTypes: ["Regulation", "Policy and/or program"],
+    lobbyingGoals: "Reform construction permitting processes, reduce regulatory burden on contractors, streamline building code compliance.",
+    topic: "Regulatory reform — construction permitting",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Written Communication"],
+    formerPublicOffices: ["Employee in office of a minister"],
+    receivedGovFunding: false,
     registrationDate: "2025-10-03",
     status: "Active",
   },
@@ -58,11 +216,25 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Director of Policy",
     organization: "Ontario Chamber of Commerce",
     type: "Organization",
+    registrationNo: "OL0892-20200115025000",
+    initialFilingDate: "2020-01-15",
+    lastAmendmentDate: "2025-08-14",
+    clientDescription: "Provincial business advocacy organization representing 60,000+ members across Ontario.",
+    targetMinisterOffices: ["Office of the Minister of Finance", "Office of the Minister of Economic Development Job Creation and Trade", "Office of the Premier and Cabinet Office"],
+    targetMinistries: ["Ministry of Finance", "Ministry of Economic Development Job Creation and Trade"],
+    targetMPPs: ["Member for Don Valley West", "Member for Ajax"],
+    targetAgencies: [],
     lobbiedPerson: "Peter Bethlenfalvy",
     lobbiedTitle: "Minister of Finance",
     lobbiedOrg: "Ministry of Finance",
-    topic: "Small business tax relief — 2025 budget measures",
+    subjectMatters: ["Economic development and trade", "Taxation and finance", "Industry"],
     subjectMatter: "Taxation",
+    activityTypes: ["Bill or resolution", "Policy and/or program"],
+    lobbyingGoals: "Advocate for small business tax relief in the 2025 budget, reduce regulatory costs for SMEs, support workforce development programs.",
+    topic: "Small business tax relief — 2025 budget measures",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Presentations", "Grassroots Lobbying", "Written Communication"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: true,
     registrationDate: "2025-08-14",
     status: "Active",
   },
@@ -71,11 +243,26 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Partner",
     organization: "Earnscliffe Strategies",
     type: "Consultant",
+    registrationNo: "CL6230-20251001035100",
+    initialFilingDate: "2025-10-01",
+    lastAmendmentDate: "2025-12-01",
+    clientName: "Ontario Long Term Care Association",
+    clientDescription: "Association representing long-term care home operators across Ontario.",
+    targetMinisterOffices: ["Office of the Minister of Health", "Office of the Minister of Long-Term Care"],
+    targetMinistries: ["Ministry of Health", "Ministry of Long-Term Care"],
+    targetMPPs: ["Member for Nickel Belt", "Member for University—Rosedale"],
+    targetAgencies: [],
     lobbiedPerson: "Sylvia Jones",
     lobbiedTitle: "Minister of Health",
     lobbiedOrg: "Ministry of Health",
-    topic: "Healthcare staffing — agency regulation",
+    subjectMatters: ["Health", "Labour"],
     subjectMatter: "Healthcare",
+    activityTypes: ["Bill or resolution", "Regulation", "Policy and/or program"],
+    lobbyingGoals: "Influence healthcare staffing agency regulation to ensure adequate staffing levels in long-term care facilities. Advocate for increased per-diem funding.",
+    topic: "Healthcare staffing — agency regulation",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Telephone Calls", "Presentations", "Written Communication"],
+    formerPublicOffices: ["Deputy/Associate/Assistant Deputy Minister"],
+    receivedGovFunding: false,
     registrationDate: "2025-12-01",
     status: "Active",
   },
@@ -84,11 +271,26 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Government Affairs Lead",
     organization: "Shopify Inc.",
     type: "In-house",
+    registrationNo: "PP7102-20251001035200",
+    initialFilingDate: "2025-10-01",
+    lastAmendmentDate: "2025-11-28",
+    clientDescription: "Canadian e-commerce company providing online retail platform for businesses of all sizes.",
+    parentCorporation: "Shopify Inc. (TSX: SHOP)",
+    targetMinisterOffices: ["Office of the Minister of Economic Development Job Creation and Trade", "Office of the Minister of Finance"],
+    targetMinistries: ["Ministry of Economic Development Job Creation and Trade"],
+    targetMPPs: [],
+    targetAgencies: ["Ontario Centre of Innovation"],
     lobbiedPerson: "Stephen Lecce",
     lobbiedTitle: "Minister of Economic Development",
     lobbiedOrg: "Ministry of Economic Development, Job Creation and Trade",
-    topic: "AI innovation strategy — technology sector growth",
+    subjectMatters: ["Economic development and trade", "Industry", "Science and technology"],
     subjectMatter: "Technology",
+    activityTypes: ["Policy and/or program", "Grant/contribution"],
+    lobbyingGoals: "Advocate for Ontario AI innovation strategy, secure technology sector growth incentives, and influence digital economy policy development.",
+    topic: "AI innovation strategy — technology sector growth",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Presentations"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: false,
     registrationDate: "2025-11-28",
     status: "Active",
   },
@@ -97,11 +299,26 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Senior Associate",
     organization: "Sussex Strategy Group",
     type: "Consultant",
+    registrationNo: "CL3301-20250501033800",
+    initialFilingDate: "2025-05-01",
+    lastAmendmentDate: "2025-07-10",
+    clientName: "Police Association of Ontario",
+    clientDescription: "Provincial association representing municipal police officers across Ontario.",
+    targetMinisterOffices: ["Office of the Solicitor General", "Office of the Attorney General"],
+    targetMinistries: ["Ministry of the Solicitor General", "Ministry of the Attorney General"],
+    targetMPPs: ["Member for York Centre"],
+    targetAgencies: [],
     lobbiedPerson: "Michael S. Kerzner",
     lobbiedTitle: "Solicitor General",
     lobbiedOrg: "Ministry of the Solicitor General",
-    topic: "Public safety — community policing funding",
+    subjectMatters: ["Justice and law enforcement", "Government and public sector"],
     subjectMatter: "Justice & Public Safety",
+    activityTypes: ["Bill or resolution", "Policy and/or program"],
+    lobbyingGoals: "Support passage of Bill 75 (Keeping Criminals Behind Bars Act), advocate for increased community policing funding and bail reform.",
+    topic: "Public safety — community policing funding",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Telephone Calls", "Written Communication"],
+    formerPublicOffices: ["Employee in office of a minister"],
+    receivedGovFunding: false,
     registrationDate: "2025-07-10",
     status: "Active",
   },
@@ -110,11 +327,25 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Executive Director",
     organization: "Ontario Mining Association",
     type: "Organization",
+    registrationNo: "OL1450-20180301020100",
+    initialFilingDate: "2018-03-01",
+    lastAmendmentDate: "2025-10-18",
+    clientDescription: "Provincial trade association representing mining companies operating in Ontario.",
+    targetMinisterOffices: ["Office of the Minister of Natural Resources", "Office of the Minister of Energy and Mines", "Office of the Minister of Northern Economic Development"],
+    targetMinistries: ["Ministry of Natural Resources", "Ministry of Energy and Mines", "Ministry of Northern Development"],
+    targetMPPs: ["Member for Mushkegowuk—James Bay", "Member for Nipissing", "Member for Parry Sound—Muskoka"],
+    targetAgencies: [],
     lobbiedPerson: "Mike Harris",
     lobbiedTitle: "Minister of Natural Resources",
     lobbiedOrg: "Ministry of Natural Resources and Forestry",
-    topic: "Critical minerals strategy — permitting reform",
+    subjectMatters: ["Natural resources", "Energy", "Environment", "Northern development", "Industry"],
     subjectMatter: "Natural Resources",
+    activityTypes: ["Regulation", "Policy and/or program"],
+    lobbyingGoals: "Reform permitting processes for critical minerals exploration and extraction. Advocate for streamlined environmental assessment for mining operations in Northern Ontario.",
+    topic: "Critical minerals strategy — permitting reform",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Presentations", "Grassroots Lobbying", "Written Communication"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: true,
     registrationDate: "2025-10-18",
     status: "Active",
   },
@@ -123,11 +354,26 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Principal",
     organization: "StrategyCorp",
     type: "Consultant",
+    registrationNo: "CL4120-20250301033500",
+    initialFilingDate: "2025-03-01",
+    lastAmendmentDate: "2025-06-20",
+    clientName: "EdTech Ontario Alliance",
+    clientDescription: "Coalition of education technology companies seeking to modernize Ontario's K-12 technology infrastructure.",
+    targetMinisterOffices: ["Office of the Minister of Education", "Office of the President of the Treasury Board"],
+    targetMinistries: ["Ministry of Education"],
+    targetMPPs: [],
+    targetAgencies: ["Ontario Centre of Innovation"],
     lobbiedPerson: "Paul Calandra",
     lobbiedTitle: "Minister of Education",
     lobbiedOrg: "Ministry of Education",
-    topic: "EdTech procurement — school technology upgrades",
+    subjectMatters: ["Education", "Science and technology", "Government and public sector"],
     subjectMatter: "Education",
+    activityTypes: ["Contract", "Policy and/or program"],
+    lobbyingGoals: "Secure EdTech procurement contracts for school technology upgrades. Influence Ontario's digital learning strategy and classroom technology standards.",
+    topic: "EdTech procurement — school technology upgrades",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Presentations", "Written Communication"],
+    formerPublicOffices: ["CEO/Chair of agency, board, or commission"],
+    receivedGovFunding: false,
     registrationDate: "2025-06-20",
     status: "Active",
   },
@@ -136,11 +382,25 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "VP Public Policy",
     organization: "Ontario Energy Association",
     type: "Organization",
+    registrationNo: "OL2210-20190601022500",
+    initialFilingDate: "2019-06-01",
+    lastAmendmentDate: "2025-09-05",
+    clientDescription: "Trade association representing Ontario's diverse electricity sector including generators, transmitters, distributors, and retailers.",
+    targetMinisterOffices: ["Office of the Minister of Energy and Mines", "Office of the Minister of the Environment Conservation and Parks"],
+    targetMinistries: ["Ministry of Energy and Mines", "Ministry of the Environment Conservation and Parks"],
+    targetMPPs: [],
+    targetAgencies: ["Independent Electricity System Operator", "Ontario Energy Board"],
     lobbiedPerson: "Stephen Lecce",
     lobbiedTitle: "Minister of Energy",
     lobbiedOrg: "Ministry of Energy",
-    topic: "Energy affordability — generation procurement",
+    subjectMatters: ["Energy", "Environment", "Economic development and trade"],
     subjectMatter: "Energy",
+    activityTypes: ["Regulation", "Policy and/or program", "Bill or resolution"],
+    lobbyingGoals: "Influence energy generation procurement processes to ensure affordability and reliability. Advocate for market-based approaches to clean energy transition.",
+    topic: "Energy affordability — generation procurement",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Telephone Calls", "Presentations", "Written Communication"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: false,
     registrationDate: "2025-09-05",
     status: "Active",
   },
@@ -149,11 +409,26 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Government Relations Manager",
     organization: "Mattamy Homes",
     type: "In-house",
+    registrationNo: "PP5890-20250801034700",
+    initialFilingDate: "2025-08-01",
+    lastAmendmentDate: "2025-11-02",
+    clientDescription: "Canada's largest privately owned homebuilder, operating in Ontario and select US markets.",
+    parentCorporation: "Mattamy Asset Management Inc.",
+    targetMinisterOffices: ["Office of the Minister of Municipal Affairs and Housing", "Office of the Minister of Finance"],
+    targetMinistries: ["Ministry of Municipal Affairs and Housing", "Ministry of Finance"],
+    targetMPPs: ["Member for Etobicoke—Lakeshore", "Member for Brampton Centre"],
+    targetAgencies: [],
     lobbiedPerson: "Rob Flack",
     lobbiedTitle: "Minister of Municipal Affairs and Housing",
     lobbiedOrg: "Ministry of Municipal Affairs and Housing",
-    topic: "Development charges — housing affordability",
+    subjectMatters: ["Housing", "Municipal affairs", "Taxation and finance"],
     subjectMatter: "Housing",
+    activityTypes: ["Bill or resolution", "Regulation", "Policy and/or program"],
+    lobbyingGoals: "Reform development charge calculations to reduce cost burden on new housing construction. Advocate for streamlined site plan approval processes.",
+    topic: "Development charges — housing affordability",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Written Communication"],
+    formerPublicOffices: ["None"],
+    receivedGovFunding: false,
     registrationDate: "2025-11-02",
     status: "Active",
   },
@@ -162,11 +437,27 @@ export const lobbyistRegistrations: LobbyistRegistration[] = [
     lobbyistTitle: "Senior Consultant",
     organization: "Hill+Knowlton Strategies",
     type: "Consultant",
+    registrationNo: "CL4057-20250601034100",
+    initialFilingDate: "2025-06-01",
+    lastAmendmentDate: "2025-08-30",
+    clientName: "Uber Canada Ltd.",
+    clientDescription: "Technology platform connecting riders with drivers and facilitating food delivery services across Ontario.",
+    parentCorporation: "Uber Technologies Inc.",
+    targetMinisterOffices: ["Office of the Minister of Labour Immigration Training and Skills Development"],
+    targetMinistries: ["Ministry of Labour, Immigration, Training and Skills Development"],
+    targetMPPs: [],
+    targetAgencies: ["Ontario Labour Relations Board"],
     lobbiedPerson: "David Piccini",
     lobbiedTitle: "Minister of Labour",
     lobbiedOrg: "Ministry of Labour, Immigration, Training and Skills Development",
-    topic: "Labour policy — gig worker classification",
+    subjectMatters: ["Labour", "Economic development and trade", "Science and technology"],
     subjectMatter: "Labour",
+    activityTypes: ["Regulation", "Policy and/or program"],
+    lobbyingGoals: "Influence gig worker classification policy to maintain independent contractor status for platform workers. Advocate for flexible benefits framework rather than full employment reclassification.",
+    topic: "Labour policy — gig worker classification",
+    communicationTechniques: ["Arranging Meetings", "Attending Meetings", "Telephone Calls", "Presentations", "Written Communication"],
+    formerPublicOffices: ["Employee in office of a minister"],
+    receivedGovFunding: false,
     registrationDate: "2025-08-30",
     status: "Active",
   },

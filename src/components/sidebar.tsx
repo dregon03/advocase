@@ -7,6 +7,8 @@ const nav = [
   { label: "Overview", href: "/dashboard", icon: "📊" },
   { label: "Bills", href: "/dashboard/bills", icon: "📜" },
   { label: "Lobbyists", href: "/dashboard/lobbyists", icon: "🤝" },
+  { label: "Revolving Door", href: "/dashboard/revolving-door", icon: "🚪" },
+  { label: "Committees", href: "/dashboard/committees", icon: "🏛️" },
   { label: "Stakeholders", href: "/dashboard/stakeholders", icon: "👤" },
   { label: "Sectors", href: "/dashboard/sectors", icon: "🏭" },
   { label: "Competitive", href: "/dashboard/competitive", icon: "⚔️" },
