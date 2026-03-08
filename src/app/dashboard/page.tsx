@@ -8,45 +8,120 @@ import Link from "next/link";
 // Demo client for POC
 const client = clientWorkspaces[0]; // Brookfield Properties
 
+// Sector synonym map — maps OICO subject matters to our sector tags
+const sectorAliases: Record<string, string[]> = {
+  "Housing": ["housing", "municipal affairs", "real estate"],
+  "Construction": ["housing", "municipal affairs", "infrastructure", "construction"],
+  "Municipal Government": ["municipal affairs", "municipal government"],
+};
+
+// Check if a term matches any of the client's sectors (using aliases)
+function matchesClientSectors(term: string): boolean {
+  const t = term.toLowerCase();
+  return client.sectors.some((cs) => {
+    const aliases = sectorAliases[cs] || [cs.toLowerCase()];
+    return aliases.some((a) => t.includes(a) || a.includes(t));
+  });
+}
+
 // Bills that impact this client (by sector tag overlap)
 function getImpactingBills() {
   return bills.filter((b) =>
-    b.sectors.some((s) => client.sectors.some((cs) => s.toLowerCase().includes(cs.toLowerCase()) || cs.toLowerCase().includes(s.toLowerCase())))
+    b.sectors.some((s) => matchesClientSectors(s))
   );
 }
 
 // Lobbying activity in client's sectors
 function getRelevantLobbying() {
   return lobbyistRegistrations.filter((r) =>
-    r.subjectMatters.some((sm) =>
-      client.sectors.some((cs) =>
-        sm.toLowerCase().includes(cs.toLowerCase()) || cs.toLowerCase().includes(sm.toLowerCase())
-      )
-    )
+    r.subjectMatters.some((sm) => matchesClientSectors(sm))
   );
 }
 
-// Competitor lobbying — orgs lobbying the same bills or same officials
+// Also match lobbyists targeting the same officials AND overlapping subject matter
+function getExpandedRelevantLobbying() {
+  const bySubject = getRelevantLobbying();
+  // Only include official-matched lobbyists if they also have at least one overlapping subject matter with client's watched bill sectors
+  const clientBillSectors = bills
+    .filter((b) => client.watchedBills.includes(b.number))
+    .flatMap((b) => b.sectors);
+  const byOfficial = lobbyistRegistrations.filter((r) =>
+    client.keyOfficials.includes(r.lobbiedPerson) &&
+    r.subjectMatters.some((sm) =>
+      clientBillSectors.some((s) =>
+        sm.toLowerCase().includes(s.toLowerCase()) || s.toLowerCase().includes(sm.toLowerCase())
+      )
+    )
+  );
+  // Dedupe
+  const map = new Map<string, typeof lobbyistRegistrations[0]>();
+  [...bySubject, ...byOfficial].forEach((r) => map.set(r.registrationNo, r));
+  return Array.from(map.values());
+}
+
+// Competitor lobbying — exclude client's own lobbyists, include named competitors
 function getCompetitorActivity() {
-  const relevant = getRelevantLobbying();
-  return relevant.filter(
+  const relevant = getExpandedRelevantLobbying();
+  const bySector = relevant.filter(
     (r) => !client.activeLobbyists.includes(r.lobbyistName)
   );
+  // Also pull in any registrations from named competitors
+  const byName = lobbyistRegistrations.filter((r) =>
+    client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))
+  );
+  // Dedupe
+  const map = new Map<string, typeof lobbyistRegistrations[0]>();
+  [...bySector, ...byName].forEach((r) => map.set(r.registrationNo, r));
+  return Array.from(map.values());
+}
+
+// Generate a threat descriptor for each competitor relative to Brookfield
+function getThreatDescriptor(r: typeof lobbyistRegistrations[0]): string {
+  // Check if lobbying same officials
+  const sameOfficials = client.keyOfficials.filter((o) => r.lobbiedPerson === o);
+  // Check if lobbying on bills that affect client
+  const clientBillSectors = bills
+    .filter((b) => client.watchedBills.includes(b.number))
+    .flatMap((b) => b.sectors);
+  const overlappingSectors = r.subjectMatters.filter((sm) =>
+    clientBillSectors.some((s) => sm.toLowerCase().includes(s.toLowerCase()) || s.toLowerCase().includes(sm.toLowerCase()))
+  );
+
+  // Specific threat analysis based on their goals vs Brookfield's interests
+  const goals = r.lobbyingGoals.toLowerCase();
+  if (goals.includes("rent") || goals.includes("tenant") || goals.includes("renter"))
+    return "Pushing rent/tenant protections that could cap Brookfield's rental income.";
+  if (goals.includes("development charge") || goals.includes("dev charge"))
+    return "Lobbying on development charges — could shift cost structures for new builds.";
+  if (goals.includes("approval") || goals.includes("permitting") || goals.includes("fast"))
+    return "Seeking faster approvals — may gain competitive edge on project timelines.";
+  if (goals.includes("procurement") || goals.includes("buy ontario"))
+    return "Influencing procurement rules that could affect construction supply chain costs.";
+  if (goals.includes("red tape") || goals.includes("regulatory") || goals.includes("deregulat"))
+    return "Pushing regulatory reform — could reshape compliance landscape for developers.";
+  if (goals.includes("tax") || goals.includes("fiscal"))
+    return "Lobbying on tax policy that may affect real estate economics.";
+  if (sameOfficials.length > 0)
+    return `Competing for attention of ${sameOfficials.join(", ")} — same decision-makers you depend on.`;
+  if (overlappingSectors.length > 0)
+    return `Active in ${overlappingSectors.join(", ")} — overlapping policy space.`;
+  return "Operating in adjacent policy areas that could indirectly affect your sector.";
 }
 
 // Sector heat for client's sectors
 function getClientSectorHeat() {
   return sectors.filter((s) =>
-    client.sectors.some((cs) => s.name.toLowerCase().includes(cs.toLowerCase()) || cs.toLowerCase().includes(s.name.toLowerCase()))
+    client.sectors.some((cs) => {
+      const aliases = sectorAliases[cs] || [cs.toLowerCase()];
+      return aliases.some((a) => s.name.toLowerCase().includes(a) || a.includes(s.name.toLowerCase()));
+    })
   );
 }
 
 // Recent events relevant to client
 function getRelevantTimeline() {
   return timelineEvents.filter((e) =>
-    e.sector && client.sectors.some((cs) =>
-      e.sector!.toLowerCase().includes(cs.toLowerCase()) || cs.toLowerCase().includes(e.sector!.toLowerCase())
-    )
+    e.sector && matchesClientSectors(e.sector)
   ).slice(0, 5);
 }
 
@@ -232,7 +307,7 @@ export default function DashboardPage() {
                   )}
                 </div>
                 <div className="text-xs text-slate-500">{r.lobbyistName} → {r.lobbiedPerson}</div>
-                <div className="text-xs text-slate-400 mt-0.5">{r.topic}</div>
+                <div className="text-xs text-orange-600 font-medium mt-1">{getThreatDescriptor(r)}</div>
               </div>
             ))}
           </div>

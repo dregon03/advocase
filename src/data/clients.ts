@@ -18,7 +18,7 @@ export const clientWorkspaces: Client[] = [
     watchedBills: [6, 9, 17, 51, 60, 82],
     competitors: ["Mattamy Homes"],
     keyOfficials: ["Rob Flack", "Jessica Bell"],
-    activeLobbyists: ["Jennifer Wright", "Daniel Kim"],
+    activeLobbyists: ["Jennifer Wright"],
     riskLevel: "High",
     notes: "Bill 51 (Rent Stabilization) could impact rental portfolio margins. Bills 17 and 60 are favorable — faster approvals. Monitor NDP housing critics closely.",
   },
