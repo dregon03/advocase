@@ -4,15 +4,14 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 
 const nav = [
-  { label: "Overview", href: "/dashboard", icon: "📊" },
+  { label: "My Dashboard", href: "/dashboard", icon: "🏠" },
   { label: "Bills", href: "/dashboard/bills", icon: "📜" },
+  { label: "Competitors", href: "/dashboard/competitive", icon: "⚔️" },
   { label: "Lobbyists", href: "/dashboard/lobbyists", icon: "🤝" },
-  { label: "Revolving Door", href: "/dashboard/revolving-door", icon: "🚪" },
-  { label: "Committees", href: "/dashboard/committees", icon: "🏛️" },
   { label: "Stakeholders", href: "/dashboard/stakeholders", icon: "👤" },
   { label: "Sectors", href: "/dashboard/sectors", icon: "🏭" },
-  { label: "Competitive", href: "/dashboard/competitive", icon: "⚔️" },
-  { label: "Clients", href: "/dashboard/clients", icon: "💼" },
+  { label: "Revolving Door", href: "/dashboard/revolving-door", icon: "🚪" },
+  { label: "Committees", href: "/dashboard/committees", icon: "🏛️" },
   { label: "Timeline", href: "/dashboard/timeline", icon: "📅" },
 ];
 
@@ -51,6 +50,14 @@ export default function Sidebar() {
         })}
       </nav>
 
+      <div className="p-4 border-t border-slate-700">
+        <div className="text-[10px] text-slate-600 uppercase tracking-wider mb-1.5">Active Client</div>
+        <div className="text-sm font-semibold text-white">Brookfield Properties</div>
+        <div className="text-xs text-slate-400 mt-0.5">Real Estate Development</div>
+        <div className="flex gap-1 mt-2">
+          <span className="text-[9px] bg-red-500/20 text-red-300 px-1.5 py-0.5 rounded">High Risk</span>
+        </div>
+      </div>
       <div className="p-4 border-t border-slate-700">
         <div className="text-xs text-slate-500">44th Parliament, 1st Session</div>
         <div className="text-xs text-slate-500">Data: ola.org / oico.on.ca</div>
