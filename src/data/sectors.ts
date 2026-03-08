@@ -53,12 +53,12 @@ export const sectors: Sector[] = [
   {
     name: "Technology",
     billCount: 2,
-    activeLobbyists: 1,
+    activeLobbyists: 4,
     keyOfficials: ["Stephen Lecce", "Andrea Khanjin"],
-    recentActivity: "AI Strategy Act (Bill 61) lost on second reading. Shopify lobbying on innovation.",
-    heatLevel: "Warm",
+    recentActivity: "AI Strategy Act (Bill 61) lost. Bell, Rogers, and Shopify actively lobbying on digital economy policy.",
+    heatLevel: "Hot",
     bills: [61, 91],
-    topOrgs: ["Shopify Inc."],
+    topOrgs: ["Bell Canada", "Rogers Communications", "Shopify Inc."],
   },
   {
     name: "Justice & Public Safety",
@@ -103,11 +103,11 @@ export const sectors: Sector[] = [
   {
     name: "Consumer Protection",
     billCount: 2,
-    activeLobbyists: 0,
+    activeLobbyists: 2,
     keyOfficials: ["Tom Rakocevic"],
-    recentActivity: "Right to Repair and Consumer Watchdog bills at First Reading. No active lobbying yet.",
-    heatLevel: "Cool",
+    recentActivity: "Right to Repair and Consumer Watchdog bills at First Reading. Telecom providers lobbying against broad mandates.",
+    heatLevel: "Warm",
     bills: [91, 92],
-    topOrgs: [],
+    topOrgs: ["Bell Canada", "Rogers Communications"],
   },
 ];

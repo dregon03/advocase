@@ -6,13 +6,13 @@ import { timelineEvents } from "@/data/timeline";
 import Link from "next/link";
 
 // Demo client for POC
-const client = clientWorkspaces[0]; // Brookfield Properties
+const client = clientWorkspaces[0]; // Bell Canada
 
 // Sector synonym map — maps OICO subject matters to our sector tags
 const sectorAliases: Record<string, string[]> = {
-  "Housing": ["housing", "municipal affairs", "real estate"],
-  "Construction": ["housing", "municipal affairs", "infrastructure", "construction"],
-  "Municipal Government": ["municipal affairs", "municipal government"],
+  "Technology": ["science and technology", "technology", "industry", "economic development and trade"],
+  "Consumer Protection": ["consumer protection", "consumer"],
+  "Trade & Commerce": ["economic development and trade", "international trade", "trade", "procurement"],
 };
 
 function matchesClientSectors(term: string): boolean {
@@ -66,30 +66,46 @@ function getCompetitorActivity() {
   return Array.from(map.values());
 }
 
-// What does this bill mean for Brookfield specifically?
+// What does this bill mean for Bell specifically?
 function getBillImpact(b: Bill): { label: string; color: string; detail: string } {
   const title = b.title.toLowerCase();
   const sectors = b.sectors.map((s) => s.toLowerCase());
 
-  // Rent/tenant bills = risk
-  if (title.includes("rent") || title.includes("renter") || title.includes("tenant"))
-    return { label: "Risk", color: "text-red-600 bg-red-50", detail: "Could cap rental income or restrict lease terms on your portfolio." };
+  // Right to repair = risk
+  if (title.includes("right to repair"))
+    return { label: "Risk", color: "text-red-600 bg-red-50", detail: "Could mandate device repairability and parts access — raises costs and opens network equipment to third-party modification." };
 
-  // Building/approval/faster = favorable
-  if (title.includes("building faster") || title.includes("fighting delays") || title.includes("municipal accountability"))
-    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Speeds up approvals and reduces timelines for your development pipeline." };
+  // Consumer watchdog = risk
+  if (title.includes("consumer watchdog"))
+    return { label: "Risk", color: "text-red-600 bg-red-50", detail: "New consumer oversight body could scrutinize telecom pricing, data practices, and contract terms." };
 
-  // Red tape/competitive economy = favorable
+  // AI Strategy = favorable (would have boosted digital investment)
+  if (title.includes("artificial intelligence") || title.includes("ai"))
+    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Would have driven AI investment and digital infrastructure demand — beneficial for your network and cloud services." };
+
+  // Red tape / competitive economy = favorable
   if (title.includes("red tape") || title.includes("competitive economy"))
-    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Reduces regulatory burden on construction and development." };
+    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Reduces regulatory burden — streamlines permitting for tower siting and network expansion." };
 
-  // Safer municipalities = relevant
-  if (title.includes("safer municipalities"))
-    return { label: "Relevant", color: "text-blue-600 bg-blue-50", detail: "Changes municipal powers that affect zoning and development decisions." };
+  // Buy Ontario = favorable
+  if (title.includes("buy ontario"))
+    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Ontario-first procurement could direct government telecom contracts toward domestic providers like Bell." };
 
-  // Housing sector but not clearly favorable or risk
-  if (sectors.includes("housing") || sectors.includes("real estate"))
-    return { label: "Watch", color: "text-yellow-600 bg-yellow-50", detail: "Touches housing policy — monitor for amendments that could affect your interests." };
+  // Free trade = relevant
+  if (title.includes("free trade"))
+    return { label: "Relevant", color: "text-blue-600 bg-blue-50", detail: "Interprovincial trade reform could affect cross-border network infrastructure and equipment procurement." };
+
+  // Unleashing economy = favorable
+  if (title.includes("unleashing") || title.includes("economy act"))
+    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Broad deregulation benefits telecom infrastructure investment and speeds up expansion." };
+
+  // Technology sector
+  if (sectors.includes("technology") || sectors.includes("ai & innovation"))
+    return { label: "Watch", color: "text-yellow-600 bg-yellow-50", detail: "Touches tech policy — monitor for provisions that could affect your digital services or infrastructure." };
+
+  // Consumer protection
+  if (sectors.includes("consumer protection"))
+    return { label: "Watch", color: "text-yellow-600 bg-yellow-50", detail: "Consumer protection changes could impact your pricing, contracts, or data handling practices." };
 
   return { label: "Monitor", color: "text-slate-600 bg-slate-50", detail: "Indirectly related to your sectors." };
 }
@@ -98,20 +114,20 @@ function getThreatDescriptor(r: typeof lobbyistRegistrations[0]): string {
   const sameOfficials = client.keyOfficials.filter((o) => r.lobbiedPerson === o);
   const goals = r.lobbyingGoals.toLowerCase();
 
-  if (goals.includes("rent") || goals.includes("tenant") || goals.includes("renter"))
-    return "Pushing rent/tenant protections that could cap your rental income.";
-  if (goals.includes("development charge") || goals.includes("dev charge"))
-    return "Lobbying to change development charges — could shift your cost structure on new builds.";
-  if (goals.includes("approval") || goals.includes("permitting") || goals.includes("fast"))
-    return "Seeking faster approvals — may get projects greenlit ahead of yours.";
+  if (goals.includes("spectrum") || goals.includes("5g") || goals.includes("network"))
+    return "Competing for spectrum access and 5G infrastructure advantages — could win preferential rollout terms.";
   if (goals.includes("procurement") || goals.includes("buy ontario"))
-    return "Influencing procurement rules that could raise your construction material costs.";
+    return "Influencing procurement rules — could redirect government telecom contracts away from Bell.";
+  if (goals.includes("pricing") || goals.includes("data") || goals.includes("consumer"))
+    return "Lobbying on consumer/pricing policy that could constrain your revenue model.";
+  if (goals.includes("ai") || goals.includes("innovation") || goals.includes("digital"))
+    return "Pushing digital economy policy — could shape AI/tech investment incentives that benefit competitors.";
   if (goals.includes("red tape") || goals.includes("regulatory") || goals.includes("deregulat"))
-    return "Pushing regulatory reform — could reshape compliance requirements you follow.";
-  if (goals.includes("tax") || goals.includes("fiscal"))
-    return "Lobbying on tax policy that may change your development economics.";
+    return "Pushing regulatory reform — could reshape telecom compliance requirements.";
+  if (goals.includes("tax") || goals.includes("fiscal") || goals.includes("incentive"))
+    return "Lobbying on tax/incentive policy that may change your infrastructure economics.";
   if (sameOfficials.length > 0)
-    return `Lobbying ${sameOfficials.join(", ")} — the same decision-maker${sameOfficials.length > 1 ? "s" : ""} your projects depend on.`;
+    return `Lobbying ${sameOfficials.join(", ")} — the same decision-maker${sameOfficials.length > 1 ? "s" : ""} your regulatory files depend on.`;
   return "Active in your policy space — could influence outcomes that affect your business.";
 }
 
@@ -172,7 +188,7 @@ function getRecommendedActions() {
     actions.push({
       urgency: "medium",
       action: `${otherLobbyists.length} other org${otherLobbyists.length > 1 ? "s" : ""} lobbying in your policy areas`,
-      context: `${otherLobbyists.map((r) => r.organization).join(", ")} — active on housing/construction policy. Monitor their positions — their lobbying outcomes affect your operating environment.`,
+      context: `${otherLobbyists.map((r) => r.organization).join(", ")} — active on telecom/tech policy. Monitor their positions — their lobbying outcomes affect your operating environment.`,
     });
   }
 
@@ -182,7 +198,7 @@ function getRecommendedActions() {
     actions.push({
       urgency: "low",
       action: `${favorable.length} favorable bill${favorable.length > 1 ? "s" : ""} now law — use them`,
-      context: `${favorable.map((b) => `Bill ${b.number} (${b.shortTitle})`).join(", ")} passed. These accelerate approvals and cut red tape. Update your permitting strategy to take advantage.`,
+      context: `${favorable.map((b) => `Bill ${b.number} (${b.shortTitle})`).join(", ")} passed. These reduce regulatory barriers and create procurement opportunities. Update your government affairs strategy to take advantage.`,
     });
   }
 

@@ -52,10 +52,10 @@ export default function Sidebar() {
 
       <div className="p-4 border-t border-slate-700">
         <div className="text-[10px] text-slate-600 uppercase tracking-wider mb-1.5">Active Client</div>
-        <div className="text-sm font-semibold text-white">Brookfield Properties</div>
-        <div className="text-xs text-slate-400 mt-0.5">Real Estate Development</div>
+        <div className="text-sm font-semibold text-white">Bell Canada</div>
+        <div className="text-xs text-slate-400 mt-0.5">Telecommunications</div>
         <div className="flex gap-1 mt-2">
-          <span className="text-[9px] bg-red-500/20 text-red-300 px-1.5 py-0.5 rounded">High Risk</span>
+          <span className="text-[9px] bg-yellow-500/20 text-yellow-300 px-1.5 py-0.5 rounded">Medium Risk</span>
         </div>
       </div>
       <div className="p-4 border-t border-slate-700">

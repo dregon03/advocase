@@ -12,6 +12,17 @@ export interface Client {
 
 export const clientWorkspaces: Client[] = [
   {
+    name: "Bell Canada",
+    industry: "Telecommunications",
+    sectors: ["Technology", "Consumer Protection", "Trade & Commerce"],
+    watchedBills: [2, 5, 46, 56, 61, 72, 91, 92],
+    competitors: ["Rogers Communications"],
+    keyOfficials: ["Stephen Lecce", "Andrea Khanjin"],
+    activeLobbyists: ["Karen Patel"],
+    riskLevel: "Medium",
+    notes: "Right to Repair Act (Bill 91) could mandate device repairability — operational cost risk. AI Strategy Act lost but may return. Buy Ontario Act and Red Tape cuts favorable for procurement and network expansion. Monitor consumer protection bills closely.",
+  },
+  {
     name: "Brookfield Properties",
     industry: "Real Estate Development",
     sectors: ["Housing", "Construction", "Municipal Government"],
