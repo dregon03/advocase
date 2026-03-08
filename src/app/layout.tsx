@@ -15,6 +15,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Advocase — Ontario GR Intelligence",
   description: "AI-powered government relations intelligence for Ontario",
+  icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
