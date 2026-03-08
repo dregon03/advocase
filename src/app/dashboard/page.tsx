@@ -1,4 +1,4 @@
-import { bills } from "@/data/bills";
+import { bills, type Bill } from "@/data/bills";
 import { lobbyistRegistrations } from "@/data/lobbyists";
 import { clientWorkspaces } from "@/data/clients";
 import { sectors } from "@/data/sectors";
@@ -15,7 +15,6 @@ const sectorAliases: Record<string, string[]> = {
   "Municipal Government": ["municipal affairs", "municipal government"],
 };
 
-// Check if a term matches any of the client's sectors (using aliases)
 function matchesClientSectors(term: string): boolean {
   const t = term.toLowerCase();
   return client.sectors.some((cs) => {
@@ -24,24 +23,20 @@ function matchesClientSectors(term: string): boolean {
   });
 }
 
-// Bills that impact this client (by sector tag overlap)
 function getImpactingBills() {
   return bills.filter((b) =>
     b.sectors.some((s) => matchesClientSectors(s))
   );
 }
 
-// Lobbying activity in client's sectors
 function getRelevantLobbying() {
   return lobbyistRegistrations.filter((r) =>
     r.subjectMatters.some((sm) => matchesClientSectors(sm))
   );
 }
 
-// Also match lobbyists targeting the same officials AND overlapping subject matter
 function getExpandedRelevantLobbying() {
   const bySubject = getRelevantLobbying();
-  // Only include official-matched lobbyists if they also have at least one overlapping subject matter with client's watched bill sectors
   const clientBillSectors = bills
     .filter((b) => client.watchedBills.includes(b.number))
     .flatMap((b) => b.sectors);
@@ -53,62 +48,73 @@ function getExpandedRelevantLobbying() {
       )
     )
   );
-  // Dedupe
   const map = new Map<string, typeof lobbyistRegistrations[0]>();
   [...bySubject, ...byOfficial].forEach((r) => map.set(r.registrationNo, r));
   return Array.from(map.values());
 }
 
-// Competitor lobbying — exclude client's own lobbyists, include named competitors
 function getCompetitorActivity() {
   const relevant = getExpandedRelevantLobbying();
   const bySector = relevant.filter(
     (r) => !client.activeLobbyists.includes(r.lobbyistName)
   );
-  // Also pull in any registrations from named competitors
   const byName = lobbyistRegistrations.filter((r) =>
     client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))
   );
-  // Dedupe
   const map = new Map<string, typeof lobbyistRegistrations[0]>();
   [...bySector, ...byName].forEach((r) => map.set(r.registrationNo, r));
   return Array.from(map.values());
 }
 
-// Generate a threat descriptor for each competitor relative to Brookfield
-function getThreatDescriptor(r: typeof lobbyistRegistrations[0]): string {
-  // Check if lobbying same officials
-  const sameOfficials = client.keyOfficials.filter((o) => r.lobbiedPerson === o);
-  // Check if lobbying on bills that affect client
-  const clientBillSectors = bills
-    .filter((b) => client.watchedBills.includes(b.number))
-    .flatMap((b) => b.sectors);
-  const overlappingSectors = r.subjectMatters.filter((sm) =>
-    clientBillSectors.some((s) => sm.toLowerCase().includes(s.toLowerCase()) || s.toLowerCase().includes(sm.toLowerCase()))
-  );
+// What does this bill mean for Brookfield specifically?
+function getBillImpact(b: Bill): { label: string; color: string; detail: string } {
+  const title = b.title.toLowerCase();
+  const sectors = b.sectors.map((s) => s.toLowerCase());
 
-  // Specific threat analysis based on their goals vs Brookfield's interests
-  const goals = r.lobbyingGoals.toLowerCase();
-  if (goals.includes("rent") || goals.includes("tenant") || goals.includes("renter"))
-    return "Pushing rent/tenant protections that could cap Brookfield's rental income.";
-  if (goals.includes("development charge") || goals.includes("dev charge"))
-    return "Lobbying on development charges — could shift cost structures for new builds.";
-  if (goals.includes("approval") || goals.includes("permitting") || goals.includes("fast"))
-    return "Seeking faster approvals — may gain competitive edge on project timelines.";
-  if (goals.includes("procurement") || goals.includes("buy ontario"))
-    return "Influencing procurement rules that could affect construction supply chain costs.";
-  if (goals.includes("red tape") || goals.includes("regulatory") || goals.includes("deregulat"))
-    return "Pushing regulatory reform — could reshape compliance landscape for developers.";
-  if (goals.includes("tax") || goals.includes("fiscal"))
-    return "Lobbying on tax policy that may affect real estate economics.";
-  if (sameOfficials.length > 0)
-    return `Competing for attention of ${sameOfficials.join(", ")} — same decision-makers you depend on.`;
-  if (overlappingSectors.length > 0)
-    return `Active in ${overlappingSectors.join(", ")} — overlapping policy space.`;
-  return "Operating in adjacent policy areas that could indirectly affect your sector.";
+  // Rent/tenant bills = risk
+  if (title.includes("rent") || title.includes("renter") || title.includes("tenant"))
+    return { label: "Risk", color: "text-red-600 bg-red-50", detail: "Could cap rental income or restrict lease terms on your portfolio." };
+
+  // Building/approval/faster = favorable
+  if (title.includes("building faster") || title.includes("fighting delays") || title.includes("municipal accountability"))
+    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Speeds up approvals and reduces timelines for your development pipeline." };
+
+  // Red tape/competitive economy = favorable
+  if (title.includes("red tape") || title.includes("competitive economy"))
+    return { label: "Favorable", color: "text-green-600 bg-green-50", detail: "Reduces regulatory burden on construction and development." };
+
+  // Safer municipalities = relevant
+  if (title.includes("safer municipalities"))
+    return { label: "Relevant", color: "text-blue-600 bg-blue-50", detail: "Changes municipal powers that affect zoning and development decisions." };
+
+  // Housing sector but not clearly favorable or risk
+  if (sectors.includes("housing") || sectors.includes("real estate"))
+    return { label: "Watch", color: "text-yellow-600 bg-yellow-50", detail: "Touches housing policy — monitor for amendments that could affect your interests." };
+
+  return { label: "Monitor", color: "text-slate-600 bg-slate-50", detail: "Indirectly related to your sectors." };
 }
 
-// Sector heat for client's sectors
+function getThreatDescriptor(r: typeof lobbyistRegistrations[0]): string {
+  const sameOfficials = client.keyOfficials.filter((o) => r.lobbiedPerson === o);
+  const goals = r.lobbyingGoals.toLowerCase();
+
+  if (goals.includes("rent") || goals.includes("tenant") || goals.includes("renter"))
+    return "Pushing rent/tenant protections that could cap your rental income.";
+  if (goals.includes("development charge") || goals.includes("dev charge"))
+    return "Lobbying to change development charges — could shift your cost structure on new builds.";
+  if (goals.includes("approval") || goals.includes("permitting") || goals.includes("fast"))
+    return "Seeking faster approvals — may get projects greenlit ahead of yours.";
+  if (goals.includes("procurement") || goals.includes("buy ontario"))
+    return "Influencing procurement rules that could raise your construction material costs.";
+  if (goals.includes("red tape") || goals.includes("regulatory") || goals.includes("deregulat"))
+    return "Pushing regulatory reform — could reshape compliance requirements you follow.";
+  if (goals.includes("tax") || goals.includes("fiscal"))
+    return "Lobbying on tax policy that may change your development economics.";
+  if (sameOfficials.length > 0)
+    return `Lobbying ${sameOfficials.join(", ")} — the same decision-maker${sameOfficials.length > 1 ? "s" : ""} your projects depend on.`;
+  return "Active in your policy space — could influence outcomes that affect your business.";
+}
+
 function getClientSectorHeat() {
   return sectors.filter((s) =>
     client.sectors.some((cs) => {
@@ -118,54 +124,65 @@ function getClientSectorHeat() {
   );
 }
 
-// Recent events relevant to client
 function getRelevantTimeline() {
   return timelineEvents.filter((e) =>
     e.sector && matchesClientSectors(e.sector)
   ).slice(0, 5);
 }
 
-// Generate recommended actions based on data
 function getRecommendedActions() {
   const impacting = getImpactingBills();
   const competitors = getCompetitorActivity();
   const actions: { urgency: "high" | "medium" | "low"; action: string; context: string }[] = [];
 
-  // Active bills at risk
   const activeBills = impacting.filter((b) => b.status !== "Royal Assent" && b.status !== "Lost");
   activeBills.forEach((b) => {
-    if (b.type === "Private Member" && b.sectors.some((s) => s.includes("Housing") || s.includes("Real Estate"))) {
+    const impact = getBillImpact(b);
+    if (impact.label === "Risk") {
       actions.push({
         urgency: "high",
-        action: `Monitor Bill ${b.number} (${b.shortTitle})`,
-        context: `Private member bill at ${b.status} — could impact rental portfolio margins if it gains momentum.`,
+        action: `Bill ${b.number} — ${b.shortTitle}`,
+        context: `${impact.detail} Currently at ${b.status}. ${b.type === "Private Member" ? "Private member bill — low pass probability but watch for amendments attached to government bills." : "Government bill — high pass probability. Prepare for impact."}`,
       });
-    } else if (b.status === "Second Reading" || b.status === "Third Reading") {
+    } else if (b.status === "Third Reading") {
       actions.push({
         urgency: "medium",
-        action: `Track Bill ${b.number} (${b.shortTitle})`,
-        context: `Government bill at ${b.status} — likely to pass. Assess operational impact.`,
+        action: `Bill ${b.number} about to pass — ${b.shortTitle}`,
+        context: `${impact.detail} At Third Reading — almost certain to become law. ${impact.label === "Favorable" ? "Prepare to leverage new provisions." : "Review operational implications."}`,
       });
     }
   });
 
-  // Competitor moves
-  if (competitors.length > 0) {
-    const competitorOrgs = [...new Set(competitors.map((c) => c.organization))];
+  // Competitor-specific actions
+  competitors.forEach((r) => {
+    if (client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))) {
+      actions.push({
+        urgency: "high",
+        action: `Direct competitor ${r.organization} is lobbying ${r.lobbiedPerson}`,
+        context: getThreatDescriptor(r),
+      });
+    }
+  });
+
+  // Non-direct competitors in your space
+  const indirectCompetitors = competitors.filter((r) =>
+    !client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))
+  );
+  if (indirectCompetitors.length > 0) {
     actions.push({
       urgency: "medium",
-      action: `${competitorOrgs.length} organizations lobbying in your sectors`,
-      context: `${competitorOrgs.join(", ")} are active on housing/construction policy. Review their positions.`,
+      action: `${indirectCompetitors.length} other org${indirectCompetitors.length > 1 ? "s" : ""} lobbying in your space`,
+      context: `${indirectCompetitors.map((r) => r.organization).join(", ")} — lobbying on policies that affect housing/construction. Their wins could change your operating environment.`,
     });
   }
 
-  // Favorable passed bills
-  const favorable = impacting.filter((b) => b.status === "Royal Assent" && b.sectors.some((s) => s.includes("Construction") || s.includes("Infrastructure")));
+  // Favorable passed bills — tell them to act
+  const favorable = impacting.filter((b) => b.status === "Royal Assent" && getBillImpact(b).label === "Favorable");
   if (favorable.length > 0) {
     actions.push({
       urgency: "low",
-      action: `${favorable.length} favorable bills passed`,
-      context: `Bills accelerating approvals and reducing red tape have received Royal Assent. Leverage new fast-track provisions.`,
+      action: `${favorable.length} favorable bill${favorable.length > 1 ? "s" : ""} now law — use them`,
+      context: `${favorable.map((b) => `Bill ${b.number} (${b.shortTitle})`).join(", ")} passed. These accelerate approvals and cut red tape. Update your permitting strategy to take advantage.`,
     });
   }
 
@@ -175,20 +192,20 @@ function getRecommendedActions() {
 export default function DashboardPage() {
   const impactingBills = getImpactingBills();
   const activeBills = impactingBills.filter((b) => b.status !== "Royal Assent" && b.status !== "Lost");
-  const passedBills = impactingBills.filter((b) => b.status === "Royal Assent");
+  const riskBills = impactingBills.filter((b) => getBillImpact(b).label === "Risk" && b.status !== "Royal Assent" && b.status !== "Lost");
+  const favorableBills = impactingBills.filter((b) => getBillImpact(b).label === "Favorable");
   const competitors = getCompetitorActivity();
   const clientLobbying = getRelevantLobbying().filter((r) => client.activeLobbyists.includes(r.lobbyistName));
   const sectorHeat = getClientSectorHeat();
   const recentEvents = getRelevantTimeline();
   const actions = getRecommendedActions();
-  const competitorOrgs = [...new Set(competitors.map((c) => c.organization))];
 
   return (
     <div>
       {/* Client Header */}
       <div className="mb-8 flex items-start justify-between">
         <div>
-          <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">Client Dashboard</div>
+          <div className="text-xs text-slate-400 font-medium uppercase tracking-wider mb-1">Your Dashboard</div>
           <h1 className="text-2xl font-bold text-slate-900">{client.name}</h1>
           <div className="text-sm text-slate-500 mt-0.5">{client.industry}</div>
         </div>
@@ -197,21 +214,21 @@ export default function DashboardPage() {
             client.riskLevel === "High" ? "bg-red-50 text-red-700 ring-1 ring-red-200" :
             client.riskLevel === "Medium" ? "bg-yellow-50 text-yellow-700 ring-1 ring-yellow-200" :
             "bg-green-50 text-green-700 ring-1 ring-green-200"
-          }`}>{client.riskLevel} Risk</span>
+          }`}>{client.riskLevel} Legislative Risk</span>
           {client.sectors.map((s) => (
             <span key={s} className="text-xs bg-blue-50 text-blue-700 px-2.5 py-1 rounded-full">{s}</span>
           ))}
         </div>
       </div>
 
-      {/* Key Numbers */}
+      {/* Key Numbers — contextualized */}
       <div className="grid grid-cols-5 gap-3 mb-6">
         {[
-          { value: impactingBills.length, label: "Bills in Your Sectors", color: "text-slate-900" },
-          { value: activeBills.length, label: "Active / In Progress", color: "text-blue-600" },
-          { value: passedBills.length, label: "Passed (Royal Assent)", color: "text-green-600" },
-          { value: competitorOrgs.length, label: "Competitor Orgs Active", color: "text-orange-600" },
-          { value: clientLobbying.length, label: "Your Active Lobbyists", color: "text-purple-600" },
+          { value: activeBills.length, label: "Active Bills Affecting You", color: "text-blue-600" },
+          { value: riskBills.length, label: "Bills That Threaten You", color: "text-red-600" },
+          { value: favorableBills.length, label: "Bills Working for You", color: "text-green-600" },
+          { value: competitors.length, label: "Competitors in Your Space", color: "text-orange-600" },
+          { value: clientLobbying.length, label: "Your Lobbyists Active", color: "text-purple-600" },
         ].map((s) => (
           <div key={s.label} className="bg-white rounded-xl border border-slate-200 p-4">
             <div className={`text-3xl font-bold ${s.color}`}>{s.value}</div>
@@ -220,21 +237,25 @@ export default function DashboardPage() {
         ))}
       </div>
 
-      {/* Recommended Actions */}
+      {/* What You Should Do */}
       {actions.length > 0 && (
         <div className="bg-white rounded-xl border border-slate-200 p-5 mb-6">
           <h2 className="font-bold text-slate-900 mb-3 flex items-center gap-2">
             <span className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-            Recommended Actions
+            What You Should Do
           </h2>
           <div className="space-y-2">
             {actions.map((a, i) => (
-              <div key={i} className="flex items-start gap-3 p-3 rounded-lg bg-slate-50">
-                <span className={`w-2 h-2 rounded-full mt-1.5 flex-shrink-0 ${
-                  a.urgency === "high" ? "bg-red-500" :
-                  a.urgency === "medium" ? "bg-yellow-500" :
-                  "bg-green-500"
-                }`} />
+              <div key={i} className={`flex items-start gap-3 p-3 rounded-lg ${
+                a.urgency === "high" ? "bg-red-50/50" :
+                a.urgency === "medium" ? "bg-yellow-50/50" :
+                "bg-green-50/50"
+              }`}>
+                <span className={`text-[10px] font-bold uppercase px-1.5 py-0.5 rounded mt-0.5 flex-shrink-0 ${
+                  a.urgency === "high" ? "bg-red-100 text-red-700" :
+                  a.urgency === "medium" ? "bg-yellow-100 text-yellow-700" :
+                  "bg-green-100 text-green-700"
+                }`}>{a.urgency === "high" ? "Act" : a.urgency === "medium" ? "Watch" : "Leverage"}</span>
                 <div>
                   <div className="text-sm font-medium text-slate-900">{a.action}</div>
                   <div className="text-xs text-slate-500 mt-0.5">{a.context}</div>
@@ -246,23 +267,21 @@ export default function DashboardPage() {
       )}
 
       <div className="grid grid-cols-2 gap-6 mb-6">
-        {/* Bills Impacting You */}
+        {/* Bills Impacting You — with impact labels */}
         <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
           <div className="px-5 py-4 border-b border-slate-200 flex items-center justify-between">
-            <h2 className="font-bold text-slate-900">Bills Impacting You</h2>
-            <Link href="/dashboard/bills" className="text-xs text-blue-600 font-medium hover:underline">View all</Link>
+            <h2 className="font-bold text-slate-900">Legislation Affecting Your Business</h2>
+            <Link href="/dashboard/bills" className="text-xs text-blue-600 font-medium hover:underline">All bills</Link>
           </div>
           <div className="divide-y divide-slate-100">
             {impactingBills.slice(0, 8).map((b) => {
-              const matchingSectors = b.sectors.filter((s) =>
-                client.sectors.some((cs) => s.toLowerCase().includes(cs.toLowerCase()) || cs.toLowerCase().includes(s.toLowerCase()))
-              );
+              const impact = getBillImpact(b);
               return (
                 <div key={b.number} className="px-5 py-3 hover:bg-slate-50 transition">
                   <div className="flex items-center justify-between mb-1">
                     <div className="flex items-center gap-2">
                       <span className="text-sm font-semibold text-slate-900">Bill {b.number}</span>
-                      <span className="text-sm text-slate-600">{b.shortTitle}</span>
+                      <span className={`text-[10px] px-1.5 py-0.5 rounded font-semibold ${impact.color}`}>{impact.label}</span>
                     </div>
                     <span className={`text-xs px-2 py-0.5 rounded-full font-medium ${
                       b.status === "Royal Assent" ? "bg-green-50 text-green-700" :
@@ -272,52 +291,58 @@ export default function DashboardPage() {
                       "bg-purple-50 text-purple-700"
                     }`}>{b.status}</span>
                   </div>
-                  <div className="flex items-center gap-1.5">
-                    {matchingSectors.map((s) => (
-                      <span key={s} className="text-[10px] bg-blue-50 text-blue-600 px-1.5 py-0.5 rounded">{s}</span>
-                    ))}
-                    <span className="text-[10px] text-slate-400 ml-1">{b.type}</span>
-                  </div>
+                  <div className="text-xs font-medium text-slate-700">{b.shortTitle}</div>
+                  <div className="text-xs text-slate-400 mt-0.5">{impact.detail}</div>
                 </div>
               );
             })}
           </div>
         </div>
 
-        {/* Competitive Landscape */}
+        {/* Who's Competing Against You */}
         <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
           <div className="px-5 py-4 border-b border-slate-200 flex items-center justify-between">
-            <h2 className="font-bold text-slate-900">Who Else Is Lobbying</h2>
+            <h2 className="font-bold text-slate-900">Who's Working Against You</h2>
             <Link href="/dashboard/competitive" className="text-xs text-blue-600 font-medium hover:underline">Full view</Link>
           </div>
           <div className="divide-y divide-slate-100">
-            {competitors.slice(0, 6).map((r, i) => (
-              <div key={i} className="px-5 py-3 hover:bg-slate-50 transition">
-                <div className="flex items-center justify-between mb-1">
-                  <div className="flex items-center gap-2">
-                    <span className="text-sm font-semibold text-slate-900">{r.organization}</span>
-                    <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${
-                      r.type === "Consultant" ? "bg-purple-50 text-purple-700" :
-                      r.type === "In-house" ? "bg-green-50 text-green-700" :
-                      "bg-blue-50 text-blue-700"
-                    }`}>{r.type}</span>
+            {competitors.slice(0, 6).map((r, i) => {
+              const isDirect = client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()));
+              return (
+                <div key={i} className="px-5 py-3 hover:bg-slate-50 transition">
+                  <div className="flex items-center justify-between mb-1">
+                    <div className="flex items-center gap-2">
+                      <span className="text-sm font-semibold text-slate-900">{r.organization}</span>
+                      {isDirect && <span className="text-[10px] bg-red-100 text-red-700 px-1.5 py-0.5 rounded font-semibold">Direct Competitor</span>}
+                      {!isDirect && <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${
+                        r.type === "Consultant" ? "bg-purple-50 text-purple-700" :
+                        r.type === "In-house" ? "bg-green-50 text-green-700" :
+                        "bg-blue-50 text-blue-700"
+                      }`}>{r.type}</span>}
+                    </div>
+                    {r.formerPublicOffices.some((f) => f !== "None") && (
+                      <span className="text-[10px] bg-red-50 text-red-600 px-1.5 py-0.5 rounded-full">Former Gov Insider</span>
+                    )}
                   </div>
-                  {r.formerPublicOffices.some((f) => f !== "None") && (
-                    <span className="text-[10px] bg-red-50 text-red-600 px-1.5 py-0.5 rounded-full">Former Gov</span>
-                  )}
+                  <div className="text-xs text-slate-500">
+                    {r.lobbyistName} lobbying {r.lobbiedPerson}
+                    {client.keyOfficials.includes(r.lobbiedPerson) && (
+                      <span className="text-red-500 font-medium"> — your key official</span>
+                    )}
+                  </div>
+                  <div className="text-xs text-orange-600 font-medium mt-1">{getThreatDescriptor(r)}</div>
                 </div>
-                <div className="text-xs text-slate-500">{r.lobbyistName} → {r.lobbiedPerson}</div>
-                <div className="text-xs text-orange-600 font-medium mt-1">{getThreatDescriptor(r)}</div>
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
       </div>
 
       <div className="grid grid-cols-3 gap-6">
-        {/* Sector Heat */}
+        {/* Sector Heat — with context */}
         <div className="bg-white rounded-xl border border-slate-200 p-5">
-          <h2 className="font-bold text-slate-900 mb-3">Your Sector Heat</h2>
+          <h2 className="font-bold text-slate-900 mb-1">Your Sector Landscape</h2>
+          <p className="text-xs text-slate-400 mb-3">How active are the policy areas you operate in?</p>
           <div className="space-y-3">
             {sectorHeat.map((s) => (
               <div key={s.name}>
@@ -329,10 +354,13 @@ export default function DashboardPage() {
                     "bg-slate-100 text-slate-500"
                   }`}>{s.heatLevel}</span>
                 </div>
-                <div className="flex items-center gap-3 text-xs text-slate-400">
-                  <span>{s.billCount} bills</span>
-                  <span>{s.activeLobbyists} lobbyists</span>
-                  <span>{s.topOrgs.length} orgs</span>
+                <div className="text-xs text-slate-400">
+                  {s.heatLevel === "Hot"
+                    ? `High activity — ${s.billCount} bills and ${s.activeLobbyists} lobbyists competing for outcomes here.`
+                    : s.heatLevel === "Warm"
+                    ? `Moderate activity — ${s.billCount} bills in play.`
+                    : `Quiet — limited legislative attention right now.`
+                  }
                 </div>
               </div>
             ))}
@@ -340,22 +368,26 @@ export default function DashboardPage() {
           <Link href="/dashboard/sectors" className="text-xs text-blue-600 font-medium hover:underline mt-4 block">All sectors</Link>
         </div>
 
-        {/* Key Officials */}
+        {/* Key Officials — why they matter to you */}
         <div className="bg-white rounded-xl border border-slate-200 p-5">
-          <h2 className="font-bold text-slate-900 mb-3">Key Officials</h2>
+          <h2 className="font-bold text-slate-900 mb-1">Officials You Depend On</h2>
+          <p className="text-xs text-slate-400 mb-3">Decision-makers with power over your files.</p>
           <div className="space-y-2">
             {client.keyOfficials.map((name) => {
               const lobbyingCount = lobbyistRegistrations.filter((r) => r.lobbiedPerson === name).length;
               const sponsoredBills = bills.filter((b) => b.sponsors.includes(name));
+              const clientBills = sponsoredBills.filter((b) => client.watchedBills.includes(b.number));
               return (
-                <div key={name} className="flex items-center justify-between p-2.5 rounded-lg bg-slate-50">
-                  <div>
+                <div key={name} className="p-2.5 rounded-lg bg-slate-50">
+                  <div className="flex items-center justify-between mb-1">
                     <div className="text-sm font-medium text-slate-900">{name}</div>
-                    <div className="text-xs text-slate-400">{sponsoredBills.length} bills sponsored</div>
+                    <div className="text-xs text-purple-600 font-medium">{lobbyingCount} orgs lobbying them</div>
                   </div>
-                  <div className="text-right">
-                    <div className="text-xs text-purple-600 font-medium">{lobbyingCount} lobbying</div>
-                    <div className="text-xs text-slate-400">registrations</div>
+                  <div className="text-xs text-slate-400">
+                    {clientBills.length > 0
+                      ? `Sponsors ${clientBills.map((b) => `Bill ${b.number}`).join(", ")} — directly shapes policy affecting your projects.`
+                      : `${sponsoredBills.length} bills sponsored. Influences your sector through ministerial authority.`
+                    }
                   </div>
                 </div>
               );
@@ -364,9 +396,10 @@ export default function DashboardPage() {
           <Link href="/dashboard/stakeholders" className="text-xs text-blue-600 font-medium hover:underline mt-4 block">All stakeholders</Link>
         </div>
 
-        {/* Recent Activity */}
+        {/* Recent Activity — with why it matters */}
         <div className="bg-white rounded-xl border border-slate-200 p-5">
-          <h2 className="font-bold text-slate-900 mb-3">Recent Activity</h2>
+          <h2 className="font-bold text-slate-900 mb-1">What Just Happened</h2>
+          <p className="text-xs text-slate-400 mb-3">Recent moves in your sectors.</p>
           <div className="space-y-3">
             {recentEvents.map((e, i) => (
               <div key={i} className="flex gap-2">
