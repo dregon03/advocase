@@ -1,0 +1,165 @@
+export type EventType = "bill_introduced" | "bill_passed" | "bill_reading" | "bill_lost" | "lobbying_registered" | "lobbying_meeting";
+
+export interface TimelineEvent {
+  date: string;
+  type: EventType;
+  title: string;
+  description: string;
+  sector?: string;
+  relatedBill?: number;
+  relatedLobbyist?: string;
+  relatedOfficial?: string;
+}
+
+export const timelineEvents: TimelineEvent[] = [
+  {
+    date: "2025-12-11",
+    type: "bill_passed",
+    title: "Buy Ontario Act receives Royal Assent",
+    description: "Bill 72 passed — establishes Ontario-first procurement requirements for government purchasing.",
+    sector: "Trade & Commerce",
+    relatedBill: 72,
+  },
+  {
+    date: "2025-12-11",
+    type: "bill_passed",
+    title: "Affordable Energy Act receives Royal Assent",
+    description: "Bill 40 passed — restructures energy generation procurement and affordability measures.",
+    sector: "Energy",
+    relatedBill: 40,
+  },
+  {
+    date: "2025-12-11",
+    type: "bill_passed",
+    title: "Cutting Red Tape Act receives Royal Assent",
+    description: "Bill 46 passed — removes regulatory barriers across multiple sectors.",
+    sector: "Business & Industry",
+    relatedBill: 46,
+  },
+  {
+    date: "2025-12-03",
+    type: "bill_passed",
+    title: "Emergency Management Modernization Act passed",
+    description: "Bill 25 — modernizes Ontario's emergency management framework.",
+    sector: "Public Safety",
+    relatedBill: 25,
+  },
+  {
+    date: "2025-12-01",
+    type: "lobbying_registered",
+    title: "Earnscliffe registers on healthcare staffing",
+    description: "Robert Bhatt (Earnscliffe Strategies) registered to lobby Minister Sylvia Jones on healthcare agency regulation.",
+    sector: "Healthcare",
+    relatedLobbyist: "Robert Bhatt",
+    relatedOfficial: "Sylvia Jones",
+  },
+  {
+    date: "2025-11-28",
+    type: "lobbying_registered",
+    title: "Shopify registers on AI innovation strategy",
+    description: "Michelle Duong (Shopify) registered to lobby Minister Lecce on technology sector growth and AI policy.",
+    sector: "Technology",
+    relatedLobbyist: "Michelle Duong",
+    relatedOfficial: "Stephen Lecce",
+  },
+  {
+    date: "2025-11-27",
+    type: "bill_passed",
+    title: "Working for Workers 7 receives Royal Assent",
+    description: "Bill 30 passed — latest in the Working for Workers series, updates labour standards.",
+    sector: "Labour",
+    relatedBill: 30,
+  },
+  {
+    date: "2025-11-27",
+    type: "bill_passed",
+    title: "Fighting Delays, Building Faster Act passed",
+    description: "Bill 60 — accelerates development approvals and construction timelines.",
+    sector: "Housing",
+    relatedBill: 60,
+  },
+  {
+    date: "2025-11-20",
+    type: "bill_passed",
+    title: "Supporting Children and Students Act passed",
+    description: "Bill 33 — education reform measures for children and students in Ontario.",
+    sector: "Education",
+    relatedBill: 33,
+  },
+  {
+    date: "2025-11-15",
+    type: "lobbying_registered",
+    title: "Global Public Affairs registers on trade policy",
+    description: "David McGuinty (Global Public Affairs) registered to lobby Minister Lecce on interprovincial trade barriers.",
+    sector: "Trade & Commerce",
+    relatedLobbyist: "David McGuinty",
+    relatedOfficial: "Stephen Lecce",
+  },
+  {
+    date: "2025-11-03",
+    type: "bill_passed",
+    title: "Competitive Economy Act receives Royal Assent",
+    description: "Bill 56 — deregulation measures to boost Ontario's economic competitiveness.",
+    sector: "Economy",
+    relatedBill: 56,
+  },
+  {
+    date: "2025-11-02",
+    type: "lobbying_registered",
+    title: "Mattamy Homes registers on development charges",
+    description: "Daniel Kim (Mattamy Homes) registered to lobby Minister Flack on housing affordability and dev charges.",
+    sector: "Housing",
+    relatedLobbyist: "Daniel Kim",
+    relatedOfficial: "Rob Flack",
+  },
+  {
+    date: "2025-10-18",
+    type: "lobbying_registered",
+    title: "Ontario Mining Association registers on critical minerals",
+    description: "Patricia Lane registered to lobby Minister Harris on permitting reform for mining operations.",
+    sector: "Natural Resources",
+    relatedLobbyist: "Patricia Lane",
+    relatedOfficial: "Mike Harris",
+  },
+  {
+    date: "2025-10-03",
+    type: "lobbying_registered",
+    title: "Crestview Strategy registers on regulatory reform",
+    description: "Mark Thompson registered to lobby Minister Khanjin on construction permitting reform.",
+    sector: "Regulation",
+    relatedLobbyist: "Mark Thompson",
+    relatedOfficial: "Andrea Khanjin",
+  },
+  {
+    date: "2025-09-22",
+    type: "lobbying_registered",
+    title: "OREA registers on housing supply",
+    description: "Jennifer Wright (OREA) registered to lobby Minister Flack on development approval timelines.",
+    sector: "Housing",
+    relatedLobbyist: "Jennifer Wright",
+    relatedOfficial: "Rob Flack",
+  },
+  {
+    date: "2025-09-05",
+    type: "lobbying_registered",
+    title: "Ontario Energy Association registers on affordability",
+    description: "Amanda Torres registered to lobby Minister Lecce on energy generation procurement.",
+    sector: "Energy",
+    relatedLobbyist: "Amanda Torres",
+    relatedOfficial: "Stephen Lecce",
+  },
+  {
+    date: "2025-06-05",
+    type: "bill_passed",
+    title: "7 government bills receive Royal Assent",
+    description: "Major legislative day — Bills 2, 5, 6, 10, 11, 13, 17, 24 all passed simultaneously.",
+    sector: "Government & Public Administration",
+  },
+  {
+    date: "2025-04-14",
+    type: "bill_introduced",
+    title: "44th Parliament, 1st Session opens",
+    description: "New session begins with Bill 1 — An Act to perpetuate an ancient parliamentary right.",
+    relatedBill: 1,
+  },
+];
