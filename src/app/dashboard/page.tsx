@@ -292,6 +292,11 @@ export default function DashboardPage() {
                     }`}>{b.status}</span>
                   </div>
                   <div className="text-xs font-medium text-slate-700">{b.shortTitle}</div>
+                  <div className="flex items-center gap-1.5 mt-1">
+                    {b.sectors.map((s) => (
+                      <span key={s} className="text-[10px] bg-slate-100 text-slate-600 px-1.5 py-0.5 rounded">{s}</span>
+                    ))}
+                  </div>
                   <div className="text-xs text-slate-400 mt-0.5">{impact.detail}</div>
                 </div>
               );
