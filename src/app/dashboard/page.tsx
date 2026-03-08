@@ -164,15 +164,15 @@ function getRecommendedActions() {
     }
   });
 
-  // Non-direct competitors in your space
-  const indirectCompetitors = competitors.filter((r) =>
+  // Other orgs lobbying in your space
+  const otherLobbyists = competitors.filter((r) =>
     !client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))
   );
-  if (indirectCompetitors.length > 0) {
+  if (otherLobbyists.length > 0) {
     actions.push({
       urgency: "medium",
-      action: `${indirectCompetitors.length} other org${indirectCompetitors.length > 1 ? "s" : ""} lobbying in your space`,
-      context: `${indirectCompetitors.map((r) => r.organization).join(", ")} — lobbying on policies that affect housing/construction. Their wins could change your operating environment.`,
+      action: `${otherLobbyists.length} other org${otherLobbyists.length > 1 ? "s" : ""} lobbying in your policy areas`,
+      context: `${otherLobbyists.map((r) => r.organization).join(", ")} — active on housing/construction policy. Monitor their positions — their lobbying outcomes affect your operating environment.`,
     });
   }
 
@@ -227,7 +227,7 @@ export default function DashboardPage() {
           { value: activeBills.length, label: "Active Bills Affecting You", color: "text-blue-600" },
           { value: riskBills.length, label: "Bills That Threaten You", color: "text-red-600" },
           { value: favorableBills.length, label: "Bills Working for You", color: "text-green-600" },
-          { value: competitors.length, label: "Competitors in Your Space", color: "text-orange-600" },
+          { value: competitors.length, label: "Orgs Lobbying Your Space", color: "text-orange-600" },
           { value: clientLobbying.length, label: "Your Lobbyists Active", color: "text-purple-600" },
         ].map((s) => (
           <div key={s.label} className="bg-white rounded-xl border border-slate-200 p-4">
@@ -299,42 +299,76 @@ export default function DashboardPage() {
           </div>
         </div>
 
-        {/* Who's Competing Against You */}
+        {/* Lobbying Activity in Your Space */}
         <div className="bg-white rounded-xl border border-slate-200 overflow-hidden">
           <div className="px-5 py-4 border-b border-slate-200 flex items-center justify-between">
-            <h2 className="font-bold text-slate-900">Who's Working Against You</h2>
-            <Link href="/dashboard/competitive" className="text-xs text-blue-600 font-medium hover:underline">Full view</Link>
+            <h2 className="font-bold text-slate-900">Lobbying in Your Policy Space</h2>
+            <Link href="/dashboard/competitive" className="text-xs text-blue-600 font-medium hover:underline">All activity</Link>
           </div>
-          <div className="divide-y divide-slate-100">
-            {competitors.slice(0, 6).map((r, i) => {
-              const isDirect = client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()));
-              return (
-                <div key={i} className="px-5 py-3 hover:bg-slate-50 transition">
-                  <div className="flex items-center justify-between mb-1">
-                    <div className="flex items-center gap-2">
-                      <span className="text-sm font-semibold text-slate-900">{r.organization}</span>
-                      {isDirect && <span className="text-[10px] bg-red-100 text-red-700 px-1.5 py-0.5 rounded font-semibold">Direct Competitor</span>}
-                      {!isDirect && <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${
-                        r.type === "Consultant" ? "bg-purple-50 text-purple-700" :
-                        r.type === "In-house" ? "bg-green-50 text-green-700" :
-                        "bg-blue-50 text-blue-700"
-                      }`}>{r.type}</span>}
+
+          {/* Direct Competitors — if any */}
+          {(() => {
+            const directCompetitors = competitors.filter((r) =>
+              client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))
+            );
+            const otherLobbyists = competitors.filter((r) =>
+              !client.competitors.some((comp) => r.organization.toLowerCase().includes(comp.toLowerCase()))
+            );
+            return (
+              <>
+                {directCompetitors.length > 0 && (
+                  <div className="px-5 py-3 bg-red-50/30 border-b border-slate-200">
+                    <div className="text-[10px] font-bold text-red-700 uppercase tracking-wider mb-2">Direct Competitors</div>
+                    <div className="space-y-2">
+                      {directCompetitors.map((r, i) => (
+                        <div key={i}>
+                          <div className="flex items-center gap-2 mb-0.5">
+                            <span className="text-sm font-semibold text-slate-900">{r.organization}</span>
+                            <span className="text-[10px] bg-red-100 text-red-700 px-1.5 py-0.5 rounded font-semibold">Competitor</span>
+                          </div>
+                          <div className="text-xs text-slate-500">
+                            {r.lobbyistName} lobbying {r.lobbiedPerson}
+                            {client.keyOfficials.includes(r.lobbiedPerson) && (
+                              <span className="text-red-500 font-medium"> — your key official</span>
+                            )}
+                          </div>
+                          <div className="text-xs text-red-600 font-medium mt-0.5">{getThreatDescriptor(r)}</div>
+                        </div>
+                      ))}
                     </div>
-                    {r.formerPublicOffices.some((f) => f !== "None") && (
-                      <span className="text-[10px] bg-red-50 text-red-600 px-1.5 py-0.5 rounded-full">Former Gov Insider</span>
-                    )}
                   </div>
-                  <div className="text-xs text-slate-500">
-                    {r.lobbyistName} lobbying {r.lobbiedPerson}
-                    {client.keyOfficials.includes(r.lobbiedPerson) && (
-                      <span className="text-red-500 font-medium"> — your key official</span>
-                    )}
-                  </div>
-                  <div className="text-xs text-orange-600 font-medium mt-1">{getThreatDescriptor(r)}</div>
+                )}
+
+                {/* Other orgs lobbying in same policy areas */}
+                <div className="divide-y divide-slate-100">
+                  {otherLobbyists.slice(0, 5).map((r, i) => (
+                    <div key={i} className="px-5 py-3 hover:bg-slate-50 transition">
+                      <div className="flex items-center justify-between mb-1">
+                        <div className="flex items-center gap-2">
+                          <span className="text-sm font-medium text-slate-900">{r.organization}</span>
+                          <span className={`text-[10px] px-1.5 py-0.5 rounded-full font-medium ${
+                            r.type === "Consultant" ? "bg-purple-50 text-purple-700" :
+                            r.type === "In-house" ? "bg-green-50 text-green-700" :
+                            "bg-blue-50 text-blue-700"
+                          }`}>{r.type}</span>
+                        </div>
+                        {r.formerPublicOffices.some((f) => f !== "None") && (
+                          <span className="text-[10px] bg-red-50 text-red-600 px-1.5 py-0.5 rounded-full">Former Gov Insider</span>
+                        )}
+                      </div>
+                      <div className="text-xs text-slate-500">
+                        {r.lobbyistName} lobbying {r.lobbiedPerson}
+                        {client.keyOfficials.includes(r.lobbiedPerson) && (
+                          <span className="text-orange-500 font-medium"> — your key official</span>
+                        )}
+                      </div>
+                      <div className="text-xs text-slate-400 mt-0.5">{r.lobbyingGoals.length > 80 ? r.lobbyingGoals.slice(0, 80) + "…" : r.lobbyingGoals}</div>
+                    </div>
+                  ))}
                 </div>
-              );
-            })}
-          </div>
+              </>
+            );
+          })()}
         </div>
       </div>
 

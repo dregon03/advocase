@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 const nav = [
   { label: "My Dashboard", href: "/dashboard", icon: "🏠" },
   { label: "Bills", href: "/dashboard/bills", icon: "📜" },
-  { label: "Competitors", href: "/dashboard/competitive", icon: "⚔️" },
+  { label: "Lobbying Activity", href: "/dashboard/competitive", icon: "📡" },
   { label: "Lobbyists", href: "/dashboard/lobbyists", icon: "🤝" },
   { label: "Stakeholders", href: "/dashboard/stakeholders", icon: "👤" },
   { label: "Sectors", href: "/dashboard/sectors", icon: "🏭" },

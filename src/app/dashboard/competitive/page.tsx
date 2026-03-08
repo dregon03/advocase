@@ -38,8 +38,8 @@ export default function CompetitivePage() {
   return (
     <div>
       <div className="mb-8">
-        <h1 className="text-2xl font-bold text-slate-900">Competitive Intelligence</h1>
-        <p className="text-slate-500 mt-1">See who else is lobbying in each policy space — and what they are asking for.</p>
+        <h1 className="text-2xl font-bold text-slate-900">Lobbying Activity</h1>
+        <p className="text-slate-500 mt-1">All active lobbying in your policy areas — who's talking to whom, and what they want.</p>
       </div>
 
       <div className="space-y-6">

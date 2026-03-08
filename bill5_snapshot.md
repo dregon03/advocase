@@ -1,0 +1,3813 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "The Legislative Assembly of Ontario." [ref=e13] [cursor=pointer]:
+            - /url: /en
+            - img "The Legislative Assembly of Ontario." [ref=e14]
+          - generic [ref=e16]: Legislative Assembly of Ontario
+        - generic [ref=e18]:
+          - generic [ref=e21]:
+            - generic [ref=e24]:
+              - paragraph: Search entire site
+              - generic [ref=e25]: Search entire site
+              - generic [ref=e26]:
+                - searchbox "Search entire site" [ref=e28]
+                - button "Search" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: 
+            - text: 
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "Français" [ref=e35] [cursor=pointer]:
+                  - /url: /fr/affaires-legislatives/projets-loi/legislature-44/session-1/projet-loi-5
+        - text:  
+    - navigation "Main Navigation" [ref=e38]:
+      - menu [ref=e41]:
+        - generic [ref=e42] [cursor=pointer]:
+          - menuitem "Members (MPPs)" [ref=e43]
+          - img [ref=e45]
+        - generic [ref=e47] [cursor=pointer]:
+          - menuitem "Legislative business" [ref=e48]
+          - img [ref=e50]
+        - generic [ref=e52] [cursor=pointer]:
+          - menuitem "Get involved" [ref=e53]
+          - img [ref=e55]
+        - generic [ref=e57] [cursor=pointer]:
+          - menuitem "Visit and learn" [ref=e58]
+          - img [ref=e60]
+    - heading [ref=e64]
+    - main [ref=e65]:
+      - navigation "Breadcrumb" [ref=e68]:
+        - heading "Breadcrumb" [level=2] [ref=e69]
+        - list [ref=e70]:
+          - listitem [ref=e71]:
+            - link "Home" [ref=e72] [cursor=pointer]:
+              - /url: /en
+          - listitem [ref=e73]:
+            - text: »
+            - link "Legislative business" [ref=e74] [cursor=pointer]:
+              - /url: /en/legislative-business
+          - listitem [ref=e75]:
+            - text: »
+            - link "Bills" [ref=e76] [cursor=pointer]:
+              - /url: /en/legislative-business/bills
+          - listitem [ref=e77]:
+            - text: »
+            - link "Current" [ref=e78] [cursor=pointer]:
+              - /url: /en/legislative-business/bills/current
+          - listitem [ref=e79]: » Bill 5, Protect Ontario by Unleashing our Economy Act, 2025
+      - generic [ref=e82]:
+        - generic [ref=e85]:
+          - heading "Bill 5, Protect Ontario by Unleashing our Economy Act, 2025" [level=1] [ref=e87]
+          - generic [ref=e88]:
+            - paragraph [ref=e96]:
+              - link "Lecce, Hon. Stephen" [ref=e97] [cursor=pointer]:
+                - /url: /members/all/stephen-lecce
+              - text: Minister of Energy and Mines
+            - paragraph [ref=e103]: "Current status: Royal Assent received. Statutes of Ontario 2025, chapter 4"
+          - generic [ref=e106]:
+            - listitem [ref=e107]:
+              - link "View bill" [ref=e108]:
+                - /url: /en/legislative-business/bills/parliament-44/session-1/bill-5
+            - listitem [ref=e109]:
+              - link "Status" [ref=e110] [cursor=pointer]:
+                - /url: /en/legislative-business/bills/parliament-44/session-1/bill-5/status
+            - listitem [ref=e111]:
+              - link "Debates" [ref=e112] [cursor=pointer]:
+                - /url: /en/legislative-business/bills/parliament-44/session-1/bill-5/debates
+            - listitem [ref=e113]:
+              - link "Acts affected" [ref=e114] [cursor=pointer]:
+                - /url: /en/legislative-business/bills/parliament-44/session-1/bill-5/acts-affected
+        - generic [ref=e115]:
+          - heading "Versions" [level=2] [ref=e116]
+          - generic [ref=e120]:
+            - generic [ref=e123]:
+              - generic [ref=e124]: 
+              - link "Royal Assent" [ref=e125] [cursor=pointer]:
+                - /url: "#nid-9353811"
+            - link "As Amended by Standing Committee" [ref=e129] [cursor=pointer]:
+              - /url: "#nid-9351831"
+            - link "Original" [ref=e133] [cursor=pointer]:
+              - /url: "#nid-9320561"
+        - generic:
+          - article
+        - generic [ref=e140]:
+          - link "Bill 5 Royal Assent (PDF)" [ref=e142] [cursor=pointer]:
+            - /url: /sites/default/files/node-files/bill/document/pdf/2025/2025-06/b005ra_e.pdf
+          - generic [ref=e143]:
+            - paragraph [ref=e144]: EXPLANATORY NOTE
+            - paragraph [ref=e145]:
+              - emphasis [ref=e146]:
+                - generic [ref=e147]:
+                  - text: This Explanatory Note was written as a reader’s aid to Bill 5 and does not form part of the law.
+                  - text: Bill 5 has been enacted as Chapter 4 of the Statutes of Ontario, 2025.
+            - paragraph [ref=e148]:
+              - generic [ref=e149]:
+                - text: SCHEDULE 1
+                - text: ELECTRICITY ACT, 1998
+            - paragraph [ref=e150]:
+              - generic [ref=e151]:
+                - text: Various amendments are made to the
+                - emphasis [ref=e152]: Electricity Act, 1998
+                - text: .
+            - paragraph [ref=e153]: Subsection 25.32 (5) of the Act authorizes the issuance of directives requiring the IESO to undertake a request for proposal or other procurement initiative or activity relating to a specified matter respecting electricity. The section is amended to specify that any such directive may set out requirements or restrictions relating to the geographic origin of any good or service used in connection with the matter to which the directive relates or of any person or entity that is connected to the good or service in the specified manner. The section is also amended to provide that the IESO is not permitted to enter into a procurement contract that relates to specified matters respecting electricity in circumstances that may be prescribed by regulations made under the Act, including respecting the geographic origin of the applicable good or service or of any person or entity that is connected to the good or service in the specified manner. Finally, a new section 25.32.1 is added to provide that the IESO is not permitted to procure a good or service that relates to something other than one of the specified matters respecting electricity, if the good or service meets the conditions prescribed by the regulations respecting geographic origin.
+            - paragraph [ref=e154]: A new section 53.6.1 provides for restrictions respecting the procurement by Ontario Power Generation Inc., or by any of its subsidiaries that may be specified by the regulations, of a good or service that meets the conditions prescribed by the regulations respecting geographic origin.
+            - paragraph [ref=e155]: A new section 3.2 provides for the extinguishment of specified causes of action against the Crown, the IESO, Ontario Power Generation Inc. and other specified persons in connection with the amendments made to the Act, including for things done or not done in accordance with those amendments. It also provides for a bar on legal proceedings connected to those matters.
+            - paragraph [ref=e156]:
+              - generic [ref=e157]:
+                - text: SCHEDULE 2
+                - text: ENDANGERED SPECIES ACT, 2007
+            - paragraph [ref=e158]:
+              - generic [ref=e159]:
+                - text: Various amendments are made to the
+                - emphasis [ref=e160]: Endangered Species Act, 2007
+                - text: ", including:"
+            - paragraph [ref=e161]: 1. Amendments to the purpose of the Act.
+            - paragraph [ref=e162]: 2. Amendments to several definitions in subsection 2 (1), including a new definition of “habitat”.
+            - paragraph [ref=e163]: 3. Section 2.1 is added to the Act to enable the Minister to delegate powers and duties under the Act.
+            - paragraph [ref=e164]: "4. The following changes are made to section 7 so that making a regulation under that section is no longer mandatory but at the discretion of the Lieutenant Governor in Council:"
+            - paragraph [ref=e165]: i. The Lieutenant Governor in Council would be authorized to make a regulation listing species that are classified by COSSARO as extirpated species, endangered species, threatened species or special concern species.
+            - paragraph [ref=e166]: ii. Such a regulation would not be required to list all of the species classified by COSSARO but, if a species is listed, the classification of the species must be the same as COSSARO’s classification.
+            - paragraph [ref=e167]: iii. Requirements under the Act relating to a species that has been removed from the list cease to have effect.
+            - paragraph [ref=e168]: 5. The temporary suspension of protections upon initial listing of a species is removed.
+            - paragraph [ref=e169]: 6. Provisions regarding government response statements, management plans and agreements are repealed and transitional amendments are made throughout to refer to requirements that continue in respect of instruments that existed before the date of repeal.
+            - paragraph [ref=e170]: 7. Section 17 is re-enacted to remove the need for conditions to be satisfied before certain permits could be issued, remove reference to species conservation charges and make other changes.
+            - paragraph [ref=e171]: 8. Section 18, which authorizes persons to engage in prohibited activities set out in a regulation if the activity is regulated under another Act, is repealed.
+            - paragraph [ref=e172]: 9. Sections 20 and 30, which deal with hearings, are repealed and section 30 is replaced with provisions governing appeals of permits and orders.
+            - paragraph [ref=e173]: 10. Subsections 20.3 (7) to (9) are added to the Act to address the cessation of monies being paid into the Fund.
+            - paragraph [ref=e174]: 11. Section 20.19 is added to provide for the wind up of the Agency.
+            - paragraph [ref=e175]: 12. Section 22.1 is added to require persons to respond to reasonable inquiries related to determining if the person is in compliance with the Act or regulations.
+            - paragraph [ref=e176]: 13. Changes are made to the inspection powers to remove a requirement for a warrant with respect to certain inspections.
+            - paragraph [ref=e177]: 14. Amendments are made to remove the ability of enforcement officers to issue stop orders and to authorize provincial officers to issue contravention orders and to authorize the Minister to issue mitigation orders.
+            - paragraph [ref=e178]: 15. The name of the Species at Risk in Ontario Stewardship Program is changed to the Species Conservation Program.
+            - paragraph [ref=e179]: 16. The authorization for the Minister to establish an advisory committee is removed.
+            - paragraph [ref=e180]: 17. Section 57, which sets out special requirements for certain regulations, is repealed.
+            - paragraph [ref=e181]: 18. Schedules 1 to 5 are repealed.
+            - paragraph [ref=e182]: 19. Various other administrative and consequential amendments.
+            - paragraph [ref=e183]:
+              - generic [ref=e184]:
+                - text: SCHEDULE 3
+                - text: ENVIRONMENTAL ASSESSMENT ACT
+            - paragraph [ref=e185]:
+              - generic [ref=e186]:
+                - text: The Schedule amends the
+                - emphasis [ref=e187]: Environmental Assessment Act
+                - text: .
+            - paragraph [ref=e188]: The Act is amended to provide for the termination of the agreement entered into under section 3.0.1 of the Act concerning various enterprises or activities for or related to the proposed Eagle’s Nest multi-metal mine in Northern Ontario near McFaulds Lake. A related approval under the Act is also revoked.
+            - paragraph [ref=e189]: Part II.3 of the Act requires every proponent who wishes to proceed with a Part II.3 project to apply to the Minister for approval to do so. The Act is amended to provide that specified activities relating to the Chatham-Kent waste disposal site are exempt from Part II.3 of the Act.
+            - paragraph [ref=e190]:
+              - generic [ref=e191]:
+                - text: SCHEDULE 4
+                - text: ENVIRONMENTAL PROTECTION ACT
+            - paragraph [ref=e192]:
+              - generic [ref=e193]:
+                - text: The Schedule amends the
+                - emphasis [ref=e194]: Environmental Protection Act
+                - text: to revoke a document that was signed by the Minister under the Act for the purpose of establishing fees with respect to the Environmental Activity and Sector Registry. The Minister may refund such fees in circumstances where a registration has been removed from the Registry under the Act.
+            - paragraph [ref=e195]:
+              - generic [ref=e196]:
+                - text: SCHEDULE 5
+                - text: MINING ACT
+            - paragraph [ref=e197]:
+              - generic [ref=e198]:
+                - text: The Schedule makes multiple amendments to the
+                - emphasis [ref=e199]: Mining Act
+                - text: . Some of the more significant amendments are described below.
+            - paragraph [ref=e200]: Section 2 is amended so that the Act’s purpose of encouraging prospecting, registration of mining claims and exploration for the development of mineral resources must be to a degree that is consistent with the protection of Ontario’s economy.
+            - paragraph [ref=e201]: "Section 4.1 is amended to allow the Minister to make an order suspending the operation of some or all functions of the mining lands administration system if doing so is desirable for the protection of the strategic national mineral supply chain. The new section 26.1 allows the Minister to make the following orders if they are desirable for the protection of the strategic national mineral supply chain: an order that the account of a mining lands administration system user be suspended or restricted, an order prohibiting a person from registering as a user on the mining lands administration system, an order prohibiting a person from obtaining a prospector’s licence and an order terminating a prospector’s licence."
+            - paragraph [ref=e202]: Section 81 is amended to allow the Minister to deny the issuance of a lease if the Minister considers denying the lease desirable for the protection of the strategic national mineral supply chain.
+            - paragraph [ref=e203]: The new section 153.0.1 allows the Minister to establish a mine authorization and permitting delivery team for any project designated by the Minister. If the proponent provides the required information, the team shall prepare an integrated authorization and permitting plan that sets out steps for the application, review and decision-making processes for obtaining the permits and authorizations required for the project under this and any other Act. The team shall also co-ordinate with any other ministry to expedite the application, review and decision-making processes for the permits and authorizations specified in the integrated authorization and permitting plan.
+            - paragraph [ref=e204]: The new section 176.1 allows the Minister, subject to the approval of the Lieutenant Governor in Council, to cancel or revoke unpatented mining claims or a licence of occupation or terminate a lease of any mining lands or mining rights if the Minister considers doing so desirable for the protection of the strategic national mineral supply chain.
+            - paragraph [ref=e205]: Finally, various causes of action connected to the amendments are extinguished.
+            - paragraph [ref=e206]:
+              - generic [ref=e207]:
+                - text: SCHEDULE 6
+                - text: ONTARIO ENERGY BOARD ACT, 1998
+            - paragraph [ref=e208]:
+              - generic [ref=e209]:
+                - text: Various amendments are made to the
+                - emphasis [ref=e210]: Ontario Energy Board Act, 1998
+                - text: .
+            - paragraph [ref=e211]: A new section 43.1 provides for restrictions respecting the procurement of a good or service that meets the conditions prescribed by the regulations respecting its country, region or territory of origin by,
+            - paragraph [ref=e212]: (a) gas transmitters, gas distributors or storage companies that may be specified by the regulations made under the Act; or
+            - paragraph [ref=e213]: (b) gas transmitter, gas distributor or storage company subsidiaries that may be specified by the regulations.
+            - paragraph [ref=e214]: Similarly, a new section 73 provides for restrictions respecting the procurement of a good or service that meets the conditions prescribed by the regulations respecting its country, region or territory of origin by,
+            - paragraph [ref=e215]: (a) licence holders that may be specified by the regulations; or
+            - paragraph [ref=e216]: (b) licence holder subsidiaries that may be specified by the regulations.
+            - paragraph [ref=e217]: A new section 134 provides for the extinguishment of specified causes of action against the Crown and other specified persons in connection with the amendments made to the Act, including for things done or not done in accordance with those amendments. It also provides for a bar on legal proceedings connected to those matters.
+            - paragraph [ref=e218]:
+              - generic [ref=e219]:
+                - text: SCHEDULE 7
+                - text: ONTARIO HERITAGE ACT
+            - paragraph [ref=e220]:
+              - generic [ref=e221]:
+                - text: The Schedule amends the
+                - emphasis [ref=e222]: Ontario Heritage Act
+                - text: . The major elements are set out below.
+            - paragraph [ref=e223]: The amendments expand the inspection powers in section 51.2 of the Act so that inspections may also be done for the purpose of assessing whether any artifacts or archaeological sites are on any land, or land under water, in the Province. This kind of inspection may only be conducted on the order of the Minister. Any artifacts or archaeological sites that are found in the inspection, or that have been removed or altered, are to be reported to the Minister and to the person who owns the land.
+            - paragraph [ref=e224]: New section 61.1 is added to authorize the Minister to make assessment orders. Assessment orders direct that no person shall alter or remove an artifact or any other physical evidence of past human use or activity until a licensee under Part VI of the Act has completed archaeological fieldwork and reported that there is no further cultural heritage value or interest in the site.
+            - paragraph [ref=e225]: Currently, section 66 of the Act authorizes the Minister to direct that artifacts taken under the authority of a licence or a permit shall be deposited in a public institution to be held in trust for the people of Ontario and authorizes the seizure of those artifacts if they are taken by certain unauthorized persons. Section 66 is re-enacted to authorize the Minister to also direct the deposit of material in an archaeological collection. Seized artifacts and materials may, in addition to being deposited in a public institution, be deposited with an Indigenous community. The amendments also authorize persons who are directed to seize these artifacts to enter premises during business hours, but not dwellings. The Minister is further authorized to direct inspectors or investigators under the Act to seize artifacts or archaeological material in the course of an inspection or investigation and to direct the seizure of artifacts or material in an archaeological collection that were seized in an investigation and subsequently released after a conviction.
+            - paragraph [ref=e226]: New section 66.1 allows the Lieutenant Governor in Council to exempt property from any requirement in Part VI of the Act, or in related regulations, or exempt it from a requirement to conduct an archaeological assessment under provisions of any other Act or regulation, or instrument under any other Act, subject to certain exceptions. These exemptions may only be granted if the Lieutenant Governor in Council is of the opinion that the exemption could potentially advance specified provincial priorities. Under the new section 66.2, various causes of action connected to sections 66.1 and 66.2 are extinguished.
+            - paragraph [ref=e227]: New Part VI.1 is added to authorize investigations under the Act. The Minister is given the power to appoint investigators. Investigators may obtain a search warrant and conduct investigations for the purpose of investigating offences or potential offences committed under the Act. The investigators’ powers are set out. It also authorizes searches in exigent circumstances and mandatory production orders for documents or data that may provide evidence of an offence.
+            - paragraph [ref=e228]: Section 68.3 of the Act is expanded to specify that certain instruments, including regulations and orders made by the Lieutenant Governor in Council, do not entitle persons to compensation.
+            - paragraph [ref=e229]: New section 69.1 establishes a new two-year limitation period for the prosecution of offences under the Act. New section 69.2 authorizes court orders to prevent, eliminate or ameliorate damage connected to the commission of an offence.
+            - paragraph [ref=e230]:
+              - generic [ref=e231]:
+                - text: SCHEDULE 8
+                - text: REBUILDING ONTARIO PLACE ACT, 2023
+            - paragraph [ref=e232]:
+              - generic [ref=e233]:
+                - text: The Schedule amends the
+                - emphasis [ref=e234]: Rebuilding Ontario Place Act, 2023
+                - text: to provide that Part II of the
+                - emphasis [ref=e235]: Environmental Bill of Rights, 1993
+                - text: does not apply to a proposal to issue, amend or revoke an instrument related to the Ontario Place Redevelopment Project or any enterprise or activity that furthers the Project.
+            - paragraph [ref=e236]:
+              - generic [ref=e237]:
+                - text: SCHEDULE 9
+                - text: SPECIAL ECONOMIC ZONES ACT, 2025
+            - paragraph [ref=e238]:
+              - text: The Schedule enacts the
+              - emphasis [ref=e239]: Special Economic Zones Act, 2025
+              - text: .
+            - paragraph [ref=e240]: The Lieutenant Governor in Council is authorized to make regulations designating special economic zones and the Minister is authorized to make regulations designating trusted proponents and projects.
+            - paragraph [ref=e241]: The Lieutenant Governor in Council is authorized to make regulations exempting a trusted proponent or designated project from requirements under an Act, regulation or other instrument under an Act, including by-laws of a municipality or local board, as those requirements would apply in a special economic zone. The Lieutenant Governor in Council is also authorized to make regulations modifying the application of provisions of an Act, regulation or other instrument under an Act, including by-laws of a municipality or local board, as those provisions would apply with respect to a trusted proponent or designated project in a special economic zone.
+            - paragraph [ref=e242]: Certain causes of action are extinguished.
+            - paragraph [ref=e243]:
+              - generic [ref=e244]:
+                - text: SCHEDULE 10
+                - text: SPECIES CONSERVATION ACT, 2025
+            - paragraph [ref=e245]:
+              - generic [ref=e246]:
+                - text: The Schedule enacts the
+                - emphasis [ref=e247]: Species Conservation Act, 2025
+                - text: . It also repeals the
+                - emphasis [ref=e248]: Endangered Species Act, 2007
+                - text: . The following are some highlights of the
+                - emphasis [ref=e249]: Species Conservation Act, 2025
+                - text: ":"
+            - paragraph [ref=e250]: 1. The Committee on the Status of Species at Risk in Ontario (COSSARO) is continued for the purposes of assessing and classifying species. Rules governing reporting by COSSARO and the classification of species are included.
+            - paragraph [ref=e251]:
+              - generic [ref=e252]:
+                - text: 2. The Lieutenant Governor in Council is authorized to make regulations listing species classified by COSSARO as extirpated, endangered or threatened. Certain migratory birds and aquatic species listed as extirpated, endangered or threatened under the
+                - emphasis [ref=e253]: Species at Risk Act
+                - text: (Canada) are excluded from the application of the Act, other than for the purposes of assessment and classification by COSSARO.
+            - paragraph [ref=e254]: 3. The Act prohibits engaging in activities likely to result in a species no longer living in the wild in Ontario. Additionally, engaging in specified activities without having a permit or registering the activity in the Registry is prohibited.
+            - paragraph [ref=e255]: 4. A registry known as the Species Conservation Registry is established. The Act includes provisions governing the suspension or removal of registrations and the filing of orders or notices in the Registry.
+            - paragraph [ref=e256]: 5. The process for applying for permits is established. The Minister is empowered to issue, amend, revoke and suspend permits.
+            - paragraph [ref=e257]: 6. The Act prohibits possession, sale or trade of species contrary to laws of other jurisdictions that protect extirpated, endangered or threatened species.
+            - paragraph [ref=e258]: 7. The Minister is authorized to establish codes of practice, standards or guidelines for the protection and conservation of species listed on the Protected Species in Ontario List or their habitat.
+            - paragraph [ref=e259]: 8. The Species Conservation Program is continued for the purposes of promoting conservation activities, including habitat preservation, public education and grants.
+            - paragraph [ref=e260]:
+              - generic [ref=e261]:
+                - text: 9. Transitional matters with respect to the Agency and the Species Conservation Account established under the
+                - emphasis [ref=e262]: Endangered Species Act, 2007
+                - text: are provided for.
+            - paragraph [ref=e263]: Other provisions address matters including enforcement, appeals of permits and orders, offences and penalties, regulation-making authority and the revocation of various regulations.
+            - heading "Bill 5 2025" [level=2] [ref=e264]
+            - heading "An Act to enact the Special Economic Zones Act, 2025, to amend the Endangered Species Act, 2007 and to replace it with the Species Conservation Act, 2025, and to amend various Acts and revoke various regulations in relation to development and to procurement" [level=2] [ref=e265]
+            - paragraph [ref=e266]: CONTENTS
+            - table [ref=e268]:
+              - rowgroup [ref=e269]:
+                - row "Preamble" [ref=e270]:
+                  - cell "Preamble" [ref=e271]:
+                    - paragraph [ref=e272]:
+                      - link "Preamble" [ref=e274] [cursor=pointer]:
+                        - /url: "#BK00"
+                  - cell [ref=e275]:
+                    - paragraph [ref=e276]
+                - row "1. Contents of this Act" [ref=e277]:
+                  - cell "1." [ref=e278]:
+                    - paragraph [ref=e279]:
+                      - link "1." [ref=e281] [cursor=pointer]:
+                        - /url: "#BK0"
+                  - cell "Contents of this Act" [ref=e282]:
+                    - paragraph [ref=e283]: Contents of this Act
+                - row "2. Commencement" [ref=e284]:
+                  - cell "2." [ref=e285]:
+                    - paragraph [ref=e286]:
+                      - link "2." [ref=e288] [cursor=pointer]:
+                        - /url: "#BK1"
+                  - cell "Commencement" [ref=e289]:
+                    - paragraph [ref=e290]: Commencement
+                - row "3. Short title" [ref=e291]:
+                  - cell "3." [ref=e292]:
+                    - paragraph [ref=e293]:
+                      - link "3." [ref=e295] [cursor=pointer]:
+                        - /url: "#BK2"
+                  - cell "Short title" [ref=e296]:
+                    - paragraph [ref=e297]: Short title
+                - row "Schedule 1 Electricity Act, 1998" [ref=e298]:
+                  - cell "Schedule 1" [ref=e299]:
+                    - paragraph [ref=e300]:
+                      - link "Schedule 1" [ref=e302] [cursor=pointer]:
+                        - /url: "#BK3"
+                  - cell "Electricity Act, 1998" [ref=e303]:
+                    - paragraph [ref=e304]: Electricity Act, 1998
+                - row "Schedule 2 Endangered Species Act, 2007" [ref=e305]:
+                  - cell "Schedule 2" [ref=e306]:
+                    - paragraph [ref=e307]:
+                      - link "Schedule 2" [ref=e309] [cursor=pointer]:
+                        - /url: "#BK4"
+                  - cell "Endangered Species Act, 2007" [ref=e310]:
+                    - paragraph [ref=e311]: Endangered Species Act, 2007
+                - row "Schedule 3 Environmental Assessment Act" [ref=e312]:
+                  - cell "Schedule 3" [ref=e313]:
+                    - paragraph [ref=e314]:
+                      - link "Schedule 3" [ref=e316] [cursor=pointer]:
+                        - /url: "#BK5"
+                  - cell "Environmental Assessment Act" [ref=e317]:
+                    - paragraph [ref=e318]: Environmental Assessment Act
+                - row "Schedule 4 Environmental Protection Act" [ref=e319]:
+                  - cell "Schedule 4" [ref=e320]:
+                    - paragraph [ref=e321]:
+                      - link "Schedule 4" [ref=e323] [cursor=pointer]:
+                        - /url: "#BK6"
+                  - cell "Environmental Protection Act" [ref=e324]:
+                    - paragraph [ref=e325]: Environmental Protection Act
+                - row "Schedule 5 Mining Act" [ref=e326]:
+                  - cell "Schedule 5" [ref=e327]:
+                    - paragraph [ref=e328]:
+                      - link "Schedule 5" [ref=e330] [cursor=pointer]:
+                        - /url: "#BK7"
+                  - cell "Mining Act" [ref=e331]:
+                    - paragraph [ref=e332]: Mining Act
+                - row "Schedule 6 Ontario Energy Board Act, 1998" [ref=e333]:
+                  - cell "Schedule 6" [ref=e334]:
+                    - paragraph [ref=e335]:
+                      - link "Schedule 6" [ref=e337] [cursor=pointer]:
+                        - /url: "#BK8"
+                  - cell "Ontario Energy Board Act, 1998" [ref=e338]:
+                    - paragraph [ref=e339]: Ontario Energy Board Act, 1998
+                - row "Schedule 7 Ontario Heritage Act" [ref=e340]:
+                  - cell "Schedule 7" [ref=e341]:
+                    - paragraph [ref=e342]:
+                      - link "Schedule 7" [ref=e344] [cursor=pointer]:
+                        - /url: "#BK9"
+                  - cell "Ontario Heritage Act" [ref=e345]:
+                    - paragraph [ref=e346]: Ontario Heritage Act
+                - row "Schedule 8 Rebuilding Ontario Place Act, 2023" [ref=e347]:
+                  - cell "Schedule 8" [ref=e348]:
+                    - paragraph [ref=e349]:
+                      - link "Schedule 8" [ref=e351] [cursor=pointer]:
+                        - /url: "#BK10"
+                  - cell "Rebuilding Ontario Place Act, 2023" [ref=e352]:
+                    - paragraph [ref=e353]: Rebuilding Ontario Place Act, 2023
+                - row "Schedule 9 Special Economic Zones Act, 2025" [ref=e354]:
+                  - cell "Schedule 9" [ref=e355]:
+                    - paragraph [ref=e356]:
+                      - link "Schedule 9" [ref=e358] [cursor=pointer]:
+                        - /url: "#BK11"
+                  - cell "Special Economic Zones Act, 2025" [ref=e359]:
+                    - paragraph [ref=e360]: Special Economic Zones Act, 2025
+                - row "Schedule 10 Species Conservation Act, 2025" [ref=e361]:
+                  - cell "Schedule 10" [ref=e362]:
+                    - paragraph [ref=e363]:
+                      - link "Schedule 10" [ref=e365] [cursor=pointer]:
+                        - /url: "#BK12"
+                  - cell "Species Conservation Act, 2025" [ref=e366]:
+                    - paragraph [ref=e367]: Species Conservation Act, 2025
+            - paragraph [ref=e368]
+            - paragraph [ref=e369]:
+              - generic [ref=e370]: Preamble
+            - paragraph [ref=e371]: "The Government of Ontario is:"
+            - paragraph [ref=e372]: Protecting Ontario from global economic uncertainty by unleashing our economy.
+            - paragraph [ref=e373]: Unlocking the potential of Ontario’s critical minerals by streamlining approval processes for mining and critical infrastructure projects to achieve outcomes that fuel our economy while also creating jobs and protecting the strategic national mineral supply chain – all for the benefit of the people of Ontario and Canada.
+            - paragraph [ref=e374]: Supporting the acceleration of provincial permitting and approvals for projects so Ontario can build mines and infrastructure faster, while ensuring environmental protections for future generations.
+            - paragraph [ref=e375]: Keeping our energy supply safe by limiting foreign participation in Ontario’s energy sector.
+            - paragraph [ref=e376]: Working to make Ontario the best place in the G7 to invest, create jobs and do business.
+            - paragraph [ref=e377]: "Therefore, His Majesty, by and with the advice and consent of the Legislative Assembly of the Province of Ontario, enacts as follows:"
+            - paragraph [ref=e378]: Contents of this Act
+            - paragraph [ref=e379]:
+              - generic [ref=e380]: 1 This Act consists of this section, sections 2 and 3 and the Schedules to this Act.
+            - paragraph [ref=e381]: Commencement
+            - paragraph [ref=e382]:
+              - generic [ref=e383]: 2 (1) Except as otherwise provided in this section, this Act comes into force on the day it receives Royal Assent.
+            - paragraph [ref=e384]: (2) The Schedules to this Act come into force as provided in each Schedule.
+            - paragraph [ref=e385]: (3) If a Schedule to this Act provides that any of its provisions are to come into force on a day to be named by order of the Lieutenant Governor in Council, an order may apply to one or more of those provisions, and orders may be issued at different times with respect to any of those provisions.
+            - paragraph [ref=e386]: Short title
+            - paragraph [ref=e387]:
+              - generic [ref=e389]:
+                - text: 3 The short title of this Act is the
+                - emphasis [ref=e391]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: .
+            - paragraph [ref=e392]:
+              - generic [ref=e394]:
+                - text: SCHEDULE 1
+                - text: ELECTRICITY ACT, 1998
+            - paragraph [ref=e395]:
+              - generic [ref=e396]:
+                - text: 1 The
+                - emphasis [ref=e397]: Electricity Act, 1998
+                - text: "is amended by adding the following section:"
+            - paragraph [ref=e398]: Extinguishment of certain causes of action re procurement restrictions
+            - paragraph [ref=e399]:
+              - generic [ref=e400]: "3.2"
+              - text: (1) No cause of action arises against the Crown, any current or former member of the Executive Council or employee, officer or agent of or adviser to the Crown, the IESO, or any current or former director, officer, employee or agent of or adviser to the IESO, as a direct or indirect result of,
+            - paragraph [ref=e401]:
+              - generic [ref=e402]:
+                - text: (a) the enactment of the amendments made to this Act by Schedule 1 to the
+                - emphasis [ref=e403]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: ", or the amendment or repeal of any provision added to this Act by that Schedule;"
+            - paragraph [ref=e404]: (b) the issuance, amendment or revocation of any provision of a directive under subsection 25.32 (5) that includes a requirement described in subsection 25.32 (6.1);
+            - paragraph [ref=e405]: (c) the making, amendment or revocation of any provision of a regulation for the purposes of subsection 25.32 (12) or section 25.32.1; or
+            - paragraph [ref=e406]:
+              - generic [ref=e407]:
+                - text: (d) anything done or not done in accordance with the provisions added to this Act by Schedule 1 to the
+                - emphasis [ref=e408]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: ", a directive referred to in clause (b) or a regulation referred to in clause (c)."
+            - paragraph [ref=e409]: Same
+            - paragraph [ref=e410]: (2) No cause of action arises against the Crown, any current or former member of the Executive Council or employee, officer or agent of or adviser to the Crown, Ontario Power Generation Inc., or any current or former director, officer, employee or agent of or adviser to Ontario Power Generation Inc., as a direct or indirect result of,
+            - paragraph [ref=e411]:
+              - generic [ref=e412]:
+                - text: (a) the enactment of the amendments made to this Act by Schedule 1 to the
+                - emphasis [ref=e413]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: ", or the amendment or repeal of any provision added to this Act by that Schedule;"
+            - paragraph [ref=e414]: (b) the making, amendment or revocation of any provision of a regulation for the purposes of section 53.6.1; or
+            - paragraph [ref=e415]:
+              - generic [ref=e416]:
+                - text: (c)
+                - generic [ref=e417]:
+                  - text: anything done or not done in accordance with the provisions added to this Act by Schedule 1 to the
+                  - emphasis [ref=e418]: Protect Ontario by Unleashing our Economy Act, 2025
+                  - text: or a regulation referred to in clause (
+                - text: b).
+            - paragraph [ref=e419]:
+              - generic [ref=e420]: No remedy
+            - paragraph [ref=e421]:
+              - generic [ref=e422]: (3) No costs, compensation or damages, including for loss of revenue, profit or any other alleged loss, whether direct or indirect, are owing or payable to any person by a person referred to in subsection (1) or (2), and no remedy, including a remedy in contract, restitution or tort, a remedy for misfeasance, bad faith or a breach of trust or fiduciary obligation, any equitable remedy or any remedy under any statute, is available to any person against a person referred to in those subsections, in connection with anything referred to in those subsections.
+            - paragraph [ref=e423]: Proceedings barred
+            - paragraph [ref=e424]:
+              - generic [ref=e425]: (4) No proceeding that is directly or indirectly based on or related to anything referred to in subsection (1) or (2) may be brought or maintained against any person referred to in that subsection.
+            - paragraph [ref=e426]: Same
+            - paragraph [ref=e427]:
+              - generic [ref=e428]: (5) Subsections (3) and (4) do not apply with respect to an application for judicial review or a claim for constitutional remedy, but do apply with respect to any other court, administrative or arbitral proceeding claiming any remedy or relief, including specific performance, an injunction, declaratory relief or the enforcement of a judgment, order or award made outside Ontario.
+            - paragraph [ref=e429]:
+              - generic [ref=e430]: No costs awarded
+            - paragraph [ref=e431]: (6) No costs shall be awarded against any person in respect of a proceeding that cannot be brought or maintained under subsection (4).
+            - paragraph [ref=e432]:
+              - generic [ref=e433]: No expropriation or injurious affection
+            - paragraph [ref=e434]:
+              - generic [ref=e435]:
+                - text: (7) Nothing referred to in subsection (1) or (2) constitutes an expropriation or injurious affection for the purposes of the
+                - emphasis [ref=e436]: Expropriations Act
+                - text: or otherwise at law.
+            - paragraph [ref=e437]: Proceedings by Crown not prevented
+            - paragraph [ref=e438]: (8) This section does not apply with respect to proceedings brought by the Crown.
+            - paragraph [ref=e439]: "2 Section 25.32 of the Act is amended by adding the following subsections:"
+            - paragraph [ref=e440]: Directive may specify requirements, restrictions re origin
+            - paragraph [ref=e441]: (6.1) Without limiting the generality of subsection (5), a directive issued under that subsection may specify requirements or restrictions relating to the country, region or territory of origin, as determined in the directive, of,
+            - paragraph [ref=e442]: (a) any good or service used in connection with the matter listed in subsection (2) to which the directive relates; or
+            - paragraph [ref=e443]: (b) any person or entity that is, or that beneficially owns or controls, a potential participant in the request for proposal, other form of procurement solicitation or other initiative or activity to which the directive relates.
+            - paragraph [ref=e444]: . . . . .
+            - paragraph [ref=e445]: Prescribed restrictions
+            - paragraph [ref=e446]: (12) The IESO shall not enter into a procurement contract respecting a matter listed in subsection (2) in the circumstances prescribed by the regulations, which may, without limitation, include circumstances relating to the country, region or territory of origin, as determined in the regulations, of,
+            - paragraph [ref=e447]: (a) any good or service used in connection with the matter listed in subsection (2) to which the regulation relates; or
+            - paragraph [ref=e448]: (b) any person or entity that is, or that beneficially owns or controls, a potential party to a procurement contract respecting the matter listed in subsection (2) to which the regulation relates.
+            - paragraph [ref=e449]:
+              - generic [ref=e450]: Application
+            - paragraph [ref=e451]: (13) Subsection (12) applies with respect to a procurement only if, on the day a regulation made for the purposes of that subsection begins to apply,
+            - paragraph [ref=e452]: (a) the final version of the request for proposal or any other document that would give rise to the procurement has not yet been issued, in the case of a competitive procurement; or
+            - paragraph [ref=e453]: (b) in the case of a procurement that is not a competitive procurement, the parties have not entered into a final contract in respect of the procurement.
+            - paragraph [ref=e454]: Conflict with directive
+            - paragraph [ref=e455]: (14) In the event of a conflict, a regulation made for the purposes of subsection (12) prevails over a directive issued under subsection (5) to the extent of the conflict.
+            - paragraph [ref=e456]:
+              - generic [ref=e457]:
+                - text: Non-application,
+                - emphasis [ref=e458]: Discriminatory Business Practices Act
+            - paragraph [ref=e459]:
+              - generic [ref=e460]:
+                - text: (15) The
+                - emphasis [ref=e461]: Discriminatory Business Practices Act
+                - text: does not apply to anything done or not done in accordance with a directive issued under subsection (5) that includes a requirement described in subsection 25.32 (6.1) or with a regulation made for the purposes of subsection (12).
+            - paragraph [ref=e462]:
+              - generic [ref=e463]: Determination of country, region or territory of origin
+            - paragraph [ref=e464]: (16) For the purposes of subsections (6.1) and (12),
+            - paragraph [ref=e465]: (a) country, region or territory of origin of a person or entity may be determined by reference to any relevant factor including, as applicable,
+            - paragraph [ref=e466]: (i) where a person is ordinarily resident,
+            - paragraph [ref=e467]: (ii) where a head office or other office is located,
+            - paragraph [ref=e468]: (iii) jurisdiction of incorporation,
+            - paragraph [ref=e469]: (iv) the number or proportion of employees of the person or entity that are located in a country, region or territory,
+            - paragraph [ref=e470]: (v) the jurisdiction of the laws to which the person or entity is subject, or
+            - paragraph [ref=e471]: (vi) where the person or entity’s business activities, as they relate to the matter listed in subsection (2), are carried on; and
+            - paragraph [ref=e472]: (b) a directive or regulation may set out, for its own purposes, how beneficial ownership or control is to be determined.
+            - paragraph [ref=e473]: "3 The Act is amended by adding the following section:"
+            - paragraph [ref=e474]: Other procurements
+            - paragraph [ref=e475]:
+              - generic [ref=e476]: 25.32.1
+              - text: (1) The IESO shall not procure a good or service respecting a matter that is not listed in subsection 25.32 (2) if the good or service meets the conditions prescribed by the regulations respecting,
+            - paragraph [ref=e477]: (a) its country, region or territory of origin, as determined in the regulations; or
+            - paragraph [ref=e478]: (b) the country, region or territory of origin of the person or entity that is, or that beneficially owns or controls, a supplier of the good or service, as determined in the regulations.
+            - paragraph [ref=e479]: Same
+            - paragraph [ref=e480]: (2) For the purposes of clause (1) (b),
+            - paragraph [ref=e481]: (a) country, region or territory of origin of a person or entity may be determined by reference to any relevant factor including, as applicable,
+            - paragraph [ref=e482]: (i) where a person is ordinarily resident,
+            - paragraph [ref=e483]: (ii) where a head office or other office is located,
+            - paragraph [ref=e484]: (iii) jurisdiction of incorporation,
+            - paragraph [ref=e485]: (iv) the number or proportion of employees of the person or entity that are located in a country, region or territory,
+            - paragraph [ref=e486]: (v) the jurisdiction of the laws to which the person or entity is subject, or
+            - paragraph [ref=e487]: (vi) where the person or entity’s business activities, as they relate to the provision of the good or service, are carried on; and
+            - paragraph [ref=e488]: (b) a regulation may set out, for its own purposes, how beneficial ownership or control is to be determined.
+            - paragraph [ref=e489]: Application
+            - paragraph [ref=e490]: (3) Subsection (1) applies with respect to a procurement only if, on the day a regulation made for the purposes of that subsection begins to apply,
+            - paragraph [ref=e491]: (a) the final version of the request for proposal or any other document that would give rise to the procurement has not yet been issued, in the case of a competitive procurement; or
+            - paragraph [ref=e492]: (b) in the case of a procurement that is not a competitive procurement, the parties have not entered into a final contract in respect of the procurement.
+            - paragraph [ref=e493]:
+              - generic [ref=e494]:
+                - text: Non-application,
+                - emphasis [ref=e495]: Discriminatory Business Practices Act
+            - paragraph [ref=e496]:
+              - generic [ref=e497]:
+                - text: (4) The
+                - emphasis [ref=e498]: Discriminatory Business Practices Act
+                - text: does not apply to anything done or not done in accordance with a regulation made for the purposes of subsection (1).
+            - paragraph [ref=e499]: "4 The Act is amended by adding the following section:"
+            - paragraph [ref=e500]: Procurement restrictions
+            - paragraph [ref=e501]:
+              - generic [ref=e502]: 53.6.1
+              - text: (1) Ontario Power Generation Inc. shall not procure a good or service that meets the conditions prescribed by the regulations respecting,
+            - paragraph [ref=e503]: (a) its country, region or territory of origin, as determined in the regulations; or
+            - paragraph [ref=e504]: (b) the country, region or territory of origin of the person or entity that is, or that beneficially owns or controls, a supplier of the good or service, as determined in the regulations.
+            - paragraph [ref=e505]: Same, subsidiaries
+            - paragraph [ref=e506]: (2) Any subsidiary of Ontario Power Generation Inc. that is prescribed by the regulations shall not procure a good or service that meets the conditions prescribed by the regulations respecting,
+            - paragraph [ref=e507]: (a) its country, region or territory of origin, as determined in the regulations; or
+            - paragraph [ref=e508]: (b) the country, region or territory of origin of the person or entity that is, or that beneficially owns or controls, a supplier of the good or service, as determined in the regulations.
+            - paragraph [ref=e509]: Origin
+            - paragraph [ref=e510]: (3) For the purposes of subsections (1) and (2),
+            - paragraph [ref=e511]: (a) country, region or territory of origin of a person or entity may be determined by reference to any relevant factor including, as applicable,
+            - paragraph [ref=e512]: (i) where a person is ordinarily resident,
+            - paragraph [ref=e513]: (ii) where a head office or other office is located,
+            - paragraph [ref=e514]: (iii) jurisdiction of incorporation,
+            - paragraph [ref=e515]: (iv) the number or proportion of employees of the person or entity that are located in a country, region or territory,
+            - paragraph [ref=e516]: (v) the jurisdiction of the laws to which the person or entity is subject, or
+            - paragraph [ref=e517]: (vi) where the person or entity’s business activities, as they relate to the provision of the good or service, are carried on; and
+            - paragraph [ref=e518]: (b) a regulation may set out, for its own purposes, how beneficial ownership or control is to be determined.
+            - paragraph [ref=e519]: Application
+            - paragraph [ref=e520]: (4) Subsection (1) or (2) applies with respect to a procurement only if, on the day a regulation made for the purposes of that subsection begins to apply,
+            - paragraph [ref=e521]: (a) the final version of the request for proposal or any other document that would give rise to the procurement has not yet been issued, in the case of a competitive procurement; or
+            - paragraph [ref=e522]: (b) in the case of a procurement that is not a competitive procurement, the parties have not entered into a final contract in respect of the procurement.
+            - paragraph [ref=e523]:
+              - generic [ref=e525]:
+                - text: Non-application,
+                - emphasis [ref=e526]: Discriminatory Business Practices Act
+            - paragraph [ref=e527]:
+              - generic [ref=e528]:
+                - text: (5) The
+                - emphasis [ref=e529]: Discriminatory Business Practices Act
+                - text: does not apply to anything done or not done in accordance with a regulation made for the purposes of subsection (1) or (2).
+            - paragraph [ref=e530]: Commencement
+            - paragraph [ref=e531]:
+              - generic [ref=e532]:
+                - text: 5 This Schedule comes into force on the day the
+                - emphasis [ref=e533]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e534]:
+              - generic [ref=e536]:
+                - text: SCHEDULE 2
+                - text: ENDANGERED SPECIES ACT, 2007
+            - paragraph [ref=e537]:
+              - generic [ref=e538]:
+                - text: 1 (1) The English version of paragraph 1 of section 1 of the
+                - emphasis [ref=e539]: Endangered Species Act, 2007
+                - text: is amended by striking out “aboriginal” and substituting “Indigenous”.
+            - paragraph [ref=e540]: "(2) Paragraphs 2 and 3 of section 1 of the Act are repealed and the following substituted:"
+            - paragraph [ref=e541]: 2. To provide for the protection and conservation of species at risk while taking into account social and economic considerations including the need for sustainable economic growth in Ontario.
+            - paragraph [ref=e542]: 2 (1) The definition of “aboriginal person” in subsection 2 (1) of the Act is repealed.
+            - paragraph [ref=e543]: (2) The definition of “enforcement officer” in subsection 2 (1) of the Act is repealed.
+            - paragraph [ref=e544]: "(3) The definition of “habitat” in subsection 2 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e545]: “habitat” means, subject to subsection (3),
+            - paragraph [ref=e546]: (a) in respect of an animal species,
+            - paragraph [ref=e547]: (i) a dwelling-place, such as a den, nest or other similar place, that is occupied or habitually occupied by one or more members of a species for the purposes of breeding, rearing, staging, wintering or hibernating, and
+            - paragraph [ref=e548]: (ii) the area immediately around a dwelling place described in subclause (i) that is essential for the purposes set out in that subclause.
+            - paragraph [ref=e549]: (b) in respect of a vascular plant species, the critical root zone surrounding a member of the species, and
+            - paragraph [ref=e550]: (c) in respect of all other species, an area on which any member of a species directly depends in order to carry on its life processes; (“habitat”)
+            - paragraph [ref=e551]: (4) The definition of “officer in charge” in subsection 2 (1) of the Act is repealed.
+            - paragraph [ref=e552]: (5) The definition of “person” in subsection 2 (1) of the Act is repealed.
+            - paragraph [ref=e553]: "(6) Subsection 2 (1) of the Act is amended by adding the following definition:"
+            - paragraph [ref=e554]: “provincial officer” means a person who is designated by the Minister as a provincial officer for the purposes of this Act and the regulations; (“agent provincial”)
+            - paragraph [ref=e555]: (7) The definition of “recovery strategy” in subsection 2 (1) of the Act is repealed.
+            - paragraph [ref=e556]: "(8) Subsection 2 (1) of the Act is amended by adding the following definitions:"
+            - paragraph [ref=e557]:
+              - generic [ref=e558]:
+                - text: “transition date” means the day Schedule 2 to the
+                - emphasis [ref=e559]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: comes into force; (“date de transition”)
+            - paragraph [ref=e560]: “Tribunal” means the Ontario Land Tribunal; (“Tribunal”)
+            - paragraph [ref=e561]: (9) Subsection 2 (2) of the Act is amended by striking out “clause (b) of”.
+            - paragraph [ref=e562]: "(10) Subsection 2 (3) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e563]: Same, old definition continued
+            - paragraph [ref=e564]: "(3) A reference to “habitat” in any of the following provisions is deemed to be a reference to the definition of “habitat” under subsection (1) as it read immediately before the transition date:"
+            - paragraph [ref=e565]: 1. Any provision of an authorization granted under subsection 9 (5) before the transition date.
+            - paragraph [ref=e566]: 2. Any provision of an agreement entered into under section 16 before the transition date.
+            - paragraph [ref=e567]: 3. Any provision of a permit issued under section 17 or subsection 19 (3) before the transition date.
+            - paragraph [ref=e568]: 4. Any provision of an order made under section 27, 27.1, 28 or 41 before the transition date.
+            - paragraph [ref=e569]: 5. Any provision of this Act in respect of an instrument mentioned in paragraphs 1 to 4, and any amendment made to such an instrument, whether the amendment was made before or after the transition date.
+            - paragraph [ref=e570]: 6. Any provision of this Act as it applies to a person who was granted an authorization mentioned in paragraph 1, who entered into an agreement mentioned in paragraph 2, who was issued a permit mentioned in paragraph 3 or in respect of whom an order mentioned in paragraph 4 was made.
+            - paragraph [ref=e571]: 7. Any provision in a regulation made under clause 55 (1) (c) as it applies to a person if it applied to the person before the transition date.
+            - paragraph [ref=e572]: 8. In respect of Black Ash, any provision of this Act, the regulations or a permit issued under this Act.
+            - paragraph [ref=e573]: Same
+            - paragraph [ref=e574]: (4) For greater certainty, the definition of “habitat” continued under subsection (3) includes any area prescribed for the purpose of clause (a) of that definition in a regulation made under subsection 56 (1) (a) before the transition date.
+            - paragraph [ref=e575]: "3 The Act is amended by adding the following section:"
+            - paragraph [ref=e576]:
+              - generic [ref=e577]: Delegation of powers and duties
+            - paragraph [ref=e578]:
+              - generic [ref=e579]: "2.1"
+              - text: (1) The Minister may authorize the Deputy Minister or any other employee in the Ministry to exercise any power or perform any duty that is granted to or vested in the Minister under this Act.
+            - paragraph [ref=e580]: Limitations
+            - paragraph [ref=e581]: (2) The Minister may limit an authorization made under subsection (1) in such manner as the Minister considers advisable.
+            - paragraph [ref=e582]: "4 (1) Subsections 3 (2) and (3) of the Act are repealed and the following substituted:"
+            - paragraph [ref=e583]: Composition
+            - paragraph [ref=e584]: (2) COSSARO shall be composed of at least 10 members who shall be appointed by the Lieutenant Governor in Council on the recommendation of the Minister.
+            - paragraph [ref=e585]: Chair and vice chair
+            - paragraph [ref=e586]: (3) The Lieutenant Governor in Council shall designate a chair and a vice-chair from among the members of COSSARO.
+            - paragraph [ref=e587]: (2) The English version of clause 3 (4) (b) of the Act is amended by striking out “aboriginal” and substituting “Indigenous”.
+            - paragraph [ref=e588]: (3) Clause 3 (6) (a) of the Act is amended by striking out “subsection 4 (10)” and substituting “subsection 1 (1)”.
+            - paragraph [ref=e589]: 5 (1) Paragraph 1 of subsection 4 (1) of the Act is amended by adding “as extinct, extirpated, endangered, threatened or of special concern” at the end.
+            - paragraph [ref=e590]: (2) Clause 4 (2) (a) of the Act is amended by striking out “has been” at the beginning and substituting “is”.
+            - paragraph [ref=e591]: 6 (1) Subsection 5 (2) of the Act is amended by striking out “shall be deemed to apply” and substituting “applies”.
+            - paragraph [ref=e592]: (2) The English version of subsection 5 (3) of the Act is amended by striking out “aboriginal” and substituting “Indigenous”.
+            - paragraph [ref=e593]: "7 (1) Subsection 6 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e594]: Annual report
+            - paragraph [ref=e595]: (1) Between January 1 and January 31 of each year, COSSARO shall submit an annual report to the Minister that sets out,
+            - paragraph [ref=e596]: (a) the common name and scientific name of each species that COSSARO has classified since its last annual report as extinct, extirpated, endangered, threatened or of special concern; and
+            - paragraph [ref=e597]: (b) the classification of each species described in clause (a) and the reasons for the classification.
+            - paragraph [ref=e598]: "(2) Section 6 of the Act is amended by adding the following subsection:"
+            - paragraph [ref=e599]:
+              - generic [ref=e600]: Time limit
+            - paragraph [ref=e601]: (4) The Minister shall ensure that a COSSARO report received under this section is made available to the public under section 51 not later than 90 days following receipt of the report by the Minister.
+            - paragraph [ref=e602]: "8 Section 7 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e603]: Species at Risk in Ontario List
+            - paragraph [ref=e604]:
+              - generic [ref=e605]: "7"
+              - text: (1) The Lieutenant Governor in Council may make a regulation listing species that are classified by COSSARO as extirpated species, endangered species, threatened species or special concern species.
+            - paragraph [ref=e606]: Deviation from COSSARO classification
+            - paragraph [ref=e607]:
+              - generic [ref=e608]: (2) For greater certainty, a regulation made under subsection (1) is not required to list all of the species classified by COSSARO but, if a species is listed, the classification of the species shall be the same as COSSARO’s classification and shall include any geographic limitation indicated by COSSARO in respect of the species under subsection 5 (2).
+            - paragraph [ref=e609]:
+              - generic [ref=e610]: Effect of removal or down-listing
+            - paragraph [ref=e611]:
+              - text: (3)
+              - generic [ref=e612]: A requirement or condition, in respect of a species, that is set out in a regulation or an instrument listed in subsection (4) ceases to have effect,
+            - paragraph [ref=e613]: (a) if the Lieutenant Governor in Council amends or revokes a regulation made under subsection (1) so as to remove the species from the list of species in the regulation, on the day the species is removed; or
+            - paragraph [ref=e614]: (b) if the Lieutenant Governor in Council amends or revokes a regulation made under subsection (1) so as to change the classification of the species in the regulation from an extirpated species, endangered species or threatened species to a special concern species, on the day the species is reclassified.
+            - paragraph [ref=e615]: Same
+            - paragraph [ref=e616]: "(4) The following are the instruments mentioned in subsection (3):"
+            - paragraph [ref=e617]: 1. An authorization granted under subsection 9 (5) as that subsection read immediately before the transition date.
+            - paragraph [ref=e618]:
+              - generic [ref=e619]: 2. An agreement entered into under section 16 as that section read immediately before the transition date.
+            - paragraph [ref=e620]: 3. A permit issued under section 17.
+            - paragraph [ref=e621]: 4. A permit issued under subsection 19 (3) as that subsection read immediately before the transition date.
+            - paragraph [ref=e622]: 5. An order made under section 26.1, 27, 27.1, 28 or 41.
+            - paragraph [ref=e623]: Contents of regulation
+            - paragraph [ref=e624]: "(5) A regulation made under subsection (1) shall contain the following information for each species:"
+            - paragraph [ref=e625]: 1. The common name and scientific name of the species.
+            - paragraph [ref=e626]: 2. COSSARO’s classification of the species as an extirpated species, endangered species, threatened species or special concern species.
+            - paragraph [ref=e627]: 3. If the classification applies only to a specified geographic area, the area.
+            - paragraph [ref=e628]:
+              - generic [ref=e629]:
+                - text: Notice of proposal,
+                - emphasis [ref=e630]: Environmental Bill of Rights, 1993
+            - paragraph [ref=e631]:
+              - generic [ref=e632]:
+                - text: (6) For greater certainty, if a regulation is proposed to be made under subsection (1), the brief description required in respect of a notice of proposal under section 16 of the
+                - emphasis [ref=e633]: Environmental Bill of Rights, 1993
+                - text: in respect of the regulation shall include each species that is proposed to be listed in the regulation.
+            - paragraph [ref=e634]: 9 (1) Subsections 8 (4) to (4.2) of the Act are repealed.
+            - paragraph [ref=e635]: (2) The English version of subsection 8 (5) of the Act is amended by striking out “he or she” and substituting “the Minister”.
+            - paragraph [ref=e636]: 10 Section 8.1 of the Act is repealed.
+            - paragraph [ref=e637]: "11 (1) Paragraphs 1 to 3 of subsection 8.2 (1) of the Act are repealed and the following substituted:"
+            - paragraph [ref=e638]: 1. A person engaged in an activity under an agreement that was entered into under section 16 before the transition date.
+            - paragraph [ref=e639]: 2. A person engaged in an activity under a permit that was issued under section 17 before the species is so listed.
+            - paragraph [ref=e640]:
+              - generic [ref=e641]: 3. A person engaged in an activity under a permit that was issued under subsection 19 (3) before the transition date.
+            - paragraph [ref=e642]: (2) Subsection 8.2 (2) of the Act is repealed.
+            - paragraph [ref=e643]: (3) Subsection 8.2 (3) of the Act is amended by striking out “Subsections (1) and (2) authorize” at the beginning of the portion before paragraph 1 and substituting “Subsection (1) authorizes”.
+            - paragraph [ref=e644]: "(4) Subsection 8.2 (4) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e645]:
+              - generic [ref=e646]: First time listing
+            - paragraph [ref=e647]: (4) For greater certainty, a reference in this section to a species being listed on the Species at Risk in Ontario List as an endangered or threatened species for the first time is a reference to a species being so listed in circumstances where the species has not been previously listed as either an endangered species or a threatened species.
+            - paragraph [ref=e648]: Same
+            - paragraph [ref=e649]: (5) A reference described in subsection (4) does not include a species if, before the listing, the species, or some members of the species, were classified,
+            - paragraph [ref=e650]: (a) under a different common or scientific name that appeared on the Species at Risk in Ontario List as belonging to an endangered or threatened species; or
+            - paragraph [ref=e651]: (b) as an extinct species or an extirpated species.
+            - paragraph [ref=e652]: 12 (1) Clause 9 (1) (a) of the Act is amended by striking out “harm, harass” and substituting “harm”.
+            - paragraph [ref=e653]: (2) Subsections 9 (1.1) and (1.4) of the Act are repealed.
+            - paragraph [ref=e654]: (3) Subsections 9 (5) and (5.1) of the Act are repealed.
+            - paragraph [ref=e655]: 13 Subsection 10 (3) of the Act is repealed.
+            - paragraph [ref=e656]: 14 Sections 11 to 16.1 of the Act are repealed.
+            - paragraph [ref=e657]: "15 Section 17 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e658]: Permits
+            - paragraph [ref=e659]:
+              - generic [ref=e660]: "17"
+              - text: (1) After considering an application for a permit, the Minister may issue a permit to a person that, with respect to a species specified in the permit that is listed on the Species at Risk in Ontario List as an extirpated, endangered or threatened species, authorizes the person to engage in an activity specified in the permit that would otherwise be prohibited by section 9 or 10.
+            - paragraph [ref=e661]: Additional powers
+            - paragraph [ref=e662]: (2) If the Minister decides not to issue a permit under subsection (1), after considering an application for a permit, the Minister may,
+            - paragraph [ref=e663]: (a) refuse to issue the permit;
+            - paragraph [ref=e664]: (b) amend an existing permit that is in effect and impose, amend or revoke the conditions or expand the scope of the permit;
+            - paragraph [ref=e665]: (c) revoke the permit in whole or in part, with or without issuing a new permit; or
+            - paragraph [ref=e666]: (d) suspend a permit in whole or in part.
+            - paragraph [ref=e667]:
+              - generic [ref=e668]: Conditions
+            - paragraph [ref=e669]: (3) A permit issued under this section shall contain any requirements prescribed by the regulations and may contain such other conditions as the Minister considers appropriate.
+            - paragraph [ref=e670]: Same
+            - paragraph [ref=e671]: (4) Without limiting the generality of subsection (3), conditions in a permit may,
+            - paragraph [ref=e672]: (a) limit the time during which the permit applies;
+            - paragraph [ref=e673]: (b) limit the circumstances in which the permit applies;
+            - paragraph [ref=e674]: (c) require the holder of the permit to take steps specified in the permit, including steps that maybe be required to be taken before engaging in the activity authorized by the permit;
+            - paragraph [ref=e675]: (d) require the holder of the permit to provide security in an amount or in a form sufficient to ensure compliance with the permit;
+            - paragraph [ref=e676]: (e) require the holder of the permit to take steps to ensure that the activity authorized by the permit, and the effects of the activity, are monitored in accordance with the permit;
+            - paragraph [ref=e677]: (f) require the holder of the permit to rehabilitate or restore habitat damaged or destroyed by the activity authorized by the permit, or to provide alternative habitat for the species specified in the permit; or
+            - paragraph [ref=e678]: (g) require the holder of the permit to submit information and reports to the Minister.
+            - paragraph [ref=e679]:
+              - generic [ref=e680]: Minister may require information
+            - paragraph [ref=e681]: (5) The Minister may require a person who applies for a permit to submit any data, reports, documents or other information and to carry out and report on any tests or experiments relating to any activity in respect of which the application is made.
+            - paragraph [ref=e682]: Minister may require consultation
+            - paragraph [ref=e683]: (6) The Minister may require a person who applies for a permit to consult with the persons or entities specified by the Minister, in a manner specified by the Minister, before the Minister makes a decision in respect of the application.
+            - paragraph [ref=e684]: Exercise of powers on Minister’s initiative
+            - paragraph [ref=e685]: (7) The Minister may, on the Minister’s own initiative,
+            - paragraph [ref=e686]: (a) amend or revoke conditions of a permit after it has been issued;
+            - paragraph [ref=e687]: (b) impose new conditions in a permit; or
+            - paragraph [ref=e688]: (c) suspend or revoke all or part of a permit.
+            - paragraph [ref=e689]: Consideration of applications
+            - paragraph [ref=e690]: (8) The Minister is not required to consider an application for a permit that has not been prepared and submitted in accordance with this section.
+            - paragraph [ref=e691]: Non-application of prohibitions
+            - paragraph [ref=e692]: (9) Subject to subsection (10), subsections 9 (1) and 10 (1) do not apply to the holder of a permit issued under subsection (1) of this section with respect to the species and activity specified in the permit.
+            - paragraph [ref=e693]: Same
+            - paragraph [ref=e694]: (10) A permit may specify that one or more of the prohibitions in subsections 9 (1) and 10 (1) continue to apply to the holder of the permit.
+            - paragraph [ref=e695]: Compliance
+            - paragraph [ref=e696]: (11) A person who holds a permit under this section shall comply with the conditions of the permit.
+            - paragraph [ref=e697]: Same
+            - paragraph [ref=e698]: (12) For greater certainty, subsection (9) applies even if a person fails to comply with a condition of a permit.
+            - paragraph [ref=e699]: 16 Sections 18 to 20 of the Act are repealed.
+            - paragraph [ref=e700]: "17 (1) Paragraphs 1 to 5 of subsection 20.3 (1) of the Act are repealed and the following substituted:"
+            - paragraph [ref=e701]: 1. A person who is required to do so under a permit issued under section 17 before the transition date.
+            - paragraph [ref=e702]: 2. A person who is required to do so under a permit issued under subsection 19 (3), before the transition date.
+            - paragraph [ref=e703]: 3. A person who is exempted from all or some of the prohibitions in subsection 9 (1) or 10 (1) by the regulations made under clause 55 (1) (c) and is required to pay the charge as a condition of the exemption set out in the regulations no later than 30 days after the transition date.
+            - paragraph [ref=e704]: "(2) Subsection 20.3 (5) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e705]: Payment of charge
+            - paragraph [ref=e706]: (5) A species conservation charge shall be paid to the Agency at the time and in the manner that may be set by the regulations.
+            - paragraph [ref=e707]: "(3) Section 20.3 of the Act is amended by adding the following subsections:"
+            - paragraph [ref=e708]: Cessation of all payments to Fund
+            - paragraph [ref=e709]:
+              - generic [ref=e710]: (7) Despite anything in this Act or the regulations, the Agency shall not accept any payment of monies described subsection 20.2 (1) on or after the transition date.
+            - paragraph [ref=e711]: Same
+            - paragraph [ref=e712]: (8) Subsection (7) does not apply in respect of monies described in paragraph 1 of subsection 20.2 (1) if the monies are required to be paid on a day that is no later than 30 days after the transition date.
+            - paragraph [ref=e713]: No option to pay charge as condition of exemption
+            - paragraph [ref=e714]: (9) Despite anything in this Act or the regulations, if a condition of an exemption set out in a regulation made under clause 55 (1) (c) relates to the payment of a species conservation charge, the exemption does not apply to a person who has not paid the charge within 30 days after the transition date.
+            - paragraph [ref=e715]: 18 (1) Subsection 20.7 (2) of the Act is amended by striking out “under section 12.1” and substituting “under section 12.1 as that section read immediately before the transition date” in the portion before clause (a).
+            - paragraph [ref=e716]: (2) The English version of clause 20.7 (3) (c) of the Act is amended by striking out “aboriginal” and substituting “Indigenous”.
+            - paragraph [ref=e717]: 19 The English version of subsection 20.18 (2) of the Act is amended by striking out “his or her” and substituting “their”.
+            - paragraph [ref=e718]: "20 The Act is amended by adding the following section:"
+            - paragraph [ref=e719]: Winding up the Agency
+            - paragraph [ref=e720]:
+              - generic [ref=e721]: "20.19"
+              - text: (1) The Minister may, by order, require the board of directors to wind up the affairs of the Agency.
+            - paragraph [ref=e722]: Preparation of plan
+            - paragraph [ref=e723]: (2) If the Minister makes an order under subsection (1), the board of directors shall prepare a proposed plan for winding up the Agency and transferring its assets, liabilities, rights and obligations and shall give the proposed plan to the Minister for approval.
+            - paragraph [ref=e724]: Restriction
+            - paragraph [ref=e725]: (3) The plan for winding up the Agency shall provide for transferring assets, liabilities, rights and obligations to the Crown in right of Ontario.
+            - paragraph [ref=e726]: Implementation
+            - paragraph [ref=e727]: (4) If the Minister approves the proposed plan, the board shall wind up the affairs of the Agency and transfer its assets, liabilities, rights and obligations, including transferring the proceeds from the liquidation of assets, in accordance with the plan.
+            - paragraph [ref=e728]: Species Conservation Account
+            - paragraph [ref=e729]: (5) An account shall be established in the Public Accounts to be known as the Species Conservation Account in English and compte pour la conservation des espèces in French in which shall be recorded an amount equal to the balance in the Fund that is transferred to the Crown in right of Ontario in accordance with the plan for winding up the Agency.
+            - paragraph [ref=e730]: Amount deemed to be paid to Ontario
+            - paragraph [ref=e731]: (6) For the purposes of subsection (5), an amount equal to the balance in the Fund that is transferred to the Crown in right of Ontario in accordance with the plan for winding up the Agency is deemed to be paid to Ontario.
+            - paragraph [ref=e732]: Payment out of the account
+            - paragraph [ref=e733]: (7) Amounts not exceeding the balance in the account may be charged to the Species Conservation Account and paid out of the Consolidated Revenue Fund for the purpose of funding activities that further the purposes of this Act.
+            - paragraph [ref=e734]: Notice
+            - paragraph [ref=e735]: (8) The board shall notify the Minister in writing when it has finished complying with subsection (4).
+            - paragraph [ref=e736]: Dissolution
+            - paragraph [ref=e737]: (9) After the Minister receives the notice under subsection (8), the Lieutenant Governor in Council may, by order, dissolve the Agency.
+            - paragraph [ref=e738]: "21 Section 21 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e739]: Provincial officers
+            - paragraph [ref=e740]:
+              - generic [ref=e741]: "21"
+              - text: The Minister may designate persons or classes of persons as provincial officers, in respect of any provision of this Act or the regulations set out in the designation.
+            - paragraph [ref=e742]: "22 The Act is amended by adding the following section:"
+            - paragraph [ref=e743]:
+              - generic [ref=e745]: Power to require response to inquiries
+            - paragraph [ref=e746]:
+              - generic [ref=e747]: "22.1"
+              - text: (1) For the purposes of determining if a person is in compliance with this Act or the regulations, a provincial officer may, at any reasonable time and with any reasonable assistance, require the person, or any person employed by or providing services to the person, to respond to reasonable inquiries.
+            - paragraph [ref=e748]: Same
+            - paragraph [ref=e749]: (2) For the purposes of subsection (1), a provincial officer may make inquiries by any means of communication.
+            - paragraph [ref=e750]: Production of document
+            - paragraph [ref=e751]: (3) In requiring a person to respond to an inquiry under subsection (1), a provincial officer may require the production of any document or data, in any form, required to be kept under this Act and of any other document or data, in any form, related to the purpose of the inquiry.
+            - paragraph [ref=e752]: Records in electronic form
+            - paragraph [ref=e753]: (4) If a record is retained in electronic form, a provincial officer may require that a copy of it be provided on paper or electronically, or both.
+            - paragraph [ref=e754]: "23 (1) Subsections 23 (1) to (3) of the Act are repealed and the following substituted:"
+            - paragraph [ref=e755]:
+              - generic [ref=e756]: Inspections to determine compliance
+            - paragraph [ref=e757]: "(1) A provincial officer may enter and inspect any land or other place without a warrant for the purpose of determining whether there is compliance with any of the following provisions:"
+            - paragraph [ref=e758]: 1. Subsection 8.2 (3), section 9 or 10, subsection 26 (5) or section 35 or 49.
+            - paragraph [ref=e759]: 2. Any provision of an authorization granted under subsection 9 (5) as that subsection read immediately before the transition date.
+            - paragraph [ref=e760]: 3. Any provision of an agreement entered into under section 16 as that section read immediately before the transition date.
+            - paragraph [ref=e761]: 4. Any provision of a permit issued under section 17.
+            - paragraph [ref=e762]: 5. Any provision of a permit issued under subsection 19 (3) as that subsection read immediately before the transition date.
+            - paragraph [ref=e763]: 6. Any provision of an order made under section 26.1, 27, 27.1, 28 or 41.
+            - paragraph [ref=e764]: 7. Any provision of the regulations.
+            - paragraph [ref=e765]: (2) Subsection 23 (4) of the Act is amended by striking out “Subsections (1), (2) and (3) do” at the beginning and substituting “Subsection (1) does”.
+            - paragraph [ref=e766]: (3) Clause 23 (5) (a) of the Act is amended by striking out “subsection (3)” and substituting “subsection (1)”at the end.
+            - paragraph [ref=e767]: (4) Subsection 23 (6) of the Act is amended by striking out “(1) or”.
+            - paragraph [ref=e768]: (5) Subsection 23 (7) of the Act is amended by striking out “(1) or”.
+            - paragraph [ref=e769]: "24 (1) Subsection 24 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e770]: Inspection of vehicles, boats, aircraft
+            - paragraph [ref=e771]: "(1) A provincial officer may stop a vehicle, boat or aircraft if the officer has reasonable grounds to believe that stopping the vehicle, boat or aircraft would assist in determining whether there is compliance with any of the following provisions:"
+            - paragraph [ref=e772]: 1. Subsection 8.2 (3), section 9 or 10, subsection 26 (5) or section 35 or 49.
+            - paragraph [ref=e773]: 2. Any provision of an authorization granted under subsection 9 (5) as that subsection read immediately before the transition date.
+            - paragraph [ref=e774]: 3. Any provision of an agreement entered into under section 16 as that section read immediately before the transition date.
+            - paragraph [ref=e775]: 4. Any provision of a permit issued under section 17.
+            - paragraph [ref=e776]: 5. Any provision of a permit issued under subsection 19 (3) as that subsections read immediately before the transition date.
+            - paragraph [ref=e777]: 6. Any provision of an order made under section 26.1, 27, 27.1, 28 or 41.
+            - paragraph [ref=e778]: 7. Any provision of the regulations.
+            - paragraph [ref=e779]: (2) The English version of subsection 24 (2) of the Act is amended by striking out “enforcement officer’s” and substituting “provincial officer’s”.
+            - paragraph [ref=e780]: 25 The English version of section 26 of the Act is amended by striking out “he or she” wherever it appears and substituting in each case “the officer”.
+            - paragraph [ref=e781]: "26 The Act amended by adding the following section:"
+            - paragraph [ref=e782]:
+              - generic [ref=e783]: Contravention order
+            - paragraph [ref=e784]:
+              - generic [ref=e785]: "26.1"
+              - text: "(1) A provincial officer may make an order requiring a person to take one or more of the actions set out in subsection (2) within the time and in the manner specified in the order if the provincial officer has reasonable grounds to believe that the person is engaging in an activity, has engaged in an activity or may engage in an activity and, as a result, is contravening, has contravened or may contravene any of the following provisions:"
+            - paragraph [ref=e786]: 1. Any provision of the Act or regulations.
+            - paragraph [ref=e787]: 2. Any provision of an authorization granted under subsection 9 (5) as that subsection read immediately before the transition date.
+            - paragraph [ref=e788]: 3. Any provision of an agreement entered into under section 16 as that section read immediately before the transition date.
+            - paragraph [ref=e789]: 4. Any provision of a permit issued under section 17.
+            - paragraph [ref=e790]: 5. Any provision of a permit issued under subsection 19 (3) as that subsection read immediately before the transition date.
+            - paragraph [ref=e791]: 6. Any provision of an order made under section 26.1, 27, 27.1, 28 or 41.
+            - paragraph [ref=e792]: 7. Any provision of the regulations.
+            - paragraph [ref=e793]: Contents
+            - paragraph [ref=e794]: "(2) The following are the actions mentioned in subsection (1):"
+            - paragraph [ref=e795]: 1. Stop engaging in or not engage in the activity.
+            - paragraph [ref=e796]: 2. Take steps to prevent, mitigate, address or avoid any adverse effect of the activity on the species specified in the order.
+            - paragraph [ref=e797]: 3. Take steps to rehabilitate or restore any area damaged or destroyed by the activity or to provide for alternative habitat.
+            - paragraph [ref=e798]: 4. Engage contractors or consultants satisfactory to the provincial officer to prepare a plan or carry out requirements.
+            - paragraph [ref=e799]: 5. Secure, by means of locks, gates, fences, security guards or other means any land, place, thing or species specified in the order.
+            - paragraph [ref=e800]: 6. Obtain, construct, install or modify the things, devices, equipment or facilities specified in the order at the locations and in the manner specified in the order.
+            - paragraph [ref=e801]: 7. Sample, test, measure, monitor or report in respect of a species specified in the order or its habitat, including describing the presence or status of the species or its habitat.
+            - paragraph [ref=e802]: 8. Take all steps necessary to achieve compliance with the provision.
+            - paragraph [ref=e803]: 9. Prevent the commission, continuation or repetition of the contravention.
+            - paragraph [ref=e804]: 10. Pay a species conservation charge that the person is otherwise required to pay under this Act to the Agency in accordance with section 20.3.
+            - paragraph [ref=e805]: Information to be included in order
+            - paragraph [ref=e806]: (3) The order shall,
+            - paragraph [ref=e807]: (a) specify the provision that the provincial officer believes is being, has been or may be contravened;
+            - paragraph [ref=e808]: (b) identify the species or habitat that the order relates to;
+            - paragraph [ref=e809]: (c) briefly describe the nature of the potential contravention and its location; and
+            - paragraph [ref=e810]: (d) state that a hearing on the order may be required in accordance with section 30.
+            - paragraph [ref=e811]: "27 Section 27 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e812]: Mitigation order
+            - paragraph [ref=e813]:
+              - generic [ref=e814]: "27"
+              - text: "(1) The Minister may issue an order described in subsection (2) to a person who is authorized under the following provisions to carry out an activity that would otherwise be prohibited by section 9 or 10 in respect of a species or to a person who is exempt from those prohibitions under a regulation in respect of a species:"
+            - paragraph [ref=e815]: 1. Section 16 as that section read immediately before the transition date.
+            - paragraph [ref=e816]: 2. Section 17.
+            - paragraph [ref=e817]: 3. Subsection 19 (3) as that subsection read immediately before the transition date.
+            - paragraph [ref=e818]: Contents
+            - paragraph [ref=e819]: "(2) The order shall require a person mentioned in subsection (1) to take one or more of the following actions within the time and in the manner specified in the order if the Minister has reasonable grounds to believe that the actions are necessary or advisable to mitigate any potential adverse effect on the species or its habitat resulting from the activity:"
+            - paragraph [ref=e820]: 1. Engage contractors or consultants satisfactory to the Minister or a provincial officer to prepare a plan or carry out requirements.
+            - paragraph [ref=e821]: 2. Secure, by means of locks, gates, fences, security guards or other means any land, place, thing or species specified in the order.
+            - paragraph [ref=e822]: 3. Obtain, construct, install or modify the things, devices, equipment or facilities specified in the order at the locations and in the manner specified in the order.
+            - paragraph [ref=e823]: 4. Sample, test, measure, monitor or report in respect of a species specified in the order or its habitat, including describing the presence or status of the species or its habitat.
+            - paragraph [ref=e824]: 5. Prevent, mitigate, address or avoid any adverse effect on a species specified in the order or its habitat, including action to rehabilitate or restore any habitat damaged or destroyed or to provide for alternative habitat.
+            - paragraph [ref=e825]: 6. Study, monitor or report on any adverse effect on a species specified in the order or its habitat or the effectiveness of any of the requirements in the order to prevent, mitigate or remedy any adverse effect.
+            - paragraph [ref=e826]: 7. Any other action specified in the order necessary to mitigate any adverse effect on a species specified in the order or its habitat.
+            - paragraph [ref=e827]: Information to be included in order
+            - paragraph [ref=e828]: (3) The order shall,
+            - paragraph [ref=e829]: (a) identify the species or habitat that the order relates to;
+            - paragraph [ref=e830]: (b) briefly describe the reasons for the order and the circumstances on which the reasons are based, including the nature of the activity and the effect of the activity on the species or its habitat; and
+            - paragraph [ref=e831]: (c) state that a hearing on the order may be required in accordance with section 30.
+            - paragraph [ref=e832]: "28 (1) Subsection 27.1 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e833]:
+              - generic [ref=e835]: Species Protection Order
+            - paragraph [ref=e836]: "(1) The Minister may make an order described in subsection (2) if the Minister has reasonable grounds to believe that a person is engaging in or is about to engage in an activity that has or is about to have a significant adverse effect on a species and either of the following criteria are satisfied:"
+            - paragraph [ref=e837]:
+              - generic [ref=e838]: 1. The species is listed on the Species at Risk in Ontario List as an endangered or threatened species, a regulation under clause 55 (1) (c) provides that one or more of the prohibitions in subsection 9 (1) do not apply with respect to the species and, as a result of the regulation, section 9 will not prevent the person from engaging in the activity.
+            - paragraph [ref=e839]: 2. The species is not listed on the Species at Risk in Ontario List as an extirpated, endangered or threatened species and the Minister has received a report from COSSARO classifying or reclassifying the species as an extirpated, endangered or threatened species.
+            - paragraph [ref=e840]: (2) Paragraph 3 of subsection 27.1 (2) of the Act is amended by striking out “take steps set out in the order” and substituting “take steps set out in the order within the time and in the manner specified in the order”.
+            - paragraph [ref=e841]: "29 (1) Subsection 28 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e842]: Habitat protection order
+            - paragraph [ref=e843]: "(1) The Minister may make an order described in subsection (2) if the Minister has reasonable grounds to believe that a person is engaging in or is about to engage in an activity that is destroying or seriously damaging or is about to destroy or seriously damage any of the following:"
+            - paragraph [ref=e844]: "1. The habitat for a species and any of the following criteria are satisfied:"
+            - paragraph [ref=e845]: i. The species is listed on the Species at Risk in Ontario List as an extirpated species and no regulation is in force that prescribes the species for the purpose of clause 10 (1) (b).
+            - paragraph [ref=e846]: ii. The species is not listed on the Species at Risk in Ontario List as an extirpated, endangered or threatened species and the Minister has received a report from COSSARO classifying or reclassifying the species as an extirpated, endangered or threatened species.
+            - paragraph [ref=e847]: iii. The species is listed on the Species at Risk in Ontario List as an endangered or threatened species, a regulation under clause 55 (1) (c) provides that one or more of the prohibitions in subsection 10 (1) do not apply with respect to the species and, as a result of the regulation, section 10 will not prevent the person from engaging in the activity.
+            - paragraph [ref=e848]: 2. An area that does not meet the definition of “habitat” in subsection 2 (1) but is an area on which a member of a species listed on the Species at Risk in Ontario List directly depends in order to carry on its life processes.
+            - paragraph [ref=e849]: 3. An area that would otherwise be habitat for a member of a species listed on the Species at Risk in Ontario List but for a regulation made under clause 55 (1) (b) that limits the definition of “habitat” in respect of the species.
+            - paragraph [ref=e850]: "(2) Paragraph 3 of subsection 28 (2) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e851]: 3. An order directing the person to take steps set out in the order within the time and in the manner specified in the order to rehabilitate or restore any area damaged or destroyed by the activity or to provide for alternative habitat.
+            - paragraph [ref=e852]: (3) Clause 28 (3) (a) of the Act is amended by striking out “the species” and substituting “the species and the habitat”.
+            - paragraph [ref=e853]: "30 (1) Subsection 29 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e854]:
+              - generic [ref=e855]: Service of order
+            - paragraph [ref=e856]: (1) An order under section 26.1, 27, 27.1 or 28 shall be served,
+            - paragraph [ref=e857]: (a) personally;
+            - paragraph [ref=e858]: (b) by mail addressed to the person against whom the order is made at the person’s last known address; or
+            - paragraph [ref=e859]: (c) in accordance with the regulations, if any.
+            - paragraph [ref=e860]: (2) Subsection 29 (2) of the Act is amended by striking out “registered”.
+            - paragraph [ref=e861]: (3) Subsection 29 (3) of the Act is amended by striking out “section 27” and substituting “section 26.1, 27”.
+            - paragraph [ref=e862]: "31 Section 30 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e863]: Appeals
+            - paragraph [ref=e864]: Appeal of permit or order
+            - paragraph [ref=e865]:
+              - generic [ref=e866]:
+                - generic [ref=e867]: "30"
+                - text: (1) A person may require a hearing by the Tribunal if,
+            - paragraph [ref=e868]: (a) the Minister issues or refuses to issue a permit to the person or amends or revokes such a permit; or
+            - paragraph [ref=e869]: (b) the Minister or a provincial officer issues an order to the person or amends such an order.
+            - paragraph [ref=e870]: Same
+            - paragraph [ref=e871]: (2) The person may require the hearing by written notice served on the Minister or provincial officer, as applicable, and on the Tribunal, within 15 days after the action in respect of the permit is taken or the person is served with the order.
+            - paragraph [ref=e872]: Failure or refusal to issue, etc.
+            - paragraph [ref=e873]: (3) Failure or refusal to make, amend or revoke an order is not itself an order.
+            - paragraph [ref=e874]: Extension of time for requiring hearing
+            - paragraph [ref=e875]:
+              - generic [ref=e876]: "30.1"
+              - text: The Tribunal shall extend the time in which a person may give a notice under section 30 requiring a hearing on a permit or an order if, in the Tribunal’s opinion, it is just to do so because the person establishes that they, acting in good faith, did not receive notice of the permit or order or received it on a later date because of a reason beyond the person’s control, including absence, accident, disability or illness.
+            - paragraph [ref=e877]: Contents of notice requiring hearing
+            - paragraph [ref=e878]:
+              - generic [ref=e879]: "30.2"
+              - text: (1) An applicant for a hearing by the Tribunal shall state in the notice requiring the hearing,
+            - paragraph [ref=e880]: (a) the portions of the permit or order in respect of which the hearing is required; and
+            - paragraph [ref=e881]: (b) the grounds on which the applicant intends to rely at the hearing.
+            - paragraph [ref=e882]: Effect of contents of notice
+            - paragraph [ref=e883]: (2) Except with leave of the Tribunal, at a hearing by the Tribunal, an applicant is not entitled to appeal a portion of the permit or order, or to rely on a ground, that is not stated in the applicant’s notice requiring the hearing.
+            - paragraph [ref=e884]: Leave by Tribunal
+            - paragraph [ref=e885]: (3) The Tribunal may grant the leave referred to in subsection (2) if the Tribunal is of the opinion that to do so is proper in the circumstances, and it may give such directions as it considers proper consequent on the granting of the leave.
+            - paragraph [ref=e886]: No stay on appeal
+            - paragraph [ref=e887]:
+              - generic [ref=e888]: "30.3"
+              - text: (1) The commencement of a proceeding before the Tribunal does not stay the operation of the portions of a permit or an order under appeal unless the Tribunal orders otherwise.
+            - paragraph [ref=e889]: Tribunal may grant stay
+            - paragraph [ref=e890]: (2) The Tribunal may, on the application of a party to a proceeding before it, stay the operation of the portions of a permit or an order described in subsection (1).
+            - paragraph [ref=e891]: "Right to apply to remove stay: new circumstances"
+            - paragraph [ref=e892]: (3) A party to a proceeding may apply for the removal of a stay that was granted under subsection (2) if relevant circumstances have changed or have become known to the party since the stay was granted, and the Tribunal may grant the application.
+            - paragraph [ref=e893]: "Right to apply to remove stay: new party"
+            - paragraph [ref=e894]: (4) A person who is made a party to a proceeding after a stay is granted under subsection (2) may, at the time the person is made a party, apply for the removal of the stay, and the Tribunal may grant the application.
+            - paragraph [ref=e895]: Parties
+            - paragraph [ref=e896]:
+              - generic [ref=e897]: "30.4"
+              - text: "The following persons are parties to the proceeding:"
+            - paragraph [ref=e898]: 1. The person requiring the hearing.
+            - paragraph [ref=e899]: 2. The provincial officer, if the officer issued the order being appealed.
+            - paragraph [ref=e900]: 3. The Minister, if the Minister issued the permit or order being appealed.
+            - paragraph [ref=e901]: 4. Any other person specified by the Tribunal.
+            - paragraph [ref=e902]: Powers of Tribunal
+            - paragraph [ref=e903]:
+              - generic [ref=e904]: "30.5"
+              - text: A hearing by the Tribunal shall be a new hearing and the Tribunal may confirm, amend or revoke the action of the Minister or the provincial officer that is the subject matter of the hearing and, for such purposes, the Tribunal may substitute its opinion for that of the Minister or provincial officer, as applicable.
+            - paragraph [ref=e905]: Appeals from Tribunal
+            - paragraph [ref=e906]:
+              - generic [ref=e907]: "30.6"
+              - text: (1) Any party to a hearing before the Tribunal under this Act may appeal from its decision on a question of law to the Divisional Court, with leave of the Divisional Court, in accordance with the rules of court.
+            - paragraph [ref=e908]: Decision of Tribunal not automatically stayed on appeal
+            - paragraph [ref=e909]: (2) An appeal of a decision of the Tribunal to the Divisional Court under this section does not stay the operation of the decision, unless the Tribunal orders otherwise.
+            - paragraph [ref=e910]: Divisional Court may grant or set aside stay
+            - paragraph [ref=e911]: (3) If a decision of the Tribunal is appealed to the Divisional Court under this section, the Divisional Court may,
+            - paragraph [ref=e912]: (a) stay the operation of the decision; or
+            - paragraph [ref=e913]: (b) set aside a stay ordered by the Tribunal under subsection (2).
+            - paragraph [ref=e914]: 32 Section 31 of the Act is repealed.
+            - paragraph [ref=e915]: "33 Section 32 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e916]: Necessary force
+            - paragraph [ref=e917]:
+              - generic [ref=e918]: "32"
+              - text: A provincial officer may use whatever force is reasonably necessary to exercise any of their powers under this Act.
+            - paragraph [ref=e919]: "34 Section 35 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e920]:
+              - generic [ref=e921]: Compliance with investigations, etc.
+            - paragraph [ref=e922]: Obstruction
+            - paragraph [ref=e923]:
+              - generic [ref=e924]: "35"
+              - text: (1) No person shall hinder or obstruct any provincial officer or any employee in or agent of the Ministry in the performance of their duties under this Act.
+            - paragraph [ref=e925]: False information
+            - paragraph [ref=e926]: (2) No person shall orally, in writing or electronically give or submit false or misleading information in any statement, document or data, to any provincial officer, the Minister, the Ministry, any employee in or agent of the Ministry or any person involved in carrying out a program of the Ministry in respect of any matter related to this Act or the regulations.
+            - paragraph [ref=e927]: Same
+            - paragraph [ref=e928]: (3) No person shall include false or misleading information in any document or data required to be created, stored or submitted under this Act or the regulations.
+            - paragraph [ref=e929]: Refusal to provide information
+            - paragraph [ref=e930]: (4) No person shall refuse to provide any provincial officer, the Minister, the Ministry or any employee in or agent of the Ministry with information required for the purposes of this Act and the regulations.
+            - paragraph [ref=e931]: "35 Subsection 36 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e932]:
+              - generic [ref=e933]: Offences
+            - paragraph [ref=e934]: "(1) A person is guilty of an offence if the person contravenes any of the following provisions:"
+            - paragraph [ref=e935]: 1. Subsection 9 (1) or 10 (1), section 22.1, subsection 24 (2) or 26 (5), section 35, or subsection 49 (1) or (2).
+            - paragraph [ref=e936]: 2. Any provision of an authorization granted under subsection 9 (5) as that subsection read immediately before the transition date.
+            - paragraph [ref=e937]: 3. Any provision of an agreement entered into under section 16 as that section read immediately before the transition date.
+            - paragraph [ref=e938]: 4. Any provision of a permit issued under section 17.
+            - paragraph [ref=e939]: 5. Any provision of a permit issued under subsection 19 (3) as that subsection read immediately before the transition date.
+            - paragraph [ref=e940]: 6. Any provision of an order made under section 26.1, 27, 27.1, 28 or 41.
+            - paragraph [ref=e941]: 7. Any provision of the regulations.
+            - paragraph [ref=e942]: 36 (1) Paragraph 2 of subsection 41 (1) of the Act is amended by adding “or to provide for alternative habitat” at the end.
+            - paragraph [ref=e943]: (2) Paragraph 4 of subsection 41 (1) of the Act is amended by striking out “recovery” and substituting “conservation”.
+            - paragraph [ref=e944]: (3) The English version of subsection 41 (3) of the Act is amended by striking out “he or she” and substituting “the Minister”.
+            - paragraph [ref=e945]: 37 (1) Subsection 47 (1) of the Act is amended by,
+            - paragraph [ref=e946]: (a) striking out “Species at Risk in Ontario Stewardship Program” and substituting “Species Conservation Program”; and
+            - paragraph [ref=e947]: (b) striking out “Programme d’intendance des espèces en péril en Ontario” and substituting “Programme de conservation des espèces”.
+            - paragraph [ref=e948]: (2) Subsection 47 (2) of the Act is amended by,
+            - paragraph [ref=e949]: (a) striking out “listed on the Species at Risk in Ontario List” in the portion before clause (a); and
+            - paragraph [ref=e950]: (b) striking out “stewardship” wherever it appears and substituting in each case “conservation”.
+            - paragraph [ref=e951]: (3) Clause 47 (2) (b) of the Act is repealed.
+            - paragraph [ref=e952]: (4) Clause 47 (2) (d) of the Act is amended by striking out “recovery” and substituting “conservation”.
+            - paragraph [ref=e953]: 38 Section 48 of the Act is repealed.
+            - paragraph [ref=e954]: 39 Paragraphs 4 to 7 of subsection 51 (1) of the Act are repealed.
+            - paragraph [ref=e955]: 40 Subsection 49 (3) of the Act is amended by striking out “that are extirpated” and substituting “that are identified under the applicable law as extirpated”.
+            - paragraph [ref=e956]: "41 The Act is amended by adding the following section:"
+            - paragraph [ref=e957]:
+              - generic [ref=e958]: Act of officer, etc.
+            - paragraph [ref=e959]:
+              - generic [ref=e960]: "53.1"
+              - text: For the purposes of this Act and the regulations, an act or thing done or omitted to be done by an officer, official, employee or agent of a corporation in the course of their employment or in the exercise of their powers or the performance of their duties is deemed to be also an act or thing done or omitted to be done by the corporation.
+            - paragraph [ref=e961]: 42 Subsection 54 (2) of the Act is amended by striking out “protection or recovery of species listed on the Species at Risk in Ontario List” at the end and substituting “protection or conservation of species listed on the Species at Risk in Ontario List”.
+            - paragraph [ref=e962]: 43 (1) Subsection 55 (1) of the Act is amended by striking out “Subject to section 57” at the beginning of the portion before clause (a).
+            - paragraph [ref=e963]: "(2) Clauses 55 (1) (a) to (e) of the Act are repealed and the following substituted:"
+            - paragraph [ref=e964]:
+              - generic [ref=e965]: (a) defining “adverse effect”, “alternative habitat”, “in the wild” and “significant adverse effect” for the purposes of this Act and the regulations;
+            - paragraph [ref=e966]: (b) limiting the application of “habitat” as defined in subsection 2 (1) in respect of one or more specified species;
+            - paragraph [ref=e967]: (c) exempting any person from one or more of the prohibitions listed in subsection 9 (1) or 10 (1), and making such exemptions subject to conditions or restrictions;
+            - paragraph [ref=e968]: "(3) Subsection 55 (1) of the Act is amended by adding the following clause:"
+            - paragraph [ref=e969]:
+              - generic [ref=e970]: (h.1) providing for the method of service of any document given or served under this Act;
+            - paragraph [ref=e971]: (4) Subsection 55 (2) of the Act is amended by striking out “clause (1) (b)” in the portion before clause (a) and substituting “clause (1) (c)”.
+            - paragraph [ref=e972]: "(5) Subsection 55 (2) of the Act is amended by adding the following clause:"
+            - paragraph [ref=e973]: (c.1) establish a Registry and require persons to register in respect of exemptions;
+            - paragraph [ref=e974]: "(6) Subsection 55 (3) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e975]:
+              - generic [ref=e976]: Transition
+            - paragraph [ref=e977]: (3) The Lieutenant Governor in Council may make regulations with respect to any transitional matters resulting from,
+            - paragraph [ref=e978]:
+              - generic [ref=e979]:
+                - text: (a) the enactment of Schedule 5 to the
+                - emphasis [ref=e980]: More Homes, More Choice Act, 2019
+                - text: ; or
+            - paragraph [ref=e981]:
+              - generic [ref=e982]:
+                - text: (b) the enactment of Schedule 2 to the
+                - emphasis [ref=e983]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: .
+            - paragraph [ref=e984]: 44 (1) Subsection 56 (1) of the Act is amended by striking out “Subject to subsection 57” at the beginning of the portion before clause (a).
+            - paragraph [ref=e985]:
+              - generic [ref=e986]: "(2) Clauses 56 (1) (a) to (c) of the Act are repealed and the following substituted:"
+            - paragraph [ref=e987]:
+              - generic [ref=e988]: (a) prescribing species for the purpose of clause 10 (1) (b);
+            - paragraph [ref=e989]: (b) prescribing requirements for the purposes of subsection 17 (3);
+            - paragraph [ref=e990]: (3) Subsections 56 (2) and (3) of the Act are repealed.
+            - paragraph [ref=e991]: 45 Section 57 of the Act is repealed.
+            - paragraph [ref=e992]: "46 The Act is amended by adding the following section:"
+            - paragraph [ref=e993]: Transition
+            - paragraph [ref=e994]:
+              - generic [ref=e995]: "59"
+              - text: "(1) The following instruments are continued:"
+            - paragraph [ref=e996]: 1. An authorization granted under subsection 9 (5) before the transition date.
+            - paragraph [ref=e997]: 2. An agreement entered into under section 16 or 16.1 or subsection 19 (1) before the transition date.
+            - paragraph [ref=e998]: 3. A permit issued under subsection 19 (3) before the transition date.
+            - paragraph [ref=e999]: 4. An order issued under section 27, 27.1 or 28 before the transition date.
+            - paragraph [ref=e1000]: (2) The following provisions, as they read immediately before the transition date, continue in respect of an instrument described in subsection (1).
+            - paragraph [ref=e1001]: 1. Subsections 9 (5) and (5.1).
+            - paragraph [ref=e1002]: 2. Sections 16, 16.1 and 19.
+            - paragraph [ref=e1003]: 3. Sections 27, 27.1 and 28.
+            - paragraph [ref=e1004]: 47 Schedules 1 to 5 to the Act are repealed.
+            - paragraph [ref=e1005]: 48 The Act is amended by,
+            - paragraph [ref=e1006]: (a) striking out “an enforcement officer” wherever it appears and substituting in each case “a provincial officer”; and
+            - paragraph [ref=e1007]: (b) striking out “the enforcement officer” wherever it appears and substituting in each case “the provincial officer”.
+            - paragraph [ref=e1008]: Commencement
+            - paragraph [ref=e1009]:
+              - text: 49 This Schedule comes into force on the day the
+              - emphasis [ref=e1010]: Protect Ontario by Unleashing our Economy Act, 2025
+              - text: receives Royal Assent.
+            - paragraph [ref=e1011]:
+              - generic [ref=e1013]:
+                - text: SCHEDULE 3
+                - text: ENVIRONMENTAL ASSESSMENT ACT
+            - paragraph [ref=e1014]:
+              - text: 1 (1)
+              - generic [ref=e1015]:
+                - text: The
+                - emphasis [ref=e1016]: Environmental Assessment Act
+                - text: "is amended by adding the following section:"
+            - paragraph [ref=e1017]: Eagle’s Nest
+            - paragraph [ref=e1018]: Definitions
+            - paragraph [ref=e1019]:
+              - generic [ref=e1020]: 3.0.2
+              - text: (1) In this section,
+            - paragraph [ref=e1021]:
+              - generic [ref=e1022]: “Eagle’s Nest Agreement” means the agreement entered into under section 3.0.1 between the Minister of the Environment and Noront Resources Ltd., its agents, successors and assigns, having an effective date of September 9, 2011 and available on a website of the Government of Ontario, concerning various enterprises or activities for or related to the proposed Eagle’s Nest multi-metal mine in Northern Ontario near McFaulds Lake; (“entente Eagle’s Nest”)
+            - paragraph [ref=e1023]: “Eagle’s Nest Approval” means the approval, issued on June 18, 2015 under subsection 6 (4) as that subsection read on that date and available on a website of the Government of Ontario, of terms of reference for the preparation of an environmental assessment concerning various enterprises or activities for or related to the proposed Eagle’s Nest multi-metal mine in Northern Ontario near McFaulds Lake. (“approbation Eagle’s Nest”)
+            - paragraph [ref=e1024]: Termination
+            - paragraph [ref=e1025]: (2) The Eagle’s Nest Agreement is terminated.
+            - paragraph [ref=e1026]: Non-application of s. 3.0.1. (4)
+            - paragraph [ref=e1027]: (3) Subsection 3.0.1 (4) does not apply in respect of any enterprise or activity described in the Eagle’s Nest Agreement.
+            - paragraph [ref=e1028]: Non-application of regulation
+            - paragraph [ref=e1029]: (4) Section 5 of Ontario Regulation 53/24 (General and Transitional Matters) made under the Act does not apply to the enterprises or activities described in the Eagle’s Nest Agreement.
+            - paragraph [ref=e1030]: Revocation
+            - paragraph [ref=e1031]: (5) The Eagle’s Nest Approval is revoked.
+            - paragraph [ref=e1032]: (2) Section 3.0.2 of the Act, as enacted by subsection (1), is repealed.
+            - paragraph [ref=e1033]: "2 (1) The Act is amended by adding the following section:"
+            - paragraph [ref=e1034]: Exemption, Chatham-Kent Waste Disposal Site
+            - paragraph [ref=e1035]: Definitions
+            - paragraph [ref=e1036]:
+              - generic [ref=e1037]: 17.28.1
+              - text: (1) In this section,
+            - paragraph [ref=e1038]: “designated activities” means the activities that are designated by Ontario Regulation 50/24 (Part II.3 Projects – Designations and Exemptions) made under the Act as a project to which Part II.3 applies; (“activités désignées”)
+            - paragraph [ref=e1039]: “waste disposal site activities” means the activities designated under section 2 of Ontario Regulation 284/24 (Designation – Chatham-Kent Waste Disposal Site) made under the Act as it read immediately before it was revoked. (“activités au lieu d’élimination des déchets”)
+            - paragraph [ref=e1040]: Exemption re Part II.3
+            - paragraph [ref=e1041]: (2) Any waste disposal site activities that are designated activities are exempt from Part II.3.
+            - paragraph [ref=e1042]: (2) Section 17.28.1 of the Act, as enacted by subsection (1), is repealed.
+            - paragraph [ref=e1043]: Revocation of O. Reg. 284/24
+            - paragraph [ref=e1044]: 3 Ontario Regulation 284/24 is revoked.
+            - paragraph [ref=e1045]: Commencement
+            - paragraph [ref=e1046]:
+              - generic [ref=e1047]:
+                - text: 4 (1) Except as otherwise provided for in this section, this Schedule comes into force on the day the
+                - emphasis [ref=e1048]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e1049]: (2) Subsections 1 (2) and 2 (2) come into force on a day to be named by order of the Lieutenant Governor in Council.
+            - paragraph [ref=e1050]:
+              - generic [ref=e1052]:
+                - text: SCHEDULE 4
+                - text: ENVIRONMENTAL PROTECTION ACT
+            - paragraph [ref=e1053]:
+              - generic [ref=e1054]:
+                - text: 1 Section 179.1 of the
+                - emphasis [ref=e1055]: Environmental Protection Act
+                - text: "is amended by adding the following subsections:"
+            - paragraph [ref=e1056]: Minister’s requirement document, revocation
+            - paragraph [ref=e1057]: (2) The document signed by the Minister under subsection (1) for the purpose of establishing and requiring fees, titled “Minister’s requirement for fees with Environmental Activity & Sector Registry”, available on a website of the Government of Ontario and dated January 12, 2017, is revoked.
+            - paragraph [ref=e1058]: Refunds, Part II.2 registrations
+            - paragraph [ref=e1059]: (3) If a fee was paid pursuant to the requirements of the document mentioned in subsection (2) before the transition date and the registration in respect of which the fee was paid is removed from the Registry under section 20.23, the Minister may refund the full amount of the fee.
+            - paragraph [ref=e1060]: Same
+            - paragraph [ref=e1061]: (4) The Minister may refund a fee referred to in subsection (3) regardless of whether the registration was removed from the Registry before, after or on the transition date.
+            - paragraph [ref=e1062]: Definitions
+            - paragraph [ref=e1063]: (5) For the purposes of subsections (3) and (4),
+            - paragraph [ref=e1064]: “registration” and “Registry” have the same meanings as in Part II.2; (“enregistrement”, “Registre”)
+            - paragraph [ref=e1065]:
+              - generic [ref=e1066]:
+                - text: “transition date” means the day section 1 of Schedule 4 to the
+                - emphasis [ref=e1067]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: comes into force. (“date de transition”)
+            - paragraph [ref=e1068]: Commencement
+            - paragraph [ref=e1069]:
+              - generic [ref=e1070]:
+                - text: 2 This Schedule comes into force on the day the
+                - emphasis [ref=e1071]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e1072]:
+              - generic [ref=e1074]:
+                - text: SCHEDULE 5
+                - text: MINING ACT
+            - paragraph [ref=e1075]:
+              - generic [ref=e1076]:
+                - text: 1 The
+                - emphasis [ref=e1077]: Mining Act
+                - text: is amended by,
+            - paragraph [ref=e1078]: (a) striking out “employee of the Ministry” wherever it appears and substituting in each case “employee in the Ministry”; and
+            - paragraph [ref=e1079]: (b) striking out “employees of the Ministry” wherever it appears and substituting in each case “employees in the Ministry”.
+            - paragraph [ref=e1080]: 2 Section 2 of the Act is amended by striking out “mineral resources, in a manner consistent” and substituting “mineral resources to a degree that is consistent with the protection of Ontario’s economy and in a manner consistent”.
+            - paragraph [ref=e1081]: "3 Section 4.1 of the Act is amended by adding the following subsections:"
+            - paragraph [ref=e1082]: Order to suspend mining lands administration system
+            - paragraph [ref=e1083]:
+              - generic [ref=e1084]:
+                - text: (8) Despite the
+                - emphasis [ref=e1085]: Statutory Powers Procedure Act
+                - text: ", the Minister may, without prior notice or hearing, make an order suspending the operation of some or all functions of the mining lands administration system, if, in the Minister’s opinion, the order is desirable for the protection of the strategic national mineral supply chain."
+            - paragraph [ref=e1086]: Factors to consider
+            - paragraph [ref=e1087]: "(9) In making a determination for the purposes of subsection (8), the Minister shall consider the following factors:"
+            - paragraph [ref=e1088]: 1. Any risk assessment provided by the Ministry of the Solicitor General.
+            - paragraph [ref=e1089]: 2. The economic interests of Ontario.
+            - paragraph [ref=e1090]: 3. Any prescribed factors.
+            - paragraph [ref=e1091]: Duration of order
+            - paragraph [ref=e1092]: (10) An order made under subsection (8) expires 10 days after the day it is made unless the Minister revokes the order at an earlier time.
+            - paragraph [ref=e1093]:
+              - generic [ref=e1094]: Extension of order
+            - paragraph [ref=e1095]:
+              - generic [ref=e1096]:
+                - text: (11) Despite the
+                - emphasis [ref=e1097]: Statutory Powers Procedure Act
+                - text: ", the Minister may, without prior notice or hearing, make an order extending an order made under subsection (8) by an additional period specified in the order made under this subsection if, in the Minister’s opinion, the order made under subsection (8) will remain desirable for the protection of the strategic national mineral supply chain for the specified period."
+            - paragraph [ref=e1098]: Publication of order
+            - paragraph [ref=e1099]: (12) The Minister shall ensure an order made under subsection (8) or (11) is published on a website of the Government of Ontario as soon as possible.
+            - paragraph [ref=e1100]: Order not regulation
+            - paragraph [ref=e1101]:
+              - generic [ref=e1102]:
+                - text: (13) For greater certainty, Part III (Regulations) of the
+                - emphasis [ref=e1103]: Legislation Act, 2006
+                - text: does not apply with respect to an order made under subsection (8) or (11).
+            - paragraph [ref=e1104]: No compensation payable
+            - paragraph [ref=e1105]: (14) No person is entitled to any compensation or any other remedy or relief for any suspension of the operation of some or all functions of the mining lands administration system under this section.
+            - paragraph [ref=e1106]: "4 Part I of the Act is amended by adding the following section:"
+            - paragraph [ref=e1107]: Orders to protect mineral supply chain
+            - paragraph [ref=e1108]:
+              - generic [ref=e1109]: "26.1"
+              - generic [ref=e1110]:
+                - text: (1) Despite the
+                - emphasis [ref=e1111]: Statutory Powers Procedure Act
+                - text: ", the Minister may, without prior notice or hearing, make one or more of the following orders if, in the Minister’s opinion, the order is desirable for the protection of the strategic national mineral supply chain:"
+            - paragraph [ref=e1112]: 1. An order that the account of a mining lands administration system user be suspended or restricted for such period as is specified in the order or be terminated.
+            - paragraph [ref=e1113]: 2. An order prohibiting a person from registering as a user on the mining lands administration system.
+            - paragraph [ref=e1114]: 3. An order prohibiting a person from obtaining a prospector’s licence.
+            - paragraph [ref=e1115]: 4. An order terminating a prospector’s licence.
+            - paragraph [ref=e1116]: Factors to consider
+            - paragraph [ref=e1117]: "(2) In making a determination for the purposes of subsection (1), the Minister shall consider the following factors:"
+            - paragraph [ref=e1118]: 1. Any risk assessment provided by the Ministry of the Solicitor General.
+            - paragraph [ref=e1119]: 2. The economic interests of Ontario.
+            - paragraph [ref=e1120]: 3. Any prescribed factors.
+            - paragraph [ref=e1121]: Deemed suspension
+            - paragraph [ref=e1122]: (3) In the case of an order made under paragraph 1 of subsection (1) in respect of a user who is a licensee, the license is deemed to be suspended and all mining claims associated with the user are restricted from transfer for the duration of the period of suspension or restriction specified in the order.
+            - paragraph [ref=e1123]: Terms and conditions
+            - paragraph [ref=e1124]: (4) An order under this section may be subject to such terms and conditions as may be imposed by the Minister.
+            - paragraph [ref=e1125]: No compensation payable
+            - paragraph [ref=e1126]: (5) No person is entitled to any compensation or any other remedy or relief for any suspension, restriction, prohibition, termination or imposition of terms and conditions in respect of an account, registration or licence under this section.
+            - paragraph [ref=e1127]: 5 The French version of subsection 78 (1) of the Act is amended by striking out “employés du ministère” and substituting “une ou plusieurs personnes employées au ministère”.
+            - paragraph [ref=e1128]: "6 (1) Section 81 of the Act is amended by adding the following subsections:"
+            - paragraph [ref=e1129]: Exception
+            - paragraph [ref=e1130]:
+              - generic [ref=e1131]:
+                - text: (1.1) Despite subsection (1), and despite the
+                - emphasis [ref=e1132]: Statutory Powers Procedure Act
+                - text: ", the Minister may, without prior notice or hearing, deny the issuance of a lease if the Minister considers denying the lease desirable for the protection of the strategic national mineral supply chain."
+            - paragraph [ref=e1133]: Factors to consider
+            - paragraph [ref=e1134]: "(1.2) In making a determination for the purposes of subsection (1.1), the Minister shall consider the following factors:"
+            - paragraph [ref=e1135]: 1. Any risk assessment provided by the Ministry of the Solicitor General.
+            - paragraph [ref=e1136]: 2. The economic interests of Ontario.
+            - paragraph [ref=e1137]: 3. Any prescribed factors.
+            - paragraph [ref=e1138]: No compensation payable
+            - paragraph [ref=e1139]: (1.3) No person is entitled to any compensation or any other remedy or relief for the denial of a lease under subsection (1.1).
+            - paragraph [ref=e1140]: (2) Subsection 81 (11) of the Act is amended by adding “or 176.1 (1)” after “under subsection (10)”.
+            - paragraph [ref=e1141]: (3) Subsection 81 (13) of the Act is amended by adding “or subsection 176.1 (1)” after “terminated under this section”.
+            - paragraph [ref=e1142]: "7 The Act is amended by adding the following section:"
+            - paragraph [ref=e1143]: Expedited process
+            - paragraph [ref=e1144]:
+              - generic [ref=e1145]: Mine authorization and permitting delivery team
+            - paragraph [ref=e1146]:
+              - generic [ref=e1147]: 153.0.1
+              - text: (1) The Minister may establish a mine authorization and permitting delivery team for any project designated by the Minister.
+            - paragraph [ref=e1148]: Notifications
+            - paragraph [ref=e1149]: (2) The Minister shall notify a proponent in writing if the proponent’s project is designated in accordance with subsection (1) and again if a mine authorization and permitting delivery team is established in respect of the project under subsection (1).
+            - paragraph [ref=e1150]: Team lead
+            - paragraph [ref=e1151]: (3) Once a mine authorization and permitting delivery team is established under subsection (1), the Deputy Minister shall appoint an employee in the Ministry as the team lead.
+            - paragraph [ref=e1152]:
+              - generic [ref=e1153]: Functions
+            - paragraph [ref=e1154]: (4) If the proponent of the project provides the information required by the Minister to the mine authorization and permitting delivery team in the form approved by the Minister, the mine authorization and permitting delivery team shall,
+            - paragraph [ref=e1155]: (a) prepare an integrated authorization and permitting plan that sets out steps for the application, review and decision-making processes for obtaining the permits and authorizations required for the project under this and any other Act; and
+            - paragraph [ref=e1156]: (b) co-ordinate with any other ministry to expedite the application, review and decision-making processes for the permits and authorizations specified in the integrated authorization and permitting plan referred to in clause (a).
+            - paragraph [ref=e1157]: Same
+            - paragraph [ref=e1158]: (5) If the proponent of the project provides the information required by the Minister to the mine authorization and permitting delivery team in the form approved by the Minister, the mine authorization and permitting delivery team may support any efforts by any ministry or agency to fulfil the Crown’s duty to consult Aboriginal communities with respect to the project, including by communicating with or co-ordinating communication among the proponent, Aboriginal communities and affected ministries and agencies of the Government of Ontario.
+            - paragraph [ref=e1159]:
+              - generic [ref=e1161]: Regulations
+            - paragraph [ref=e1162]: (6) The Lieutenant Governor in Council may make regulations,
+            - paragraph [ref=e1163]:
+              - generic [ref=e1164]: (a) prescribing service standards to be met by any ministry under any Act respecting review time for permits and authorizations required for a project in respect of which an integrated authorization and permitting plan has been prepared under clause (4) (a);
+            - paragraph [ref=e1165]: (b) specifying whether, in the event of a failure to meet the service standards referred to in clause (a), the proponent is entitled to the refund of any fees that the proponent was required to pay under an Act for a permit or authorization in respect of which the service standards were prescribed.
+            - paragraph [ref=e1166]: Service standards, non-application
+            - paragraph [ref=e1167]: (7) Service standards prescribed under clause (6) (a) shall not apply to the time required for,
+            - paragraph [ref=e1168]: (a) any efforts by the Crown to fulfil the duty to consult with Aboriginal communities after the consultation has commenced, including efforts by the proponent to fulfil the duty to consult with Aboriginal communities if the procedural aspects of consultation for a designated project have been delegated to the proponent;
+            - paragraph [ref=e1169]: (b) proponents to prepare and submit complete applications and satisfy the requirements for any permits and authorizations required under this and any other Act;
+            - paragraph [ref=e1170]:
+              - generic [ref=e1171]:
+                - text: (c) an environmental impact assessment carried out in accordance with the
+                - emphasis [ref=e1172]: Environmental Assessment Act
+                - text: ; or
+            - paragraph [ref=e1173]: (d) land disposition requirements or processes under this and any other Act.
+            - paragraph [ref=e1174]: Refund
+            - paragraph [ref=e1175]: (8) If a ministry fails to comply with a service standard prescribed under clause (6) (a) and a regulation made under clause (6) (b) provides that the proponent is entitled to a refund in respect of such non-compliance, the minister of that ministry shall pay the refund.
+            - paragraph [ref=e1176]: Amount of refund
+            - paragraph [ref=e1177]: (9) For greater certainty, a refund paid under subsection (8) shall not exceed the amount of the fee, if any, that was payable in respect of the permit or authorization.
+            - paragraph [ref=e1178]: Regulations may be general or particular
+            - paragraph [ref=e1179]: (10) A regulation made under subsection (6) may be general or particular in application, may be limited as to time or place or both and may provide that it applies only to a project or projects designated by the Minister.
+            - paragraph [ref=e1180]: Minister’s designations
+            - paragraph [ref=e1181]:
+              - text: (11) Part III (Regulations) of the
+              - emphasis [ref=e1182]: Legislation Act, 2006
+              - generic [ref=e1183]: does not apply to a Minister’s designation that is permitted by subsection (10).
+            - paragraph [ref=e1184]: Conflict
+            - paragraph [ref=e1185]: (12) In the event of any conflict between a regulation made under subsection (6) and any other Act, regulation or other instrument, the regulation made under subsection (6) prevails.
+            - paragraph [ref=e1186]: 8 The French version of paragraph 2 of section 157 of the Act is amended by striking out “tout autre employé du ministère” and substituting “toute autre personne employée au ministère”.
+            - paragraph [ref=e1187]: "9 The Act is amended by adding the following section:"
+            - paragraph [ref=e1188]: Minister may cancel, revoke, terminate
+            - paragraph [ref=e1189]:
+              - generic [ref=e1190]: "176.1"
+              - text: (1) Despite the
+              - emphasis [ref=e1191]: Statutory Powers Procedure Act
+              - generic [ref=e1192]: and anything in this Act, the Minister may, without prior notice or hearing, if the Minister considers doing so desirable for the protection of the strategic national mineral supply chain and subject to the approval of the Lieutenant Governor in Council, by order, cancel or revoke unpatented mining claims or a licence of occupation or terminate a lease of any mining lands or mining rights.
+            - paragraph [ref=e1193]: Factors to consider
+            - paragraph [ref=e1194]:
+              - generic [ref=e1195]: "(2) In making a determination for the purposes of subsection (1), the Minister shall consider the following factors:"
+            - paragraph [ref=e1196]: 1. Any risk assessment provided by the Ministry of the Solicitor General.
+            - paragraph [ref=e1197]: 2. The economic interests of Ontario.
+            - paragraph [ref=e1198]: 3. Any prescribed factors.
+            - paragraph [ref=e1199]: Order not regulation
+            - paragraph [ref=e1200]:
+              - generic [ref=e1201]:
+                - text: (3) For greater certainty, Part III (Regulations) of the
+                - emphasis [ref=e1202]: Legislation Act, 2006
+                - text: does not apply with respect to an order made under subsection (1).
+            - paragraph [ref=e1203]:
+              - generic [ref=e1204]: Regulations
+            - paragraph [ref=e1205]: (4) The Lieutenant Governor in Council may make regulations governing matters arising from an order made under subsection (1).
+            - paragraph [ref=e1206]: When land open for registration
+            - paragraph [ref=e1207]: (5) Where a mining claim is cancelled under subsection (1), the land in the cells on the provincial grid corresponding to the cancelled claim shall become open for the registration of mining claims at a time and date specified in the order made under subsection (1), unless the land is otherwise not open for the registration of mining claims under any other provision of this Act.
+            - paragraph [ref=e1208]: No compensation payable
+            - paragraph [ref=e1209]: (6) No person is entitled to any compensation or any other remedy or relief for the revocation, cancellation or termination of an unpatented mining claim, licence of occupation or lease of any mining lands or mining rights under this section.
+            - paragraph [ref=e1210]: "10 Part XII of the Act is amended by adding the following section:"
+            - paragraph [ref=e1211]: Extinguishment of causes of action
+            - paragraph [ref=e1212]:
+              - generic [ref=e1213]: "185.1"
+              - text: (1) No cause of action arises against the Crown, any current or former member of the Executive Council or employee, officer or agent of or adviser to the Crown as a direct or indirect result of,
+            - paragraph [ref=e1214]:
+              - generic [ref=e1215]:
+                - text: (a) the enactment of the amendments made to this Act by Schedule 5 to the
+                - emphasis [ref=e1216]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: ", or the amendment or repeal of any provision added to this Act by that Schedule;"
+            - paragraph [ref=e1217]:
+              - generic [ref=e1218]:
+                - text: (b) the making, amendment or revocation of a regulation, order or other instrument made under a provision added to this Act by Schedule 5 to the
+                - emphasis [ref=e1219]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: ;
+            - paragraph [ref=e1220]:
+              - generic [ref=e1221]:
+                - text: (c) anything done or not done in accordance with the provisions added to this Act by Schedule 5 to the
+                - emphasis [ref=e1222]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: or a regulation, order or other instrument made under a provision added to this Act by that Schedule;
+            - paragraph [ref=e1223]: (d) any modification, revocation, suspension, cessation or termination of property rights, contractual rights or other rights resulting from anything referred to in clauses (a) to (c); or
+            - paragraph [ref=e1224]: (e) any purported failure to meet any service standard prescribed under clause 153.0.1 (6) (a).
+            - paragraph [ref=e1225]: Exception, refund of fees
+            - paragraph [ref=e1226]: (2) Subsection (1) does not apply to a claim respecting the refund of any fees paid by a proponent in accordance with subsection 153.0.1 (8).
+            - paragraph [ref=e1227]: No remedy
+            - paragraph [ref=e1228]: (3) No costs, compensation or damages, including for loss of revenue, profit or any other alleged loss, whether direct or indirect, are owing or payable to any person by a person referred to in subsection (1), and no remedy, including a remedy in contract, restitution or tort, a remedy for misfeasance, bad faith or a breach of trust or fiduciary obligation, any equitable remedy or any remedy under any statute, is available to any person against a person referred to in that subsection, in connection with anything referred to in that subsection.
+            - paragraph [ref=e1229]: Proceedings barred
+            - paragraph [ref=e1230]: (4) No proceeding that is directly or indirectly based on or related to anything referred to in subsection (1) may be brought or maintained against any person referred to in that subsection.
+            - paragraph [ref=e1231]: Same
+            - paragraph [ref=e1232]: (5) Subsections (3) and (4) do not apply with respect to an application for judicial review or a claim for constitutional remedy, but do apply with respect to any other court, administrative or arbitral proceeding claiming any remedy or relief, including specific performance, an injunction, declaratory relief or the enforcement of a judgment, order or award made outside Ontario.
+            - paragraph [ref=e1233]: No costs awarded
+            - paragraph [ref=e1234]: (6) No costs shall be awarded against any person in respect of a proceeding that cannot be brought or maintained under subsection (4).
+            - paragraph [ref=e1235]: No expropriation or injurious affection
+            - paragraph [ref=e1236]:
+              - generic [ref=e1237]:
+                - text: (7) Nothing referred to in subsection (1) constitutes an expropriation or injurious affection for the purposes of the
+                - emphasis [ref=e1238]: Expropriations Act
+                - text: or otherwise at law.
+            - paragraph [ref=e1239]: Proceedings by Crown not prevented
+            - paragraph [ref=e1240]: (8) This section does not apply with respect to proceedings brought by the Crown.
+            - paragraph [ref=e1241]: Commencement
+            - paragraph [ref=e1242]: 11 This Schedule comes into force on a day to be named by order of the Lieutenant Governor in Council.
+            - paragraph [ref=e1243]:
+              - generic [ref=e1245]:
+                - text: SCHEDULE 6
+                - text: ONTARIO ENERGY BOARD ACT, 1998
+            - paragraph [ref=e1246]:
+              - generic [ref=e1247]:
+                - text: 1 The
+                - emphasis [ref=e1248]: Ontario Energy Board Act, 1998
+                - text: "is amended by adding the following section:"
+            - paragraph [ref=e1249]: Procurement restrictions
+            - paragraph [ref=e1250]:
+              - generic [ref=e1251]: "43.1"
+              - text: (1) No gas transmitter, gas distributor or storage company that is prescribed by the regulations shall procure a good or service that meets the conditions prescribed by the regulations respecting its country, region or territory of origin, as that origin is determined in the regulations.
+            - paragraph [ref=e1252]: Same, subsidiaries
+            - paragraph [ref=e1253]: (2) No gas transmitter, gas distributor or storage company subsidiary that is prescribed by the regulations shall procure a good or service that meets the conditions prescribed by the regulations respecting its country, region or territory of origin, as that origin is determined in the regulations.
+            - paragraph [ref=e1254]: Application
+            - paragraph [ref=e1255]: (3) Subsection (1) or (2) applies with respect to a procurement only if, on the day a regulation made for the purposes of that subsection begins to apply,
+            - paragraph [ref=e1256]: (a) the final version of the request for proposal or any other document that would give rise to the procurement has not yet been issued, in the case of a competitive procurement; or
+            - paragraph [ref=e1257]: (b) in the case of a procurement that is not a competitive procurement, the parties have not entered into a final contract in respect of the procurement.
+            - paragraph [ref=e1258]:
+              - generic [ref=e1259]:
+                - text: Non-application,
+                - emphasis [ref=e1260]: Discriminatory Business Practices Act
+            - paragraph [ref=e1261]:
+              - generic [ref=e1262]:
+                - text: (4) The
+                - emphasis [ref=e1263]: Discriminatory Business Practices Act
+                - text: does not apply to anything done or not done in accordance with a regulation made for the purposes of subsection (1) or (2).
+            - paragraph [ref=e1264]: "2 The Act is amended by adding the following section:"
+            - paragraph [ref=e1265]: Procurement restrictions
+            - paragraph [ref=e1266]:
+              - generic [ref=e1267]: "73"
+              - text: (1) In this section,
+            - paragraph [ref=e1268]: “licensee” means the holder of a licence under this Part, other than the IESO or Ontario Power Generation Inc.
+            - paragraph [ref=e1269]: Same
+            - paragraph [ref=e1270]: (2) No licensee that is prescribed by the regulations shall procure a good or service that meets the conditions prescribed by the regulations respecting its country, region or territory of origin, as that origin is determined in the regulations.
+            - paragraph [ref=e1271]: Same, subsidiaries
+            - paragraph [ref=e1272]: (3) No licensee subsidiary that is prescribed by the regulations shall procure a good or service that meets the conditions prescribed by the regulations respecting its country, region or territory of origin, as that origin is determined in the regulations.
+            - paragraph [ref=e1273]: Application
+            - paragraph [ref=e1274]: (4) Subsection (2) or (3) applies with respect to a procurement only if, on the day a regulation made for the purposes of that subsection begins to apply,
+            - paragraph [ref=e1275]: (a) the final version of the request for proposal or any other document that would give rise to the procurement has not yet been issued, in the case of a competitive procurement; or
+            - paragraph [ref=e1276]: (b) in the case of a procurement that is not a competitive procurement, the parties have not entered into a final contract in respect of the procurement.
+            - paragraph [ref=e1277]:
+              - generic [ref=e1278]:
+                - text: Non-application,
+                - emphasis [ref=e1279]: Discriminatory Business Practices Act
+            - paragraph [ref=e1280]:
+              - generic [ref=e1281]:
+                - text: (5) The
+                - emphasis [ref=e1282]: Discriminatory Business Practices Act
+                - text: does not apply to anything done or not done in accordance with a regulation made for the purposes of subsection (2) or (3).
+            - paragraph [ref=e1283]: "3 The Act is amended by adding the following section:"
+            - paragraph [ref=e1284]: No cause of action, procurement restrictions
+            - paragraph [ref=e1285]:
+              - generic [ref=e1286]: "134"
+              - text: (1) No cause of action arises against the Crown or any current or former member of the Executive Council or employee, officer or agent of or adviser to the Crown, as a direct or indirect result of,
+            - paragraph [ref=e1287]: (a) the enactment, amendment or repeal of section 43.1, 73 or this section;
+            - paragraph [ref=e1288]: (b) the making, amendment or revocation of any provision of a regulation for the purposes of section 43.1 or 73; or
+            - paragraph [ref=e1289]: (c) anything done or not done in accordance with a provision referred to in clause (a) or a regulation referred to in clause (b).
+            - paragraph [ref=e1290]: No remedy
+            - paragraph [ref=e1291]: (2) No costs, compensation or damages, including for loss of revenue, profit or any other alleged loss, whether direct or indirect, are owing or payable to any person by a person referred to in subsection (1), and no remedy, including a remedy in contract, restitution or tort, a remedy for misfeasance, bad faith or a breach of trust or fiduciary obligation, any equitable remedy or any remedy under any statute, is available to any person against a person referred to in that subsection, in connection with anything referred to in that subsection.
+            - paragraph [ref=e1292]: Proceedings barred
+            - paragraph [ref=e1293]: (3) No proceeding that is directly or indirectly based on or related to anything referred to in subsection (1) may be brought or maintained against any person referred to in that subsection.
+            - paragraph [ref=e1294]: Same
+            - paragraph [ref=e1295]: (4) Subsections (2) and (3) do not apply with respect to an application for judicial review or a claim for constitutional remedy, but do apply with respect to any other court, administrative or arbitral proceeding claiming any remedy or relief, including specific performance, an injunction, declaratory relief or the enforcement of a judgment, order or award made outside Ontario.
+            - paragraph [ref=e1296]: No costs awarded
+            - paragraph [ref=e1297]: (5) No costs shall be awarded against any person in respect of a proceeding that cannot be brought or maintained under subsection (3).
+            - paragraph [ref=e1298]: No expropriation or injurious affection
+            - paragraph [ref=e1299]:
+              - generic [ref=e1300]:
+                - text: (6) Nothing referred to in subsection (1) constitutes an expropriation or injurious affection for the purposes of the
+                - emphasis [ref=e1301]: Expropriations Act
+                - text: or otherwise at law.
+            - paragraph [ref=e1302]: Proceedings by Crown not prevented
+            - paragraph [ref=e1303]: (7) This section does not apply with respect to proceedings brought by the Crown.
+            - paragraph [ref=e1304]: Commencement
+            - paragraph [ref=e1305]:
+              - generic [ref=e1306]:
+                - text: 4 This Schedule comes into force on the day the
+                - emphasis [ref=e1307]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e1308]:
+              - generic [ref=e1310]:
+                - text: SCHEDULE 7
+                - text: ONTARIO HERITAGE ACT
+            - paragraph [ref=e1311]:
+              - generic [ref=e1312]:
+                - text: 1 Section 1 of the
+                - emphasis [ref=e1313]: Ontario Heritage Act
+                - text: "is amended by adding the following definition:"
+            - paragraph [ref=e1314]: “business day” means a weekday, excluding a day that is a holiday; (“jour ouvrable”)
+            - paragraph [ref=e1315]: "2 Sections 51.2 and 51.3 of the Act are repealed and the following substituted:"
+            - paragraph [ref=e1316]: Inspection
+            - paragraph [ref=e1317]:
+              - generic [ref=e1318]: "51.2"
+              - text: (1) An inspector may conduct an inspection for the purpose of,
+            - paragraph [ref=e1319]: (a) ensuring that a person licensed under section 48 is complying with the Act and the regulations and remains entitled to a licence under the Act; or
+            - paragraph [ref=e1320]: (b) assessing whether any artifacts or archaeological sites are on any land, or land under water, in the Province.
+            - paragraph [ref=e1321]: Minister’s direction required
+            - paragraph [ref=e1322]: (2) An inspection under clause (1) (b) may only be conducted if the inspector is directed to do so by the Minister.
+            - paragraph [ref=e1323]: Power of entry
+            - paragraph [ref=e1324]: "(3) An inspector conducting an inspection may enter and inspect any of the following places:"
+            - paragraph [ref=e1325]: 1. An archaeological site or any other land, or land under water, on which a licensee is carrying out archaeological fieldwork.
+            - paragraph [ref=e1326]: 2. An archaeological site or any other land, or land under water, on which archaeological fieldwork is no longer being carried out but was carried out by a licensee within the one-year period preceding the inspection.
+            - paragraph [ref=e1327]: 3. A location, building, structure, facility or conveyance at which artifacts and other materials found on an archaeological site are analysed or stored.
+            - paragraph [ref=e1328]: 4. A licensee’s business premises.
+            - paragraph [ref=e1329]: 5. In the case of an inspection under clause (1) (b), land, or land under water, that, in the opinion of the Minister, may contain an artifact or archaeological site.
+            - paragraph [ref=e1330]: 6. In the case of an inspection under clause (1) (b), the business premises of a person, if the Minister reasonably believes that artifacts or other materials found on an archaeological site may have been found on land that the person owns.
+            - paragraph [ref=e1331]: Dwellings
+            - paragraph [ref=e1332]: (4) An inspector entering a place under subsection (3) shall not enter any part of the place that is used as a dwelling without the consent of the occupant.
+            - paragraph [ref=e1333]: Powers of inspector
+            - paragraph [ref=e1334]: (5) While carrying out an inspection, an inspector may,
+            - paragraph [ref=e1335]: (a) take up and examine any artifact, device, article, thing or material;
+            - paragraph [ref=e1336]: (b) require a person at the place being inspected to produce any artifact, drawing, field notes, specifications, licence, document, record, report, photograph, video or other visual recording or any other material or thing that is relevant to the inspection and examine, audit or make copies of such material or things;
+            - paragraph [ref=e1337]: (c) upon giving a receipt therefore, remove, for the purpose of making copies or extracts, any material or thing referred to in clause (b);
+            - paragraph [ref=e1338]: (d) conduct tests at the place being inspected or take samples from the place, including tests conducted on, or samples taken from, artifacts found at the place;
+            - paragraph [ref=e1339]: (e) require, in writing, that any test or sample referred to in clause (d) be conducted or taken by a person specified by the inspector, including a person having special, expert or professional knowledge or qualifications accompanying the inspector under subsection (7);
+            - paragraph [ref=e1340]: (f) require the person conducting or taking tests or samples to provide a report to the inspector within such time as the inspector may specify;
+            - paragraph [ref=e1341]: (g) take photographs, video or other visual recording, make acoustic recordings or make notes of the field or site conditions, of the conditions of any other place being inspected or of the artifacts or materials found at the place and take with them such equipment or recording materials required for this purpose;
+            - paragraph [ref=e1342]: (h) make such inquiries of any person working at the place being inspected as are relevant to the inspection;
+            - paragraph [ref=e1343]: (i) observe ongoing archaeological fieldwork being carried out on an archaeological site or on other lands on which archaeological fieldwork is carried out or observe laboratory work taking place in a laboratory; and
+            - paragraph [ref=e1344]: (j) prohibit persons from entering the area where the inspection is being carried out for a reasonable period of time for the purposes of carrying out an examination, excavation or test.
+            - paragraph [ref=e1345]: Return of things removed
+            - paragraph [ref=e1346]: (6) An inspector who removes any material or other thing from a place under clause (5) (c) shall return them to the person from whom they were taken within a reasonable time, unless they are seized under section 66.
+            - paragraph [ref=e1347]: Experts, etc.
+            - paragraph [ref=e1348]: (7) An inspector entering premises under subsection (3) may be accompanied by a person having special, expert or professional knowledge of any matter relevant to the inspection.
+            - paragraph [ref=e1349]: Use of force
+            - paragraph [ref=e1350]: (8) An inspector is not entitled to use force to enter and inspect a place.
+            - paragraph [ref=e1351]: Time of entry
+            - paragraph [ref=e1352]: (9) An inspector may enter a place referred to in subsection (3),
+            - paragraph [ref=e1353]: (a) in the case of a place referred to in paragraphs 2 to 6 of subsection (3), between 9 a.m. and 5 p.m. during a business day, or at any other time when the place is open to the public; and
+            - paragraph [ref=e1354]: (b) in the case of a place referred to in paragraph 1 of subsection (3), at any time at which archaeological fieldwork is being carried out.
+            - paragraph [ref=e1355]: Obstruction of inspector
+            - paragraph [ref=e1356]: (10) No person shall obstruct an inspector conducting an inspection under this section or withhold from them or conceal or destroy any artifact, document, material or thing that is relevant to the inspection.
+            - paragraph [ref=e1357]: Obligation to assist
+            - paragraph [ref=e1358]: (11) Any person shall, on request by an inspector, provide such assistance as is reasonably necessary.
+            - paragraph [ref=e1359]: Obligation to produce
+            - paragraph [ref=e1360]: (12) A person who is required to produce an artifact, document, material or thing under clause (5) (b) shall produce it.
+            - paragraph [ref=e1361]: False information
+            - paragraph [ref=e1362]: (13) No person shall knowingly furnish an inspector with false information or neglect or refuse to furnish information to an inspector.
+            - paragraph [ref=e1363]: Report by inspector
+            - paragraph [ref=e1364]:
+              - generic [ref=e1365]: "51.3"
+              - text: (1) An inspector shall prepare a report if the inspector believes that,
+            - paragraph [ref=e1366]: (a) a person licensed under section 48 has failed to comply with the Act, the regulations or the terms and conditions of the licence; or
+            - paragraph [ref=e1367]: (b) in the case of an investigation under clause 51.2 (1) (b),
+            - paragraph [ref=e1368]: (i) an artifact or archaeological site is on land, or land under water, described in clause 51.2 (1) (b),
+            - paragraph [ref=e1369]: (ii) an artifact has been removed from land, or land under water, described in clause 51.2 (1) (b), or
+            - paragraph [ref=e1370]: (iii) an archaeological site on land, or land under water, described in clause 51.2 (1) (b) has been altered.
+            - paragraph [ref=e1371]: Report to be provided
+            - paragraph [ref=e1372]: (2) The inspector shall provide the report to the Minister and to the licensee or person who owns the land, as applicable.
+            - paragraph [ref=e1373]: "3 The Act is amended by adding the following section:"
+            - paragraph [ref=e1374]: Assessment order
+            - paragraph [ref=e1375]:
+              - generic [ref=e1376]: "61.1"
+              - text: (1) If the Minister is of the opinion that land, or land under water, in the Province may contain an artifact or an archaeological site, the Minister may issue an assessment order under subsection (2), which may be made subject to conditions.
+            - paragraph [ref=e1377]: Contents of order
+            - paragraph [ref=e1378]: (2) The assessment order shall direct that no person shall alter or remove an artifact or any other physical evidence of past human use or activity from the land, or land under water, until,
+            - paragraph [ref=e1379]: (a) a licensee under this Part,
+            - paragraph [ref=e1380]: (i) has completed archaeological fieldwork, within the meaning of the regulations, on the land or land under water, and
+            - paragraph [ref=e1381]: (ii) has provided a report to the Minister under subsection 65 (1) stating that any sites found have no further cultural heritage value or interest; and
+            - paragraph [ref=e1382]: (b) the report referred to in subclause (a) (ii) has been filed in the register referred to in section 65.1.
+            - paragraph [ref=e1383]: Service of order
+            - paragraph [ref=e1384]: (3) The Minister may serve an order issued under this section on the owner of the land in question, or any person in apparent possession of the land, by any method of service described in subsection 67 (1) and by posting the order in a conspicuous place on the land to which it applies.
+            - paragraph [ref=e1385]: Service deemed effective
+            - paragraph [ref=e1386]: (4) Service under subsection (3) is effective from the earlier of the date of posting or the effective date of service described in subsections 67 (2) to (4).
+            - paragraph [ref=e1387]: "4 Section 66 of the Act is repealed and the following substituted:"
+            - paragraph [ref=e1388]: Direction for artifact or material in archaeological collection
+            - paragraph [ref=e1389]:
+              - generic [ref=e1390]: "66"
+              - text: (1) The Minister may direct that any artifact taken under the authority of a licence or a permit, or any material in an archaeological collection, be deposited in such public institution as the Minister may determine, to be held in trust for the people of Ontario, or deposited with an Indigenous community.
+            - paragraph [ref=e1391]: Seizure of artifact or material in archaeological collection
+            - paragraph [ref=e1392]: (2) Any artifact or any material in an archaeological collection that is removed from an archaeological site and that is in the possession of a person who is not a licensee under this Part, or who is a licensee but is acting in contravention of their licence, may be seized by a person authorized to do so by the Minister and deposited in such public institution as the Minister may determine, to be held in trust for the people of Ontario, or deposited with an Indigenous community.
+            - paragraph [ref=e1393]: Production of authorization
+            - paragraph [ref=e1394]: (3) A person who is acting under an authorization described in subsection (2) shall, upon request, produce a copy of the authorization.
+            - paragraph [ref=e1395]: Powers
+            - paragraph [ref=e1396]: (4) A person who is acting under an authorization described in subsection (2) may, for the purposes of seizing the artifact or material, enter any location where the person reasonably believes the artifact or material may be held between 9 a.m. and 5 p.m. during a business day.
+            - paragraph [ref=e1397]: Dwellings
+            - paragraph [ref=e1398]: (5) A person who is acting under an authorization described in subsection (2) shall not enter any part of a place that is used as a dwelling without the consent of the occupant.
+            - paragraph [ref=e1399]: Seizure during inspection or investigation
+            - paragraph [ref=e1400]: (6) The Minister may direct an inspector or investigator to, in the course of conducting an inspection or investigation under this Act, seize any artifact or material in an archaeological collection on the premises that are being inspected or investigated and deposit the artifact or material in such public institution as the Minister may determine, to be held in trust for the people of Ontario, or deposit it with an Indigenous community.
+            - paragraph [ref=e1401]: Seizure after return post-conviction
+            - paragraph [ref=e1402]: (7) The Minister may direct that any artifact or material in an archaeological collection that were seized in an investigation under this Act and subsequently released after a conviction for an offence under this Act be deposited in such public institution as the Minister may determine, to be held in trust for the people of Ontario, or be deposited with an Indigenous community.
+            - paragraph [ref=e1403]: "5 The Act is amended by adding the following sections:"
+            - paragraph [ref=e1404]: Exemption for properties
+            - paragraph [ref=e1405]:
+              - generic [ref=e1406]: "66.1"
+              - text: "(1) Subject to the regulations, if any, the Lieutenant Governor in Council may, by order, exempt a property from the application of a requirement described in subsection (2) if the Lieutenant Governor in Council is of the opinion that such exemption could potentially advance one or more of the following provincial priorities:"
+            - paragraph [ref=e1407]: 1. Transit.
+            - paragraph [ref=e1408]: 2. Housing.
+            - paragraph [ref=e1409]: 3. Health and Long-Term Care.
+            - paragraph [ref=e1410]: 4. Other infrastructure.
+            - paragraph [ref=e1411]: 5. Such other priorities as may be prescribed.
+            - paragraph [ref=e1412]: Requirements
+            - paragraph [ref=e1413]: "(2) An order under subsection (1) may exempt a property from the application of any of the following requirements:"
+            - paragraph [ref=e1414]: 1. A requirement under a provision of this Part.
+            - paragraph [ref=e1415]: 2. A requirement under a provision of a regulation, or other instrument, relating to a provision of this Part.
+            - paragraph [ref=e1416]:
+              - generic [ref=e1417]:
+                - text: 3. A requirement to conduct an archaeological assessment under a provision of any other Act or regulation, or instrument under any other Act, other than a provision of the
+                - emphasis [ref=e1418]: Funeral, Burial and Cremation Services Act, 2002
+                - text: or a regulation or instrument made under that Act.
+            - paragraph [ref=e1419]: Conditions
+            - paragraph [ref=e1420]: (3) An order under subsection (1) may set out conditions for the exemption.
+            - paragraph [ref=e1421]:
+              - generic [ref=e1422]: Not a regulation
+            - paragraph [ref=e1423]:
+              - generic [ref=e1424]:
+                - text: (4) An order made under subsection (1) is not a regulation within the meaning of Part III (Regulations) of the
+                - emphasis [ref=e1425]: Legislation Act, 2006
+                - text: .
+            - paragraph [ref=e1426]:
+              - generic [ref=e1427]: Extinguishment of causes of action
+            - paragraph [ref=e1428]:
+              - generic [ref=e1429]: "66.2"
+              - text: (1) No cause of action arises against the Crown or any current or former member of the Executive Council or employee, officer or agent of or advisor to the Crown as a direct or indirect result of,
+            - paragraph [ref=e1430]: (a) the enactment, amendment or repeal of any provision of this section or section 66.1;
+            - paragraph [ref=e1431]: (b) the making, amendment or revocation of any provision of an order under section 66.1 or a regulation relating to section 66.1; or
+            - paragraph [ref=e1432]: (c) anything done or not done in accordance with section 66.1, an order under section 66.1 or a regulation relating to section 66.1.
+            - paragraph [ref=e1433]: No remedy
+            - paragraph [ref=e1434]: (2) No costs, compensation or damages, including for loss of revenue or profit or any other alleged loss, whether direct or indirect, are owing or payable to any person by a person referred to in subsection (1), and no remedy, including a remedy in contract, restitution, tort, a remedy for misfeasance, bad faith or a breach of trust or fiduciary obligation, any equitable remedy or any remedy under any statute, is available to any person against any person referred to in subsection (1) in connection with anything referred to in that subsection.
+            - paragraph [ref=e1435]: Proceedings barred
+            - paragraph [ref=e1436]: (3) No proceeding that is directly or indirectly based on or related to anything referred to in subsection (1) may be brought or maintained against any person referred to in that subsection.
+            - paragraph [ref=e1437]: Application
+            - paragraph [ref=e1438]: (4) Subsections (2) and (3) do not apply with respect to an application for judicial review or a claim for a constitutional remedy, but do apply with respect to any other court, administrative or arbitral proceeding claiming any remedy or relief, including specific performance, an injunction, declaratory relief or the enforcement of a judgment, order or award made outside Ontario.
+            - paragraph [ref=e1439]: No costs awarded
+            - paragraph [ref=e1440]: (5) No costs shall be awarded against any person in respect of a proceeding that cannot be brought or maintained under subsection (3).
+            - paragraph [ref=e1441]: No expropriation or injurious affection
+            - paragraph [ref=e1442]:
+              - generic [ref=e1443]:
+                - text: (6) Nothing referred to in subsection (1) constitutes an expropriation or injurious affection for the purposes of the
+                - emphasis [ref=e1444]: Expropriations Act
+                - text: or otherwise at law.
+            - paragraph [ref=e1445]: Proceedings by Crown not prevented
+            - paragraph [ref=e1446]: (7) This section does not apply with respect to proceedings brought by the Crown.
+            - paragraph [ref=e1447]: "6 The Act is amended by adding the following Part:"
+            - paragraph [ref=e1448]:
+              - generic [ref=e1449]:
+                - text: PART VI.1
+                - text: INVESTIGATIONS
+            - paragraph [ref=e1450]: Investigators
+            - paragraph [ref=e1451]: Appointment of investigators
+            - paragraph [ref=e1452]:
+              - generic [ref=e1453]: "66.3"
+              - text: (1) The Minister may appoint persons to be investigators for the purposes of conducting investigations.
+            - paragraph [ref=e1454]: Certificate of appointment
+            - paragraph [ref=e1455]: (2) The Minister shall issue to every investigator a certificate of appointment bearing the Minister’s signature or a facsimile of the signature.
+            - paragraph [ref=e1456]: Production of certificate of appointment
+            - paragraph [ref=e1457]: (3) Every investigator who is conducting an investigation shall, upon request, produce the certificate of appointment as an investigator.
+            - paragraph [ref=e1458]: Search warrant
+            - paragraph [ref=e1459]:
+              - generic [ref=e1460]: "66.4"
+              - text: (1) Upon application made without notice by an investigator, a justice of the peace may issue a warrant, if the justice of the peace is satisfied by information given under oath or affirmation that there are reasonable grounds for believing that a person has committed or is committing an offence under this Act and there is,
+            - paragraph [ref=e1461]: (a) in any building, dwelling, receptacle or place anything relating to the offence; or
+            - paragraph [ref=e1462]: (b) information or evidence relating to the offence that may be obtained through the use of an investigative technique or procedure or the doing of anything described in the warrant.
+            - paragraph [ref=e1463]: Powers under warrant
+            - paragraph [ref=e1464]: (2) Subject to any conditions contained in it, a warrant obtained under subsection (1) authorizes an investigator to,
+            - paragraph [ref=e1465]: (a) enter or access the building, dwelling, receptacle or place specified in the warrant and examine and seize any thing described in the warrant;
+            - paragraph [ref=e1466]: (b) make reasonable inquiries of any person, orally or in writing, with respect to anything relevant to the investigation;
+            - paragraph [ref=e1467]: (c) require a person to produce the information or evidence described in the warrant and to provide whatever assistance is reasonably necessary, including using any data storage, processing or retrieval device or system to produce, in any form, the information or evidence described in the warrant;
+            - paragraph [ref=e1468]: (d) use any data storage, processing or retrieval device or system used in carrying on business in order to produce information or evidence described in the warrant, in any form;
+            - paragraph [ref=e1469]: (e) observe ongoing archaeological fieldwork being carried out on an archaeological site or on other lands on which archaeological fieldwork is carried out or observe laboratory work taking place in a laboratory;
+            - paragraph [ref=e1470]: (f) prohibit persons from entering the area where the investigation is being carried out for a reasonable period of time for the purposes of carrying out an examination, excavation or test; and
+            - paragraph [ref=e1471]: (g) use any investigative technique or procedure or do anything described in the warrant.
+            - paragraph [ref=e1472]: Entry of dwelling
+            - paragraph [ref=e1473]: (3) Despite subsection (2), an investigator shall not exercise the power under a warrant to enter a place, or part of a place, used as a dwelling, unless,
+            - paragraph [ref=e1474]: (a) the justice of the peace is informed that the warrant is being sought to authorize entry into a dwelling; and
+            - paragraph [ref=e1475]: (b) the justice of the peace authorizes the entry into the dwelling.
+            - paragraph [ref=e1476]: Conditions on warrant
+            - paragraph [ref=e1477]: (4) A warrant obtained under subsection (1) shall contain such conditions as the justice of the peace considers advisable to ensure that any search authorized by the warrant is reasonable in the circumstances.
+            - paragraph [ref=e1478]: Expert help
+            - paragraph [ref=e1479]: (5) The warrant may authorize persons who have special, expert or professional knowledge and other persons as necessary to accompany and assist the investigator in respect of the execution of the warrant.
+            - paragraph [ref=e1480]: Time of execution
+            - paragraph [ref=e1481]: (6) An entry or access under a warrant issued under this section shall be made between 6 a.m. and 9 p.m., unless the warrant specifies otherwise.
+            - paragraph [ref=e1482]: Expiry of warrant
+            - paragraph [ref=e1483]: (7) A warrant issued under this section shall name a date of expiry, which shall be no later than 30 days after the warrant is issued, but a justice of the peace may extend the date of expiry for an additional period of no more than 30 days, upon application without notice by an investigator.
+            - paragraph [ref=e1484]: Use of force
+            - paragraph [ref=e1485]: (8) An investigator may call upon police officers for assistance in executing the warrant and the investigator may use whatever force is reasonably necessary to execute the warrant.
+            - paragraph [ref=e1486]: No obstruction
+            - paragraph [ref=e1487]: (9) No person shall obstruct an investigator executing a warrant under this section or withhold from the investigator or conceal, alter or destroy any thing relevant to the investigation being conducted pursuant to the warrant.
+            - paragraph [ref=e1488]: Compliance
+            - paragraph [ref=e1489]: (10) If an investigator under clause (2) (c) requires a person to produce evidence or information or to provide assistance, the person shall produce the evidence or information or provide the assistance, as the case may be.
+            - paragraph [ref=e1490]: Copies of seized items
+            - paragraph [ref=e1491]: (11) An investigator who seizes any thing under this section or section 66.5 may make a copy of it.
+            - paragraph [ref=e1492]: Admissibility
+            - paragraph [ref=e1493]: (12) A copy of a document or record certified by an investigator as being a true copy of the original is admissible in evidence to the same extent as the original and has the same evidentiary value.
+            - paragraph [ref=e1494]: Seizure of things not specified
+            - paragraph [ref=e1495]:
+              - generic [ref=e1496]: "66.5"
+              - text: An investigator who is lawfully present in a place pursuant to a warrant or otherwise in the execution of the investigator’s duties may, without a warrant, seize any thing in plain view that the investigator believes, on reasonable grounds, will afford evidence relating to the commission of an offence under this Act.
+            - paragraph [ref=e1497]: Searches in exigent circumstances
+            - paragraph [ref=e1498]:
+              - generic [ref=e1499]: "66.6"
+              - text: (1) An investigator may exercise any of the powers described in subsection 66.4 (2) without a warrant if the conditions for obtaining the warrant exist but, by reason of exigent circumstances, it would be impracticable to obtain the warrant.
+            - paragraph [ref=e1500]: Dwellings
+            - paragraph [ref=e1501]: (2) Subsection (1) does not apply to a building or part of a building that is being used as a dwelling.
+            - paragraph [ref=e1502]: Use of force
+            - paragraph [ref=e1503]: (3) The investigator may, in executing any authority given by this section, call upon police officers for assistance and use whatever force is reasonably necessary.
+            - paragraph [ref=e1504]: Applicability of s. 66.4
+            - paragraph [ref=e1505]: (4) Subsections 66.4 (5), (9), (10), (11) and (12) apply with necessary modifications to a search under this section.
+            - paragraph [ref=e1506]: Report when things seized
+            - paragraph [ref=e1507]:
+              - generic [ref=e1508]: "66.7"
+              - text: (1) An investigator who seizes any thing under the authority of section 66.4, 66.5 or 66.6 shall bring it before a justice of the peace or, if that is not reasonably possible, shall report the seizure to a justice of the peace.
+            - paragraph [ref=e1509]: Procedure
+            - paragraph [ref=e1510]:
+              - generic [ref=e1511]:
+                - text: (2) Sections 159 and 160 of the
+                - emphasis [ref=e1512]: Provincial Offences Act
+                - text: apply, with necessary modifications, in respect of a thing seized under the authority of section 66.4, 66.5 or 66.6 of this Act.
+            - paragraph [ref=e1513]: Production order
+            - paragraph [ref=e1514]:
+              - generic [ref=e1515]: "66.8"
+              - text: (1) On application without notice by an investigator, a justice of the peace may issue a production order to a person, other than a person under investigation for an offence, requiring the person to,
+            - paragraph [ref=e1516]: (a) produce documents or copies of documents, certified by affidavit to be true copies, or produce data; or
+            - paragraph [ref=e1517]: (b) prepare a document based on documents or data already in existence and produce it.
+            - paragraph [ref=e1518]: Contents of order
+            - paragraph [ref=e1519]: (2) A production order must stipulate when, where and how the documents or data are to be produced, and to whom they are to be produced.
+            - paragraph [ref=e1520]: Grounds
+            - paragraph [ref=e1521]: (3) A justice of the peace may make a production order if satisfied by information given under oath or affirmation that there are reasonable grounds to believe that,
+            - paragraph [ref=e1522]: (a) an offence under this Act has been or is being committed;
+            - paragraph [ref=e1523]: (b) the document or data will provide evidence respecting the offence or suspected offence; and
+            - paragraph [ref=e1524]: (c) the person who is subject to the order has possession or control of the document or data.
+            - paragraph [ref=e1525]: Conditions
+            - paragraph [ref=e1526]: (4) A production order may contain any conditions the justice of the peace considers advisable.
+            - paragraph [ref=e1527]: Admissibility
+            - paragraph [ref=e1528]: (5) A copy of a document or data produced under this section, on proof by affidavit that it is a true copy, is admissible in evidence in proceedings under this Act and has the same probative force as the original document or data would have if it had been proved in the ordinary way.
+            - paragraph [ref=e1529]: No return of copies
+            - paragraph [ref=e1530]: (6) Copies of documents or data produced under this section are not required to be returned to the person who provided them.
+            - paragraph [ref=e1531]: Compliance required
+            - paragraph [ref=e1532]: (7) A person to whom a production order is directed shall comply with the order according to its terms.
+            - paragraph [ref=e1533]: "7 Subsection 68.3 (1) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e1534]: No compensation
+            - paragraph [ref=e1535]: (1) Except as may be provided under this Act, no owner of property or other person is entitled to compensation in respect of any decision, designation, order or regulation, made by a municipality, the Tribunal, the Minister or the Lieutenant Governor in Council under this Act.
+            - paragraph [ref=e1536]: "8 The Act is amended by adding the following sections:"
+            - paragraph [ref=e1537]: Limitation period
+            - paragraph [ref=e1538]:
+              - generic [ref=e1539]: "69.1"
+              - generic [ref=e1540]:
+                - text: A proceeding with respect to any offence under this Act shall not be commenced more than two years after the day on which the offence first comes to the attention of a provincial offences officer appointed under the
+                - emphasis [ref=e1541]: Provincial Offences Act
+                - text: .
+            - paragraph [ref=e1542]: Order to prevent damage, etc.
+            - paragraph [ref=e1543]:
+              - generic [ref=e1544]: "69.2"
+              - text: (1) On its own initiative or on the request of the prosecutor, the court that convicts a person of an offence under this Act, in addition to any other penalty imposed by the court, may order the person to,
+            - paragraph [ref=e1545]: (a) take such action as the court directs within the time specified in the order to prevent, eliminate or ameliorate damage that results from or is in any way connected to the commission of the offence; or
+            - paragraph [ref=e1546]: (b) comply with any order, direction or other requirement issued under this Act to the person in relation to damage that results from or is in any way connected to the commission of the offence.
+            - paragraph [ref=e1547]: Other conditions
+            - paragraph [ref=e1548]: (2) An order under subsection (1) may contain such other conditions relating to the circumstances of the offence and of the person that contributed to the commission of the offence as the court considers appropriate to prevent similar unlawful conduct.
+            - paragraph [ref=e1549]: Variation of order
+            - paragraph [ref=e1550]: (3) The court that made an order under subsection (1) may make any changes in or additions to the conditions prescribed in the order that in the opinion of the court are rendered desirable by a change in circumstances,
+            - paragraph [ref=e1551]: (a) on its own initiative at any time; or
+            - paragraph [ref=e1552]:
+              - generic [ref=e1553]:
+                - text: (b) on application by counsel for the prosecutor, by the person convicted or by the person authorized under the
+                - emphasis [ref=e1554]: Law Society Act
+                - text: to represent the person convicted, with notice to the other party, after a hearing or, with the consent of the parties, without a hearing.
+            - paragraph [ref=e1555]: Conflict
+            - paragraph [ref=e1556]: (4) Nothing in subsection (1) authorizes the making of an order that conflicts with an order, direction or other requirement previously issued under this Act by the Minister, but an order may be made under subsection (1) supplementing the provisions of an order in respect of the prevention or limitation of alteration.
+            - paragraph [ref=e1557]: Continuation in force
+            - paragraph [ref=e1558]: (5) Where a person bound by an order under subsection (1) is imprisoned, the order continues in force except in so far as the imprisonment renders it impossible for the person to comply for the time being with the order.
+            - paragraph [ref=e1559]: "9 (1) Clause 70 (1) (h) of the Act is repealed and the following substituted:"
+            - paragraph [ref=e1560]: (h) defining “archaeological collection”, “archaeological fieldwork”, “archaeological site”, “artifact”, “cultural heritage”, “marine archaeological site” and “public institution” for the purposes of this Act and the regulations;
+            - paragraph [ref=e1561]: "(2) Subsection 70 (1) of the Act is amended by adding the following clause:"
+            - paragraph [ref=e1562]: (m.1) governing exemptions under section 66.1, which may include establishing criteria that must be met for a property to be eligible for an exemption;
+            - paragraph [ref=e1563]: Commencement
+            - paragraph [ref=e1564]:
+              - generic [ref=e1565]:
+                - text: 10 (1) Except as otherwise provided in this section, this Schedule comes into force on the day the
+                - emphasis [ref=e1566]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e1567]: (2) Section 5 and subsection 9 (2) come into force on a day to be named by order of the Lieutenant Governor in Council.
+            - paragraph [ref=e1568]:
+              - generic [ref=e1570]:
+                - text: SCHEDULE 8
+                - text: REBUILDING ONTARIO PLACE ACT, 2023
+            - paragraph [ref=e1571]:
+              - generic [ref=e1572]:
+                - text: 1 The
+                - emphasis [ref=e1573]: Rebuilding Ontario Place Act, 2023
+                - text: "is amended by adding the following section:"
+            - paragraph [ref=e1574]: Non-Application of Environmental Bill of Rights, 1993
+            - paragraph [ref=e1575]:
+              - generic [ref=e1576]:
+                - text: Non-application of
+                - emphasis [ref=e1577]: Environmental Bill of Rights, 1993
+                - text: ", re Ontario Place"
+            - paragraph [ref=e1578]:
+              - generic [ref=e1579]: "9.1"
+              - generic [ref=e1580]:
+                - text: Part II of the
+                - emphasis [ref=e1581]: Environmental Bill of Rights, 1993
+                - text: "does not apply to a proposal to issue, amend or revoke an instrument for or related to either of the following despite the proposal being a type of proposal for an instrument that is classified by a regulation made under that Act:"
+            - paragraph [ref=e1582]: 1. The Ontario Place Redevelopment Project.
+            - paragraph [ref=e1583]: 2. Any enterprise or activity that furthers the Ontario Place Redevelopment Project that is not at the Ontario Place site.
+            - paragraph [ref=e1584]: "2 Section 18 of the Act is amended by adding the following clause:"
+            - paragraph [ref=e1585]: (f.1) respecting whether an enterprise or activity is in furtherance of the Ontario Place Redevelopment Project for the purposes of paragraph 2 of section 9.1, which may include specifying enterprises or activities that further or do not further the Ontario Place Redevelopment Project or authorizing a person specified by the regulation to make a determination of whether enterprises or activities further the Ontario Place Redevelopment Project;
+            - paragraph [ref=e1586]: Commencement
+            - paragraph [ref=e1587]:
+              - generic [ref=e1588]:
+                - text: 3 This Schedule comes into force on the day the
+                - emphasis [ref=e1589]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e1590]:
+              - generic [ref=e1592]:
+                - text: SCHEDULE 9
+                - text: SPECIAL ECONOMIC ZONES ACT, 2025
+            - paragraph [ref=e1593]: CONTENTS
+            - table [ref=e1595]:
+              - rowgroup [ref=e1596]:
+                - row "1. Definitions" [ref=e1597]:
+                  - cell "1." [ref=e1598]:
+                    - paragraph [ref=e1599]:
+                      - link "1." [ref=e1601] [cursor=pointer]:
+                        - /url: "#Sched90"
+                        - generic [ref=e1602]: "1."
+                  - cell "Definitions" [ref=e1603]:
+                    - paragraph [ref=e1604]: Definitions
+                - row "2. Special economic zones" [ref=e1605]:
+                  - cell "2." [ref=e1606]:
+                    - paragraph [ref=e1607]:
+                      - link "2." [ref=e1609] [cursor=pointer]:
+                        - /url: "#Sched91"
+                        - generic [ref=e1610]: "2."
+                  - cell "Special economic zones" [ref=e1611]:
+                    - paragraph [ref=e1612]: Special economic zones
+                - row "3. Trusted proponents" [ref=e1613]:
+                  - cell "3." [ref=e1614]:
+                    - paragraph [ref=e1615]:
+                      - link "3." [ref=e1617] [cursor=pointer]:
+                        - /url: "#Sched92"
+                        - generic [ref=e1618]: "3."
+                  - cell "Trusted proponents" [ref=e1619]:
+                    - paragraph [ref=e1620]: Trusted proponents
+                - row "4. Designated projects" [ref=e1621]:
+                  - cell "4." [ref=e1622]:
+                    - paragraph [ref=e1623]:
+                      - link "4." [ref=e1625] [cursor=pointer]:
+                        - /url: "#Sched93"
+                        - generic [ref=e1626]: "4."
+                  - cell "Designated projects" [ref=e1627]:
+                    - paragraph [ref=e1628]: Designated projects
+                - row "5. Exemption from requirements" [ref=e1629]:
+                  - cell "5." [ref=e1630]:
+                    - paragraph [ref=e1631]:
+                      - link "5." [ref=e1633] [cursor=pointer]:
+                        - /url: "#Sched94"
+                        - generic [ref=e1634]: "5."
+                  - cell "Exemption from requirements" [ref=e1635]:
+                    - paragraph [ref=e1636]: Exemption from requirements
+                - row "6. Modification of application of provisions of other Acts, etc." [ref=e1637]:
+                  - cell "6." [ref=e1638]:
+                    - paragraph [ref=e1639]:
+                      - link "6." [ref=e1641] [cursor=pointer]:
+                        - /url: "#Sched95"
+                        - generic [ref=e1642]: "6."
+                  - cell "Modification of application of provisions of other Acts, etc." [ref=e1643]:
+                    - paragraph [ref=e1644]: Modification of application of provisions of other Acts, etc.
+                - row "7. Extinguishment of causes of action" [ref=e1645]:
+                  - cell "7." [ref=e1646]:
+                    - paragraph [ref=e1647]:
+                      - link "7." [ref=e1649] [cursor=pointer]:
+                        - /url: "#Sched96"
+                        - generic [ref=e1650]: "7."
+                  - cell "Extinguishment of causes of action" [ref=e1651]:
+                    - paragraph [ref=e1652]: Extinguishment of causes of action
+                - row "8. Commencement" [ref=e1653]:
+                  - cell "8." [ref=e1654]:
+                    - paragraph [ref=e1655]:
+                      - link "8." [ref=e1657] [cursor=pointer]:
+                        - /url: "#Sched97"
+                        - generic [ref=e1658]: "8."
+                  - cell "Commencement" [ref=e1659]:
+                    - paragraph [ref=e1660]: Commencement
+                - row "9. Short title" [ref=e1661]:
+                  - cell "9." [ref=e1662]:
+                    - paragraph [ref=e1663]:
+                      - link "9." [ref=e1665] [cursor=pointer]:
+                        - /url: "#Sched98"
+                        - generic [ref=e1666]: "9."
+                  - cell "Short title" [ref=e1667]:
+                    - paragraph [ref=e1668]: Short title
+            - paragraph [ref=e1669]
+            - paragraph [ref=e1670]: Definitions
+            - paragraph [ref=e1671]:
+              - generic [ref=e1672]:
+                - generic [ref=e1673]: "1"
+                - text: In this Act,
+            - paragraph [ref=e1674]: “designated project” means a project designated under section 4; (“projet désigné”)
+            - paragraph [ref=e1675]:
+              - generic [ref=e1676]:
+                - text: “local board” means a local board as defined in the
+                - emphasis [ref=e1677]: Municipal Affairs Act
+                - text: ; (“conseil local”)
+            - paragraph [ref=e1678]:
+              - generic [ref=e1679]:
+                - text: “Minister” means the Minister of Economic Development, Job Creation and Trade or such other member of the Executive Council to whom responsibility for the administration of this Act is assigned or transferred under the
+                - emphasis [ref=e1680]: Executive Council Act
+                - text: ; (“ministre”)
+            - paragraph [ref=e1681]: “special economic zone” means a special economic zone designated under section 2; (“zone économique spéciale”)
+            - paragraph [ref=e1682]: “trusted proponent” means a trusted proponent designated under section 3. (“promoteur fiable”)
+            - paragraph [ref=e1683]: Special economic zones
+            - paragraph [ref=e1684]:
+              - generic [ref=e1685]:
+                - generic [ref=e1686]: "2"
+                - text: (1) The Lieutenant Governor in Council may, by regulation, designate an area of the Province as a special economic zone if the prescribed criteria are met.
+            - paragraph [ref=e1687]: Criteria for designation
+            - paragraph [ref=e1688]: (2) The Lieutenant Governor in Council may make regulations prescribing criteria for the purposes of subsection (1).
+            - paragraph [ref=e1689]: Trusted proponents
+            - paragraph [ref=e1690]:
+              - generic [ref=e1691]:
+                - generic [ref=e1692]: "3"
+                - text: (1) The Minister may, by regulation, designate a person as a trusted proponent if the prescribed criteria are met.
+            - paragraph [ref=e1693]: Trusted proponents - classes
+            - paragraph [ref=e1694]: (2) The Minister may, by regulation, designate a class of persons as trusted proponents if the prescribed criteria are met.
+            - paragraph [ref=e1695]: Criteria for designation
+            - paragraph [ref=e1696]: (3) The Lieutenant Governor in Council may make regulations prescribing criteria for the purposes of subsection (1) or (2).
+            - paragraph [ref=e1697]: Designated projects
+            - paragraph [ref=e1698]:
+              - generic [ref=e1699]:
+                - generic [ref=e1700]: "4"
+                - text: (1) The Minister may, by regulation, designate a project as a designated project if the prescribed criteria are met.
+            - paragraph [ref=e1701]: Designated projects - classes
+            - paragraph [ref=e1702]: (2) The Minister may, by regulation, designate a class of projects as designated projects if the prescribed criteria are met.
+            - paragraph [ref=e1703]: Criteria for designation
+            - paragraph [ref=e1704]: (3) The Lieutenant Governor in Council may make regulations prescribing criteria for the purposes of subsection (1) or (2).
+            - paragraph [ref=e1705]: Exemption from requirements
+            - paragraph [ref=e1706]:
+              - generic [ref=e1707]:
+                - generic [ref=e1708]: "5"
+                - text: (1) The Lieutenant Governor in Council may, by regulation, exempt a trusted proponent or a designated project from requirements under provisions of an Act or of a regulation or other instrument under an Act, subject to conditions specified in the regulation, as those requirements would apply in a special economic zone.
+            - paragraph [ref=e1709]: Municipal by-laws, etc.
+            - paragraph [ref=e1710]: (2) For greater certainty, the reference to “other instrument under an Act” in subsection (1) includes a by-law or other instrument of a municipality or local board.
+            - paragraph [ref=e1711]: Modification of application of provisions of other Acts, etc.
+            - paragraph [ref=e1712]:
+              - generic [ref=e1713]:
+                - generic [ref=e1714]: "6"
+                - text: (1) The Lieutenant Governor in Council may, by regulation, modify the application of provisions of an Act or of a regulation or other instrument under an Act, subject to conditions specified in the regulation, as those provisions would apply,
+            - paragraph [ref=e1715]: (a) with respect to a trusted proponent in a special economic zone; or
+            - paragraph [ref=e1716]: (b) with respect to a designated project in a special economic zone.
+            - paragraph [ref=e1717]: Municipal by-laws, etc.
+            - paragraph [ref=e1718]: (2) For greater certainty, the reference to “other instrument under an Act” in subsection (1) includes a by-law or other instrument of a municipality or local board.
+            - paragraph [ref=e1719]: Extinguishment of causes of action
+            - paragraph [ref=e1720]:
+              - generic [ref=e1721]:
+                - generic [ref=e1722]: "7"
+                - text: (1) No cause of action arises against a person set out in subsection (2) as a direct or indirect result of,
+            - paragraph [ref=e1723]: (a) the enactment, amendment or repeal of any provision of this Act;
+            - paragraph [ref=e1724]: (b) the making, amendment or revocation of any provision of a regulation under this Act; or
+            - paragraph [ref=e1725]: (c) anything done or not done in accordance with this Act or a regulation under this Act.
+            - paragraph [ref=e1726]:
+              - generic [ref=e1727]: Persons referred to
+            - paragraph [ref=e1728]: (2) The persons referred to in subsection (1) are,
+            - paragraph [ref=e1729]: (a) the Crown or any current or former member of the Executive Council or employee, officer or agent of or advisor to the Crown; or
+            - paragraph [ref=e1730]: (b) a municipality or local board, or any current or former member of the council of the municipality or of the local board, or employee, officer or agent of or advisor to the municipality or local board.
+            - paragraph [ref=e1731]: No remedy
+            - paragraph [ref=e1732]: (3) No costs, compensation or damages, including for loss of revenue or profit or any other alleged loss, whether direct or indirect, are owing or payable to any person by a person referred to in subsection (1), and no remedy, including a remedy in contract, restitution, tort, a remedy for misfeasance, bad faith or a breach of trust or fiduciary obligation, any equitable remedy or any remedy under any statute, is available to any person against any person referred to in subsection (1) in connection with anything referred to in that subsection.
+            - paragraph [ref=e1733]: Proceedings barred
+            - paragraph [ref=e1734]: (4) No proceeding that is directly or indirectly based on or related to anything referred to in subsection (1) may be brought or maintained against any person referred to in that subsection.
+            - paragraph [ref=e1735]: Application
+            - paragraph [ref=e1736]: (5) Subsections (3) and (4) do not apply with respect to an application for judicial review or a claim for a constitutional remedy, but do apply with respect to any other court, administrative or arbitral proceeding claiming any remedy or relief, including specific performance, an injunction, declaratory relief or the enforcement of a judgment, order or award made outside Ontario.
+            - paragraph [ref=e1737]: No costs awarded
+            - paragraph [ref=e1738]: (6) No costs shall be awarded against any person in respect of a proceeding that cannot be brought or maintained under subsection (4).
+            - paragraph [ref=e1739]: No expropriation or injurious affection
+            - paragraph [ref=e1740]:
+              - generic [ref=e1741]:
+                - text: (7) Nothing referred to in subsection (1) constitutes an expropriation or injurious affection for the purposes of the
+                - emphasis [ref=e1742]: Expropriations Act
+                - text: or otherwise at law.
+            - paragraph [ref=e1743]: Proceedings by Crown not prevented
+            - paragraph [ref=e1744]: (8) This section does not apply with respect to proceedings brought by the Crown.
+            - paragraph [ref=e1745]: Certain proceedings by municipalities not prevented
+            - paragraph [ref=e1746]: (9) This section does not apply with respect to proceedings brought by a municipality against,
+            - paragraph [ref=e1747]: (a) any current or former member of the council of the municipality or of a local board of the municipality; or
+            - paragraph [ref=e1748]: (b) any current or former employee, officer or agent of or advisor to the municipality or a local board of the municipality.
+            - paragraph [ref=e1749]: Certain proceedings by local boards not prevented
+            - paragraph [ref=e1750]: (10) This section does not apply with respect to proceedings brought by a local board against,
+            - paragraph [ref=e1751]: (a) any current or former member of the local board; or
+            - paragraph [ref=e1752]: (b) any current or former employee, officer or agent of or advisor to the local board.
+            - paragraph [ref=e1753]: Commencement
+            - paragraph [ref=e1754]:
+              - generic [ref=e1756]:
+                - text: 8 The Act set out in this Schedule comes into force on the day the
+                - emphasis [ref=e1757]: Protect Ontario by Unleashing our Economy Act, 2025
+                - text: receives Royal Assent.
+            - paragraph [ref=e1758]: Short title
+            - paragraph [ref=e1759]:
+              - generic [ref=e1761]:
+                - text: 9 The short title of the Act set out in this Schedule is the
+                - emphasis [ref=e1762]: Special Economic Zones Act, 2025
+                - text: .
+            - paragraph [ref=e1763]:
+              - generic [ref=e1765]:
+                - text: SCHEDULE 10
+                - text: SPECIES CONSERVATION ACT, 2025
+            - paragraph [ref=e1766]: CONTENTS
+            - table [ref=e1768]:
+              - rowgroup [ref=e1769]:
+                - row "PART I INTERPRETATION, APPLICATION AND ADMINISTRATION" [ref=e1770]:
+                  - cell "PART I INTERPRETATION, APPLICATION AND ADMINISTRATION" [ref=e1771]:
+                    - paragraph [ref=e1772]:
+                      - generic [ref=e1773]:
+                        - link "PART I" [ref=e1774] [cursor=pointer]:
+                          - /url: "#Sched100"
+                          - generic [ref=e1776]: PART I
+                        - text: INTERPRETATION, APPLICATION AND ADMINISTRATION
+                - row "1. Purposes" [ref=e1777]:
+                  - cell "1." [ref=e1778]:
+                    - paragraph [ref=e1779]:
+                      - link "1." [ref=e1781] [cursor=pointer]:
+                        - /url: "#Sched101"
+                        - generic [ref=e1782]: "1."
+                  - cell "Purposes" [ref=e1783]:
+                    - paragraph [ref=e1784]: Purposes
+                - row "2. Definitions" [ref=e1785]:
+                  - cell "2." [ref=e1786]:
+                    - paragraph [ref=e1787]:
+                      - link "2." [ref=e1789] [cursor=pointer]:
+                        - /url: "#Sched102"
+                        - generic [ref=e1790]: "2."
+                  - cell "Definitions" [ref=e1791]:
+                    - paragraph [ref=e1792]: Definitions
+                - row "3. Existing Aboriginal or treaty rights" [ref=e1793]:
+                  - cell "3." [ref=e1794]:
+                    - paragraph [ref=e1795]:
+                      - link "3." [ref=e1797] [cursor=pointer]:
+                        - /url: "#Sched103"
+                        - generic [ref=e1798]: "3."
+                  - cell "Existing Aboriginal or treaty rights" [ref=e1799]:
+                    - paragraph [ref=e1800]: Existing Aboriginal or treaty rights
+                - row "4. General non-application, aquatic species and migratory birds" [ref=e1801]:
+                  - cell "4." [ref=e1802]:
+                    - paragraph [ref=e1803]:
+                      - link "4." [ref=e1805] [cursor=pointer]:
+                        - /url: "#Sched104"
+                        - generic [ref=e1806]: "4."
+                  - cell "General non-application, aquatic species and migratory birds" [ref=e1807]:
+                    - paragraph [ref=e1808]: General non-application, aquatic species and migratory birds
+                - row "5. Designation of provincial officers" [ref=e1809]:
+                  - cell "5." [ref=e1810]:
+                    - paragraph [ref=e1811]:
+                      - link "5." [ref=e1813] [cursor=pointer]:
+                        - /url: "#Sched105"
+                        - generic [ref=e1814]: "5."
+                  - cell "Designation of provincial officers" [ref=e1815]:
+                    - paragraph [ref=e1816]: Designation of provincial officers
+                - row "6. Delegation of powers and duties" [ref=e1817]:
+                  - cell "6." [ref=e1818]:
+                    - paragraph [ref=e1819]:
+                      - link "6." [ref=e1821] [cursor=pointer]:
+                        - /url: "#Sched106"
+                        - generic [ref=e1822]: "6."
+                  - cell "Delegation of powers and duties" [ref=e1823]:
+                    - paragraph [ref=e1824]: Delegation of powers and duties
+                - row "7. Crown bound" [ref=e1825]:
+                  - cell "7." [ref=e1826]:
+                    - paragraph [ref=e1827]:
+                      - link "7." [ref=e1829] [cursor=pointer]:
+                        - /url: "#Sched107"
+                        - generic [ref=e1830]: "7."
+                  - cell "Crown bound" [ref=e1831]:
+                    - paragraph [ref=e1832]: Crown bound
+                - row "PART II CLASSIFICATION OF SPECIES" [ref=e1833]:
+                  - cell "PART II CLASSIFICATION OF SPECIES" [ref=e1834]:
+                    - paragraph [ref=e1835]:
+                      - generic [ref=e1836]:
+                        - link "PART II" [ref=e1837] [cursor=pointer]:
+                          - /url: "#Sched108"
+                          - generic [ref=e1839]: PART II
+                        - text: CLASSIFICATION OF SPECIES
+                - row "8. Interpretation" [ref=e1840]:
+                  - cell "8." [ref=e1841]:
+                    - paragraph [ref=e1842]:
+                      - link "8." [ref=e1844] [cursor=pointer]:
+                        - /url: "#Sched109"
+                        - generic [ref=e1845]: "8."
+                  - cell "Interpretation" [ref=e1846]:
+                    - paragraph [ref=e1847]: Interpretation
+                - row "9. Committee on the Status of Species at Risk in Ontario" [ref=e1848]:
+                  - cell "9." [ref=e1849]:
+                    - paragraph [ref=e1850]:
+                      - link "9." [ref=e1852] [cursor=pointer]:
+                        - /url: "#Sched1010"
+                        - generic [ref=e1853]: "9."
+                  - cell "Committee on the Status of Species at Risk in Ontario" [ref=e1854]:
+                    - paragraph [ref=e1855]: Committee on the Status of Species at Risk in Ontario
+                - row "10. Functions of COSSARO" [ref=e1856]:
+                  - cell "10." [ref=e1857]:
+                    - paragraph [ref=e1858]:
+                      - link "10." [ref=e1860] [cursor=pointer]:
+                        - /url: "#Sched1011"
+                        - generic [ref=e1861]: "10."
+                  - cell "Functions of COSSARO" [ref=e1862]:
+                    - paragraph [ref=e1863]: Functions of COSSARO
+                - row "11. Rules for classification" [ref=e1864]:
+                  - cell "11." [ref=e1865]:
+                    - paragraph [ref=e1866]:
+                      - link "11." [ref=e1868] [cursor=pointer]:
+                        - /url: "#Sched1012"
+                        - generic [ref=e1869]: "11."
+                  - cell "Rules for classification" [ref=e1870]:
+                    - paragraph [ref=e1871]: Rules for classification
+                - row "12. Annual report by COSSARO" [ref=e1872]:
+                  - cell "12." [ref=e1873]:
+                    - paragraph [ref=e1874]:
+                      - link "12." [ref=e1876] [cursor=pointer]:
+                        - /url: "#Sched1013"
+                        - generic [ref=e1877]: "12."
+                  - cell "Annual report by COSSARO" [ref=e1878]:
+                    - paragraph [ref=e1879]: Annual report by COSSARO
+                - row "13. Additional reports" [ref=e1880]:
+                  - cell "13." [ref=e1881]:
+                    - paragraph [ref=e1882]:
+                      - link "13." [ref=e1884] [cursor=pointer]:
+                        - /url: "#Sched1014"
+                        - generic [ref=e1885]: "13."
+                  - cell "Additional reports" [ref=e1886]:
+                    - paragraph [ref=e1887]: Additional reports
+                - row "PART III PROTECTION AND CONSERVATION OF SPECIES" [ref=e1888]:
+                  - cell "PART III PROTECTION AND CONSERVATION OF SPECIES" [ref=e1889]:
+                    - paragraph [ref=e1890]:
+                      - generic [ref=e1891]:
+                        - link "PART III" [ref=e1892] [cursor=pointer]:
+                          - /url: "#Sched1015"
+                          - generic [ref=e1894]: PART III
+                        - text: PROTECTION AND CONSERVATION OF SPECIES
+                - row "General" [ref=e1895]:
+                  - cell "General" [ref=e1896]:
+                    - paragraph [ref=e1897]:
+                      - link "General" [ref=e1899] [cursor=pointer]:
+                        - /url: "#Sched1016"
+                        - generic [ref=e1900]: General
+                - row "14. Protected Species in Ontario List" [ref=e1901]:
+                  - cell "14." [ref=e1902]:
+                    - paragraph [ref=e1903]:
+                      - link "14." [ref=e1905] [cursor=pointer]:
+                        - /url: "#Sched1017"
+                        - generic [ref=e1906]: "14."
+                  - cell "Protected Species in Ontario List" [ref=e1907]:
+                    - paragraph [ref=e1908]: Protected Species in Ontario List
+                - row "15. Prohibition, extirpation in Ontario" [ref=e1909]:
+                  - cell "15." [ref=e1910]:
+                    - paragraph [ref=e1911]:
+                      - link "15." [ref=e1913] [cursor=pointer]:
+                        - /url: "#Sched1018"
+                        - generic [ref=e1914]: "15."
+                  - cell "Prohibition, extirpation in Ontario" [ref=e1915]:
+                    - paragraph [ref=e1916]: Prohibition, extirpation in Ontario
+                - row "16. Prohibition, s. 16 activities" [ref=e1917]:
+                  - cell "16." [ref=e1918]:
+                    - paragraph [ref=e1919]:
+                      - link "16." [ref=e1921] [cursor=pointer]:
+                        - /url: "#Sched1019"
+                        - generic [ref=e1922]: "16."
+                  - cell "Prohibition, s. 16 activities" [ref=e1923]:
+                    - paragraph [ref=e1924]: Prohibition, s. 16 activities
+                - row "Registrations" [ref=e1925]:
+                  - cell "Registrations" [ref=e1926]:
+                    - paragraph [ref=e1927]:
+                      - link "Registrations" [ref=e1929] [cursor=pointer]:
+                        - /url: "#Sched1020"
+                        - generic [ref=e1930]: Registrations
+                - row "17. Registry" [ref=e1931]:
+                  - cell "17." [ref=e1932]:
+                    - paragraph [ref=e1933]:
+                      - link "17." [ref=e1935] [cursor=pointer]:
+                        - /url: "#Sched1021"
+                        - generic [ref=e1936]: "17."
+                  - cell "Registry" [ref=e1937]:
+                    - paragraph [ref=e1938]: Registry
+                - row "18. Registrations" [ref=e1939]:
+                  - cell "18." [ref=e1940]:
+                    - paragraph [ref=e1941]:
+                      - link "18." [ref=e1943] [cursor=pointer]:
+                        - /url: "#Sched1022"
+                        - generic [ref=e1944]: "18."
+                  - cell "Registrations" [ref=e1945]:
+                    - paragraph [ref=e1946]: Registrations
+                - row "19. Suspension or removal of registration" [ref=e1947]:
+                  - cell "19." [ref=e1948]:
+                    - paragraph [ref=e1949]:
+                      - link "19." [ref=e1951] [cursor=pointer]:
+                        - /url: "#Sched1023"
+                        - generic [ref=e1952]: "19."
+                  - cell "Suspension or removal of registration" [ref=e1953]:
+                    - paragraph [ref=e1954]: Suspension or removal of registration
+                - row "20. Filing of order or notice in Registry" [ref=e1955]:
+                  - cell "20." [ref=e1956]:
+                    - paragraph [ref=e1957]:
+                      - link "20." [ref=e1959] [cursor=pointer]:
+                        - /url: "#Sched1024"
+                        - generic [ref=e1960]: "20."
+                  - cell "Filing of order or notice in Registry" [ref=e1961]:
+                    - paragraph [ref=e1962]: Filing of order or notice in Registry
+                - row "Permits" [ref=e1963]:
+                  - cell "Permits" [ref=e1964]:
+                    - paragraph [ref=e1965]:
+                      - link "Permits" [ref=e1967] [cursor=pointer]:
+                        - /url: "#Sched1025"
+                        - generic [ref=e1968]: Permits
+                - row "21. Application for permit" [ref=e1969]:
+                  - cell "21." [ref=e1970]:
+                    - paragraph [ref=e1971]:
+                      - link "21." [ref=e1973] [cursor=pointer]:
+                        - /url: "#Sched1026"
+                        - generic [ref=e1974]: "21."
+                  - cell "Application for permit" [ref=e1975]:
+                    - paragraph [ref=e1976]: Application for permit
+                - row "22. Powers of Minister" [ref=e1977]:
+                  - cell "22." [ref=e1978]:
+                    - paragraph [ref=e1979]:
+                      - link "22." [ref=e1981] [cursor=pointer]:
+                        - /url: "#Sched1027"
+                        - generic [ref=e1982]: "22."
+                  - cell "Powers of Minister" [ref=e1983]:
+                    - paragraph [ref=e1984]: Powers of Minister
+                - row "Laws of Other Jurisdictions" [ref=e1985]:
+                  - cell "Laws of Other Jurisdictions" [ref=e1986]:
+                    - paragraph [ref=e1987]:
+                      - link "Laws of Other Jurisdictions" [ref=e1989] [cursor=pointer]:
+                        - /url: "#Sched1028"
+                        - generic [ref=e1990]: Laws of Other Jurisdictions
+                - row "23. Activities contrary to laws of other jurisdictions" [ref=e1991]:
+                  - cell "23." [ref=e1992]:
+                    - paragraph [ref=e1993]:
+                      - link "23." [ref=e1995] [cursor=pointer]:
+                        - /url: "#Sched1029"
+                        - generic [ref=e1996]: "23."
+                  - cell "Activities contrary to laws of other jurisdictions" [ref=e1997]:
+                    - paragraph [ref=e1998]: Activities contrary to laws of other jurisdictions
+                - row "Codes of Practice and the Species Conservation Program" [ref=e1999]:
+                  - cell "Codes of Practice and the Species Conservation Program" [ref=e2000]:
+                    - paragraph [ref=e2001]:
+                      - link "Codes of Practice and the Species Conservation Program" [ref=e2003] [cursor=pointer]:
+                        - /url: "#Sched1030"
+                        - generic [ref=e2004]: Codes of Practice and the Species Conservation Program
+                - row "24. Codes of practice, etc." [ref=e2005]:
+                  - cell "24." [ref=e2006]:
+                    - paragraph [ref=e2007]:
+                      - link "24." [ref=e2009] [cursor=pointer]:
+                        - /url: "#Sched1031"
+                        - generic [ref=e2010]: "24."
+                  - cell "Codes of practice, etc." [ref=e2011]:
+                    - paragraph [ref=e2012]: Codes of practice, etc.
+                - row "25. Species Conservation Program" [ref=e2013]:
+                  - cell "25." [ref=e2014]:
+                    - paragraph [ref=e2015]:
+                      - link "25." [ref=e2017] [cursor=pointer]:
+                        - /url: "#Sched1032"
+                        - generic [ref=e2018]: "25."
+                  - cell "Species Conservation Program" [ref=e2019]:
+                    - paragraph [ref=e2020]: Species Conservation Program
+                - row "PART IV ENFORCEMENT" [ref=e2021]:
+                  - cell "PART IV ENFORCEMENT" [ref=e2022]:
+                    - paragraph [ref=e2023]:
+                      - generic [ref=e2024]:
+                        - link "PART IV" [ref=e2025] [cursor=pointer]:
+                          - /url: "#Sched1033"
+                          - generic [ref=e2027]: PART IV
+                        - text: ENFORCEMENT
+                - row "Provincial Officers" [ref=e2028]:
+                  - cell "Provincial Officers" [ref=e2029]:
+                    - paragraph [ref=e2030]:
+                      - link "Provincial Officers" [ref=e2032] [cursor=pointer]:
+                        - /url: "#Sched1034"
+                        - generic [ref=e2033]: Provincial Officers
+                - row "26. Production of identification" [ref=e2034]:
+                  - cell "26." [ref=e2035]:
+                    - paragraph [ref=e2036]:
+                      - link "26." [ref=e2038] [cursor=pointer]:
+                        - /url: "#Sched1035"
+                        - generic [ref=e2039]: "26."
+                  - cell "Production of identification" [ref=e2040]:
+                    - paragraph [ref=e2041]: Production of identification
+                - row "27. Power to require response to inquiries" [ref=e2042]:
+                  - cell "27." [ref=e2043]:
+                    - paragraph [ref=e2044]:
+                      - link "27." [ref=e2046] [cursor=pointer]:
+                        - /url: "#Sched1036"
+                        - generic [ref=e2047]: "27."
+                  - cell "Power to require response to inquiries" [ref=e2048]:
+                    - paragraph [ref=e2049]: Power to require response to inquiries
+                - row "28. Necessary force" [ref=e2050]:
+                  - cell "28." [ref=e2051]:
+                    - paragraph [ref=e2052]:
+                      - link "28." [ref=e2054] [cursor=pointer]:
+                        - /url: "#Sched1037"
+                        - generic [ref=e2055]: "28."
+                  - cell "Necessary force" [ref=e2056]:
+                    - paragraph [ref=e2057]: Necessary force
+                - row "29. Incidental authority to pass through" [ref=e2058]:
+                  - cell "29." [ref=e2059]:
+                    - paragraph [ref=e2060]:
+                      - link "29." [ref=e2062] [cursor=pointer]:
+                        - /url: "#Sched1038"
+                        - generic [ref=e2063]: "29."
+                  - cell "Incidental authority to pass through" [ref=e2064]:
+                    - paragraph [ref=e2065]: Incidental authority to pass through
+                - row "30. Exemptions from Act, provincial officers" [ref=e2066]:
+                  - cell "30." [ref=e2067]:
+                    - paragraph [ref=e2068]:
+                      - link "30." [ref=e2070] [cursor=pointer]:
+                        - /url: "#Sched1039"
+                        - generic [ref=e2071]: "30."
+                  - cell "Exemptions from Act, provincial officers" [ref=e2072]:
+                    - paragraph [ref=e2073]: Exemptions from Act, provincial officers
+                - row "31. Compliance with inspections, etc." [ref=e2074]:
+                  - cell "31." [ref=e2075]:
+                    - paragraph [ref=e2076]:
+                      - link "31." [ref=e2078] [cursor=pointer]:
+                        - /url: "#Sched1040"
+                        - generic [ref=e2079]: "31."
+                  - cell "Compliance with inspections, etc." [ref=e2080]:
+                    - paragraph [ref=e2081]: Compliance with inspections, etc.
+                - row "Inspections" [ref=e2082]:
+                  - cell "Inspections" [ref=e2083]:
+                    - paragraph [ref=e2084]:
+                      - link "Inspections" [ref=e2086] [cursor=pointer]:
+                        - /url: "#Sched1041"
+                        - generic [ref=e2087]: Inspections
+                - row "32. Inspections to determine compliance" [ref=e2088]:
+                  - cell "32." [ref=e2089]:
+                    - paragraph [ref=e2090]:
+                      - link "32." [ref=e2092] [cursor=pointer]:
+                        - /url: "#Sched1042"
+                        - generic [ref=e2093]: "32."
+                  - cell "Inspections to determine compliance" [ref=e2094]:
+                    - paragraph [ref=e2095]: Inspections to determine compliance
+                - row "33. Inspection of vehicles, boats, aircraft" [ref=e2096]:
+                  - cell "33." [ref=e2097]:
+                    - paragraph [ref=e2098]:
+                      - link "33." [ref=e2100] [cursor=pointer]:
+                        - /url: "#Sched1043"
+                        - generic [ref=e2101]: "33."
+                  - cell "Inspection of vehicles, boats, aircraft" [ref=e2102]:
+                    - paragraph [ref=e2103]: Inspection of vehicles, boats, aircraft
+                - row "34. Searches with respect to offences" [ref=e2104]:
+                  - cell "34." [ref=e2105]:
+                    - paragraph [ref=e2106]:
+                      - link "34." [ref=e2108] [cursor=pointer]:
+                        - /url: "#Sched1044"
+                        - generic [ref=e2109]: "34."
+                  - cell "Searches with respect to offences" [ref=e2110]:
+                    - paragraph [ref=e2111]: Searches with respect to offences
+                - row "35. Seizure and forfeiture" [ref=e2112]:
+                  - cell "35." [ref=e2113]:
+                    - paragraph [ref=e2114]:
+                      - link "35." [ref=e2116] [cursor=pointer]:
+                        - /url: "#Sched1045"
+                        - generic [ref=e2117]: "35."
+                  - cell "Seizure and forfeiture" [ref=e2118]:
+                    - paragraph [ref=e2119]: Seizure and forfeiture
+                - row "Orders" [ref=e2120]:
+                  - cell "Orders" [ref=e2121]:
+                    - paragraph [ref=e2122]:
+                      - link "Orders" [ref=e2124] [cursor=pointer]:
+                        - /url: "#Sched1046"
+                        - generic [ref=e2125]: Orders
+                - row "36. Mitigation order" [ref=e2126]:
+                  - cell "36." [ref=e2127]:
+                    - paragraph [ref=e2128]:
+                      - link "36." [ref=e2130] [cursor=pointer]:
+                        - /url: "#Sched1047"
+                        - generic [ref=e2131]: "36."
+                  - cell "Mitigation order" [ref=e2132]:
+                    - paragraph [ref=e2133]: Mitigation order
+                - row "37. Habitat protection order" [ref=e2134]:
+                  - cell "37." [ref=e2135]:
+                    - paragraph [ref=e2136]:
+                      - link "37." [ref=e2138] [cursor=pointer]:
+                        - /url: "#Sched1048"
+                        - generic [ref=e2139]: "37."
+                  - cell "Habitat protection order" [ref=e2140]:
+                    - paragraph [ref=e2141]: Habitat protection order
+                - row "38. Species Protection Order" [ref=e2142]:
+                  - cell "38." [ref=e2143]:
+                    - paragraph [ref=e2144]:
+                      - link "38." [ref=e2146] [cursor=pointer]:
+                        - /url: "#Sched1049"
+                        - generic [ref=e2147]: "38."
+                  - cell "Species Protection Order" [ref=e2148]:
+                    - paragraph [ref=e2149]: Species Protection Order
+                - row "39. Contravention order" [ref=e2150]:
+                  - cell "39." [ref=e2151]:
+                    - paragraph [ref=e2152]:
+                      - link "39." [ref=e2154] [cursor=pointer]:
+                        - /url: "#Sched1050"
+                        - generic [ref=e2155]: "39."
+                  - cell "Contravention order" [ref=e2156]:
+                    - paragraph [ref=e2157]: Contravention order
+                - row "40. Service of orders" [ref=e2158]:
+                  - cell "40." [ref=e2159]:
+                    - paragraph [ref=e2160]:
+                      - link "40." [ref=e2162] [cursor=pointer]:
+                        - /url: "#Sched1051"
+                        - generic [ref=e2163]: "40."
+                  - cell "Service of orders" [ref=e2164]:
+                    - paragraph [ref=e2165]: Service of orders
+                - row "41. Compliance with orders" [ref=e2166]:
+                  - cell "41." [ref=e2167]:
+                    - paragraph [ref=e2168]:
+                      - link "41." [ref=e2170] [cursor=pointer]:
+                        - /url: "#Sched1052"
+                        - generic [ref=e2171]: "41."
+                  - cell "Compliance with orders" [ref=e2172]:
+                    - paragraph [ref=e2173]: Compliance with orders
+                - row "PART V APPEALS" [ref=e2174]:
+                  - cell "PART V APPEALS" [ref=e2175]:
+                    - paragraph [ref=e2176]:
+                      - generic [ref=e2177]:
+                        - link "PART V" [ref=e2178] [cursor=pointer]:
+                          - /url: "#Sched1053"
+                          - generic [ref=e2180]: PART V
+                        - text: APPEALS
+                - row "42. Appeal of permit or order" [ref=e2181]:
+                  - cell "42." [ref=e2182]:
+                    - paragraph [ref=e2183]:
+                      - link "42." [ref=e2185] [cursor=pointer]:
+                        - /url: "#Sched1054"
+                        - generic [ref=e2186]: "42."
+                  - cell "Appeal of permit or order" [ref=e2187]:
+                    - paragraph [ref=e2188]: Appeal of permit or order
+                - row "43. Extension of time for requiring hearing" [ref=e2189]:
+                  - cell "43." [ref=e2190]:
+                    - paragraph [ref=e2191]:
+                      - link "43." [ref=e2193] [cursor=pointer]:
+                        - /url: "#Sched1055"
+                        - generic [ref=e2194]: "43."
+                  - cell "Extension of time for requiring hearing" [ref=e2195]:
+                    - paragraph [ref=e2196]: Extension of time for requiring hearing
+                - row "44. Contents of notice requiring hearing" [ref=e2197]:
+                  - cell "44." [ref=e2198]:
+                    - paragraph [ref=e2199]:
+                      - link "44." [ref=e2201] [cursor=pointer]:
+                        - /url: "#Sched1056"
+                        - generic [ref=e2202]: "44."
+                  - cell "Contents of notice requiring hearing" [ref=e2203]:
+                    - paragraph [ref=e2204]: Contents of notice requiring hearing
+                - row "45. No stay on appeal" [ref=e2205]:
+                  - cell "45." [ref=e2206]:
+                    - paragraph [ref=e2207]:
+                      - link "45." [ref=e2209] [cursor=pointer]:
+                        - /url: "#Sched1057"
+                        - generic [ref=e2210]: "45."
+                  - cell "No stay on appeal" [ref=e2211]:
+                    - paragraph [ref=e2212]: No stay on appeal
+                - row "46. Parties" [ref=e2213]:
+                  - cell "46." [ref=e2214]:
+                    - paragraph [ref=e2215]:
+                      - link "46." [ref=e2217] [cursor=pointer]:
+                        - /url: "#Sched1058"
+                        - generic [ref=e2218]: "46."
+                  - cell "Parties" [ref=e2219]:
+                    - paragraph [ref=e2220]: Parties
+                - row "47. Powers of Tribunal" [ref=e2221]:
+                  - cell "47." [ref=e2222]:
+                    - paragraph [ref=e2223]:
+                      - link "47." [ref=e2225] [cursor=pointer]:
+                        - /url: "#Sched1059"
+                        - generic [ref=e2226]: "47."
+                  - cell "Powers of Tribunal" [ref=e2227]:
+                    - paragraph [ref=e2228]: Powers of Tribunal
+                - row "48. Appeals from Tribunal" [ref=e2229]:
+                  - cell "48." [ref=e2230]:
+                    - paragraph [ref=e2231]:
+                      - link "48." [ref=e2233] [cursor=pointer]:
+                        - /url: "#Sched1060"
+                        - generic [ref=e2234]: "48."
+                  - cell "Appeals from Tribunal" [ref=e2235]:
+                    - paragraph [ref=e2236]: Appeals from Tribunal
+                - row "PART VI OFFENCES AND PENALTIES" [ref=e2237]:
+                  - cell "PART VI OFFENCES AND PENALTIES" [ref=e2238]:
+                    - paragraph [ref=e2239]:
+                      - generic [ref=e2240]:
+                        - link "PART VI" [ref=e2241] [cursor=pointer]:
+                          - /url: "#Sched1061"
+                          - generic [ref=e2243]: PART VI
+                        - text: OFFENCES AND PENALTIES
+                - row "49. Offences" [ref=e2244]:
+                  - cell "49." [ref=e2245]:
+                    - paragraph [ref=e2246]:
+                      - link "49." [ref=e2248] [cursor=pointer]:
+                        - /url: "#Sched1062"
+                        - generic [ref=e2249]: "49."
+                  - cell "Offences" [ref=e2250]:
+                    - paragraph [ref=e2251]: Offences
+                - row "50. Corporations" [ref=e2252]:
+                  - cell "50." [ref=e2253]:
+                    - paragraph [ref=e2254]:
+                      - link "50." [ref=e2256] [cursor=pointer]:
+                        - /url: "#Sched1063"
+                        - generic [ref=e2257]: "50."
+                  - cell "Corporations" [ref=e2258]:
+                    - paragraph [ref=e2259]: Corporations
+                - row "51. Employers and principals" [ref=e2260]:
+                  - cell "51." [ref=e2261]:
+                    - paragraph [ref=e2262]:
+                      - link "51." [ref=e2264] [cursor=pointer]:
+                        - /url: "#Sched1064"
+                        - generic [ref=e2265]: "51."
+                  - cell "Employers and principals" [ref=e2266]:
+                    - paragraph [ref=e2267]: Employers and principals
+                - row "52. Defence" [ref=e2268]:
+                  - cell "52." [ref=e2269]:
+                    - paragraph [ref=e2270]:
+                      - link "52." [ref=e2272] [cursor=pointer]:
+                        - /url: "#Sched1065"
+                        - generic [ref=e2273]: "52."
+                  - cell "Defence" [ref=e2274]:
+                    - paragraph [ref=e2275]: Defence
+                - row "53. Penalties" [ref=e2276]:
+                  - cell "53." [ref=e2277]:
+                    - paragraph [ref=e2278]:
+                      - link "53." [ref=e2280] [cursor=pointer]:
+                        - /url: "#Sched1066"
+                        - generic [ref=e2281]: "53."
+                  - cell "Penalties" [ref=e2282]:
+                    - paragraph [ref=e2283]: Penalties
+                - row "54. Order for compliance" [ref=e2284]:
+                  - cell "54." [ref=e2285]:
+                    - paragraph [ref=e2286]:
+                      - link "54." [ref=e2288] [cursor=pointer]:
+                        - /url: "#Sched1067"
+                        - generic [ref=e2289]: "54."
+                  - cell "Order for compliance" [ref=e2290]:
+                    - paragraph [ref=e2291]: Order for compliance
+                - row "55. Presiding judge" [ref=e2292]:
+                  - cell "55." [ref=e2293]:
+                    - paragraph [ref=e2294]:
+                      - link "55." [ref=e2296] [cursor=pointer]:
+                        - /url: "#Sched1068"
+                        - generic [ref=e2297]: "55."
+                  - cell "Presiding judge" [ref=e2298]:
+                    - paragraph [ref=e2299]: Presiding judge
+                - row "56. Limitation period" [ref=e2300]:
+                  - cell "56." [ref=e2301]:
+                    - paragraph [ref=e2302]:
+                      - link "56." [ref=e2304] [cursor=pointer]:
+                        - /url: "#Sched1069"
+                        - generic [ref=e2305]: "56."
+                  - cell "Limitation period" [ref=e2306]:
+                    - paragraph [ref=e2307]: Limitation period
+                - row "57. Similar species" [ref=e2308]:
+                  - cell "57." [ref=e2309]:
+                    - paragraph [ref=e2310]:
+                      - link "57." [ref=e2312] [cursor=pointer]:
+                        - /url: "#Sched1070"
+                        - generic [ref=e2313]: "57."
+                  - cell "Similar species" [ref=e2314]:
+                    - paragraph [ref=e2315]: Similar species
+                - row "58. Proof of inspected or seized things" [ref=e2316]:
+                  - cell "58." [ref=e2317]:
+                    - paragraph [ref=e2318]:
+                      - link "58." [ref=e2320] [cursor=pointer]:
+                        - /url: "#Sched1071"
+                        - generic [ref=e2321]: "58."
+                  - cell "Proof of inspected or seized things" [ref=e2322]:
+                    - paragraph [ref=e2323]: Proof of inspected or seized things
+                - row "59. Evidence of documents" [ref=e2324]:
+                  - cell "59." [ref=e2325]:
+                    - paragraph [ref=e2326]:
+                      - link "59." [ref=e2328] [cursor=pointer]:
+                        - /url: "#Sched1072"
+                        - generic [ref=e2329]: "59."
+                  - cell "Evidence of documents" [ref=e2330]:
+                    - paragraph [ref=e2331]: Evidence of documents
+                - row "PART VII MISCELLANEOUS" [ref=e2332]:
+                  - cell "PART VII MISCELLANEOUS" [ref=e2333]:
+                    - paragraph [ref=e2334]:
+                      - generic [ref=e2335]:
+                        - link "PART VII" [ref=e2336] [cursor=pointer]:
+                          - /url: "#Sched1073"
+                          - generic [ref=e2338]: PART VII
+                        - text: MISCELLANEOUS
+                - row "60. Information for public" [ref=e2339]:
+                  - cell "60." [ref=e2340]:
+                    - paragraph [ref=e2341]:
+                      - link "60." [ref=e2343] [cursor=pointer]:
+                        - /url: "#Sched1074"
+                        - generic [ref=e2344]: "60."
+                  - cell "Information for public" [ref=e2345]:
+                    - paragraph [ref=e2346]: Information for public
+                - row "61. Information that could lead to contravention" [ref=e2347]:
+                  - cell "61." [ref=e2348]:
+                    - paragraph [ref=e2349]:
+                      - link "61." [ref=e2351] [cursor=pointer]:
+                        - /url: "#Sched1075"
+                        - generic [ref=e2352]: "61."
+                  - cell "Information that could lead to contravention" [ref=e2353]:
+                    - paragraph [ref=e2354]: Information that could lead to contravention
+                - row "62. Personal information" [ref=e2355]:
+                  - cell "62." [ref=e2356]:
+                    - paragraph [ref=e2357]:
+                      - link "62." [ref=e2359] [cursor=pointer]:
+                        - /url: "#Sched1076"
+                        - generic [ref=e2360]: "62."
+                  - cell "Personal information" [ref=e2361]:
+                    - paragraph [ref=e2362]: Personal information
+                - row "63. Incorporation by reference" [ref=e2363]:
+                  - cell "63." [ref=e2364]:
+                    - paragraph [ref=e2365]:
+                      - link "63." [ref=e2367] [cursor=pointer]:
+                        - /url: "#Sched1077"
+                        - generic [ref=e2368]: "63."
+                  - cell "Incorporation by reference" [ref=e2369]:
+                    - paragraph [ref=e2370]: Incorporation by reference
+                - row "64. Regulations" [ref=e2371]:
+                  - cell "64." [ref=e2372]:
+                    - paragraph [ref=e2373]:
+                      - link "64." [ref=e2375] [cursor=pointer]:
+                        - /url: "#Sched1078"
+                        - generic [ref=e2376]: "64."
+                  - cell "Regulations" [ref=e2377]:
+                    - paragraph [ref=e2378]: Regulations
+                - row "65. Regulations, Lieutenant Governor in Council" [ref=e2379]:
+                  - cell "65." [ref=e2380]:
+                    - paragraph [ref=e2381]:
+                      - link "65." [ref=e2383] [cursor=pointer]:
+                        - /url: "#Sched1079"
+                        - generic [ref=e2384]: "65."
+                  - cell "Regulations, Lieutenant Governor in Council" [ref=e2385]:
+                    - paragraph [ref=e2386]: Regulations, Lieutenant Governor in Council
+                - row "PART VIII TRANSITION" [ref=e2387]:
+                  - cell "PART VIII TRANSITION" [ref=e2388]:
+                    - paragraph [ref=e2389]:
+                      - generic [ref=e2390]:
+                        - link "PART VIII" [ref=e2391] [cursor=pointer]:
+                          - /url: "#Sched1080"
+                          - generic [ref=e2393]: PART VIII
+                        - text: TRANSITION
+                - row "66. Agency under the Endangered Species Act, 2007" [ref=e2394]:
+                  - cell "66." [ref=e2395]:
+                    - paragraph [ref=e2396]:
+                      - link "66." [ref=e2398] [cursor=pointer]:
+                        - /url: "#Sched1081"
+                        - generic [ref=e2399]: "66."
+                  - cell "Agency under the Endangered Species Act, 2007" [ref=e2400]:
+                    - paragraph [ref=e2401]: Agency under the Endangered Species Act, 2007
+                - row "67. Transitional regulations" [ref=e2402]:
+                  - cell "67." [ref=e2403]:
+                    - paragraph [ref=e2404]:
+                      - link "67." [ref=e2406] [cursor=pointer]:
+                        - /url: "#Sched1082"
+                        - generic [ref=e2407]: "67."
+                  - cell "Transitional regulations" [ref=e2408]:
+                    - paragraph [ref=e2409]: Transitional regulations
+                - row "PART IX REPEAL, REVOCATIONS, COMMENCEMENT AND SHORT TITLE" [ref=e2410]:
+                  - cell "PART IX REPEAL, REVOCATIONS, COMMENCEMENT AND SHORT TITLE" [ref=e2411]:
+                    - paragraph [ref=e2412]:
+                      - generic [ref=e2413]:
+                        - link "PART IX" [ref=e2414] [cursor=pointer]:
+                          - /url: "#Sched1083"
+                          - generic [ref=e2416]: PART IX
+                        - text: REPEAL, REVOCATIONS, COMMENCEMENT AND SHORT TITLE
+                - row "68. Endangered Species Act, 2007" [ref=e2417]:
+                  - cell "68." [ref=e2418]:
+                    - paragraph [ref=e2419]:
+                      - link "68." [ref=e2421] [cursor=pointer]:
+                        - /url: "#Sched1084"
+                        - generic [ref=e2422]: "68."
+                  - cell "Endangered Species Act, 2007" [ref=e2423]:
+                    - paragraph [ref=e2424]: Endangered Species Act, 2007
+                - row "69. Revocations" [ref=e2425]:
+                  - cell "69." [ref=e2426]:
+                    - paragraph [ref=e2427]:
+                      - link "69." [ref=e2429] [cursor=pointer]:
+                        - /url: "#Sched1085"
+                        - generic [ref=e2430]: "69."
+                  - cell "Revocations" [ref=e2431]:
+                    - paragraph [ref=e2432]: Revocations
+                - row "70. Commencement" [ref=e2433]:
+                  - cell "70." [ref=e2434]:
+                    - paragraph [ref=e2435]:
+                      - link "70." [ref=e2437] [cursor=pointer]:
+                        - /url: "#Sched1086"
+                        - generic [ref=e2438]: "70."
+                  - cell "Commencement" [ref=e2439]:
+                    - paragraph [ref=e2440]: Commencement
+                - row "71. Short title" [ref=e2441]:
+                  - cell "71." [ref=e2442]:
+                    - paragraph [ref=e2443]:
+                      - link "71." [ref=e2445] [cursor=pointer]:
+                        - /url: "#Sched1087"
+                        - generic [ref=e2446]: "71."
+                  - cell "Short title" [ref=e2447]:
+                    - paragraph [ref=e2448]: Short title
+            - paragraph [ref=e2449]
+            - paragraph [ref=e2450]:
+              - generic [ref=e2452]:
+                - text: PART I
+                - text: INTERPRETATION, APPLICATION AND ADMINISTRATION
+            - paragraph [ref=e2453]: Purposes
+            - paragraph [ref=e2454]:
+              - generic [ref=e2455]:
+                - generic [ref=e2456]: "1"
+                - text: The purposes of this Act are,
+            - paragraph [ref=e2457]: (a) to identify species at risk based on the best available scientific information, including information obtained from community knowledge and Indigenous traditional knowledge; and
+            - paragraph [ref=e2458]: (b) to provide for the protection and conservation of species while taking into account social and economic considerations, including the need for sustainable economic growth in Ontario.
+            - paragraph [ref=e2459]: Definitions
+            - paragraph [ref=e2460]:
+              - generic [ref=e2461]:
+                - generic [ref=e2462]: "2"
+                - text: (1) In this Act,
+            - paragraph [ref=e2463]: “COSSARO” means the Committee on the Status of Species at Risk in Ontario; (“CDSEPO”)
+            - paragraph [ref=e2464]:
+              - generic [ref=e2465]: “habitat” means, subject to subsection (2),
+            - paragraph [ref=e2466]: (a) in respect of an animal species,
+            - paragraph [ref=e2467]: (i) a dwelling place, such as a den, nest or other similar place, that is occupied or habitually occupied by one or more members of a species for the purposes of breeding, rearing, staging, wintering or hibernating, and
+            - paragraph [ref=e2468]: (ii) the area immediately around a dwelling place described in subclause (i) that is essential for the purposes set out in that subclause,
+            - paragraph [ref=e2469]: (b) in respect of a vascular plant species, the critical root zone surrounding a member of the species, and
+            - paragraph [ref=e2470]: (c) in respect of all other species, an area on which any member of the species directly depends in order to carry on its life processes; (“habitat”)
+            - paragraph [ref=e2471]:
+              - generic [ref=e2472]:
+                - text: “justice” has the same meaning as in the
+                - emphasis [ref=e2473]: Provincial Offences Act
+                - text: ; (“juge”)
+            - paragraph [ref=e2474]:
+              - generic [ref=e2475]:
+                - text: “Minister” means the Minister of the Environment, Conservation and Parks or such other member of the Executive Council as may be assigned the administration of this Act under the
+                - emphasis [ref=e2476]: Executive Council Act
+                - text: ; (“ministre”)
+            - paragraph [ref=e2477]: “Ministry” means the ministry of the Minister; (“ministère”)
+            - paragraph [ref=e2478]: “permit” means a permit issued under section 22; (“permis”)
+            - paragraph [ref=e2479]: “permit activity” means a section 16 activity that is prescribed for the purposes of subsection 16 (2); (“activité exigeant un permis”)
+            - paragraph [ref=e2480]: “prescribed” means prescribed by the regulations; (“prescrit”)
+            - paragraph [ref=e2481]: “Protected Species in Ontario List” means the regulation made under subsection 14 (1); (“Liste des espèces protégées en Ontario”)
+            - paragraph [ref=e2482]: “provincial officer” means a person who is designated by the Minister as a provincial officer for the purposes of this Act and the regulations; (“agent provincial”)
+            - paragraph [ref=e2483]: “registerable activity” means a section 16 activity that is not prescribed for the purposes of subsection 16 (2); (“activité exigeant un enregistrement”)
+            - paragraph [ref=e2484]: “registration” means a registration in the Registry; (“enregistrement”)
+            - paragraph [ref=e2485]: “Registry” means the registry established under section 17; (“Registre”)
+            - paragraph [ref=e2486]: “regulations” means the regulations made under this Act; (“règlements”)
+            - paragraph [ref=e2487]: “section 16 activity” means,
+            - paragraph [ref=e2488]: (a) any activity that results or is likely to result in,
+            - paragraph [ref=e2489]: (i) the killing, harming, capturing or taking of a member of a species that is listed on the Protected Species in Ontario List, or
+            - paragraph [ref=e2490]:
+              - generic [ref=e2491]: (ii) damage to or destruction of the habitat of a species that is listed on the Protected Species in Ontario List,
+            - paragraph [ref=e2492]: (b) possessing, transporting, collecting, buying, selling, leasing, trading or offering to buy, sell, lease or trade,
+            - paragraph [ref=e2493]: (i) a living or dead member of a species that is listed on the Protected Species in Ontario List, or
+            - paragraph [ref=e2494]: (ii) anything derived from a living or dead member of a species referred to in subclause (i), or
+            - paragraph [ref=e2495]: (c) selling, leasing, trading or offering to sell, lease or trade anything that a person represents to be a thing described in subclause (b) (i) or (ii); (“activité visée par l’article 16”)
+            - paragraph [ref=e2496]: “species” means a species, subspecies, variety or genetically or geographically distinct population of animal, plant or other organism, other than a bacterium or virus, that is native to Ontario; (“espèce”)
+            - paragraph [ref=e2497]: “Tribunal” means the Ontario Land Tribunal. (“Tribunal”)
+            - paragraph [ref=e2498]: Definition of “habitat”
+            - paragraph [ref=e2499]: (2) For greater certainty, the definition of “habitat” in subsection (1) does not include an area where the species formerly occurred or has the potential to be reintroduced unless existing members of the species depend on that area to carry on their life processes.
+            - paragraph [ref=e2500]: Member of a species
+            - paragraph [ref=e2501]: (3) A reference in this Act to a member of a species,
+            - paragraph [ref=e2502]: (a) includes a reference to a member of the species at any stage of its development;
+            - paragraph [ref=e2503]: (b) includes a reference to a gamete or asexual propagule of the species; and
+            - paragraph [ref=e2504]: (c) includes a reference to the member of the species, whether or not it originated in Ontario.
+            - paragraph [ref=e2505]: Existing Aboriginal or treaty rights
+            - paragraph [ref=e2506]:
+              - generic [ref=e2507]:
+                - generic [ref=e2508]: "3"
+                - generic [ref=e2509]:
+                  - text: For greater certainty, nothing in this Act shall be construed so as to abrogate or derogate from the protection provided for the existing Aboriginal or treaty rights of the Aboriginal peoples of Canada as recognized and affirmed in section 35 of the
+                  - emphasis [ref=e2510]: Constitution Act, 1982
+                  - text: .
+            - paragraph [ref=e2511]: General non-application, aquatic species and migratory birds
+            - paragraph [ref=e2512]:
+              - generic [ref=e2513]:
+                - generic [ref=e2514]: "4"
+                - generic [ref=e2515]:
+                  - text: Unless otherwise provided in this Act or the regulations, this Act and the regulations do not apply with respect to the following species, if the species is listed as extirpated, endangered or threatened on the List of Wildlife Species at Risk under the
+                  - emphasis [ref=e2516]: Species at Risk Act
+                  - text: "(Canada):"
+            - paragraph [ref=e2517]:
+              - generic [ref=e2518]:
+                - text: 1. Species of birds protected by the
+                - emphasis [ref=e2519]: Migratory Birds Convention Act, 1994
+                - text: (Canada).
+            - paragraph [ref=e2520]:
+              - generic [ref=e2521]:
+                - text: 2. Aquatic species as defined in subsection 2 (1) of the
+                - emphasis [ref=e2522]: Species at Risk Act
+                - text: (Canada).
+            - paragraph [ref=e2523]: Designation of provincial officers
+            - paragraph [ref=e2524]:
+              - generic [ref=e2525]:
+                - generic [ref=e2526]: "5"
+                - text: (1) The Minister may designate persons or classes of persons as provincial officers in respect of any provision of this Act or the regulations that is set out in the designation.
+            - paragraph [ref=e2527]: Limitations
+            - paragraph [ref=e2528]: (2) The Minister may limit a designation made under subsection (1) in such manner as the Minister considers advisable.
+            - paragraph [ref=e2529]: Delegation of powers and duties
+            - paragraph [ref=e2530]:
+              - generic [ref=e2531]:
+                - generic [ref=e2532]: "6"
+                - text: (1) The Minister may authorize the Deputy Minister or any other employee in the Ministry to exercise any power or perform any duty that is granted to or vested in the Minister under this Act.
+            - paragraph [ref=e2533]: Limitations
+            - paragraph [ref=e2534]: (2) The Minister may limit an authorization made under subsection (1) in such manner as the Minister considers advisable.
+            - paragraph [ref=e2535]: Crown bound
+            - paragraph [ref=e2536]:
+              - generic [ref=e2537]:
+                - generic [ref=e2538]: "7"
+                - text: (1) This Act binds the Crown in right of Ontario.
+            - paragraph [ref=e2539]: Protection and conservation activities
+            - paragraph [ref=e2540]: (2) Nothing in this Act prohibits employees or agents of the Crown in right of Ontario from,
+            - paragraph [ref=e2541]: (a) possessing or transporting a member of a species listed on the Protected Species in Ontario List; or
+            - paragraph [ref=e2542]: (b) engaging in any other activity to assist in the protection and conservation of species listed on the Protected Species in Ontario List.
+            - paragraph [ref=e2543]:
+              - generic [ref=e2545]:
+                - text: PART II
+                - text: CLASSIFICATION OF SPECIES
+            - paragraph [ref=e2546]: Interpretation
+            - paragraph [ref=e2547]:
+              - generic [ref=e2548]:
+                - generic [ref=e2549]: "8"
+                - text: Despite section 4, a reference to a “species” in this Part includes a reference to species described in that section.
+            - paragraph [ref=e2550]: Committee on the Status of Species at Risk in Ontario
+            - paragraph [ref=e2551]:
+              - generic [ref=e2552]:
+                - generic [ref=e2553]: "9"
+                - text: (1) The committee known in English as the Committee on the Status of Species at Risk in Ontario (COSSARO) and in French as Comité de détermination du statut des espèces en péril en Ontario (CDSEPO) is continued.
+            - paragraph [ref=e2554]: Composition
+            - paragraph [ref=e2555]: (2) COSSARO shall be composed of at least 10 members who shall be appointed by the Lieutenant Governor in Council on the recommendation of the Minister.
+            - paragraph [ref=e2556]: Qualifications
+            - paragraph [ref=e2557]: (3) The Minister shall not recommend a person to be a member of COSSARO unless the Minister considers the person to have relevant expertise that is drawn from,
+            - paragraph [ref=e2558]: (a) a scientific discipline such as conservation biology, ecology, genetics, population dynamics, taxonomy, systematics or wildlife management; or
+            - paragraph [ref=e2559]: (b) community knowledge or Indigenous traditional knowledge.
+            - paragraph [ref=e2560]: Chair and vice-chair
+            - paragraph [ref=e2561]: (4) The Lieutenant Governor in Council shall designate a chair and a vice-chair from among the members of COSSARO.
+            - paragraph [ref=e2562]: Independence
+            - paragraph [ref=e2563]: (5) The members of COSSARO shall perform their functions in an independent manner, and not as representatives of their employers or of any other person or body.
+            - paragraph [ref=e2564]: Lobbying
+            - paragraph [ref=e2565]: (6) A member of COSSARO shall not, with respect to any matter related to this Act,
+            - paragraph [ref=e2566]:
+              - generic [ref=e2567]:
+                - text: (a) act as a consultant lobbyist within the meaning of subsection 1 (1) of the
+                - emphasis [ref=e2568]: Lobbyists Registration Act, 1998
+                - text: ; or
+            - paragraph [ref=e2569]:
+              - generic [ref=e2570]:
+                - text: (b) act as an in-house lobbyist within the meaning of subsection 5 (7) or 6 (5) of the
+                - emphasis [ref=e2571]: Lobbyists Registration Act, 1998
+                - text: .
+            - paragraph [ref=e2572]: Functions of COSSARO
+            - paragraph [ref=e2573]:
+              - generic [ref=e2574]:
+                - generic [ref=e2575]: "10"
+                - text: "(1) COSSARO shall perform the following functions:"
+            - paragraph [ref=e2576]: 1. Subject to section 11, maintain criteria for assessing and classifying species as extinct, extirpated, endangered, threatened or of special concern.
+            - paragraph [ref=e2577]: 2. Maintain and prioritize a list of species that should be assessed and classified, including species that should be reviewed and, if appropriate, reclassified.
+            - paragraph [ref=e2578]: 3. Subject to section 13, assess, review and classify species in accordance with the list maintained under paragraph 2.
+            - paragraph [ref=e2579]: 4. Submit reports to the Minister in accordance with this Act.
+            - paragraph [ref=e2580]: 5. Provide advice to the Minister on any matter submitted to COSSARO by the Minister.
+            - paragraph [ref=e2581]: 6. Perform any other function required under this or any other Act.
+            - paragraph [ref=e2582]: List of species to be assessed
+            - paragraph [ref=e2583]: (2) COSSARO shall ensure that the list referred to in paragraph 2 of subsection (1) includes every Ontario species that,
+            - paragraph [ref=e2584]:
+              - generic [ref=e2585]:
+                - text: (a) is classified by the Committee on the Status of Endangered Wildlife in Canada as extirpated, endangered, threatened or of special concern under the
+                - emphasis [ref=e2586]: Species at Risk Act
+                - text: (Canada); and
+            - paragraph [ref=e2587]: (b) has not yet been assessed by COSSARO.
+            - paragraph [ref=e2588]: Information for Minister
+            - paragraph [ref=e2589]: (3) COSSARO shall ensure that the Minister is provided with up to date copies of the criteria referred to in paragraph 1 of subsection (1) and the list referred to in paragraph 2 of subsection (1).
+            - paragraph [ref=e2590]: Rules for classification
+            - paragraph [ref=e2591]:
+              - generic [ref=e2593]:
+                - generic [ref=e2594]: "11"
+                - text: "(1) For the purposes of this Act, COSSARO shall classify species in accordance with the following rules:"
+            - paragraph [ref=e2595]: 1. A species shall be classified as an extinct species if it no longer lives anywhere in the world.
+            - paragraph [ref=e2596]: 2. A species shall be classified as an extirpated species if it lives somewhere in the world, lived at one time in the wild in Ontario, but no longer lives in the wild in Ontario.
+            - paragraph [ref=e2597]: 3. A species shall be classified as an endangered species if it lives in the wild in Ontario but is facing imminent extinction or extirpation.
+            - paragraph [ref=e2598]:
+              - generic [ref=e2599]: 4. A species shall be classified as a threatened species if it lives in the wild in Ontario, is not endangered, but is likely to become endangered if steps are not taken to address factors threatening to lead to its extinction or extirpation.
+            - paragraph [ref=e2600]:
+              - generic [ref=e2601]: 5. A species shall be classified as a special concern species if it lives in the wild in Ontario, is not endangered or threatened, but may become threatened or endangered because of a combination of biological characteristics and identified threats.
+            - paragraph [ref=e2602]: Geographic limitation
+            - paragraph [ref=e2603]: (2) When COSSARO classifies a species, the classification applies to all of Ontario unless COSSARO indicates that the classification applies only to a specified geographic area in Ontario.
+            - paragraph [ref=e2604]: Best available scientific information
+            - paragraph [ref=e2605]: (3) COSSARO shall classify species based on the best available scientific information, including information obtained from community knowledge and Indigenous traditional knowledge.
+            - paragraph [ref=e2606]: Criteria for classification
+            - paragraph [ref=e2607]: (4) The criteria for assessing and classifying species as endangered, threatened or special concern species under paragraph 1 of subsection 10 (1) shall include considerations of,
+            - paragraph [ref=e2608]: (a) the species’ geographic range in Ontario; and
+            - paragraph [ref=e2609]: (b) the condition of the species across the broader biologically relevant geographic range in which it exists both inside and outside of Ontario.
+            - paragraph [ref=e2610]: Same
+            - paragraph [ref=e2611]: (5) If consideration of the condition of the species both inside and outside of Ontario under clause (4) (b) would result in a species classification indicating a lower level of risk to the survival of the species than would result if COSSARO considered the condition of the species inside Ontario only, COSSARO’s classification of a species shall reflect the lower level of risk to the survival of the species.
+            - paragraph [ref=e2612]: Annual report by COSSARO
+            - paragraph [ref=e2613]:
+              - generic [ref=e2615]:
+                - generic [ref=e2616]: "12"
+                - text: (1) Between January 1 and January 31 of each year, COSSARO shall submit an annual report to the Minister that sets out,
+            - paragraph [ref=e2617]: (a) the common name and scientific name of each species that COSSARO has classified since its last annual report as extinct, extirpated, endangered, threatened or of special concern;
+            - paragraph [ref=e2618]: (b) the classification of each species described in clause (a) and the reasons for the classification; and
+            - paragraph [ref=e2619]: (c) an indication of whether the species is a species described in section 4.
+            - paragraph [ref=e2620]: Same
+            - paragraph [ref=e2621]: (2) The annual report may also state that,
+            - paragraph [ref=e2622]: (a) an assessment of a species indicates that it is not at risk; or
+            - paragraph [ref=e2623]: (b) there is insufficient information available to classify a species.
+            - paragraph [ref=e2624]: Additional reports
+            - paragraph [ref=e2625]:
+              - generic [ref=e2627]:
+                - generic [ref=e2628]: "13"
+                - text: (1) COSSARO shall not submit an additional report with respect to the classification of species to the Minister unless,
+            - paragraph [ref=e2629]: (a) the Minister has requested that COSSARO classify a species or reconsider its classification of a species under subsection (2) or (3); or
+            - paragraph [ref=e2630]: (b) COSSARO is of the opinion that a species that is not listed on the Protected Species in Ontario List may be facing imminent extinction or extirpation.
+            - paragraph [ref=e2631]: Risk of imminent extinction or extirpation
+            - paragraph [ref=e2632]: (2) If a species is not listed on the Protected Species in Ontario List and the Minister is of the opinion that the species may be facing imminent extinction or extirpation, the Minister may require COSSARO to assess and classify the species and, not later than the date specified by the Minister, submit a report to the Minister under subsection (1).
+            - paragraph [ref=e2633]: Reconsideration
+            - paragraph [ref=e2634]: (3) If the Minister is of the opinion that credible scientific information indicates that a classification reported to the Minister by COSSARO may not be appropriate, the Minister may require COSSARO to reconsider the classification and, not later than the date specified by the Minister, submit a report to the Minister under subsection (1) indicating whether COSSARO confirms the classification or reclassifies the species.
+            - paragraph [ref=e2635]: Consultation with chair of COSSARO
+            - paragraph [ref=e2636]: (4) The Minister shall not require COSSARO to do anything under this section without first consulting with the chair of COSSARO.
+            - paragraph [ref=e2637]:
+              - generic [ref=e2640]:
+                - text: PART III
+                - text: PROTECTION AND CONSERVATION OF SPECIES
+            - paragraph [ref=e2641]:
+              - generic [ref=e2643]: General
+            - paragraph [ref=e2644]: Protected Species in Ontario List
+            - paragraph [ref=e2645]:
+              - generic [ref=e2647]:
+                - generic [ref=e2648]: "14"
+                - text: (1) The Lieutenant Governor in Council may make a regulation listing species that are classified by COSSARO as extirpated, endangered or threatened.
+            - paragraph [ref=e2649]: Deviation from COSSARO classification
+            - paragraph [ref=e2650]: (2) A regulation made under subsection (1) is not required to list all of the species classified by COSSARO but, if a species is listed, the classification of the species shall be the same as COSSARO’s classification and shall include any geographic limitation indicated by COSSARO in respect of the species under subsection 11 (2).
+            - paragraph [ref=e2651]: Contents of regulation
+            - paragraph [ref=e2652]: "(3) A regulation made under subsection (1) shall include the following information for each species:"
+            - paragraph [ref=e2653]: 1. The common name and scientific name of the species.
+            - paragraph [ref=e2654]: 2. COSSARO’s classification of the species as extirpated, endangered or threatened.
+            - paragraph [ref=e2655]: 3. If the classification applies only to a specified geographic area, the area.
+            - paragraph [ref=e2656]:
+              - generic [ref=e2657]:
+                - text: Notice of proposal,
+                - emphasis [ref=e2658]: Environmental Bill of Rights, 1993
+            - paragraph [ref=e2659]:
+              - generic [ref=e2660]:
+                - text: (4) For greater certainty, if a regulation is proposed to be made under subsection (1), the brief description required in respect of a notice of proposal under section 16 of the
+                - emphasis [ref=e2661]: Environmental Bill of Rights, 1993
+                - text: in respect of the regulation shall include each species that is proposed to be listed in or removed from the regulation.
+            - paragraph [ref=e2662]: Prohibition, extirpation in Ontario
+            - paragraph [ref=e2663]:
+              - generic [ref=e2665]:
+                - generic [ref=e2666]: "15"
+                - text: Despite any other provision of this Act or the regulations, no person shall engage in an activity that is likely to result in a species no longer living in the wild in Ontario.
+            - paragraph [ref=e2667]: Prohibition, s. 16 activities
+            - paragraph [ref=e2668]: Registration required
+            - paragraph [ref=e2669]:
+              - generic [ref=e2671]:
+                - generic [ref=e2672]: "16"
+                - text: (1) No person shall engage in a registerable activity unless,
+            - paragraph [ref=e2673]: (a) the person has registered the activity in the Registry in accordance with the regulations;
+            - paragraph [ref=e2674]: (b) the Minister has provided the person with a confirmation of registration in respect of the activity;
+            - paragraph [ref=e2675]: (c) the person engages in the activity in accordance with the regulations; and
+            - paragraph [ref=e2676]: (d) the registration is not suspended and has not been removed from the Registry.
+            - paragraph [ref=e2677]: Permit required
+            - paragraph [ref=e2678]: (2) No person shall, except under and in accordance with a permit, engage in a permit activity.
+            - paragraph [ref=e2679]: Exceptions
+            - paragraph [ref=e2680]: "(3) Subsection (1) or (2), as applicable, does not apply in respect of any of the following section 16 activities:"
+            - paragraph [ref=e2681]: 1. In the case of an activity described in clause (b) of the definition of “section 16 activity” in subsection 2 (1), the member of the species affected by the activity was lawfully killed, captured or taken in a jurisdiction outside of Ontario.
+            - paragraph [ref=e2682]: 2. A section 16 activity for which all of the criteria set out in subsection (4) in respect of the activity, the person engaging in the activity and the species affected by the activity are met.
+            - paragraph [ref=e2683]: 3. If a geographic area is specified in the Protected Species in Ontario List in respect of a species, a section 16 activity engaged in with respect to that species outside of the geographic area.
+            - paragraph [ref=e2684]:
+              - generic [ref=e2685]: 4. Any other section 16 activity prescribed by the Lieutenant Governor in Council for the purposes of this subsection, subject to any conditions or restrictions prescribed by the Lieutenant Governor in Council.
+            - paragraph [ref=e2686]: First listing criteria, one-year exception
+            - paragraph [ref=e2687]: "(4) The following are the criteria mentioned in paragraph 2 of subsection (3):"
+            - paragraph [ref=e2688]: 1. The activity is,
+            - paragraph [ref=e2689]: i. described in clause (a) of the definition of “section 16 activity” in subsection 2 (1), or
+            - paragraph [ref=e2690]: ii. described in clause (b) of that definition but only as the definition relates to possessing or transporting a member of a species.
+            - paragraph [ref=e2691]: 2. The person is engaging in the activity in relation to another species in accordance with subsection (1) or (2), as applicable.
+            - paragraph [ref=e2692]: 3. The species is listed on the Protected Species in Ontario List as an endangered species or a threatened species and has been so listed for less than one year.
+            - paragraph [ref=e2693]:
+              - generic [ref=e2694]:
+                - text: 4. Before being listed as described in paragraph 3, the species was not previously listed, under its current name or any other common or scientific name, on the Species at Risk in Ontario List under the
+                - emphasis [ref=e2695]: Endangered Species Act, 2007
+                - text: or the Protected Species in Ontario List.
+            - paragraph [ref=e2696]: Transition
+            - paragraph [ref=e2697]: (5) If a person’s registration, in respect of an activity, is in effect when the activity becomes a permit activity, subsection (1) continues to apply to the person engaging in the activity and subsection (2) does not apply until the Minister removes the person’s registration from the Registry in accordance with subsection 19 (1).
+            - paragraph [ref=e2698]: Same
+            - paragraph [ref=e2699]: (6) If a permit activity ceases to be a permit activity, subsection (2) continues to apply to a person who holds a permit in respect of the activity and subsection (1) does not apply until the Minister revokes the permit in accordance with subsection 22 (7).
+            - paragraph [ref=e2700]: Changes to the Protected Species in Ontario List
+            - paragraph [ref=e2701]: (7) For greater certainty, if an amendment to the Protected Species in Ontario List results in a species no longer being listed, a requirement under this Act in respect of that species ceases to apply to a person on the day the amendment comes into force in respect of any activities engaged in after that day.
+            - paragraph [ref=e2702]:
+              - generic [ref=e2704]: Registrations
+            - paragraph [ref=e2705]: Registry
+            - paragraph [ref=e2706]:
+              - generic [ref=e2708]:
+                - generic [ref=e2709]: "17"
+                - text: (1) The Minister shall, by regulation, establish, maintain and operate a registry known in English as the Species Conservation Registry and in French as Registre pour la conservation des espèces.
+            - paragraph [ref=e2710]: Purposes
+            - paragraph [ref=e2711]: (2) The purposes of the Registry are to allow persons to register registerable activities and any other purposes as may be prescribed.
+            - paragraph [ref=e2712]: Registrations
+            - paragraph [ref=e2713]:
+              - generic [ref=e2715]:
+                - generic [ref=e2716]: "18"
+                - text: (1) When registering an activity in the Registry, a person shall include the prescribed information in the registration.
+            - paragraph [ref=e2717]: Minister to provide confirmation
+            - paragraph [ref=e2718]: (2) If a person registers an activity in the Registry and pays any required fee, the Minister shall provide the person with a confirmation of registration.
+            - paragraph [ref=e2719]: Retention of confirmation and maintenance of registration
+            - paragraph [ref=e2720]: (3) A person who engages in a registerable activity shall ensure that the confirmation of registration is retained and that,
+            - paragraph [ref=e2721]: (a) the registration is maintained and updated in accordance with the regulations, if any;
+            - paragraph [ref=e2722]: (b) the registration includes any data, reports, documents or other information as may be required by the Minister or as may be prescribed; and
+            - paragraph [ref=e2723]: (c) the registration includes the results of any tests or experiments relating to the registered activity as may be required by the Minister or as may be prescribed.
+            - paragraph [ref=e2724]: Complete and accurate information, etc.
+            - paragraph [ref=e2725]: (4) If the Minister is of the opinion that any information included with a registration is incomplete, misleading or otherwise inaccurate, the Minister may require the person engaging in the registerable activity to file additional information that is complete and accurate, including additional data, reports or documents.
+            - paragraph [ref=e2726]: Suspension or removal of registration
+            - paragraph [ref=e2727]:
+              - generic [ref=e2729]:
+                - generic [ref=e2730]: "19"
+                - text: (1) The Minister may suspend a registration in respect of an activity or remove the registration from the Registry if,
+            - paragraph [ref=e2731]: (a) the person who is engaging in the activity is in contravention of this Act or the regulations;
+            - paragraph [ref=e2732]: (b) the past conduct of the person who is engaging in the activity, or, if the person is a corporation, the past conduct of its officers and directors, affords reasonable grounds to believe that the person will not engage in the activity in accordance with this Act or the regulations;
+            - paragraph [ref=e2733]: (c) the confirmation of registration was provided on the basis of misleading, mistaken, false or inaccurate information;
+            - paragraph [ref=e2734]: (d) the person who was engaging in the activity is no longer doing so;
+            - paragraph [ref=e2735]: (e) a registerable activity becomes a permit activity and,
+            - paragraph [ref=e2736]: (i) if an application for a permit in respect of the activity has been made, a decision under subsection 22 (1) in respect of the application has been made and all rights of appeal have been exhausted, or
+            - paragraph [ref=e2737]: (ii) an application for a permit in respect of the activity has not been made on or before the date, if any, prescribed in respect of the activity;
+            - paragraph [ref=e2738]: (f) the person who is engaging in the activity requests that their registration be removed;
+            - paragraph [ref=e2739]: (g) the registration is obsolete; or
+            - paragraph [ref=e2740]: (h) any other circumstance as may be prescribed by the Lieutenant Governor in Council exists.
+            - paragraph [ref=e2741]: Order
+            - paragraph [ref=e2742]: (2) If the Minister relies on clause (a), (b), (c), (d), (e) or (h) to suspend or remove a registration, the Minister shall do so by order and shall serve the order together with written reasons on the person who is or was engaging in the activity.
+            - paragraph [ref=e2743]: Notice
+            - paragraph [ref=e2744]: (3) If the Minister relies on clause (f) or (g) to suspend or remove a registration, the Minister shall do so by giving written notice to the person who is or was engaging in the activity.
+            - paragraph [ref=e2745]: End of suspension
+            - paragraph [ref=e2746]: (4) The Minister may, by giving written notice to a person mentioned in subsection (2) or (3), end a suspension of a registration if the Minister is satisfied that the reasons for the suspension no longer exist.
+            - paragraph [ref=e2747]: Filing of order or notice in Registry
+            - paragraph [ref=e2748]:
+              - generic [ref=e2750]:
+                - generic [ref=e2751]: "20"
+                - text: The Minister shall file in the Registry a copy of any order issued or notice given under section 19.
+            - paragraph [ref=e2752]:
+              - generic [ref=e2754]: Permits
+            - paragraph [ref=e2755]: Application for permit
+            - paragraph [ref=e2756]:
+              - generic [ref=e2758]:
+                - generic [ref=e2759]: "21"
+                - text: (1) A person may apply to the Minister for a permit to engage in one or more permit activities.
+            - paragraph [ref=e2760]: Form
+            - paragraph [ref=e2761]: (2) An application under this section shall be prepared and submitted to the Minister in accordance with any prescribed requirements.
+            - paragraph [ref=e2762]: Multiple sites
+            - paragraph [ref=e2763]: (3) If a person applies for a permit to engage in a permit activity that is to be engaged in at more than one site, the application may be in respect of the activity at more than one site unless the Minister requires otherwise.
+            - paragraph [ref=e2764]: Powers of Minister
+            - paragraph [ref=e2765]:
+              - generic [ref=e2767]:
+                - generic [ref=e2768]: "22"
+                - text: (1) After considering an application for a permit in respect of one or more permit activities at one or more sites, the Minister may,
+            - paragraph [ref=e2769]: (a) issue or refuse to issue a permit in respect of one or more of the activities at one or more of the sites;
+            - paragraph [ref=e2770]: (b) if the Minister issues a permit, impose conditions in the permit;
+            - paragraph [ref=e2771]: (c) amend an existing permit that is in effect and impose, amend or revoke the conditions or expand the scope of the permit to other activities or sites;
+            - paragraph [ref=e2772]: (d) revoke the permit in whole or in part, with or without issuing a new permit; or
+            - paragraph [ref=e2773]: (e) suspend a permit in whole or in part.
+            - paragraph [ref=e2774]: Conditions
+            - paragraph [ref=e2775]: (2) In addition to any conditions imposed under clause (1) (b) or (c), a permit issued under this section is subject to any conditions prescribed by the Lieutenant Governor in Council.
+            - paragraph [ref=e2776]: Same
+            - paragraph [ref=e2777]: (3) Without limiting the generality of subsection (2), conditions in a permit may,
+            - paragraph [ref=e2778]: (a) limit the time during which the permit applies;
+            - paragraph [ref=e2779]: (b) limit the circumstances in which the permit applies;
+            - paragraph [ref=e2780]: (c) require the holder of the permit to take steps specified in the permit and require that the steps be taken before engaging in the activity authorized by the permit;
+            - paragraph [ref=e2781]: (d) require the holder of the permit to provide financial security in an amount or in a form sufficient to ensure compliance with the permit;
+            - paragraph [ref=e2782]: (e) require the holder of the permit to ensure that the activity authorized by the permit, and the effects of the activity, are monitored in accordance with the permit;
+            - paragraph [ref=e2783]:
+              - generic [ref=e2784]: (f) require the holder of the permit to rehabilitate or restore habitat damaged or destroyed by the activity authorized by the permit, or to provide alternative habitat for the species specified in the permit; or
+            - paragraph [ref=e2785]: (g) require the holder of the permit to submit reports to the Minister.
+            - paragraph [ref=e2786]: Past conduct
+            - paragraph [ref=e2787]: (4) The Minister may suspend, revoke or refuse to issue a permit if the past conduct of the holder of the permit or the applicant, or, if the holder or applicant is a corporation, the past conduct of its officers and directors, affords reasonable grounds to believe that the person will not engage in the activity in accordance with this Act or the regulations.
+            - paragraph [ref=e2788]:
+              - generic [ref=e2789]: Minister may require information
+            - paragraph [ref=e2790]: (5) The Minister may require a person who applies for a permit to submit any data, reports, documents or other information and to carry out and report on any tests or experiments relating to any activity in respect of which the application is made.
+            - paragraph [ref=e2791]: Minister may require consultation
+            - paragraph [ref=e2792]: (6) The Minister may require a person who applies for a permit to consult with the persons or entities specified by the Minister, in a manner specified by the Minister, before the Minister makes a decision in respect of the application.
+            - paragraph [ref=e2793]: Exercise of powers on Minister’s initiative
+            - paragraph [ref=e2794]: (7) The Minister may, on the Minister’s own initiative,
+            - paragraph [ref=e2795]: (a) amend or revoke conditions of a permit after it has been issued;
+            - paragraph [ref=e2796]: (b) impose new conditions in a permit; or
+            - paragraph [ref=e2797]: (c) suspend or revoke all or part of a permit.
+            - paragraph [ref=e2798]: Consideration of applications
+            - paragraph [ref=e2799]: (8) The Minister is not required to consider an application for a permit that has not been prepared and submitted in accordance with section 21 or any prescribed requirements.
+            - paragraph [ref=e2800]: Compliance with a permit
+            - paragraph [ref=e2801]: (9) A person to whom a permit is issued shall comply with the permit.
+            - paragraph [ref=e2802]:
+              - generic [ref=e2804]: Laws of Other Jurisdictions
+            - paragraph [ref=e2805]: Activities contrary to laws of other jurisdictions
+            - paragraph [ref=e2806]: Possession of species killed, captured etc. contrary to law in other jurisdiction
+            - paragraph [ref=e2807]:
+              - generic [ref=e2809]:
+                - generic [ref=e2810]: "23"
+                - text: (1) No person shall possess a living or dead animal, plant or other organism, any part of a living or dead animal, plant or other organism or any thing derived from a living or dead animal, plant or other organism, if the thing possessed, or the animal, plant or other organism,
+            - paragraph [ref=e2811]: (a) was killed, captured, taken, possessed, collected, transported, bought, sold, leased or traded contrary to a law that is described in subsection (3); or
+            - paragraph [ref=e2812]: (b) was removed from another jurisdiction, contrary to a law of that jurisdiction that is described in subsection (3).
+            - paragraph [ref=e2813]: Purchase, sale etc, contrary to law in other jurisdiction
+            - paragraph [ref=e2814]: (2) No person shall buy, sell, lease, trade or offer to buy, sell, lease or trade a living or dead animal, plant or other organism, any part of a living or dead animal, plant or other organism, or any thing derived from a living or dead animal, plant or other organism, that has been transported into Ontario if, in the jurisdiction from which the animal, plant or other organism was originally exported, the purchase, sale, lease or trade would be contrary to a law of that jurisdiction that is described in subsection (3).
+            - paragraph [ref=e2815]: Applicable laws
+            - paragraph [ref=e2816]: (3) The laws referred to in subsections (1) and (2) are laws of another jurisdiction that protect animals, plants or other organisms that are identified as extirpated, endangered or threatened in that jurisdiction, or animals, plants or other organisms, however described, that are similarly at risk in that jurisdiction.
+            - paragraph [ref=e2817]: Defence
+            - paragraph [ref=e2818]: (4) A person shall not be convicted of an offence for contravening subsection (1) or (2) if the person establishes that the person honestly and reasonably believed that the law of the other jurisdiction,
+            - paragraph [ref=e2819]: (a) did not prohibit the killing, capturing, taking, possessing, collecting, transporting, buying, selling, leasing or trading, as the case may be, of the thing that the person is alleged to have possessed or the animal, plant or other organism, in the case of a prosecution for contravening clause (1) (a);
+            - paragraph [ref=e2820]: (b) did not prohibit the removal from the other jurisdiction of the thing that the person is alleged to have possessed or the animal, plant or other organism, in the case of a prosecution for contravening clause (1) (b); or
+            - paragraph [ref=e2821]: (c) did not prohibit the purchase, sale, lease or trade, as the case may be, of the thing that the person is alleged to have bought, sold, leased, traded or offered to buy, sell, lease or trade, in the case of a prosecution for contravening subsection (2).
+            - paragraph [ref=e2822]: Interpretation
+            - paragraph [ref=e2823]: (5) Subsection 2 (3) applies, with necessary modifications, to the references in this section to animals, plants and other organisms.
+            - paragraph [ref=e2824]:
+              - generic [ref=e2826]: Codes of Practice and the Species Conservation Program
+            - paragraph [ref=e2827]: Codes of practice, etc.
+            - paragraph [ref=e2828]:
+              - generic [ref=e2830]:
+                - generic [ref=e2831]: "24"
+                - text: The Minister may establish codes of practice, standards or guidelines with respect to the protection and conservation of species that are listed on the Protected Species in Ontario List and their habitat.
+            - paragraph [ref=e2832]: Species Conservation Program
+            - paragraph [ref=e2833]:
+              - generic [ref=e2835]:
+                - generic [ref=e2836]: "25"
+                - text: (1) The program known in English as the Species Conservation Program and in French as Programme de conservation des espèces is continued.
+            - paragraph [ref=e2837]: Purpose
+            - paragraph [ref=e2838]: (2) The purpose of the program is to promote protection and conservation activities that relate to species classified by COSSARO in a report submitted under section 12 or 13, including,
+            - paragraph [ref=e2839]: (a) the preservation and rehabilitation of habitat, and the enhancement of other areas so that they can become habitat;
+            - paragraph [ref=e2840]: (b) public education and outreach programs relating to conservation; and
+            - paragraph [ref=e2841]: (c) other activities to assist in the protection and conservation of species.
+            - paragraph [ref=e2842]: Grants
+            - paragraph [ref=e2843]: (3) As part of the program, the Minister may make grants for the purpose described in subsection (2).
+            - paragraph [ref=e2844]:
+              - generic [ref=e2847]:
+                - text: PART IV
+                - text: ENFORCEMENT
+            - paragraph [ref=e2848]:
+              - generic [ref=e2851]: Provincial Officers
+            - paragraph [ref=e2852]: Production of identification
+            - paragraph [ref=e2853]:
+              - generic [ref=e2855]:
+                - generic [ref=e2856]: "26"
+                - text: A provincial officer who is acting under this Act shall, on request, produce identification.
+            - paragraph [ref=e2857]: Power to require response to inquiries
+            - paragraph [ref=e2858]:
+              - generic [ref=e2860]:
+                - generic [ref=e2861]: "27"
+                - text: (1) For the purposes of determining if a person is in compliance with this Act or the regulations, a provincial officer may, at any reasonable time and with any reasonable assistance, require the person, or any person employed by or providing services to the person, to respond to reasonable inquiries.
+            - paragraph [ref=e2862]: Same
+            - paragraph [ref=e2863]: (2) For the purposes of subsection (1), a provincial officer may make inquiries by any means of communication.
+            - paragraph [ref=e2864]: Production of document
+            - paragraph [ref=e2865]: (3) In requiring a person to respond to an inquiry under subsection (1), a provincial officer may require the production of any document or data, in any form, required to be kept under this Act and any other document or data, in any form, related to the purpose of the inquiry.
+            - paragraph [ref=e2866]: Records in electronic form
+            - paragraph [ref=e2867]: (4) If a record is retained in electronic form, a provincial officer may require that a copy of it be provided either on paper or electronically, or both.
+            - paragraph [ref=e2868]: Necessary force
+            - paragraph [ref=e2869]:
+              - generic [ref=e2871]:
+                - generic [ref=e2872]: "28"
+                - text: A provincial officer may use whatever force is reasonably necessary to exercise any of their powers under this Act.
+            - paragraph [ref=e2873]: Incidental authority to pass through
+            - paragraph [ref=e2874]:
+              - generic [ref=e2876]:
+                - generic [ref=e2877]: "29"
+                - text: A provincial officer who has the power to enter any land, building or other place under this Act, and any person authorized under this Act to accompany the provincial officer, may enter and pass through other private property for the purpose of reaching the land, building or other place.
+            - paragraph [ref=e2878]: Exemptions from Act, provincial officers
+            - paragraph [ref=e2879]:
+              - generic [ref=e2881]:
+                - generic [ref=e2882]: "30"
+                - text: The Minister may, for the purpose of inspections and other law enforcement activities under this Act, exempt a provincial officer from the application of any provision of this Act, subject to such conditions as the Minister considers necessary and shall set out such exemptions in a designation made under subsection 5 (1).
+            - paragraph [ref=e2883]: Compliance with inspections, etc.
+            - paragraph [ref=e2884]: Obstruction
+            - paragraph [ref=e2885]:
+              - generic [ref=e2887]:
+                - generic [ref=e2888]: "31"
+                - text: (1) No person shall hinder or obstruct any provincial officer or any employee in or agent of the Ministry in the performance of their duties under this Act.
+            - paragraph [ref=e2889]: False information
+            - paragraph [ref=e2890]: (2) No person shall orally, in writing or electronically, give or submit false or misleading information in any statement, document or data, to any provincial officer, the Minister, the Ministry, any employee in or agent of the Ministry or any person involved in carrying out a program of the Ministry, in respect of any matter related to this Act or the regulations.
+            - paragraph [ref=e2891]: Same
+            - paragraph [ref=e2892]: (3) No person shall include false or misleading information in any document or data required to be created, stored or submitted under this Act or the regulations.
+            - paragraph [ref=e2893]: Refusal to provide information
+            - paragraph [ref=e2894]: (4) No person shall refuse to provide any provincial officer, the Minister, the Ministry or any employee in or agent of the Ministry with information required for the purposes of this Act or the regulations.
+            - paragraph [ref=e2895]:
+              - generic [ref=e2897]: Inspections
+            - paragraph [ref=e2898]: Inspections to determine compliance
+            - paragraph [ref=e2899]:
+              - generic [ref=e2901]:
+                - generic [ref=e2902]: "32"
+                - text: "(1) A provincial officer may enter and inspect any land or other place without a warrant for the purpose of determining whether there is compliance with any of the following provisions:"
+            - paragraph [ref=e2903]: 1. Section 15, subsection 16 (1) or (2) or section 23.
+            - paragraph [ref=e2904]: 2. Any provision of a permit.
+            - paragraph [ref=e2905]: 3. Any provision of an order issued under section 36, 37, 38, 39 or 54.
+            - paragraph [ref=e2906]: 4. Any provision of the regulations.
+            - paragraph [ref=e2907]: Dwellings
+            - paragraph [ref=e2908]: (2) Subsection (1) does not authorize the provincial officer to enter a building or part of a building that is being used as a dwelling.
+            - paragraph [ref=e2909]: Warrant; compliance with permits, orders
+            - paragraph [ref=e2910]: (3) On application without notice, a justice may issue a warrant authorizing a provincial officer to enter and inspect any land or other place, including a building or part of a building that is being used as a dwelling, if the justice is satisfied by information under oath that there are reasonable grounds to believe that,
+            - paragraph [ref=e2911]: (a) an inspection under this section would assist in determining whether there is compliance with a provision referred to in subsection (1); and
+            - paragraph [ref=e2912]: (b) entry has been refused or is likely to be refused.
+            - paragraph [ref=e2913]: Duration
+            - paragraph [ref=e2914]: (4) A warrant issued under subsection (3) is valid for 30 days or for such shorter period as may be specified in it.
+            - paragraph [ref=e2915]: Further warrants
+            - paragraph [ref=e2916]: (5) A justice may issue further warrants under subsection (3).
+            - paragraph [ref=e2917]: Time of entry
+            - paragraph [ref=e2918]: (6) An entry under this section shall be made at a time that is reasonable in view of any activity that is conducted on the land or in the place.
+            - paragraph [ref=e2919]: Powers during inspection
+            - paragraph [ref=e2920]: (7) During an inspection under this section, the provincial officer may,
+            - paragraph [ref=e2921]: (a) be accompanied and assisted by any person authorized by the provincial officer;
+            - paragraph [ref=e2922]: (b) inspect any thing that is relevant to the inspection;
+            - paragraph [ref=e2923]: (c) use or cause to be used any computer or other device that contains or is able to retrieve information, for the purpose of examining information contained in or available to the computer or other device, and produce or cause to be produced a printout or other output from the computer or other device;
+            - paragraph [ref=e2924]: (d) conduct any tests, take any measurements, take any specimens or samples, set up any equipment and make any photographic or other records that may be relevant to the inspection; and
+            - paragraph [ref=e2925]: (e) ask questions that may be relevant to the inspection.
+            - paragraph [ref=e2926]: Provision of information
+            - paragraph [ref=e2927]: (8) A person shall, during an inspection under this section, provide information requested by the provincial officer that is relevant to the inspection.
+            - paragraph [ref=e2928]: Copies
+            - paragraph [ref=e2929]:
+              - generic [ref=e2930]: (9) The provincial officer may make copies of any thing inspected or produced during the inspection.
+            - paragraph [ref=e2931]: Removal
+            - paragraph [ref=e2932]: (10) The provincial officer may remove any thing for the purpose of making copies or of further inspection, but the copying or further inspection shall be carried out with reasonable dispatch and any thing removed shall be returned promptly to the person from whom it was taken unless it is not reasonable for the person to expect the thing to be returned.
+            - paragraph [ref=e2933]: Inspection of vehicles, boats, aircraft
+            - paragraph [ref=e2934]:
+              - generic [ref=e2936]:
+                - generic [ref=e2937]: "33"
+                - text: "(1) A provincial officer may stop a vehicle, boat or aircraft if the officer has reasonable grounds to believe that stopping the vehicle, boat or aircraft would assist in determining whether there is compliance with any of the following provisions:"
+            - paragraph [ref=e2938]: 1. Section 15, subsection 16 (1) or (2) or section 23.
+            - paragraph [ref=e2939]: 2. Any provision of a permit.
+            - paragraph [ref=e2940]: 3. Any provision of an order issued under section 36, 37, 38, 39 or 54.
+            - paragraph [ref=e2941]: 4. Any provision of the regulations.
+            - paragraph [ref=e2942]: Operator to stop
+            - paragraph [ref=e2943]: (2) On the provincial officer’s signal to stop, the operator of the vehicle, boat or aircraft shall immediately stop and produce for inspection any thing requested by the officer that is relevant to the purpose for which the vehicle, boat or aircraft was stopped.
+            - paragraph [ref=e2944]: Stop signals
+            - paragraph [ref=e2945]: (3) For the purpose of subsection (2), signals to stop include,
+            - paragraph [ref=e2946]: (a) intermittent flashes of red light, in the case of a vehicle;
+            - paragraph [ref=e2947]: (b) intermittent flashes of blue light, in the case of a boat; and
+            - paragraph [ref=e2948]: (c) a hand signal to stop, in the case of a vehicle or boat.
+            - paragraph [ref=e2949]: Searches with respect to offences
+            - paragraph [ref=e2950]:
+              - generic [ref=e2952]:
+                - generic [ref=e2953]: "34"
+                - generic [ref=e2954]: (1) On application without notice, a justice may issue a warrant authorizing a provincial officer to use any investigative technique or procedure or to do any thing described in the warrant if the justice is satisfied by information under oath that there are reasonable grounds to believe that an offence under this Act has been or is being committed and that evidence concerning the offence will be obtained through the use of the technique or procedure or the doing of the thing.
+            - paragraph [ref=e2955]: Assistance
+            - paragraph [ref=e2956]: (2) The warrant may authorize any person specified in the warrant to accompany and assist the provincial officer in the execution of the warrant.
+            - paragraph [ref=e2957]: Warrant, authorized activities
+            - paragraph [ref=e2958]: (3) The warrant shall authorize the provincial officer to enter and search the building or other place for which the warrant was issued and, without limiting the powers of the justice under subsection (1), the warrant may, in respect of the alleged offence, authorize the provincial officer to conduct any tests, take any measurements, take any specimens or samples, set up any equipment, make any excavations and make any photographic or other records that may be relevant to the search.
+            - paragraph [ref=e2959]: Duration
+            - paragraph [ref=e2960]: (4) The warrant is valid for 30 days or for such shorter period as may be specified in it.
+            - paragraph [ref=e2961]: Further warrants
+            - paragraph [ref=e2962]: (5) A justice may issue further warrants under subsection (1).
+            - paragraph [ref=e2963]:
+              - generic [ref=e2964]:
+                - text: Part VIII of the
+                - emphasis [ref=e2965]: Provincial Offences Act
+            - paragraph [ref=e2966]:
+              - generic [ref=e2967]:
+                - text: (6) Subsections (1) to (5) do not prevent a provincial officer from obtaining a search warrant under Part VIII of the
+                - emphasis [ref=e2968]: Provincial Offences Act
+                - text: .
+            - paragraph [ref=e2969]: Searches without warrant
+            - paragraph [ref=e2970]: (7) If a provincial officer has reasonable grounds to believe that there is in a building or other place any thing that will afford evidence of an offence under this Act but that the time required to obtain a warrant would lead to the loss, removal or destruction of the evidence, the provincial officer may, without a warrant, enter and search the building or other place.
+            - paragraph [ref=e2971]: Dwellings
+            - paragraph [ref=e2972]: (8) Subsection (7) does not apply to a building or part of a building that is being used as a dwelling.
+            - paragraph [ref=e2973]: Computers, etc.
+            - paragraph [ref=e2974]: (9) A provincial officer who is conducting a search that is authorized by a warrant or by subsection (7) may, for the purpose of examining information contained in or available to any computer or other device that contains or is able to retrieve information, use or cause to be used the computer or other device and produce or cause to be produced a printout or other output from the computer or other device.
+            - paragraph [ref=e2975]: Seizure and forfeiture
+            - paragraph [ref=e2976]:
+              - generic [ref=e2978]:
+                - generic [ref=e2979]: "35"
+                - text: (1) A provincial officer who is lawfully in a building or other place may, without a warrant, seize any thing that the officer has reasonable grounds to believe,
+            - paragraph [ref=e2980]: (a) has been obtained by the commission of an offence under this Act;
+            - paragraph [ref=e2981]: (b) has been used in the commission of an offence under this Act;
+            - paragraph [ref=e2982]: (c) will afford evidence of the commission of an offence under this Act; or
+            - paragraph [ref=e2983]: (d) is intermixed with a thing referred to in clause (a), (b) or (c).
+            - paragraph [ref=e2984]: Presence pursuant to warrant
+            - paragraph [ref=e2985]: (2) If the provincial officer is in the building or other place pursuant to a warrant, subsection (1) applies to any thing, whether or not it is specified in the warrant.
+            - paragraph [ref=e2986]: Safekeeping
+            - paragraph [ref=e2987]: (3) A provincial officer shall deliver any thing that they seize to a person authorized by the Minister for safekeeping.
+            - paragraph [ref=e2988]: Leaving with occupant
+            - paragraph [ref=e2989]: (4) Despite subsection (3), a provincial officer may leave a thing that they seize in the custody of the occupant of the building or other place in which it was seized.
+            - paragraph [ref=e2990]: Occupant to safeguard
+            - paragraph [ref=e2991]: (5) If any thing is left in the custody of an occupant under subsection (4), the occupant shall safeguard the thing until,
+            - paragraph [ref=e2992]: (a) a provincial officer removes the thing;
+            - paragraph [ref=e2993]: (b) the occupant is notified by a provincial officer that the investigation has concluded and that a charge will not be laid; or
+            - paragraph [ref=e2994]: (c) the defendant is acquitted or the charge is dismissed or withdrawn, if a charge is laid and the charge is finally disposed of.
+            - paragraph [ref=e2995]: Thing taken before justice
+            - paragraph [ref=e2996]:
+              - generic [ref=e2997]:
+                - text: (6) Subsections (3) and (4) do not apply to a thing that is required to be carried before a justice by a search warrant issued under Part VIII of the
+                - emphasis [ref=e2998]: Provincial Offences Act
+                - text: .
+            - paragraph [ref=e2999]: Return of seized things
+            - paragraph [ref=e3000]: (7) Any thing seized and not forfeited under this section shall be returned to the person from whom it was seized if,
+            - paragraph [ref=e3001]: (a) a charge is not laid at the conclusion of the investigation; or
+            - paragraph [ref=e3002]: (b) a charge is laid but, when the charge is finally disposed of, the defendant is acquitted or the charge is dismissed or withdrawn.
+            - paragraph [ref=e3003]: Payment of fine
+            - paragraph [ref=e3004]: (8) If a person is convicted of an offence and a fine is imposed,
+            - paragraph [ref=e3005]: (a) a thing seized in connection with the offence and not forfeited to the Crown in right of Ontario under this section shall not be returned until the fine has been paid; and
+            - paragraph [ref=e3006]:
+              - generic [ref=e3007]:
+                - text: (b) if payment of the fine is in default within the meaning of section 69 of the
+                - emphasis [ref=e3008]: Provincial Offences Act
+                - text: ", a justice may order that the thing be forfeited to the Crown in right of Ontario."
+            - paragraph [ref=e3009]: Forfeiture if identity unknown
+            - paragraph [ref=e3010]: (9) If the identity of the person from whom a thing was seized has not been ascertained within 30 days after the seizure, the thing is forfeited to the Crown in right of Ontario.
+            - paragraph [ref=e3011]: Forfeiture of dead animals, etc.
+            - paragraph [ref=e3012]:
+              - generic [ref=e3013]:
+                - text: (10) Despite any order under Part VIII of the
+                - emphasis [ref=e3014]: Provincial Offences Act
+                - text: ", any dead animal, plant or other organism that is seized is forfeited to the Crown in right of Ontario if, in the opinion of the person who has custody of it, it is likely to spoil."
+            - paragraph [ref=e3015]: Forfeiture of live animals, etc.
+            - paragraph [ref=e3016]:
+              - generic [ref=e3017]:
+                - text: (11) Despite any order under Part VIII of the
+                - emphasis [ref=e3018]: Provincial Offences Act
+                - text: ", any live animal, plant or other organism that is seized is forfeited to the Crown in right of Ontario if, in the opinion of the person who has custody of it, it cannot properly be maintained in custody."
+            - paragraph [ref=e3019]: Forfeiture on conviction
+            - paragraph [ref=e3020]: (12) If a person is convicted of an offence under this Act,
+            - paragraph [ref=e3021]: (a) any animal, plant or other organism seized in connection with the offence, and any cage, shelter or other container seized in connection with the animal, plant or other organism, are forfeited to the Crown in right of Ontario; and
+            - paragraph [ref=e3022]: (b) the justice may order that any other thing seized in connection with the offence be forfeited to the Crown in right of Ontario.
+            - paragraph [ref=e3023]: Application of subs. (12)
+            - paragraph [ref=e3024]: (13) Subsection (12) applies in addition to any other penalty.
+            - paragraph [ref=e3025]: Forfeiture if possession is an offence
+            - paragraph [ref=e3026]:
+              - generic [ref=e3027]:
+                - text: (14) On motion in a proceeding under the
+                - emphasis [ref=e3028]: Provincial Offences Act
+                - text: ", or on application in accordance with the rules of court applicable to applications under that Act, a justice shall determine whether possession of a thing seized is an offence under this Act and, if it is, the justice shall order that the thing be forfeited to the Crown in right of Ontario."
+            - paragraph [ref=e3029]: Application of subs. (14)
+            - paragraph [ref=e3030]: (15) Subsection (14) applies whether or not a charge is laid in respect of the thing seized and, if a charge is laid, subsection (14) applies even if the defendant is acquitted or the charge is dismissed or withdrawn.
+            - paragraph [ref=e3031]: Disposition of forfeited thing
+            - paragraph [ref=e3032]: (16) A thing forfeited to the Crown in right of Ontario shall be disposed of in accordance with the directions of the Minister.
+            - paragraph [ref=e3033]: Application by person with interest
+            - paragraph [ref=e3034]: (17) If a thing is forfeited to the Crown in right of Ontario following a conviction under this Act, a person who claims an interest in the thing and who is not the person from whom the thing was seized or the person who was convicted may apply to a justice, not later than 30 days after the thing is forfeited, on notice to the Minister and to the person from whom the thing was seized, for an order directing that the thing be released to the person claiming the interest.
+            - paragraph [ref=e3035]: Conditions
+            - paragraph [ref=e3036]: (18) An order issued under subsection (17) is subject to such conditions as may be imposed by the justice.
+            - paragraph [ref=e3037]: Exception
+            - paragraph [ref=e3038]: (19) Subsections (17) and (18) do not apply to a thing forfeited under subsection (10) or (11).
+            - paragraph [ref=e3039]: Interpretation
+            - paragraph [ref=e3040]: (20) Subsection 2 (3) applies, with necessary modifications, to the references in this section to animals, plants and other organisms, and those references include references to any part of an animal, plant or other organism.
+            - paragraph [ref=e3041]:
+              - generic [ref=e3043]: Orders
+            - paragraph [ref=e3044]: Mitigation order
+            - paragraph [ref=e3045]:
+              - generic [ref=e3047]:
+                - generic [ref=e3048]: "36"
+                - text: "(1) The Minister may issue an order described in subsection (2) to any of the following persons engaging in a section 16 activity, if the Minister has reasonable grounds to believe that the actions are necessary or advisable to mitigate any potential adverse effect on a species or its habitat resulting from the activity:"
+            - paragraph [ref=e3049]: 1. A person who holds a permit in respect of the activity.
+            - paragraph [ref=e3050]: 2. A person who has registered the activity in the Registry.
+            - paragraph [ref=e3051]: 3. A person to whom subsection 16 (1) or (2), as applicable, does not apply in respect of the activity.
+            - paragraph [ref=e3052]: 4. Any other person prescribed by the Lieutenant Governor in Council.
+            - paragraph [ref=e3053]: Contents
+            - paragraph [ref=e3054]: "(2) The order shall require a person mentioned in subsection (1) to take one or more of the following actions within the time and in the manner specified in the order:"
+            - paragraph [ref=e3055]: 1. Engage contractors or consultants satisfactory to the Minister or a provincial officer to prepare a plan or carry out requirements.
+            - paragraph [ref=e3056]: 2. Secure, by means of locks, gates, fences, security guards or other means, any land, place, thing or species specified in the order.
+            - paragraph [ref=e3057]: 3. Obtain, construct, install or modify the things, devices, equipment or facilities specified in the order at the locations and in the manner specified in the order.
+            - paragraph [ref=e3058]: 4. Sample, test, measure, monitor or report in respect of a species specified in the order or its habitat, including describing the presence or status of the species or its habitat.
+            - paragraph [ref=e3059]: 5. Prevent, mitigate, address or avoid any adverse effect on a species specified in the order or its habitat, including action to rehabilitate or restore any habitat damaged or destroyed or to provide for alternative habitat.
+            - paragraph [ref=e3060]: 6. Study, monitor or report on any adverse effect on a species specified in the order or its habitat or the effectiveness of any of the requirements in the order to prevent, mitigate or remedy any adverse effect.
+            - paragraph [ref=e3061]: 7. Any other action specified in the order necessary to mitigate any adverse effect on a species specified in the order or its habitat.
+            - paragraph [ref=e3062]: Information to be included in order
+            - paragraph [ref=e3063]: (3) The order shall,
+            - paragraph [ref=e3064]: (a) identify the species or habitat that the order relates to;
+            - paragraph [ref=e3065]: (b) briefly describe the reasons for the order and the circumstances on which the reasons are based, including the nature of the activity and the effect of the activity on the species or its habitat; and
+            - paragraph [ref=e3066]: (c) state that a hearing on the order may be required in accordance with Part V.
+            - paragraph [ref=e3067]: Habitat protection order
+            - paragraph [ref=e3068]:
+              - generic [ref=e3069]:
+                - generic [ref=e3070]: "37"
+                - text: "(1) The Minister may issue an order described in subsection (2) in either of the following circumstances:"
+            - paragraph [ref=e3071]:
+              - generic [ref=e3072]: 1. A regulation made under clause 65 (1) (b) limits the definition of “habitat” in respect of a species and the Minister has reasonable grounds to believe that a person is engaging in or about to engage in an activity that results in or is likely to result in damage or destruction to an area that would otherwise be habitat for the species.
+            - paragraph [ref=e3073]:
+              - generic [ref=e3074]: 2. A species not listed on the Protected Species in Ontario List is classified in a report submitted under section 12 or 13 as extirpated, endangered or threatened and the Minister has reasonable grounds to believe that a person is engaging in or about to engage in an activity that results in or is likely to result in damage to or destruction of the species’ habitat.
+            - paragraph [ref=e3075]: Contents of order
+            - paragraph [ref=e3076]: "(2) The order shall require a person mentioned in subsection (1) to take one or more of the following actions within the time and in the manner specified in the order:"
+            - paragraph [ref=e3077]: 1. If the activity has not commenced, do not engage in the activity.
+            - paragraph [ref=e3078]: 2. Stop engaging in the activity.
+            - paragraph [ref=e3079]: 3. Engage in the activity in accordance with directions set out in the order.
+            - paragraph [ref=e3080]: 4. Take steps set out in the order to rehabilitate or restore any area damaged or destroyed by the activity or to provide for alternative habitat.
+            - paragraph [ref=e3081]: Information to be included in order
+            - paragraph [ref=e3082]: (3) The order shall,
+            - paragraph [ref=e3083]: (a) identify the species and habitat that the order relates to;
+            - paragraph [ref=e3084]: (b) briefly describe the nature of the activity and the important features of the area affected by the activity; and
+            - paragraph [ref=e3085]: (c) state that a hearing on the order may be required in accordance with Part V.
+            - paragraph [ref=e3086]: Species Protection Order
+            - paragraph [ref=e3087]:
+              - generic [ref=e3089]:
+                - generic [ref=e3090]: "38"
+                - text: (1) If the Minister receives a report from COSSARO classifying a species as extirpated, endangered or threatened and the species is not listed on the Protected Species in Ontario List, the Minister may issue an order described in subsection (2) if the Minister has reasonable grounds to believe that a person is engaging in or about to engage in an activity that results in or is likely to result in a significant adverse effect on the species.
+            - paragraph [ref=e3091]: Contents of order
+            - paragraph [ref=e3092]: "(2) The order shall require a person mentioned in subsection (1) to take one or more of the following actions within the time and in the manner specified in the order:"
+            - paragraph [ref=e3093]: 1. If the activity has not commenced, do not engage in the activity.
+            - paragraph [ref=e3094]: 2. Stop engaging in the activity.
+            - paragraph [ref=e3095]: 3. Engage in the activity in accordance with directions set out in the order.
+            - paragraph [ref=e3096]: 4. Take steps set out in the order to address the significant adverse effect of the activity on the species.
+            - paragraph [ref=e3097]: Information to be included in order
+            - paragraph [ref=e3098]: (3) The order shall,
+            - paragraph [ref=e3099]: (a) identify the species to which the order relates;
+            - paragraph [ref=e3100]: (b) briefly describe the nature of the activity and the significant adverse effect of the activity on the species; and
+            - paragraph [ref=e3101]: (c) state that a hearing on the order may be required in accordance with Part V.
+            - paragraph [ref=e3102]: Contravention order
+            - paragraph [ref=e3103]:
+              - generic [ref=e3105]:
+                - generic [ref=e3106]: "39"
+                - generic [ref=e3107]: (1) A provincial officer may issue an order requiring a person to take one or more of the actions set out in subsection (2) within the time and in the manner specified in the order if the provincial officer has reasonable grounds to believe that
+                - text: "the person is engaging in, previously engaged in or is about to engage in an activity that results in or is likely to result in a contravention of any of the following provisions:"
+            - paragraph [ref=e3108]:
+              - generic [ref=e3109]: 1. Section 15, subsection 16 (1) or (2) or section 23.
+            - paragraph [ref=e3110]: 2. Subsection 22 (9) in respect of any provision of a permit.
+            - paragraph [ref=e3111]: 3. Section 41 in respect of any provision of an order issued under section 36, 37 or 38.
+            - paragraph [ref=e3112]: 4. Subsection 54 (2) in respect of any provision of an order issued under subsection 54 (1).
+            - paragraph [ref=e3113]: 5. Any provision of the regulations.
+            - paragraph [ref=e3114]: Contents
+            - paragraph [ref=e3115]: "(2) The following are the actions mentioned in subsection (1):"
+            - paragraph [ref=e3116]: 1. Stop engaging in or not engage in the activity.
+            - paragraph [ref=e3117]: 2. Take steps to prevent, mitigate, address or avoid any adverse effect of the activity on the species specified in the order.
+            - paragraph [ref=e3118]: 3. Take steps to rehabilitate or restore any area damaged or destroyed by the activity or to provide for alternative habitat.
+            - paragraph [ref=e3119]: 4. Engage contractors or consultants satisfactory to the provincial officer to prepare a plan or carry out requirements.
+            - paragraph [ref=e3120]: 5. Secure, by means of locks, gates, fences, security guards or other means any land, place, thing or species specified in the order.
+            - paragraph [ref=e3121]: 6. Obtain, construct, install or modify the things, devices, equipment or facilities specified in the order at the locations and in the manner specified in the order.
+            - paragraph [ref=e3122]: 7. Sample, test, measure, monitor or report in respect of a species specified in the order or its habitat, including, describing the presence or status of the species or its habitat.
+            - paragraph [ref=e3123]: 8. Take all steps necessary to achieve compliance with the provision.
+            - paragraph [ref=e3124]: 9. Prevent the commission, continuation or repetition of the contravention.
+            - paragraph [ref=e3125]: Information to be included in order
+            - paragraph [ref=e3126]: (3) The order shall,
+            - paragraph [ref=e3127]: (a) specify the provision that the provincial officer believes is being, has been or may be contravened;
+            - paragraph [ref=e3128]: (b) identify the species or habitat that the order relates to;
+            - paragraph [ref=e3129]: (c) briefly describe the nature of the contravention and its location; and
+            - paragraph [ref=e3130]: (d) state that a hearing on the order may be required in accordance with Part V.
+            - paragraph [ref=e3131]: Service of orders
+            - paragraph [ref=e3132]:
+              - generic [ref=e3134]:
+                - generic [ref=e3135]: "40"
+                - text: (1) An order issued under subsection 19 (2) or section 36, 37, 38 or 39 shall be served,
+            - paragraph [ref=e3136]: (a) personally;
+            - paragraph [ref=e3137]: (b) by mail addressed to the person to whom the order is issued at the person’s last known address;
+            - paragraph [ref=e3138]: (c) in the case of an order issued under subsection 19 (2), by filing a copy of the order on the Registry in accordance with section 20; or
+            - paragraph [ref=e3139]: (d) in accordance with the regulations, if any.
+            - paragraph [ref=e3140]: Mail
+            - paragraph [ref=e3141]: (2) An order served by mail shall be deemed to have been served on the fifth day after the day of mailing, unless the person served establishes that the person did not, acting in good faith, through absence, accident, illness or other cause beyond the person’s control, receive the order until a later date.
+            - paragraph [ref=e3142]: Effective date
+            - paragraph [ref=e3143]: (3) An order mentioned in subsection (1) takes effect when it is served, or at such later time as is specified in the order.
+            - paragraph [ref=e3144]: Compliance with orders
+            - paragraph [ref=e3145]:
+              - generic [ref=e3147]:
+                - generic [ref=e3148]: "41"
+                - text: (1) A person who is served with an order under section 40 shall comply with the order.
+            - paragraph [ref=e3149]: Exception
+            - paragraph [ref=e3150]: (2) Subsection (1) does not apply in respect of an order issued under subsection 19 (2).
+            - paragraph [ref=e3151]:
+              - generic [ref=e3154]:
+                - text: PART V
+                - text: APPEALS
+            - paragraph [ref=e3155]: Appeal of permit or order
+            - paragraph [ref=e3156]:
+              - generic [ref=e3158]:
+                - generic [ref=e3159]: "42"
+                - text: (1) A person may require a hearing by the Tribunal if,
+            - paragraph [ref=e3160]: (a) the Minister takes an action set out in subsection 22 (1) or (7) in respect of a permit issued to the person; or
+            - paragraph [ref=e3161]: (b) the Minister or a provincial officer issues an order under subsection 19 (2) or section 36, 37, 38 or 39 to the person or amends such an order.
+            - paragraph [ref=e3162]: Same
+            - paragraph [ref=e3163]: (2) The person may require the hearing by written notice served on the Minister or provincial officer, as applicable, and on the Tribunal, within 15 days after the action in respect of the permit is taken or the person is served with the order.
+            - paragraph [ref=e3164]: Failure or refusal to issue, etc.
+            - paragraph [ref=e3165]: (3) Failure or refusal to issue, amend or revoke an order is not itself an order.
+            - paragraph [ref=e3166]: Extension of time for requiring hearing
+            - paragraph [ref=e3167]:
+              - generic [ref=e3169]:
+                - generic [ref=e3170]: "43"
+                - text: The Tribunal shall extend the time in which a person may give a notice under subsection 42 (2) requiring a hearing if, in the Tribunal’s opinion, it is just to do so because the person establishes that they, acting in good faith, did not receive notice of the permit or order or received it on a later date because of a reason beyond the person’s control, including absence, accident, disability or illness.
+            - paragraph [ref=e3171]: Contents of notice requiring hearing
+            - paragraph [ref=e3172]:
+              - generic [ref=e3174]:
+                - generic [ref=e3175]: "44"
+                - text: (1) An applicant for a hearing by the Tribunal shall state in the notice requiring the hearing,
+            - paragraph [ref=e3176]: (a) the portions of the permit or order in respect of which the hearing is required; and
+            - paragraph [ref=e3177]: (b) the grounds on which the applicant intends to rely at the hearing.
+            - paragraph [ref=e3178]: Effect of contents of notice
+            - paragraph [ref=e3179]: (2) Except with leave of the Tribunal, at a hearing by the Tribunal, an applicant is not entitled to appeal a portion of the permit or order, or to rely on a ground, that is not stated in the applicant’s notice requiring the hearing.
+            - paragraph [ref=e3180]: Leave by Tribunal
+            - paragraph [ref=e3181]: (3) The Tribunal may grant the leave referred to in subsection (2) if the Tribunal is of the opinion that to do so is proper in the circumstances, and it may give such directions as it considers proper consequent on the granting of the leave.
+            - paragraph [ref=e3182]: No stay on appeal
+            - paragraph [ref=e3183]:
+              - generic [ref=e3185]:
+                - generic [ref=e3186]: "45"
+                - text: (1) The commencement of a proceeding before the Tribunal does not stay the operation of the portions of a permit or order under appeal unless the Tribunal orders otherwise.
+            - paragraph [ref=e3187]: Tribunal may grant stay
+            - paragraph [ref=e3188]: (2) The Tribunal may, on the application of a party to a proceeding before it, stay the operation of the portions of a permit or order described in subsection (1).
+            - paragraph [ref=e3189]: "Right to apply to remove stay: new circumstances"
+            - paragraph [ref=e3190]: (3) A party to a proceeding may apply for the removal of a stay that was granted under subsection (2) if relevant circumstances have changed or have become known to the party since the stay was granted, and the Tribunal may grant the application.
+            - paragraph [ref=e3191]: "Right to apply to remove stay: new party"
+            - paragraph [ref=e3192]: (4) A person who is made a party to a proceeding after a stay is granted under subsection (2) may, at the time the person is made a party, apply for the removal of the stay, and the Tribunal may grant the application.
+            - paragraph [ref=e3193]: Parties
+            - paragraph [ref=e3194]:
+              - generic [ref=e3196]:
+                - generic [ref=e3197]: "46"
+                - text: "The following persons are parties to the proceeding:"
+            - paragraph [ref=e3198]: 1. The person requiring the hearing.
+            - paragraph [ref=e3199]: 2. The provincial officer, if the officer issued the order being appealed.
+            - paragraph [ref=e3200]: 3. The Minister, if the Minister issued the permit or order being appealed.
+            - paragraph [ref=e3201]: 4. Any other person specified by the Tribunal.
+            - paragraph [ref=e3202]: Powers of Tribunal
+            - paragraph [ref=e3203]:
+              - generic [ref=e3205]:
+                - generic [ref=e3206]: "47"
+                - text: A hearing by the Tribunal shall be a new hearing and the Tribunal may confirm, amend or revoke the action of the Minister or provincial officer that is the subject matter of the hearing and, for such purposes, the Tribunal may substitute its opinion for that of the Minister or provincial officer, as applicable.
+            - paragraph [ref=e3207]: Appeals from Tribunal
+            - paragraph [ref=e3208]:
+              - generic [ref=e3210]:
+                - generic [ref=e3211]: "48"
+                - text: (1) Any party to a hearing before the Tribunal under this Act may appeal from its decision on a question of law to the Divisional Court, with leave of the Divisional Court, in accordance with the rules of court.
+            - paragraph [ref=e3212]: Decision of Tribunal not automatically stayed on appeal
+            - paragraph [ref=e3213]: (2) An appeal of a decision of the Tribunal to the Divisional Court under this section does not stay the operation of the decision, unless the Tribunal orders otherwise.
+            - paragraph [ref=e3214]: Divisional Court may grant or set aside stay
+            - paragraph [ref=e3215]: (3) If a decision of the Tribunal is appealed to the Divisional Court under this section, the Divisional Court may,
+            - paragraph [ref=e3216]: (a) stay the operation of the decision; or
+            - paragraph [ref=e3217]: (b) set aside a stay ordered by the Tribunal under subsection (2).
+            - paragraph [ref=e3218]:
+              - generic [ref=e3221]:
+                - text: PART VI
+                - text: OFFENCES AND PENALTIES
+            - paragraph [ref=e3222]:
+              - generic [ref=e3223]: Offences
+            - paragraph [ref=e3224]:
+              - generic [ref=e3226]:
+                - generic [ref=e3227]: "49"
+                - text: "(1) A person is guilty of an offence if the person contravenes any of the following provisions:"
+            - paragraph [ref=e3228]: 1. Section 15, subsection 16 (1) or (2), 18 (3), 22 (9), 23 (1) or (2), section 31, subsection 33 (2), section 41 or subsection 54 (2).
+            - paragraph [ref=e3229]: 2. Any provision of the regulations.
+            - paragraph [ref=e3230]: Attempts
+            - paragraph [ref=e3231]: (2) A person who attempts to do anything that would be an offence under this Act is guilty of that offence.
+            - paragraph [ref=e3232]: Corporations
+            - paragraph [ref=e3233]:
+              - generic [ref=e3235]:
+                - generic [ref=e3236]: "50"
+                - generic [ref=e3237]: If a corporation commits an offence under this Act, an officer, director, employee or agent of the corporation who directed, authorized, assented to, acquiesced in or participated in the commission of the offence is party to and guilty of the offence and is liable on conviction to the punishment provided for the offence, whether or not the corporation has been prosecuted for the offence.
+            - paragraph [ref=e3238]: Employers and principals
+            - paragraph [ref=e3239]:
+              - generic [ref=e3241]:
+                - generic [ref=e3242]: "51"
+                - text: In a prosecution for an offence under this Act, it is sufficient proof of the offence to establish that it was committed by an employee or agent of the defendant acting in the course of employment or agency, whether or not the employee or agent is identified or has been prosecuted for the offence, unless the defendant establishes that,
+            - paragraph [ref=e3243]: (a) the offence was committed without the knowledge of the defendant; and
+            - paragraph [ref=e3244]: (b) the offence was committed without the consent of the defendant.
+            - paragraph [ref=e3245]: Defence
+            - paragraph [ref=e3246]:
+              - generic [ref=e3248]:
+                - generic [ref=e3249]: "52"
+                - text: A person shall not be convicted of an offence under this Act if the person establishes that,
+            - paragraph [ref=e3250]: (a) the person exercised all due diligence to prevent the commission of the offence; or
+            - paragraph [ref=e3251]: (b) the person honestly and reasonably believed in the existence of facts that, if true, would render the person’s conduct innocent.
+            - paragraph [ref=e3252]: Penalties
+            - paragraph [ref=e3253]:
+              - generic [ref=e3255]:
+                - generic [ref=e3256]: "53"
+                - text: (1) A person convicted of an offence under this Act is liable,
+            - paragraph [ref=e3257]: (a) in the case of a first offence under this Act,
+            - paragraph [ref=e3258]: (i) to a fine of not more than $1,000,000, in the case of a corporation, or
+            - paragraph [ref=e3259]: (ii) to a fine of not more than $250,000 or to imprisonment for a term of not more than one year, or to both, in the case of any other person; and
+            - paragraph [ref=e3260]: (b) in the case of a second or subsequent offence under this Act,
+            - paragraph [ref=e3261]: (i) to a fine of not more than $2,000,000, in the case of a corporation, or
+            - paragraph [ref=e3262]: (ii) to a fine of not more than $500,000 or to imprisonment for a term of not more than one year, or to both, in the case of any other person.
+            - paragraph [ref=e3263]: More than one animal, plant, etc.
+            - paragraph [ref=e3264]: (2) Despite subsection (1), if an offence involves more than one animal, plant or other organism, the maximum fine that may be imposed is the amount that would otherwise apply under subsection (1), multiplied by the number of animals, plants and other organisms that are involved.
+            - paragraph [ref=e3265]: Monetary benefit
+            - paragraph [ref=e3266]: (3) The court that convicts a person of an offence under this Act, in addition to any other penalty imposed by the court, may increase a fine imposed on the person by an amount equal to the amount of the monetary benefit that was acquired by or that accrued to the person as a result of the commission of the offence, despite the maximum fine specified in subsection (1) or (2).
+            - paragraph [ref=e3267]: Order for compliance
+            - paragraph [ref=e3268]:
+              - generic [ref=e3270]:
+                - generic [ref=e3271]: "54"
+                - text: "(1) The court that convicts a person of an offence under this Act may, in addition to imposing a fine or imprisonment, issue any of the following orders against the person:"
+            - paragraph [ref=e3272]: 1. An order not to engage in any activity that could, in the opinion of the court, result in the continuation or repetition of the offence.
+            - paragraph [ref=e3273]: 2. An order to take any action that the court considers appropriate to remedy or avoid any adverse effect to a species that resulted or may result from the commission of the offence, including action to rehabilitate or restore habitat damaged or destroyed by the offence or to provide for alternative habitat.
+            - paragraph [ref=e3274]:
+              - generic [ref=e3275]: 3. An order to pay the Government of Ontario or any other person for all or part of any costs incurred to remedy or avoid any adverse effect to a species that resulted or may result from the commission of the offence, including action to rehabilitate or restore habitat damaged or destroyed by the offence or to provide for alternative habitat.
+            - paragraph [ref=e3276]: 4. An order to pay any person an amount for the purpose of assisting in the protection or conservation of the species in respect of which the offence was committed.
+            - paragraph [ref=e3277]: 5. An order to take such other steps as are specified in the order to comply with this Act.
+            - paragraph [ref=e3278]: 6. An order to pay all or part of any expenses incurred by the Minister or any other person with respect to the seizure, storage or disposition of any thing seized in connection with the offence.
+            - paragraph [ref=e3279]: Compliance with order
+            - paragraph [ref=e3280]: (2) A person shall comply with an order issued under this section.
+            - paragraph [ref=e3281]: Failure to comply
+            - paragraph [ref=e3282]: (3) If a person fails to comply with an order to take action under paragraph 2 of subsection (1), the Minister may take such action as the Minister considers appropriate to implement the order, and any cost or expense incurred by the Minister is a debt due to the Crown in right of Ontario and may be recovered by the Minister in a court of competent jurisdiction in an action against the person.
+            - paragraph [ref=e3283]: Presiding judge
+            - paragraph [ref=e3284]:
+              - generic [ref=e3286]:
+                - generic [ref=e3287]: "55"
+                - text: The Crown in right of Ontario may, by notice to the clerk of the Ontario Court of Justice, require that a provincial judge preside over a prosecution for an offence under this Act.
+            - paragraph [ref=e3288]: Limitation period
+            - paragraph [ref=e3289]:
+              - generic [ref=e3291]:
+                - generic [ref=e3292]: "56"
+                - text: A prosecution for an offence under this Act shall not be commenced more than five years after the offence was committed.
+            - paragraph [ref=e3293]: Similar species
+            - paragraph [ref=e3294]:
+              - generic [ref=e3296]:
+                - generic [ref=e3297]: "57"
+                - text: In a prosecution under this Act,
+            - paragraph [ref=e3298]: (a) a living or dead animal, plant or other organism that is not easily distinguishable from a member of a species that is listed on the Protected Species in Ontario List is deemed, in the absence of evidence to the contrary, to be a member of that species; and
+            - paragraph [ref=e3299]: (b) a part of a living or dead animal, plant or other organism that is not easily distinguishable from a part of a member of a species that is listed on the Protected Species in Ontario List is deemed, in the absence of evidence to the contrary, to be a part of a member of that species.
+            - paragraph [ref=e3300]: Proof of inspected or seized things
+            - paragraph [ref=e3301]:
+              - generic [ref=e3303]:
+                - generic [ref=e3304]: "58"
+                - generic [ref=e3305]:
+                  - text: In a prosecution under this Act, a copy of a document or other thing purporting to be certified by a provincial officer as a true copy of a document or other thing inspected or seized under this Act or Part VIII of the
+                  - emphasis [ref=e3306]: Provincial Offences Act
+                  - text: is admissible in evidence as proof, in the absence of evidence to the contrary, of the document or other thing.
+            - paragraph [ref=e3307]: Evidence of documents
+            - paragraph [ref=e3308]:
+              - generic [ref=e3310]:
+                - generic [ref=e3311]: "59"
+                - text: (1) In this section,
+            - paragraph [ref=e3312]: “official document” means,
+            - paragraph [ref=e3313]: (a) a permit, order, notice or confirmation of registration under this Act,
+            - paragraph [ref=e3314]: (b) a certificate as to service of a document mentioned in clause (a),
+            - paragraph [ref=e3315]: (c) a certificate as to the custody of any book, record or report or as to the custody of any other document, or
+            - paragraph [ref=e3316]: (d) a certificate as to whether or not any document or notification was received or issued by the Minister or the Ministry under this Act.
+            - paragraph [ref=e3317]: Official documents as evidence
+            - paragraph [ref=e3318]: (2) An official document that purports to be signed by the Minister or an employee in the Ministry shall be received in evidence in any proceeding as proof, in the absence of evidence to the contrary, of the facts stated in the official document without proof of the signature or position of the person appearing to have signed the official document.
+            - paragraph [ref=e3319]:
+              - generic [ref=e3322]:
+                - text: PART VII
+                - text: MISCELLANEOUS
+            - paragraph [ref=e3323]: Information for public
+            - paragraph [ref=e3324]:
+              - generic [ref=e3326]:
+                - generic [ref=e3327]: "60"
+                - text: "(1) The Minister shall ensure that the following information is made available to the public:"
+            - paragraph [ref=e3328]: 1. General information about this Act and the regulations.
+            - paragraph [ref=e3329]: 2. The most recent information that the Minister has received from COSSARO under subsection 10 (3).
+            - paragraph [ref=e3330]: 3. All reports submitted to the Minister by COSSARO under sections 12 and 13.
+            - paragraph [ref=e3331]: 4. General information about the enforcement of this Act.
+            - paragraph [ref=e3332]: Publication of COSSARO reports
+            - paragraph [ref=e3333]: (2) COSSARO reports that are required to be made available to the public under paragraph 3 of subsection (1) shall be made available no later than 90 days after the report is submitted.
+            - paragraph [ref=e3334]: Information that could lead to contravention
+            - paragraph [ref=e3335]:
+              - generic [ref=e3337]:
+                - generic [ref=e3338]: "61"
+                - text: Nothing in this Act requires the Minister to make information available to the public or otherwise disclose information if doing so could reasonably be expected to lead to a contravention of section 15, subsection 16 (1) or (2) or 23 (1) or (2).
+            - paragraph [ref=e3339]: Personal information
+            - paragraph [ref=e3340]:
+              - generic [ref=e3342]:
+                - generic [ref=e3343]: "62"
+                - generic [ref=e3344]:
+                  - text: The Ministry may, for the purposes of this Act, collect personal information within the meaning of section 38 of the
+                  - emphasis [ref=e3345]: Freedom of Information and Protection of Privacy Act
+                  - text: .
+            - paragraph [ref=e3346]: Incorporation by reference
+            - paragraph [ref=e3347]:
+              - generic [ref=e3349]:
+                - generic [ref=e3350]: "63"
+                - text: (1) A regulation may incorporate, in whole or in part and with such changes as the Minister or the Lieutenant Governor in Council considers necessary, a document, including a code, formula, standard, protocol, procedure or guideline, as the document may be amended or remade from time to time.
+            - paragraph [ref=e3351]: Same
+            - paragraph [ref=e3352]:
+              - generic [ref=e3353]:
+                - text: (2) An amendment to a document referred to in subsection (1), or a remade version of such a document, has no effect until the Ministry publishes notice of the amendment or remade document in
+                - emphasis [ref=e3354]: The Ontario Gazette
+                - text: or in the registry under the
+                - emphasis [ref=e3355]: Environmental Bill of Rights, 1993
+                - text: .
+            - paragraph [ref=e3356]: Regulations
+            - paragraph [ref=e3357]:
+              - generic [ref=e3359]:
+                - generic [ref=e3360]: "64"
+                - text: (1) The Minister may make regulations,
+            - paragraph [ref=e3361]: (a) prescribing anything that is referred to in this Act as prescribed or as otherwise dealt with in the regulations, other than by the Lieutenant Governor in Council;
+            - paragraph [ref=e3362]: (b) prescribing section 16 activities for the purposes of subsection 16 (2);
+            - paragraph [ref=e3363]: (c) governing the establishment, operation and maintenance of the Registry, including,
+            - paragraph [ref=e3364]: (i) governing registrations, including requiring electronic registrations, and procedures for registering, which may include designating a person responsible for establishing procedures,
+            - paragraph [ref=e3365]: (ii) governing the maintenance of registrations and prescribing any information, reports, records or documents to be included in registrations,
+            - paragraph [ref=e3366]: (iii) prescribing the timing and requirements relating to periodic updating of registrations,
+            - paragraph [ref=e3367]: (iv) governing registrable activities,
+            - paragraph [ref=e3368]: (v) requiring persons with qualifications specified in the regulations to provide certifications as part of registrations,
+            - paragraph [ref=e3369]: (vi) governing certifications mentioned in subclause (v),
+            - paragraph [ref=e3370]: (vii) governing the suspension or removal of registrations,
+            - paragraph [ref=e3371]: (viii) governing requirements for financial assurance and methods of calculating financial assurance in respect of registrable activities and prescribing measures for which financial assurance may be required,
+            - paragraph [ref=e3372]: (ix) requiring persons prescribed by the regulations to carry insurance, specifying the insurance that is required to be carried and specifying limits and conditions respecting insurance coverage;
+            - paragraph [ref=e3373]: (d) requiring persons who have been issued an instrument under this Act or any other specified persons to prepare, store and submit prescribed documents, information, data or reports and respecting the methods of creating, storing and submitting them;
+            - paragraph [ref=e3374]: (e) providing for the preparation and signing of documents and reports by electronic means, the filing of documents and reports by direct electronic transmission and the printing of documents and reports filed by direct electronic transmission.
+            - paragraph [ref=e3375]: Same, permit activities
+            - paragraph [ref=e3376]: (2) Without limiting the generality of clause (1) (b), a regulation made under that clause may describe a prescribed section 16 activity in terms of,
+            - paragraph [ref=e3377]:
+              - generic [ref=e3378]: (a) the species affected by the activity;
+            - paragraph [ref=e3379]: (b) the geographic area of the activity;
+            - paragraph [ref=e3380]: (c) the temporal nature of the activity, for example prescribing an activity in respect of a particular time of day or year;
+            - paragraph [ref=e3381]: (d) the purpose of the activity;
+            - paragraph [ref=e3382]: (e) the stage in the development of a species affected by the activity;
+            - paragraph [ref=e3383]: (f) the persons or class of persons engaging in the activity; or
+            - paragraph [ref=e3384]: (g) the circumstances in which the activity is engaged.
+            - paragraph [ref=e3385]: Regulations, Lieutenant Governor in Council
+            - paragraph [ref=e3386]:
+              - generic [ref=e3388]:
+                - generic [ref=e3389]: "65"
+                - text: (1) The Lieutenant Governor in Council may make regulations,
+            - paragraph [ref=e3390]: (a) prescribing anything that is referred to in this Act as prescribed or as otherwise dealt with in the regulations made by the Lieutenant Governor in Council;
+            - paragraph [ref=e3391]: (b) limiting the application of “habitat” as defined in subsection 2 (1) in respect of one or more specified species that are listed on the Protected Species in Ontario List;
+            - paragraph [ref=e3392]: (c) defining “adverse effect”, “alternative habitat”, “in the wild”, “significant adverse effect” and “site” for the purposes of this Act;
+            - paragraph [ref=e3393]: (d) governing any transitional matters that may arise in connection with the application of this Act or the regulations;
+            - paragraph [ref=e3394]: (e) respecting any matter that the Lieutenant Governor in Council considers advisable to effectively carry out the purpose of this Act other than a matter mentioned in section 64.
+            - paragraph [ref=e3395]: Same, excepted registerable activities
+            - paragraph [ref=e3396]: (2) Without limiting the generality of clause (1) (a), a regulation made under that clause for the purposes of paragraph 4 of subsection 16 (3) may,
+            - paragraph [ref=e3397]: (a) describe a prescribed section 16 activity in terms of,
+            - paragraph [ref=e3398]: (i) the species affected by the activity,
+            - paragraph [ref=e3399]: (ii) the geographic area of the activity,
+            - paragraph [ref=e3400]: (iii) the temporal nature of the activity, for example prescribing an activity in respect of a particular time of day or year,
+            - paragraph [ref=e3401]: (iv) the purpose of the activity,
+            - paragraph [ref=e3402]: (v) the stage in the development of a species affected by the activity,
+            - paragraph [ref=e3403]: (vi) the persons or class of persons engaging in the activity, or
+            - paragraph [ref=e3404]: (vii) the circumstances in which the activity is engaged; and
+            - paragraph [ref=e3405]: (b) in the case of a permit activity,
+            - paragraph [ref=e3406]: (i) prescribe conditions requiring the activity to be registered in the Registry in accordance with the regulations, and
+            - paragraph [ref=e3407]: (ii) prescribe provisions of this Act and the regulations that would not otherwise apply in respect of the permit activity to apply.
+            - paragraph [ref=e3408]:
+              - generic [ref=e3411]:
+                - text: PART VIII
+                - text: TRANSITION
+            - paragraph [ref=e3412]:
+              - generic [ref=e3413]:
+                - text: Agency under the
+                - emphasis [ref=e3414]: Endangered Species Act, 2007
+            - paragraph [ref=e3415]: Continued immunity of Crown
+            - paragraph [ref=e3416]:
+              - generic [ref=e3418]:
+                - generic [ref=e3419]: "66"
+                - generic [ref=e3420]:
+                  - text: (1) For greater certainty, subsections 20.18 (1) to (3) of the
+                  - emphasis [ref=e3421]: Endangered Species Act, 2007
+                  - text: continue to apply in respect of any act or omission of the Agency or its officers, directors or employees done under the authority of that Act before its repeal.
+            - paragraph [ref=e3422]: Unpaid judgments against Agency
+            - paragraph [ref=e3423]:
+              - generic [ref=e3424]:
+                - text: (2) The Minister of Finance shall pay from the Consolidated Revenue Fund the amount of any judgement against the Agency that remains unpaid after the day the
+                - emphasis [ref=e3425]: Endangered Species Act, 2007
+                - text: is repealed.
+            - paragraph [ref=e3426]: Species Conservation Account
+            - paragraph [ref=e3427]:
+              - text: (3) Amounts not exceeding the balance in the Species Conservation Account established under the
+              - emphasis [ref=e3428]: Endangered Species Act, 2007
+              - text: may be charged to the account and paid out of the Consolidated Revenue Fund for the purpose of funding activities that further the purposes of this Act.
+            - paragraph [ref=e3429]: Definitions
+            - paragraph [ref=e3430]: (4) In this section,
+            - paragraph [ref=e3431]:
+              - generic [ref=e3432]:
+                - text: “Agency” and “Fund” have the same meaning as in subsection 2 (1) of the
+                - emphasis [ref=e3433]: Endangered Species Act, 2007
+                - text: ", as that subsection read immediately before it was repealed."
+            - paragraph [ref=e3434]: Transitional regulations
+            - paragraph [ref=e3435]:
+              - generic [ref=e3437]:
+                - generic [ref=e3438]: "67"
+                - generic [ref=e3439]:
+                  - text: (1) The Lieutenant Governor in Council may make regulations governing any transitional matters that may arise from the enactment of this Act or the repeal of any provision of the
+                  - emphasis [ref=e3440]: Endangered Species Act, 2007
+                  - text: ", including,"
+            - paragraph [ref=e3441]:
+              - generic [ref=e3442]:
+                - text: (a) governing proceedings commenced but not finally disposed of under the
+                - emphasis [ref=e3443]: Endangered Species Act, 2007
+                - text: ", including providing for their termination;"
+            - paragraph [ref=e3444]:
+              - generic [ref=e3445]:
+                - text: (b) providing for the continued application, on a transitional basis, of any provision of the
+                - emphasis [ref=e3446]: Endangered Species Act, 2007
+                - text: or any provision of a regulation that is revoked by this Act, as the provision read immediately before its repeal or revocation, with such modifications as may be specified.
+            - paragraph [ref=e3447]: Same
+            - paragraph [ref=e3448]: (2) In the event of a conflict between a regulation made under subsection (1) and this Act, the regulation prevails to the extent of the conflict.
+            - paragraph [ref=e3449]:
+              - generic [ref=e3452]:
+                - text: PART IX
+                - text: REPEAL, REVOCATIONS, COMMENCEMENT AND SHORT TITLE
+            - heading "Endangered Species Act, 2007" [level=3] [ref=e3453]:
+              - emphasis [ref=e3454]: Endangered Species Act, 2007
+            - paragraph [ref=e3455]:
+              - generic [ref=e3457]:
+                - text: 68 The
+                - emphasis [ref=e3458]: Endangered Species Act, 2007
+                - text: is repealed.
+            - paragraph [ref=e3459]: Revocations
+            - paragraph [ref=e3460]:
+              - generic [ref=e3462]: "69 The following regulations are revoked:"
+            - paragraph [ref=e3463]: 1. Ontario Regulation 230/08.
+            - paragraph [ref=e3464]: 2. Ontario Regulation 242/08.
+            - paragraph [ref=e3465]: 3. Ontario Regulation 651/21.
+            - paragraph [ref=e3466]: 4. Ontario Regulation 656/21.
+            - paragraph [ref=e3467]: 5. Ontario Regulation 829/21.
+            - paragraph [ref=e3468]: 6. Ontario Regulation 830/21.
+            - paragraph [ref=e3469]: 7. Ontario Regulation 832/21.
+            - paragraph [ref=e3470]: 8. Ontario Regulation 6/24.
+            - paragraph [ref=e3471]: Commencement
+            - paragraph [ref=e3472]:
+              - generic [ref=e3474]: 70 The Act set out in this Schedule comes into force on a day to be named by order of the Lieutenant Governor in Council.
+            - paragraph [ref=e3475]: Short title
+            - paragraph [ref=e3476]:
+              - generic [ref=e3479]:
+                - text: 71 The short title of the Act set out in this Schedule is the
+                - emphasis [ref=e3480]: Species Conservation Act, 2025
+                - text: .
+    - generic [ref=e3489]:
+      - text: Was this page helpful?
+      - link "Yes" [ref=e3490] [cursor=pointer]:
+        - /url: /en/web-survey?choice=yes
+        - generic [ref=e3491]: 
+        - text: "Yes"
+      - link "No" [ref=e3492] [cursor=pointer]:
+        - /url: /en/web-survey?choice=no
+        - generic [ref=e3493]: 
+        - text: "No"
+    - contentinfo [ref=e3494]:
+      - generic [ref=e3497]:
+        - generic [ref=e3499]:
+          - heading "Legislative Assembly of Ontario" [level=4] [ref=e3500]
+          - generic [ref=e3501]:
+            - link "Visit us on Instagram" [ref=e3504] [cursor=pointer]:
+              - /url: https://www.instagram.com/lao_english/
+              - img [ref=e3505]
+            - link "Visit us on Facebook" [ref=e3509] [cursor=pointer]:
+              - /url: https://www.facebook.com/laoenglish/
+              - img [ref=e3510]
+            - link "Visit us on X" [ref=e3514] [cursor=pointer]:
+              - /url: https://x.com/lao_english
+              - img [ref=e3515]
+            - link "Visit us on LinkedIn" [ref=e3519] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/company/legislative-assembly-of-ontario
+              - img [ref=e3520]
+            - link "Listen to ON Parliament podcast" [ref=e3524] [cursor=pointer]:
+              - /url: /en/ON-parliament-podcast
+              - img [ref=e3525]
+            - link "Visit us on Flickr" [ref=e3529] [cursor=pointer]:
+              - /url: https://www.flickr.com/photos/130854426@N08/
+              - img [ref=e3530]
+            - link "Visit us on YouTube" [ref=e3534] [cursor=pointer]:
+              - /url: https://www.youtube.com/@lao-en
+              - img [ref=e3535]
+          - generic [ref=e3537]:
+            - paragraph [ref=e3538]: The Legislative Assembly of Ontario is made up of members of provincial Parliament (MPPs) who are elected by Ontarians to represent them and their constituencies. The Legislative Assembly's main responsibilities are to debate and pass legislation, to hold the government to account, and to approve government spending. The Legislative Assembly meets in the Legislative Building located in Queen's Park in Toronto.
+            - paragraph [ref=e3539]:
+              - link "Site map" [ref=e3540] [cursor=pointer]:
+                - /url: /en/site-map
+        - generic [ref=e3542]:
+          - heading "About us" [level=5] [ref=e3543]
+          - list [ref=e3544]:
+            - listitem [ref=e3545]:
+              - link "Office of the Assembly" [ref=e3546] [cursor=pointer]:
+                - /url: /en/office-assembly
+            - listitem [ref=e3547]:
+              - link "Contact us" [ref=e3548] [cursor=pointer]:
+                - /url: /en/office-assembly/contact-us
+            - listitem [ref=e3549]:
+              - link "Careers" [ref=e3550] [cursor=pointer]:
+                - /url: /en/office-assembly/careers
+            - listitem [ref=e3551]:
+              - link "Ontario Legislature Internship Programme (OLIP) (opens another site)" [ref=e3552] [cursor=pointer]:
+                - /url: https://www.olipinterns.ca/
+            - listitem [ref=e3553]:
+              - link "Accessibility" [ref=e3554] [cursor=pointer]:
+                - /url: /en/office-assembly/accessibility
+            - listitem [ref=e3555]:
+              - link "What's happening" [ref=e3556] [cursor=pointer]:
+                - /url: /en/office-assembly/whats-happening
+        - generic [ref=e3558]:
+          - heading "Resources" [level=5] [ref=e3559]
+          - list [ref=e3560]:
+            - listitem [ref=e3561]:
+              - link "House documents" [ref=e3562] [cursor=pointer]:
+                - /url: /en/legislative-business/house-documents
+            - listitem [ref=e3563]:
+              - link "Library and research" [ref=e3564] [cursor=pointer]:
+                - /url: /en/office-assembly/library-research
+            - listitem [ref=e3565]:
+              - link "Find an MPP" [ref=e3566] [cursor=pointer]:
+                - /url: /en/members/current#views-exposed-form-current-members-current-members-grid
+            - listitem [ref=e3567]:
+              - link "FAQ" [ref=e3568] [cursor=pointer]:
+                - /url: /en/office-assembly/faq
+            - listitem [ref=e3569]:
+              - link "Media centre" [ref=e3570] [cursor=pointer]:
+                - /url: /en/media-centre
+            - listitem [ref=e3571]:
+              - link "Data resources" [ref=e3572] [cursor=pointer]:
+                - /url: /en/office-assembly/library-research/data-resources
+            - listitem [ref=e3573]:
+              - link "Notices of hearings" [ref=e3574] [cursor=pointer]:
+                - /url: /en/legislative-business/committees/notices-hearings
+      - paragraph [ref=e3581]:
+        - img [ref=e3582] [cursor=pointer]
+        - link "Copyright and privacy" [ref=e3594] [cursor=pointer]:
+          - /url: /en/office-assembly/copyright-privacy

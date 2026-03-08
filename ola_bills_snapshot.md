@@ -1,0 +1,1653 @@
+- generic [active] [ref=e1]:
+  - link "Skip to main content" [ref=e2] [cursor=pointer]:
+    - /url: "#main-content"
+  - generic [ref=e3]:
+    - banner [ref=e5]:
+      - generic [ref=e7]:
+        - generic [ref=e9]:
+          - link "The Legislative Assembly of Ontario." [ref=e13] [cursor=pointer]:
+            - /url: /en
+            - img "The Legislative Assembly of Ontario." [ref=e14]
+          - generic [ref=e16]: Legislative Assembly of Ontario
+        - generic [ref=e18]:
+          - generic [ref=e21]:
+            - generic [ref=e24]:
+              - paragraph: Search entire site
+              - generic [ref=e25]: Search entire site
+              - generic [ref=e26]:
+                - searchbox "Search entire site" [ref=e28]
+                - button "Search" [ref=e29] [cursor=pointer]:
+                  - generic [ref=e30]: 
+            - text: 
+          - navigation [ref=e32]:
+            - list [ref=e33]:
+              - listitem [ref=e34]:
+                - link "Français" [ref=e35] [cursor=pointer]:
+                  - /url: /fr/affaires-legislatives/projets-loi/legislature-44/session-1
+        - text:  
+    - navigation "Main Navigation" [ref=e38]:
+      - menu [ref=e41]:
+        - generic [ref=e42] [cursor=pointer]:
+          - menuitem "Members (MPPs)" [ref=e43]
+          - img [ref=e45]
+        - generic [ref=e47] [cursor=pointer]:
+          - menuitem "Legislative business" [ref=e48]
+          - img [ref=e50]
+        - generic [ref=e52] [cursor=pointer]:
+          - menuitem "Get involved" [ref=e53]
+          - img [ref=e55]
+        - generic [ref=e57] [cursor=pointer]:
+          - menuitem "Visit and learn" [ref=e58]
+          - img [ref=e60]
+    - heading [ref=e64]
+    - main [ref=e65]:
+      - generic [ref=e71]:
+        - heading "Bills from 44th Parliament, 1st Session" [level=1] [ref=e73]
+        - generic [ref=e76]:
+          - generic [ref=e77]:
+            - text: Bill title search
+            - textbox "Bill title search" [ref=e78]
+          - button "Apply" [ref=e80] [cursor=pointer]
+        - grid [ref=e83]:
+          - rowgroup [ref=e84]:
+            - row "No. Bill title Sponsor" [ref=e85]:
+              - columnheader "No." [ref=e86]
+              - columnheader "Bill title" [ref=e87]:
+                - link "Bill title" [ref=e88] [cursor=pointer]:
+                  - /url: "?combine=&order=field_short_title&sort=asc"
+              - columnheader "Sponsor" [ref=e89]
+          - rowgroup [ref=e90]:
+            - row "1 An Act to perpetuate an ancient parliamentary right" [ref=e91]:
+              - gridcell "1" [ref=e92]
+              - gridcell "An Act to perpetuate an ancient parliamentary right" [ref=e93]:
+                - link "An Act to perpetuate an ancient parliamentary right" [ref=e94] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-1
+              - gridcell [ref=e95]:
+                - list [ref=e97]:
+                  - listitem [ref=e98]:
+                    - article [ref=e99]:
+                      - generic [ref=e100]:
+                        - generic [ref=e101]: Ford, Hon. Doug
+                        - generic [ref=e102]: Premier
+            - row "PR1 1976998 Ontario Inc. Act, 2025" [ref=e103]:
+              - gridcell "PR1" [ref=e104]
+              - gridcell "1976998 Ontario Inc. Act, 2025" [ref=e105]:
+                - link "1976998 Ontario Inc. Act, 2025" [ref=e106] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr1
+              - gridcell [ref=e107]:
+                - list [ref=e109]:
+                  - listitem [ref=e110]:
+                    - article [ref=e111]:
+                      - generic [ref=e113]: Dixon, Jess
+            - row "2 Protect Ontario Through Free Trade Within Canada Act, 2025" [ref=e114]:
+              - gridcell "2" [ref=e115]
+              - gridcell "Protect Ontario Through Free Trade Within Canada Act, 2025" [ref=e116]:
+                - link "Protect Ontario Through Free Trade Within Canada Act, 2025" [ref=e117] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-2
+              - gridcell [ref=e118]:
+                - list [ref=e120]:
+                  - listitem [ref=e121]:
+                    - article [ref=e122]:
+                      - generic [ref=e123]:
+                        - generic [ref=e124]: Fedeli, Hon. Victor
+                        - generic [ref=e125]: Minister of Economic Development, Job Creation and Trade
+            - row "PR2 MFIS Holdings and Investments Inc. Act, 2025" [ref=e126]:
+              - gridcell "PR2" [ref=e127]
+              - gridcell "MFIS Holdings and Investments Inc. Act, 2025" [ref=e128]:
+                - link "MFIS Holdings and Investments Inc. Act, 2025" [ref=e129] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr2
+              - gridcell [ref=e130]:
+                - list [ref=e132]:
+                  - listitem [ref=e133]:
+                    - article [ref=e134]:
+                      - generic [ref=e136]: Riddell, Brian
+            - row "3 Robbie’s Legacy Act (Honouring Beloved Organ and Tissue Donors), 2025" [ref=e137]:
+              - gridcell "3" [ref=e138]
+              - gridcell "Robbie’s Legacy Act (Honouring Beloved Organ and Tissue Donors), 2025" [ref=e139]:
+                - link "Robbie’s Legacy Act (Honouring Beloved Organ and Tissue Donors), 2025" [ref=e140] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-3
+              - gridcell [ref=e141]:
+                - list [ref=e143]:
+                  - listitem [ref=e144]:
+                    - article [ref=e145]:
+                      - generic [ref=e147]: Hsu, Ted
+                  - listitem [ref=e148]:
+                    - article [ref=e149]:
+                      - generic [ref=e151]: Blais, Stephen
+                  - listitem [ref=e152]:
+                    - article [ref=e153]:
+                      - generic [ref=e155]: Fraser, John
+                  - listitem [ref=e156]:
+                    - article [ref=e157]:
+                      - generic [ref=e159]: Shamji, Adil
+            - row "PR3 Gilda Investments Limited Act, 2025" [ref=e160]:
+              - gridcell "PR3" [ref=e161]
+              - gridcell "Gilda Investments Limited Act, 2025" [ref=e162]:
+                - link "Gilda Investments Limited Act, 2025" [ref=e163] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr3
+              - gridcell [ref=e164]:
+                - list [ref=e166]:
+                  - listitem [ref=e167]:
+                    - article [ref=e168]:
+                      - generic [ref=e170]: Cooper, Michelle
+            - row "4 Peter Kormos Memorial Act (Saving Organs to Save Lives), 2025" [ref=e171]:
+              - gridcell "4" [ref=e172]
+              - gridcell "Peter Kormos Memorial Act (Saving Organs to Save Lives), 2025" [ref=e173]:
+                - link "Peter Kormos Memorial Act (Saving Organs to Save Lives), 2025" [ref=e174] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-4
+              - gridcell [ref=e175]:
+                - list [ref=e177]:
+                  - listitem [ref=e178]:
+                    - article [ref=e179]:
+                      - generic [ref=e181]: Gélinas, France
+            - row "PR4 Marbro Holdings Ltd. Act, 2025" [ref=e182]:
+              - gridcell "PR4" [ref=e183]
+              - gridcell "Marbro Holdings Ltd. Act, 2025" [ref=e184]:
+                - link "Marbro Holdings Ltd. Act, 2025" [ref=e185] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr4
+              - gridcell [ref=e186]:
+                - list [ref=e188]:
+                  - listitem [ref=e189]:
+                    - article [ref=e190]:
+                      - generic [ref=e192]: Mamakwa, Sol
+            - row "5 Protect Ontario by Unleashing our Economy Act, 2025" [ref=e193]:
+              - gridcell "5" [ref=e194]
+              - gridcell "Protect Ontario by Unleashing our Economy Act, 2025" [ref=e195]:
+                - link "Protect Ontario by Unleashing our Economy Act, 2025" [ref=e196] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-5
+              - gridcell [ref=e197]:
+                - list [ref=e199]:
+                  - listitem [ref=e200]:
+                    - article [ref=e201]:
+                      - generic [ref=e202]:
+                        - generic [ref=e203]: Lecce, Hon. Stephen
+                        - generic [ref=e204]: Minister of Energy and Mines
+            - row "PR5 Social Asset Measurements Inc. Act, 2025" [ref=e205]:
+              - gridcell "PR5" [ref=e206]
+              - gridcell "Social Asset Measurements Inc. Act, 2025" [ref=e207]:
+                - link "Social Asset Measurements Inc. Act, 2025" [ref=e208] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr5
+              - gridcell [ref=e209]:
+                - list [ref=e211]:
+                  - listitem [ref=e212]:
+                    - article [ref=e213]:
+                      - generic [ref=e215]: Bell, Jessica
+            - row "6 Safer Municipalities Act, 2025" [ref=e216]:
+              - gridcell "6" [ref=e217]
+              - gridcell "Safer Municipalities Act, 2025" [ref=e218]:
+                - link "Safer Municipalities Act, 2025" [ref=e219] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-6
+              - gridcell [ref=e220]:
+                - list [ref=e222]:
+                  - listitem [ref=e223]:
+                    - article [ref=e224]:
+                      - generic [ref=e225]:
+                        - generic [ref=e226]: Flack, Hon. Rob
+                        - generic [ref=e227]: Minister of Municipal Affairs and Housing
+            - row "PR6 Andrew Zawadowski Medicine Professional Corporation Act, 2025" [ref=e228]:
+              - gridcell "PR6" [ref=e229]
+              - gridcell "Andrew Zawadowski Medicine Professional Corporation Act, 2025" [ref=e230]:
+                - link "Andrew Zawadowski Medicine Professional Corporation Act, 2025" [ref=e231] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr6
+              - gridcell [ref=e232]:
+                - list [ref=e234]:
+                  - listitem [ref=e235]:
+                    - article [ref=e236]:
+                      - generic [ref=e238]: Pierre, Natalie
+            - row "7 Health Care is Not for Sale Act (Addressing Unfair Fees Charged to Patients), 2025" [ref=e239]:
+              - gridcell "7" [ref=e240]
+              - gridcell "Health Care is Not for Sale Act (Addressing Unfair Fees Charged to Patients), 2025" [ref=e241]:
+                - link "Health Care is Not for Sale Act (Addressing Unfair Fees Charged to Patients), 2025" [ref=e242] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-7
+              - gridcell [ref=e243]:
+                - list [ref=e245]:
+                  - listitem [ref=e246]:
+                    - article [ref=e247]:
+                      - generic [ref=e249]: Gélinas, France
+                  - listitem [ref=e250]:
+                    - article [ref=e251]:
+                      - generic [ref=e253]: Lennox, Robin
+                  - listitem [ref=e254]:
+                    - article [ref=e255]:
+                      - generic [ref=e257]: Pasma, Chandra
+            - row "PR7 2512681 Ontario Inc. Act, 2025" [ref=e258]:
+              - gridcell "PR7" [ref=e259]
+              - gridcell "2512681 Ontario Inc. Act, 2025" [ref=e260]:
+                - link "2512681 Ontario Inc. Act, 2025" [ref=e261] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr7
+              - gridcell [ref=e262]:
+                - list [ref=e264]:
+                  - listitem [ref=e265]:
+                    - article [ref=e266]:
+                      - generic [ref=e268]: Sabawy, Sheref
+            - row "8 WSIB Coverage for Workers in Residential Care Facilities and Group Homes Act, 2025" [ref=e269]:
+              - gridcell "8" [ref=e270]
+              - gridcell "WSIB Coverage for Workers in Residential Care Facilities and Group Homes Act, 2025" [ref=e271]:
+                - link "WSIB Coverage for Workers in Residential Care Facilities and Group Homes Act, 2025" [ref=e272] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-8
+              - gridcell [ref=e273]:
+                - list [ref=e275]:
+                  - listitem [ref=e276]:
+                    - article [ref=e277]:
+                      - generic [ref=e279]: Fraser, John
+            - row "PR8 Thistletown Lions Club Act, 2025" [ref=e280]:
+              - gridcell "PR8" [ref=e281]
+              - gridcell "Thistletown Lions Club Act, 2025" [ref=e282]:
+                - link "Thistletown Lions Club Act, 2025" [ref=e283] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr8
+              - gridcell [ref=e284]:
+                - list [ref=e286]:
+                  - listitem [ref=e287]:
+                    - article [ref=e288]:
+                      - generic [ref=e290]: Coe, Lorne
+            - row "9 Municipal Accountability Act, 2025" [ref=e291]:
+              - gridcell "9" [ref=e292]
+              - gridcell "Municipal Accountability Act, 2025" [ref=e293]:
+                - link "Municipal Accountability Act, 2025" [ref=e294] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-9
+              - gridcell [ref=e295]:
+                - list [ref=e297]:
+                  - listitem [ref=e298]:
+                    - article [ref=e299]:
+                      - generic [ref=e300]:
+                        - generic [ref=e301]: Flack, Hon. Rob
+                        - generic [ref=e302]: Minister of Municipal Affairs and Housing
+            - row "PR9 Holy Trinity Restaurant Inc. Act, 2025" [ref=e303]:
+              - gridcell "PR9" [ref=e304]
+              - gridcell "Holy Trinity Restaurant Inc. Act, 2025" [ref=e305]:
+                - link "Holy Trinity Restaurant Inc. Act, 2025" [ref=e306] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr9
+              - gridcell [ref=e307]:
+                - list [ref=e309]:
+                  - listitem [ref=e310]:
+                    - article [ref=e311]:
+                      - generic [ref=e313]: Blais, Stephen
+            - row "10 Protect Ontario Through Safer Streets and Stronger Communities Act, 2025" [ref=e314]:
+              - gridcell "10" [ref=e315]
+              - gridcell "Protect Ontario Through Safer Streets and Stronger Communities Act, 2025" [ref=e316]:
+                - link "Protect Ontario Through Safer Streets and Stronger Communities Act, 2025" [ref=e317] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-10
+              - gridcell [ref=e318]:
+                - list [ref=e320]:
+                  - listitem [ref=e321]:
+                    - article [ref=e322]:
+                      - generic [ref=e323]:
+                        - generic [ref=e324]: Downey, Hon. Doug
+                        - generic [ref=e325]: Attorney General
+            - row "PR10 Five Senses Productions Inc. Act, 2025" [ref=e326]:
+              - gridcell "PR10" [ref=e327]
+              - gridcell "Five Senses Productions Inc. Act, 2025" [ref=e328]:
+                - link "Five Senses Productions Inc. Act, 2025" [ref=e329] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr10
+              - gridcell [ref=e330]:
+                - list [ref=e332]:
+                  - listitem [ref=e333]:
+                    - article [ref=e334]:
+                      - generic [ref=e336]: Bell, Jessica
+            - row "11 More Convenient Care Act, 2025" [ref=e337]:
+              - gridcell "11" [ref=e338]
+              - gridcell "More Convenient Care Act, 2025" [ref=e339]:
+                - link "More Convenient Care Act, 2025" [ref=e340] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-11
+              - gridcell [ref=e341]:
+                - list [ref=e343]:
+                  - listitem [ref=e344]:
+                    - article [ref=e345]:
+                      - generic [ref=e346]:
+                        - generic [ref=e347]: Jones, Hon. Sylvia
+                        - generic [ref=e348]: Minister of Health
+            - row "12 Cutting Taxes on Small Businesses Act, 2025" [ref=e349]:
+              - gridcell "12" [ref=e350]
+              - gridcell "Cutting Taxes on Small Businesses Act, 2025" [ref=e351]:
+                - link "Cutting Taxes on Small Businesses Act, 2025" [ref=e352] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-12
+              - gridcell [ref=e353]:
+                - list [ref=e355]:
+                  - listitem [ref=e356]:
+                    - article [ref=e357]:
+                      - generic [ref=e359]: Bowman, Stephanie
+            - row "PR12 1955274 Ontario Inc. Act, 2025" [ref=e360]:
+              - gridcell "PR12" [ref=e361]
+              - gridcell "1955274 Ontario Inc. Act, 2025" [ref=e362]:
+                - link "1955274 Ontario Inc. Act, 2025" [ref=e363] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr12
+              - gridcell [ref=e364]:
+                - list [ref=e366]:
+                  - listitem [ref=e367]:
+                    - article [ref=e368]:
+                      - generic [ref=e370]: Smith, David
+            - row "13 Primary Care Act, 2025" [ref=e371]:
+              - gridcell "13" [ref=e372]
+              - gridcell "Primary Care Act, 2025" [ref=e373]:
+                - link "Primary Care Act, 2025" [ref=e374] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-13
+              - gridcell [ref=e375]:
+                - list [ref=e377]:
+                  - listitem [ref=e378]:
+                    - article [ref=e379]:
+                      - generic [ref=e380]:
+                        - generic [ref=e381]: Jones, Hon. Sylvia
+                        - generic [ref=e382]: Minister of Health
+            - row "PR13 Faris Team Mortgage Brokerage Corp. Act, 2025" [ref=e383]:
+              - gridcell "PR13" [ref=e384]
+              - gridcell "Faris Team Mortgage Brokerage Corp. Act, 2025" [ref=e385]:
+                - link "Faris Team Mortgage Brokerage Corp. Act, 2025" [ref=e386] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr13
+              - gridcell [ref=e387]:
+                - list [ref=e389]:
+                  - listitem [ref=e390]:
+                    - article [ref=e391]:
+                      - generic [ref=e393]: Gallagher Murphy, Dawn
+            - row "14 Support for Seniors and Caregivers Act, 2025" [ref=e394]:
+              - gridcell "14" [ref=e395]
+              - gridcell "Support for Seniors and Caregivers Act, 2025" [ref=e396]:
+                - link "Support for Seniors and Caregivers Act, 2025" [ref=e397] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-14
+              - gridcell [ref=e398]:
+                - list [ref=e400]:
+                  - listitem [ref=e401]:
+                    - article [ref=e402]:
+                      - generic [ref=e403]:
+                        - generic [ref=e404]: Kusendova-Bashta, Hon. Natalia
+                        - generic [ref=e405]: Minister of Long-Term Care
+            - row "PR14 Jarm Holdings Investments Ltd. Act, 2025" [ref=e406]:
+              - gridcell "PR14" [ref=e407]
+              - gridcell "Jarm Holdings Investments Ltd. Act, 2025" [ref=e408]:
+                - link "Jarm Holdings Investments Ltd. Act, 2025" [ref=e409] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr14
+              - gridcell [ref=e410]:
+                - list [ref=e412]:
+                  - listitem [ref=e413]:
+                    - article [ref=e414]:
+                      - generic [ref=e416]: Gallagher Murphy, Dawn
+            - row "15 Kids’ Online Safety and Privacy Month Act, 2025" [ref=e417]:
+              - gridcell "15" [ref=e418]
+              - gridcell "Kids’ Online Safety and Privacy Month Act, 2025" [ref=e419]:
+                - link "Kids’ Online Safety and Privacy Month Act, 2025" [ref=e420] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-15
+              - gridcell [ref=e421]:
+                - list [ref=e423]:
+                  - listitem [ref=e424]:
+                    - article [ref=e425]:
+                      - generic [ref=e427]: Collard, Lucille
+            - row "PR15 2708634 Ontario Ltd. Act, 2025" [ref=e428]:
+              - gridcell "PR15" [ref=e429]
+              - gridcell "2708634 Ontario Ltd. Act, 2025" [ref=e430]:
+                - link "2708634 Ontario Ltd. Act, 2025" [ref=e431] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr15
+              - gridcell [ref=e432]:
+                - list [ref=e434]:
+                  - listitem [ref=e435]:
+                    - article [ref=e436]:
+                      - generic [ref=e438]: Bowman, Stephanie
+            - row "16 Sacred Spaces, Safe Places Act, 2025" [ref=e439]:
+              - gridcell "16" [ref=e440]
+              - gridcell "Sacred Spaces, Safe Places Act, 2025" [ref=e441]:
+                - link "Sacred Spaces, Safe Places Act, 2025" [ref=e442] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-16
+              - gridcell [ref=e443]:
+                - list [ref=e445]:
+                  - listitem [ref=e446]:
+                    - article [ref=e447]:
+                      - generic [ref=e449]: Fraser, John
+            - row "PR16 1581766 Ontario Ltd. Act, 2025" [ref=e450]:
+              - gridcell "PR16" [ref=e451]
+              - gridcell "1581766 Ontario Ltd. Act, 2025" [ref=e452]:
+                - link "1581766 Ontario Ltd. Act, 2025" [ref=e453] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr16
+              - gridcell [ref=e454]:
+                - list [ref=e456]:
+                  - listitem [ref=e457]:
+                    - article [ref=e458]:
+                      - generic [ref=e460]: Clancy, Aislinn
+            - row "17 Protect Ontario by Building Faster and Smarter Act, 2025" [ref=e461]:
+              - gridcell "17" [ref=e462]
+              - gridcell "Protect Ontario by Building Faster and Smarter Act, 2025" [ref=e463]:
+                - link "Protect Ontario by Building Faster and Smarter Act, 2025" [ref=e464] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-17
+              - gridcell [ref=e465]:
+                - list [ref=e467]:
+                  - listitem [ref=e468]:
+                    - article [ref=e469]:
+                      - generic [ref=e470]:
+                        - generic [ref=e471]: Flack, Hon. Rob
+                        - generic [ref=e472]: Minister of Municipal Affairs and Housing
+            - row "PR17 Ludger Michel Estates Limited Act, 2025" [ref=e473]:
+              - gridcell "PR17" [ref=e474]
+              - gridcell "Ludger Michel Estates Limited Act, 2025" [ref=e475]:
+                - link "Ludger Michel Estates Limited Act, 2025" [ref=e476] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr17
+              - gridcell [ref=e477]:
+                - list [ref=e479]:
+                  - listitem [ref=e480]:
+                    - article [ref=e481]:
+                      - generic [ref=e483]: West, Jamie
+            - row "18 Supply Act, 2025" [ref=e484]:
+              - gridcell "18" [ref=e485]
+              - gridcell "Supply Act, 2025" [ref=e486]:
+                - link "Supply Act, 2025" [ref=e487] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-18
+              - gridcell [ref=e488]:
+                - list [ref=e490]:
+                  - listitem [ref=e491]:
+                    - article [ref=e492]:
+                      - generic [ref=e493]:
+                        - generic [ref=e494]: Mulroney, Hon. Caroline
+                        - generic [ref=e495]: President of the Treasury Board
+            - row "PR18 2163694 Ontario Ltd. Act, 2025" [ref=e496]:
+              - gridcell "PR18" [ref=e497]
+              - gridcell "2163694 Ontario Ltd. Act, 2025" [ref=e498]:
+                - link "2163694 Ontario Ltd. Act, 2025" [ref=e499] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr18
+              - gridcell [ref=e500]:
+                - list [ref=e502]:
+                  - listitem [ref=e503]:
+                    - article [ref=e504]:
+                      - generic [ref=e506]: Blais, Stephen
+            - row "19 Patient-to-Nurse Ratios for Hospitals Act, 2025" [ref=e507]:
+              - gridcell "19" [ref=e508]
+              - gridcell "Patient-to-Nurse Ratios for Hospitals Act, 2025" [ref=e509]:
+                - link "Patient-to-Nurse Ratios for Hospitals Act, 2025" [ref=e510] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-19
+              - gridcell [ref=e511]:
+                - list [ref=e513]:
+                  - listitem [ref=e514]:
+                    - article [ref=e515]:
+                      - generic [ref=e517]: Gélinas, France
+                  - listitem [ref=e518]:
+                    - article [ref=e519]:
+                      - generic [ref=e521]: West, Jamie
+            - row "PR19 Pickering College Act, 2025" [ref=e522]:
+              - gridcell "PR19" [ref=e523]
+              - gridcell "Pickering College Act, 2025" [ref=e524]:
+                - link "Pickering College Act, 2025" [ref=e525] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr19
+              - gridcell [ref=e526]:
+                - list [ref=e528]:
+                  - listitem [ref=e529]:
+                    - article [ref=e530]:
+                      - generic [ref=e532]: Gallagher Murphy, Dawn
+            - row "20 Taxation Amendment Act (Promoting Leisure Activities for Youth), 2025" [ref=e533]:
+              - gridcell "20" [ref=e534]
+              - gridcell "Taxation Amendment Act (Promoting Leisure Activities for Youth), 2025" [ref=e535]:
+                - link "Taxation Amendment Act (Promoting Leisure Activities for Youth), 2025" [ref=e536] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-20
+              - gridcell [ref=e537]:
+                - list [ref=e539]:
+                  - listitem [ref=e540]:
+                    - article [ref=e541]:
+                      - generic [ref=e543]: Blais, Stephen
+            - row "PR20 730159 Ontario Ltd. Act, 2025" [ref=e544]:
+              - gridcell "PR20" [ref=e545]
+              - gridcell "730159 Ontario Ltd. Act, 2025" [ref=e546]:
+                - link "730159 Ontario Ltd. Act, 2025" [ref=e547] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr20
+              - gridcell [ref=e548]:
+                - list [ref=e550]:
+                  - listitem [ref=e551]:
+                    - article [ref=e552]:
+                      - generic [ref=e554]: Saunderson, Brian
+            - row "21 Protect Our Food Act, 2025" [ref=e555]:
+              - gridcell "21" [ref=e556]
+              - gridcell "Protect Our Food Act, 2025" [ref=e557]:
+                - link "Protect Our Food Act, 2025" [ref=e558] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-21
+              - gridcell [ref=e559]:
+                - list [ref=e561]:
+                  - listitem [ref=e562]:
+                    - article [ref=e563]:
+                      - generic [ref=e565]: Schreiner, Mike
+                  - listitem [ref=e566]:
+                    - article [ref=e567]:
+                      - generic [ref=e569]: Brady, Bobbi Ann
+            - row "PR21 1000401924 Ontario Inc. Act, 2025" [ref=e570]:
+              - gridcell "PR21" [ref=e571]
+              - gridcell "1000401924 Ontario Inc. Act, 2025" [ref=e572]:
+                - link "1000401924 Ontario Inc. Act, 2025" [ref=e573] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr21
+              - gridcell [ref=e574]:
+                - list [ref=e576]:
+                  - listitem [ref=e577]:
+                    - article [ref=e578]:
+                      - generic [ref=e580]: Bell, Jessica
+            - row "22 Ontario University Athletics Week Act, 2025" [ref=e581]:
+              - gridcell "22" [ref=e582]
+              - gridcell "Ontario University Athletics Week Act, 2025" [ref=e583]:
+                - link "Ontario University Athletics Week Act, 2025" [ref=e584] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-22
+              - gridcell [ref=e585]:
+                - list [ref=e587]:
+                  - listitem [ref=e588]:
+                    - article [ref=e589]:
+                      - generic [ref=e591]: Saunderson, Brian
+            - row "PR22 1000401927 Ontario Inc. Act, 2025" [ref=e592]:
+              - gridcell "PR22" [ref=e593]
+              - gridcell "1000401927 Ontario Inc. Act, 2025" [ref=e594]:
+                - link "1000401927 Ontario Inc. Act, 2025" [ref=e595] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr22
+              - gridcell [ref=e596]:
+                - list [ref=e598]:
+                  - listitem [ref=e599]:
+                    - article [ref=e600]:
+                      - generic [ref=e602]: Bell, Jessica
+            - row "23 Protecting Seniors’ Rights in Care Homes Act, 2025" [ref=e603]:
+              - gridcell "23" [ref=e604]
+              - gridcell "Protecting Seniors’ Rights in Care Homes Act, 2025" [ref=e605]:
+                - link "Protecting Seniors’ Rights in Care Homes Act, 2025" [ref=e606] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-23
+              - gridcell [ref=e607]:
+                - list [ref=e609]:
+                  - listitem [ref=e610]:
+                    - article [ref=e611]:
+                      - generic [ref=e613]: Pasma, Chandra
+                  - listitem [ref=e614]:
+                    - article [ref=e615]:
+                      - generic [ref=e617]: Bell, Jessica
+                  - listitem [ref=e618]:
+                    - article [ref=e619]:
+                      - generic [ref=e621]: Glover, Chris
+                  - listitem [ref=e622]:
+                    - article [ref=e623]:
+                      - generic [ref=e625]: Vaugeois, Lise
+            - row "PR23 Sur-Leen Farms Limited Act, 2025" [ref=e626]:
+              - gridcell "PR23" [ref=e627]
+              - gridcell "Sur-Leen Farms Limited Act, 2025" [ref=e628]:
+                - link "Sur-Leen Farms Limited Act, 2025" [ref=e629] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr23
+              - gridcell [ref=e630]:
+                - list [ref=e632]:
+                  - listitem [ref=e633]:
+                    - article [ref=e634]:
+                      - generic [ref=e636]: Pinsonneault, Steve
+            - row "24 Plan to Protect Ontario Act (Budget Measures), 2025" [ref=e637]:
+              - gridcell "24" [ref=e638]
+              - gridcell "Plan to Protect Ontario Act (Budget Measures), 2025" [ref=e639]:
+                - link "Plan to Protect Ontario Act (Budget Measures), 2025" [ref=e640] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-24
+              - gridcell [ref=e641]:
+                - list [ref=e643]:
+                  - listitem [ref=e644]:
+                    - article [ref=e645]:
+                      - generic [ref=e646]:
+                        - generic [ref=e647]: Bethlenfalvy, Hon. Peter
+                        - generic [ref=e648]: Minister of Finance
+            - row "PR24 1505756 Ontario Inc. Act, 2025" [ref=e649]:
+              - gridcell "PR24" [ref=e650]
+              - gridcell "1505756 Ontario Inc. Act, 2025" [ref=e651]:
+                - link "1505756 Ontario Inc. Act, 2025" [ref=e652] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr24
+              - gridcell [ref=e653]:
+                - list [ref=e655]:
+                  - listitem [ref=e656]:
+                    - article [ref=e657]:
+                      - generic [ref=e659]: Smith, Laura
+            - row "25 Emergency Management Modernization Act, 2025" [ref=e660]:
+              - gridcell "25" [ref=e661]
+              - gridcell "Emergency Management Modernization Act, 2025" [ref=e662]:
+                - link "Emergency Management Modernization Act, 2025" [ref=e663] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-25
+              - gridcell [ref=e664]:
+                - list [ref=e666]:
+                  - listitem [ref=e667]:
+                    - article [ref=e668]:
+                      - generic [ref=e669]:
+                        - generic [ref=e670]: Dunlop, Hon. Jill
+                        - generic [ref=e671]: Minister of Emergency Preparedness and Response
+            - row "PR25 Acme Restoration Inc. Act, 2025" [ref=e672]:
+              - gridcell "PR25" [ref=e673]
+              - gridcell "Acme Restoration Inc. Act, 2025" [ref=e674]:
+                - link "Acme Restoration Inc. Act, 2025" [ref=e675] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr25
+              - gridcell [ref=e676]:
+                - list [ref=e678]:
+                  - listitem [ref=e679]:
+                    - article [ref=e680]:
+                      - generic [ref=e682]: Smith, Laura
+            - row "26 Provincial Parks and Conservation Reserves Amendment Act, 2025" [ref=e683]:
+              - gridcell "26" [ref=e684]
+              - gridcell "Provincial Parks and Conservation Reserves Amendment Act, 2025" [ref=e685]:
+                - link "Provincial Parks and Conservation Reserves Amendment Act, 2025" [ref=e686] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-26
+              - gridcell [ref=e687]:
+                - list [ref=e689]:
+                  - listitem [ref=e690]:
+                    - article [ref=e691]:
+                      - generic [ref=e693]: Dowie, Andrew
+            - row "PR26 1758195 Ontario Ltd. Act, 2025" [ref=e694]:
+              - gridcell "PR26" [ref=e695]
+              - gridcell "1758195 Ontario Ltd. Act, 2025" [ref=e696]:
+                - link "1758195 Ontario Ltd. Act, 2025" [ref=e697] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr26
+              - gridcell [ref=e698]:
+                - list [ref=e700]:
+                  - listitem [ref=e701]:
+                    - article [ref=e702]:
+                      - generic [ref=e704]: Smith, Laura
+            - row "27 Resource Management and Safety Act, 2025" [ref=e705]:
+              - gridcell "27" [ref=e706]
+              - gridcell "Resource Management and Safety Act, 2025" [ref=e707]:
+                - link "Resource Management and Safety Act, 2025" [ref=e708] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-27
+              - gridcell [ref=e709]:
+                - list [ref=e711]:
+                  - listitem [ref=e712]:
+                    - article [ref=e713]:
+                      - generic [ref=e714]:
+                        - generic [ref=e715]: Harris, Hon. Mike
+                        - generic [ref=e716]: Minister of Natural Resources
+            - row "28 Homelessness Ends with Housing Act, 2025" [ref=e717]:
+              - gridcell "28" [ref=e718]
+              - gridcell "Homelessness Ends with Housing Act, 2025" [ref=e719]:
+                - link "Homelessness Ends with Housing Act, 2025" [ref=e720] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-28
+              - gridcell [ref=e721]:
+                - list [ref=e723]:
+                  - listitem [ref=e724]:
+                    - article [ref=e725]:
+                      - generic [ref=e727]: Clancy, Aislinn
+                  - listitem [ref=e728]:
+                    - article [ref=e729]:
+                      - generic [ref=e731]: Fairclough, Lee
+            - row "PR28 668986 Ontario Inc. Act, 2025" [ref=e732]:
+              - gridcell "PR28" [ref=e733]
+              - gridcell "668986 Ontario Inc. Act, 2025" [ref=e734]:
+                - link "668986 Ontario Inc. Act, 2025" [ref=e735] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr28
+              - gridcell [ref=e736]:
+                - list [ref=e738]:
+                  - listitem [ref=e739]:
+                    - article [ref=e740]:
+                      - generic [ref=e742]: Vanthof, John
+            - row "29 Turn Down the Heat Act (Extreme Heat Awareness), 2025" [ref=e743]:
+              - gridcell "29" [ref=e744]
+              - gridcell "Turn Down the Heat Act (Extreme Heat Awareness), 2025" [ref=e745]:
+                - link "Turn Down the Heat Act (Extreme Heat Awareness), 2025" [ref=e746] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-29
+              - gridcell [ref=e747]:
+                - list [ref=e749]:
+                  - listitem [ref=e750]:
+                    - article [ref=e751]:
+                      - generic [ref=e753]: McMahon, Mary-Margaret
+            - row "30 Working for Workers Seven Act, 2025" [ref=e754]:
+              - gridcell "30" [ref=e755]
+              - gridcell "Working for Workers Seven Act, 2025" [ref=e756]:
+                - link "Working for Workers Seven Act, 2025" [ref=e757] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-30
+              - gridcell [ref=e758]:
+                - list [ref=e760]:
+                  - listitem [ref=e761]:
+                    - article [ref=e762]:
+                      - generic [ref=e763]:
+                        - generic [ref=e764]: Piccini, Hon. David
+                        - generic [ref=e765]: Minister of Labour, Immigration, Training and Skills Development
+            - row "31 Marriage Amendment Act, 2025" [ref=e766]:
+              - gridcell "31" [ref=e767]
+              - gridcell "Marriage Amendment Act, 2025" [ref=e768]:
+                - link "Marriage Amendment Act, 2025" [ref=e769] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-31
+              - gridcell [ref=e770]:
+                - list [ref=e772]:
+                  - listitem [ref=e773]:
+                    - article [ref=e774]:
+                      - generic [ref=e776]: Rae, Matthew
+                  - listitem [ref=e777]:
+                    - article [ref=e778]:
+                      - generic [ref=e780]: Smith, Dave
+            - row "PR31 Vaughan Basketball Inc. Act, 2025" [ref=e781]:
+              - gridcell "PR31" [ref=e782]
+              - gridcell "Vaughan Basketball Inc. Act, 2025" [ref=e783]:
+                - link "Vaughan Basketball Inc. Act, 2025" [ref=e784] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr31
+              - gridcell [ref=e785]:
+                - list [ref=e787]:
+                  - listitem [ref=e788]:
+                    - article [ref=e789]:
+                      - generic [ref=e791]: Fairclough, Lee
+            - row "32 Resource Recovery and Circular Economy Amendment Act (Beverage Container Deposit Program), 2025" [ref=e792]:
+              - gridcell "32" [ref=e793]
+              - gridcell "Resource Recovery and Circular Economy Amendment Act (Beverage Container Deposit Program), 2025" [ref=e794]:
+                - link "Resource Recovery and Circular Economy Amendment Act (Beverage Container Deposit Program), 2025" [ref=e795] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-32
+              - gridcell [ref=e796]:
+                - list [ref=e798]:
+                  - listitem [ref=e799]:
+                    - article [ref=e800]:
+                      - generic [ref=e802]: McMahon, Mary-Margaret
+            - row "PR32 Groves Memorial Community Hospital Act, 2025" [ref=e803]:
+              - gridcell "PR32" [ref=e804]
+              - gridcell "Groves Memorial Community Hospital Act, 2025" [ref=e805]:
+                - link "Groves Memorial Community Hospital Act, 2025" [ref=e806] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr32
+              - gridcell [ref=e807]:
+                - list [ref=e809]:
+                  - listitem [ref=e810]:
+                    - article [ref=e811]:
+                      - generic [ref=e813]: Racinsky, Joseph
+            - row "33 Supporting Children and Students Act, 2025" [ref=e814]:
+              - gridcell "33" [ref=e815]
+              - gridcell "Supporting Children and Students Act, 2025" [ref=e816]:
+                - link "Supporting Children and Students Act, 2025" [ref=e817] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-33
+              - gridcell [ref=e818]:
+                - list [ref=e820]:
+                  - listitem [ref=e821]:
+                    - article [ref=e822]:
+                      - generic [ref=e823]:
+                        - generic [ref=e824]: Calandra, Hon. Paul
+                        - generic [ref=e825]: Minister of Education
+            - row "PR33 Honey Harbour Community Church Inc. Act, 2025" [ref=e826]:
+              - gridcell "PR33" [ref=e827]
+              - gridcell "Honey Harbour Community Church Inc. Act, 2025" [ref=e828]:
+                - link "Honey Harbour Community Church Inc. Act, 2025" [ref=e829] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr33
+              - gridcell [ref=e830]:
+                - list [ref=e832]:
+                  - listitem [ref=e833]:
+                    - article [ref=e834]:
+                      - generic [ref=e836]: Saunderson, Brian
+            - row "34 MPP Pension and Compensation Act, 2025" [ref=e837]:
+              - gridcell "34" [ref=e838]
+              - gridcell "MPP Pension and Compensation Act, 2025" [ref=e839]:
+                - link "MPP Pension and Compensation Act, 2025" [ref=e840] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-34
+              - gridcell [ref=e841]:
+                - list [ref=e843]:
+                  - listitem [ref=e844]:
+                    - article [ref=e845]:
+                      - generic [ref=e846]:
+                        - generic [ref=e847]: Bethlenfalvy, Hon. Peter
+                        - generic [ref=e848]: Minister of Finance
+            - row "PR34 The Roman Catholic Diocese of St. Catharines in Ontario Act, 2025" [ref=e849]:
+              - gridcell "PR34" [ref=e850]
+              - gridcell "The Roman Catholic Diocese of St. Catharines in Ontario Act, 2025" [ref=e851]:
+                - link "The Roman Catholic Diocese of St. Catharines in Ontario Act, 2025" [ref=e852] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr34
+              - gridcell [ref=e853]:
+                - list [ref=e855]:
+                  - listitem [ref=e856]:
+                    - article [ref=e857]:
+                      - generic [ref=e859]: Dowie, Andrew
+            - row "35 Captive Wildlife Protection Act, 2025" [ref=e860]:
+              - gridcell "35" [ref=e861]
+              - gridcell "Captive Wildlife Protection Act, 2025" [ref=e862]:
+                - link "Captive Wildlife Protection Act, 2025" [ref=e863] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-35
+              - gridcell [ref=e864]:
+                - list [ref=e866]:
+                  - listitem [ref=e867]:
+                    - article [ref=e868]:
+                      - generic [ref=e870]: Collard, Lucille
+                  - listitem [ref=e871]:
+                    - article [ref=e872]:
+                      - generic [ref=e874]: McCrimmon, Karen
+            - row "PR35 Pembroke and Area Airport Commission Act, 2025" [ref=e875]:
+              - gridcell "PR35" [ref=e876]
+              - gridcell "Pembroke and Area Airport Commission Act, 2025" [ref=e877]:
+                - link "Pembroke and Area Airport Commission Act, 2025" [ref=e878] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr35
+              - gridcell [ref=e879]:
+                - list [ref=e881]:
+                  - listitem [ref=e882]:
+                    - article [ref=e883]:
+                      - generic [ref=e885]: Denault, Billy
+            - row "36 Heat Stress Act, 2025" [ref=e886]:
+              - gridcell "36" [ref=e887]
+              - gridcell "Heat Stress Act, 2025" [ref=e888]:
+                - link "Heat Stress Act, 2025" [ref=e889] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-36
+              - gridcell [ref=e890]:
+                - list [ref=e892]:
+                  - listitem [ref=e893]:
+                    - article [ref=e894]:
+                      - generic [ref=e896]: Tabuns, Peter
+                  - listitem [ref=e897]:
+                    - article [ref=e898]:
+                      - generic [ref=e900]: Pasma, Chandra
+                  - listitem [ref=e901]:
+                    - article [ref=e902]:
+                      - generic [ref=e904]: Vaugeois, Lise
+                  - listitem [ref=e905]:
+                    - article [ref=e906]:
+                      - generic [ref=e908]: West, Jamie
+            - row "37 Fewer Floods, Safer Ontario Act, 2025" [ref=e909]:
+              - gridcell "37" [ref=e910]
+              - gridcell "Fewer Floods, Safer Ontario Act, 2025" [ref=e911]:
+                - link "Fewer Floods, Safer Ontario Act, 2025" [ref=e912] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-37
+              - gridcell [ref=e913]:
+                - list [ref=e915]:
+                  - listitem [ref=e916]:
+                    - article [ref=e917]:
+                      - generic [ref=e919]: McMahon, Mary-Margaret
+            - row "38 Ethiopian Heritage Month Act, 2025" [ref=e920]:
+              - gridcell "38" [ref=e921]
+              - gridcell "Ethiopian Heritage Month Act, 2025" [ref=e922]:
+                - link "Ethiopian Heritage Month Act, 2025" [ref=e923] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-38
+              - gridcell [ref=e924]:
+                - list [ref=e926]:
+                  - listitem [ref=e927]:
+                    - article [ref=e928]:
+                      - generic [ref=e930]: Begum, Doly
+                  - listitem [ref=e931]:
+                    - article [ref=e932]:
+                      - generic [ref=e934]: Wong-Tam, Kristyn
+            - row "PR38 Ontario Wildlife Holdings & Sanctuary Corp. Act, 2025" [ref=e935]:
+              - gridcell "PR38" [ref=e936]
+              - gridcell "Ontario Wildlife Holdings & Sanctuary Corp. Act, 2025" [ref=e937]:
+                - link "Ontario Wildlife Holdings & Sanctuary Corp. Act, 2025" [ref=e938] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-pr38
+              - gridcell [ref=e939]:
+                - list [ref=e941]:
+                  - listitem [ref=e942]:
+                    - article [ref=e943]:
+                      - generic [ref=e945]: Riddell, Brian
+            - row "39 Notwithstanding Clause Limitation Act, 2025" [ref=e946]:
+              - gridcell "39" [ref=e947]
+              - gridcell "Notwithstanding Clause Limitation Act, 2025" [ref=e948]:
+                - link "Notwithstanding Clause Limitation Act, 2025" [ref=e949] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-39
+              - gridcell [ref=e950]:
+                - list [ref=e952]:
+                  - listitem [ref=e953]:
+                    - article [ref=e954]:
+                      - generic [ref=e956]: Collard, Lucille
+            - row "40 Protect Ontario by Securing Affordable Energy for Generations Act, 2025" [ref=e957]:
+              - gridcell "40" [ref=e958]
+              - gridcell "Protect Ontario by Securing Affordable Energy for Generations Act, 2025" [ref=e959]:
+                - link "Protect Ontario by Securing Affordable Energy for Generations Act, 2025" [ref=e960] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-40
+              - gridcell [ref=e961]:
+                - list [ref=e963]:
+                  - listitem [ref=e964]:
+                    - article [ref=e965]:
+                      - generic [ref=e966]:
+                        - generic [ref=e967]: Lecce, Hon. Stephen
+                        - generic [ref=e968]: Minister of Energy and Mines
+            - row "41 9-1-1 Everywhere in Ontario Act, 2025" [ref=e969]:
+              - gridcell "41" [ref=e970]
+              - gridcell "9-1-1 Everywhere in Ontario Act, 2025" [ref=e971]:
+                - link "9-1-1 Everywhere in Ontario Act, 2025" [ref=e972] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-41
+              - gridcell [ref=e973]:
+                - list [ref=e975]:
+                  - listitem [ref=e976]:
+                    - article [ref=e977]:
+                      - generic [ref=e979]: Gélinas, France
+                  - listitem [ref=e980]:
+                    - article [ref=e981]:
+                      - generic [ref=e983]: Bourgouin, Guy
+                  - listitem [ref=e984]:
+                    - article [ref=e985]:
+                      - generic [ref=e987]: Vanthof, John
+                  - listitem [ref=e988]:
+                    - article [ref=e989]:
+                      - generic [ref=e991]: Vaugeois, Lise
+            - row "42 Justice for Soli Act (Stop Criminalizing Mental Health), 2025" [ref=e992]:
+              - gridcell "42" [ref=e993]
+              - gridcell "Justice for Soli Act (Stop Criminalizing Mental Health), 2025" [ref=e994]:
+                - link "Justice for Soli Act (Stop Criminalizing Mental Health), 2025" [ref=e995] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-42
+              - gridcell [ref=e996]:
+                - list [ref=e998]:
+                  - listitem [ref=e999]:
+                    - article [ref=e1000]:
+                      - generic [ref=e1002]: Wong-Tam, Kristyn
+                  - listitem [ref=e1003]:
+                    - article [ref=e1004]:
+                      - generic [ref=e1006]: Lennox, Robin
+                  - listitem [ref=e1007]:
+                    - article [ref=e1008]:
+                      - generic [ref=e1010]: Mamakwa, Sol
+                  - listitem [ref=e1011]:
+                    - article [ref=e1012]:
+                      - generic [ref=e1014]: Stevens, Jennifer (Jennie)
+            - row "43 Consent Awareness Week Act, 2025" [ref=e1015]:
+              - gridcell "43" [ref=e1016]
+              - gridcell "Consent Awareness Week Act, 2025" [ref=e1017]:
+                - link "Consent Awareness Week Act, 2025" [ref=e1018] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-43
+              - gridcell [ref=e1019]:
+                - list [ref=e1021]:
+                  - listitem [ref=e1022]:
+                    - article [ref=e1023]:
+                      - generic [ref=e1025]: Sattler, Peggy
+                  - listitem [ref=e1026]:
+                    - article [ref=e1027]:
+                      - generic [ref=e1029]: Gilmour, Alexa
+                  - listitem [ref=e1030]:
+                    - article [ref=e1031]:
+                      - generic [ref=e1033]: Pasma, Chandra
+                  - listitem [ref=e1034]:
+                    - article [ref=e1035]:
+                      - generic [ref=e1037]: Wong-Tam, Kristyn
+            - row "44 Healthcare Staffing Agencies Act, 2025" [ref=e1038]:
+              - gridcell "44" [ref=e1039]
+              - gridcell "Healthcare Staffing Agencies Act, 2025" [ref=e1040]:
+                - link "Healthcare Staffing Agencies Act, 2025" [ref=e1041] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-44
+              - gridcell [ref=e1042]:
+                - list [ref=e1044]:
+                  - listitem [ref=e1045]:
+                    - article [ref=e1046]:
+                      - generic [ref=e1048]: Gélinas, France
+                  - listitem [ref=e1049]:
+                    - article [ref=e1050]:
+                      - generic [ref=e1052]: Gates, Wayne
+                  - listitem [ref=e1053]:
+                    - article [ref=e1054]:
+                      - generic [ref=e1056]: Gretzky, Lisa
+                  - listitem [ref=e1057]:
+                    - article [ref=e1058]:
+                      - generic [ref=e1060]: West, Jamie
+            - row "45 Peel Transition Implementation Act, 2025" [ref=e1061]:
+              - gridcell "45" [ref=e1062]
+              - gridcell "Peel Transition Implementation Act, 2025" [ref=e1063]:
+                - link "Peel Transition Implementation Act, 2025" [ref=e1064] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-45
+              - gridcell [ref=e1065]:
+                - list [ref=e1067]:
+                  - listitem [ref=e1068]:
+                    - article [ref=e1069]:
+                      - generic [ref=e1070]:
+                        - generic [ref=e1071]: Flack, Hon. Rob
+                        - generic [ref=e1072]: Minister of Municipal Affairs and Housing
+            - row "46 Protect Ontario by Cutting Red Tape Act, 2025" [ref=e1073]:
+              - gridcell "46" [ref=e1074]
+              - gridcell "Protect Ontario by Cutting Red Tape Act, 2025" [ref=e1075]:
+                - link "Protect Ontario by Cutting Red Tape Act, 2025" [ref=e1076] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-46
+              - gridcell [ref=e1077]:
+                - list [ref=e1079]:
+                  - listitem [ref=e1080]:
+                    - article [ref=e1081]:
+                      - generic [ref=e1082]:
+                        - generic [ref=e1083]: Khanjin, Hon. Andrea
+                        - generic [ref=e1084]: Minister of Red Tape Reduction
+            - row "47 Fairness for Road Users Act (Contraventions Causing Death or Serious Bodily Harm), 2025" [ref=e1085]:
+              - gridcell "47" [ref=e1086]
+              - gridcell "Fairness for Road Users Act (Contraventions Causing Death or Serious Bodily Harm), 2025" [ref=e1087]:
+                - link "Fairness for Road Users Act (Contraventions Causing Death or Serious Bodily Harm), 2025" [ref=e1088] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-47
+              - gridcell [ref=e1089]:
+                - list [ref=e1091]:
+                  - listitem [ref=e1092]:
+                    - article [ref=e1093]:
+                      - generic [ref=e1095]: French, Jennifer K.
+            - row "48 Uploading Highways 174 and 17 Act, 2025" [ref=e1096]:
+              - gridcell "48" [ref=e1097]
+              - gridcell "Uploading Highways 174 and 17 Act, 2025" [ref=e1098]:
+                - link "Uploading Highways 174 and 17 Act, 2025" [ref=e1099] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-48
+              - gridcell [ref=e1100]:
+                - list [ref=e1102]:
+                  - listitem [ref=e1103]:
+                    - article [ref=e1104]:
+                      - generic [ref=e1106]: Blais, Stephen
+            - row "49 Northern Highway 11 and 17 Safety Act, 2025" [ref=e1107]:
+              - gridcell "49" [ref=e1108]
+              - gridcell "Northern Highway 11 and 17 Safety Act, 2025" [ref=e1109]:
+                - link "Northern Highway 11 and 17 Safety Act, 2025" [ref=e1110] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-49
+              - gridcell [ref=e1111]:
+                - list [ref=e1113]:
+                  - listitem [ref=e1114]:
+                    - article [ref=e1115]:
+                      - generic [ref=e1117]: Bourgouin, Guy
+                  - listitem [ref=e1118]:
+                    - article [ref=e1119]:
+                      - generic [ref=e1121]: Vanthof, John
+                  - listitem [ref=e1122]:
+                    - article [ref=e1123]:
+                      - generic [ref=e1125]: Vaugeois, Lise
+            - row "50 No Free Ride for Fossil Fuels Act, 2025" [ref=e1126]:
+              - gridcell "50" [ref=e1127]
+              - gridcell "No Free Ride for Fossil Fuels Act, 2025" [ref=e1128]:
+                - link "No Free Ride for Fossil Fuels Act, 2025" [ref=e1129] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-50
+              - gridcell [ref=e1130]:
+                - list [ref=e1132]:
+                  - listitem [ref=e1133]:
+                    - article [ref=e1134]:
+                      - generic [ref=e1136]: Schreiner, Mike
+                  - listitem [ref=e1137]:
+                    - article [ref=e1138]:
+                      - generic [ref=e1140]: Clancy, Aislinn
+            - row "51 Rent Stabilization Act, 2025" [ref=e1141]:
+              - gridcell "51" [ref=e1142]
+              - gridcell "Rent Stabilization Act, 2025" [ref=e1143]:
+                - link "Rent Stabilization Act, 2025" [ref=e1144] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-51
+              - gridcell [ref=e1145]:
+                - list [ref=e1147]:
+                  - listitem [ref=e1148]:
+                    - article [ref=e1149]:
+                      - generic [ref=e1151]: Bell, Jessica
+                  - listitem [ref=e1152]:
+                    - article [ref=e1153]:
+                      - generic [ref=e1155]: Gilmour, Alexa
+                  - listitem [ref=e1156]:
+                    - article [ref=e1157]:
+                      - generic [ref=e1159]: McKenney, Catherine
+                  - listitem [ref=e1160]:
+                    - article [ref=e1161]:
+                      - generic [ref=e1163]: Pasma, Chandra
+            - row "52 EV-Ready Homes Act (Electric Vehicle Charging), 2025" [ref=e1164]:
+              - gridcell "52" [ref=e1165]
+              - gridcell "EV-Ready Homes Act (Electric Vehicle Charging), 2025" [ref=e1166]:
+                - link "EV-Ready Homes Act (Electric Vehicle Charging), 2025" [ref=e1167] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-52
+              - gridcell [ref=e1168]:
+                - list [ref=e1170]:
+                  - listitem [ref=e1171]:
+                    - article [ref=e1172]:
+                      - generic [ref=e1174]: French, Jennifer K.
+            - row "53 Dignity and Mental Health in Jails Act, 2025" [ref=e1175]:
+              - gridcell "53" [ref=e1176]
+              - gridcell "Dignity and Mental Health in Jails Act, 2025" [ref=e1177]:
+                - link "Dignity and Mental Health in Jails Act, 2025" [ref=e1178] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-53
+              - gridcell [ref=e1179]:
+                - list [ref=e1181]:
+                  - listitem [ref=e1182]:
+                    - article [ref=e1183]:
+                      - generic [ref=e1185]: Collard, Lucille
+            - row "54 End the Public Funding of Partisan Government Advertising Act, 2025" [ref=e1186]:
+              - gridcell "54" [ref=e1187]
+              - gridcell "End the Public Funding of Partisan Government Advertising Act, 2025" [ref=e1188]:
+                - link "End the Public Funding of Partisan Government Advertising Act, 2025" [ref=e1189] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-54
+              - gridcell [ref=e1190]:
+                - list [ref=e1192]:
+                  - listitem [ref=e1193]:
+                    - article [ref=e1194]:
+                      - generic [ref=e1196]: Stiles, Marit
+            - row "55 Intimate Partner Violence Epidemic Act, 2025" [ref=e1197]:
+              - gridcell "55" [ref=e1198]
+              - gridcell "Intimate Partner Violence Epidemic Act, 2025" [ref=e1199]:
+                - link "Intimate Partner Violence Epidemic Act, 2025" [ref=e1200] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-55
+              - gridcell [ref=e1201]:
+                - list [ref=e1203]:
+                  - listitem [ref=e1204]:
+                    - article [ref=e1205]:
+                      - generic [ref=e1207]: Wong-Tam, Kristyn
+                  - listitem [ref=e1208]:
+                    - article [ref=e1209]:
+                      - generic [ref=e1211]: Gretzky, Lisa
+                  - listitem [ref=e1212]:
+                    - article [ref=e1213]:
+                      - generic [ref=e1215]: Sattler, Peggy
+            - row "56 Building a More Competitive Economy Act, 2025" [ref=e1216]:
+              - gridcell "56" [ref=e1217]
+              - gridcell "Building a More Competitive Economy Act, 2025" [ref=e1218]:
+                - link "Building a More Competitive Economy Act, 2025" [ref=e1219] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-56
+              - gridcell [ref=e1220]:
+                - list [ref=e1222]:
+                  - listitem [ref=e1223]:
+                    - article [ref=e1224]:
+                      - generic [ref=e1225]:
+                        - generic [ref=e1226]: Khanjin, Hon. Andrea
+                        - generic [ref=e1227]: Minister of Red Tape Reduction
+            - row "57 Respect for Taxpayers Act (Haldimand County Trustee Vacancy), 2025" [ref=e1228]:
+              - gridcell "57" [ref=e1229]
+              - gridcell "Respect for Taxpayers Act (Haldimand County Trustee Vacancy), 2025" [ref=e1230]:
+                - link "Respect for Taxpayers Act (Haldimand County Trustee Vacancy), 2025" [ref=e1231] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-57
+              - gridcell [ref=e1232]:
+                - list [ref=e1234]:
+                  - listitem [ref=e1235]:
+                    - article [ref=e1236]:
+                      - generic [ref=e1237]:
+                        - generic [ref=e1238]: Calandra, Hon. Paul
+                        - generic [ref=e1239]: Minister of Education
+            - row "58 Franco-Ontarian Bookstore Promotion and Protection Act, 2025" [ref=e1240]:
+              - gridcell "58" [ref=e1241]
+              - gridcell "Franco-Ontarian Bookstore Promotion and Protection Act, 2025" [ref=e1242]:
+                - link "Franco-Ontarian Bookstore Promotion and Protection Act, 2025" [ref=e1243] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-58
+              - gridcell [ref=e1244]:
+                - list [ref=e1246]:
+                  - listitem [ref=e1247]:
+                    - article [ref=e1248]:
+                      - generic [ref=e1250]: Collard, Lucille
+            - row "59 Rare Disease Strategy Act, 2025" [ref=e1251]:
+              - gridcell "59" [ref=e1252]
+              - gridcell "Rare Disease Strategy Act, 2025" [ref=e1253]:
+                - link "Rare Disease Strategy Act, 2025" [ref=e1254] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-59
+              - gridcell [ref=e1255]:
+                - list [ref=e1257]:
+                  - listitem [ref=e1258]:
+                    - article [ref=e1259]:
+                      - generic [ref=e1261]: Gélinas, France
+                  - listitem [ref=e1262]:
+                    - article [ref=e1263]:
+                      - generic [ref=e1265]: Lennox, Robin
+            - row "60 Fighting Delays, Building Faster Act, 2025" [ref=e1266]:
+              - gridcell "60" [ref=e1267]
+              - gridcell "Fighting Delays, Building Faster Act, 2025" [ref=e1268]:
+                - link "Fighting Delays, Building Faster Act, 2025" [ref=e1269] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-60
+              - gridcell [ref=e1270]:
+                - list [ref=e1272]:
+                  - listitem [ref=e1273]:
+                    - article [ref=e1274]:
+                      - generic [ref=e1275]:
+                        - generic [ref=e1276]: Flack, Hon. Rob
+                        - generic [ref=e1277]: Minister of Municipal Affairs and Housing
+            - row "61 Ontario Artificial Intelligence, Talent and Innovation Strategy Act, 2025" [ref=e1278]:
+              - gridcell "61" [ref=e1279]
+              - gridcell "Ontario Artificial Intelligence, Talent and Innovation Strategy Act, 2025" [ref=e1280]:
+                - link "Ontario Artificial Intelligence, Talent and Innovation Strategy Act, 2025" [ref=e1281] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-61
+              - gridcell [ref=e1282]:
+                - list [ref=e1284]:
+                  - listitem [ref=e1285]:
+                    - article [ref=e1286]:
+                      - generic [ref=e1288]: Cerjanec, Rob
+            - row "62 Public Health Accountability Act (In Honour of Dr. Sheela Basrur), 2025" [ref=e1289]:
+              - gridcell "62" [ref=e1290]
+              - gridcell "Public Health Accountability Act (In Honour of Dr. Sheela Basrur), 2025" [ref=e1291]:
+                - link "Public Health Accountability Act (In Honour of Dr. Sheela Basrur), 2025" [ref=e1292] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-62
+              - gridcell [ref=e1293]:
+                - list [ref=e1295]:
+                  - listitem [ref=e1296]:
+                    - article [ref=e1297]:
+                      - generic [ref=e1299]: Gélinas, France
+                  - listitem [ref=e1300]:
+                    - article [ref=e1301]:
+                      - generic [ref=e1303]: Lennox, Robin
+            - row "63 Stop Ripping Off Fans Act (Ticket Resale Price Caps), 2025" [ref=e1304]:
+              - gridcell "63" [ref=e1305]
+              - gridcell "Stop Ripping Off Fans Act (Ticket Resale Price Caps), 2025" [ref=e1306]:
+                - link "Stop Ripping Off Fans Act (Ticket Resale Price Caps), 2025" [ref=e1307] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-63
+              - gridcell [ref=e1308]:
+                - list [ref=e1310]:
+                  - listitem [ref=e1311]:
+                    - article [ref=e1312]:
+                      - generic [ref=e1314]: Cerjanec, Rob
+                  - listitem [ref=e1315]:
+                    - article [ref=e1316]:
+                      - generic [ref=e1318]: Blais, Stephen
+                  - listitem [ref=e1319]:
+                    - article [ref=e1320]:
+                      - generic [ref=e1322]: Smyth, Stephanie
+                  - listitem [ref=e1323]:
+                    - article [ref=e1324]:
+                      - generic [ref=e1326]: Watt, Tyler
+            - row "64 Housing Equity and Rental Transparency Act, 2025" [ref=e1327]:
+              - gridcell "64" [ref=e1328]
+              - gridcell "Housing Equity and Rental Transparency Act, 2025" [ref=e1329]:
+                - link "Housing Equity and Rental Transparency Act, 2025" [ref=e1330] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-64
+              - gridcell [ref=e1331]:
+                - list [ref=e1333]:
+                  - listitem [ref=e1334]:
+                    - article [ref=e1335]:
+                      - generic [ref=e1337]: Bowman, Stephanie
+            - row "65 Remembrance Day Observance Act, 2025" [ref=e1338]:
+              - gridcell "65" [ref=e1339]
+              - gridcell "Remembrance Day Observance Act, 2025" [ref=e1340]:
+                - link "Remembrance Day Observance Act, 2025" [ref=e1341] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-65
+              - gridcell [ref=e1342]:
+                - list [ref=e1344]:
+                  - listitem [ref=e1345]:
+                    - article [ref=e1346]:
+                      - generic [ref=e1348]: Stevens, Jennifer (Jennie)
+                  - listitem [ref=e1349]:
+                    - article [ref=e1350]:
+                      - generic [ref=e1352]: Pasma, Chandra
+                  - listitem [ref=e1353]:
+                    - article [ref=e1354]:
+                      - generic [ref=e1356]: Rakocevic, Tom
+                  - listitem [ref=e1357]:
+                    - article [ref=e1358]:
+                      - generic [ref=e1360]: West, Jamie
+            - row "66 Kids' Online Safety and Privacy Month Act, 2025" [ref=e1361]:
+              - gridcell "66" [ref=e1362]
+              - gridcell "Kids' Online Safety and Privacy Month Act, 2025" [ref=e1363]:
+                - link "Kids' Online Safety and Privacy Month Act, 2025" [ref=e1364] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-66
+              - gridcell [ref=e1365]:
+                - list [ref=e1367]:
+                  - listitem [ref=e1368]:
+                    - article [ref=e1369]:
+                      - generic [ref=e1371]: Blais, Stephen
+                  - listitem [ref=e1372]:
+                    - article [ref=e1373]:
+                      - generic [ref=e1375]: Collard, Lucille
+            - row "67 Hospitality Workers Appreciation Day Act, 2025" [ref=e1376]:
+              - gridcell "67" [ref=e1377]
+              - gridcell "Hospitality Workers Appreciation Day Act, 2025" [ref=e1378]:
+                - link "Hospitality Workers Appreciation Day Act, 2025" [ref=e1379] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-67
+              - gridcell [ref=e1380]:
+                - list [ref=e1382]:
+                  - listitem [ref=e1383]:
+                    - article [ref=e1384]:
+                      - generic [ref=e1386]: Hardeman, Hon. Ernie
+            - row "68 Plan to Protect Ontario Act (Budget Measures), 2025 (No. 2)" [ref=e1387]:
+              - gridcell "68" [ref=e1388]
+              - gridcell "Plan to Protect Ontario Act (Budget Measures), 2025 (No. 2)" [ref=e1389]:
+                - link "Plan to Protect Ontario Act (Budget Measures), 2025 (No. 2)" [ref=e1390] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-68
+              - gridcell [ref=e1391]:
+                - list [ref=e1393]:
+                  - listitem [ref=e1394]:
+                    - article [ref=e1395]:
+                      - generic [ref=e1396]:
+                        - generic [ref=e1397]: Bethlenfalvy, Hon. Peter
+                        - generic [ref=e1398]: Minister of Finance
+            - row "69 Respecting Workers in Health Care and in Related Fields Act, 2025" [ref=e1399]:
+              - gridcell "69" [ref=e1400]
+              - gridcell "Respecting Workers in Health Care and in Related Fields Act, 2025" [ref=e1401]:
+                - link "Respecting Workers in Health Care and in Related Fields Act, 2025" [ref=e1402] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-69
+              - gridcell [ref=e1403]:
+                - list [ref=e1405]:
+                  - listitem [ref=e1406]:
+                    - article [ref=e1407]:
+                      - generic [ref=e1409]: Gélinas, France
+                  - listitem [ref=e1410]:
+                    - article [ref=e1411]:
+                      - generic [ref=e1413]: Gates, Wayne
+                  - listitem [ref=e1414]:
+                    - article [ref=e1415]:
+                      - generic [ref=e1417]: Lennox, Robin
+                  - listitem [ref=e1418]:
+                    - article [ref=e1419]:
+                      - generic [ref=e1421]: West, Jamie
+            - row "70 Supporting Mobility, Affordability and Reliable Transportation in Ontario Act, 2025" [ref=e1422]:
+              - gridcell "70" [ref=e1423]
+              - gridcell "Supporting Mobility, Affordability and Reliable Transportation in Ontario Act, 2025" [ref=e1424]:
+                - link "Supporting Mobility, Affordability and Reliable Transportation in Ontario Act, 2025" [ref=e1425] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-70
+              - gridcell [ref=e1426]:
+                - list [ref=e1428]:
+                  - listitem [ref=e1429]:
+                    - article [ref=e1430]:
+                      - generic [ref=e1432]: Hazell, Andrea
+            - row "71 Life Leases Act, 2025" [ref=e1433]:
+              - gridcell "71" [ref=e1434]
+              - gridcell "Life Leases Act, 2025" [ref=e1435]:
+                - link "Life Leases Act, 2025" [ref=e1436] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-71
+              - gridcell [ref=e1437]:
+                - list [ref=e1439]:
+                  - listitem [ref=e1440]:
+                    - article [ref=e1441]:
+                      - generic [ref=e1443]: Racinsky, Joseph
+            - row "72 Buy Ontario Act, 2025" [ref=e1444]:
+              - gridcell "72" [ref=e1445]
+              - gridcell "Buy Ontario Act, 2025" [ref=e1446]:
+                - link "Buy Ontario Act, 2025" [ref=e1447] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-72
+              - gridcell [ref=e1448]:
+                - list [ref=e1450]:
+                  - listitem [ref=e1451]:
+                    - article [ref=e1452]:
+                      - generic [ref=e1453]:
+                        - generic [ref=e1454]: Crawford, Hon. Stephen
+                        - generic [ref=e1455]: Minister of Public and Business Service Delivery and Procurement
+            - row "73 Protecting Ontario from Urban Wildfires Act, 2025" [ref=e1456]:
+              - gridcell "73" [ref=e1457]
+              - gridcell "Protecting Ontario from Urban Wildfires Act, 2025" [ref=e1458]:
+                - link "Protecting Ontario from Urban Wildfires Act, 2025" [ref=e1459] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-73
+              - gridcell [ref=e1460]:
+                - list [ref=e1462]:
+                  - listitem [ref=e1463]:
+                    - article [ref=e1464]:
+                      - generic [ref=e1466]: Tabuns, Peter
+                  - listitem [ref=e1467]:
+                    - article [ref=e1468]:
+                      - generic [ref=e1470]: Bell, Jessica
+                  - listitem [ref=e1471]:
+                    - article [ref=e1472]:
+                      - generic [ref=e1474]: Gilmour, Alexa
+                  - listitem [ref=e1475]:
+                    - article [ref=e1476]:
+                      - generic [ref=e1478]: Wong-Tam, Kristyn
+            - row "74 Christopher's Law (Sex Offender Registry) Amendment Act (Information Disclosure), 2025" [ref=e1479]:
+              - gridcell "74" [ref=e1480]
+              - gridcell "Christopher's Law (Sex Offender Registry) Amendment Act (Information Disclosure), 2025" [ref=e1481]:
+                - link "Christopher's Law (Sex Offender Registry) Amendment Act (Information Disclosure), 2025" [ref=e1482] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-74
+              - gridcell [ref=e1483]:
+                - list [ref=e1485]:
+                  - listitem [ref=e1486]:
+                    - article [ref=e1487]:
+                      - generic [ref=e1489]: Blais, Stephen
+                  - listitem [ref=e1490]:
+                    - article [ref=e1491]:
+                      - generic [ref=e1493]: Cerjanec, Rob
+                  - listitem [ref=e1494]:
+                    - article [ref=e1495]:
+                      - generic [ref=e1497]: Collard, Lucille
+                  - listitem [ref=e1498]:
+                    - article [ref=e1499]:
+                      - generic [ref=e1501]: Tsao, Jonathan
+            - row "75 Keeping Criminals Behind Bars Act, 2025" [ref=e1502]:
+              - gridcell "75" [ref=e1503]
+              - gridcell "Keeping Criminals Behind Bars Act, 2025" [ref=e1504]:
+                - link "Keeping Criminals Behind Bars Act, 2025" [ref=e1505] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-75
+              - gridcell [ref=e1506]:
+                - list [ref=e1508]:
+                  - listitem [ref=e1509]:
+                    - article [ref=e1510]:
+                      - generic [ref=e1511]:
+                        - generic [ref=e1512]: Kerzner, Hon. Michael S.
+                        - generic [ref=e1513]: Solicitor General
+            - row "76 Barrie – Oro-Medonte – Springwater Boundary Adjustment Act, 2025" [ref=e1514]:
+              - gridcell "76" [ref=e1515]
+              - gridcell "Barrie – Oro-Medonte – Springwater Boundary Adjustment Act, 2025" [ref=e1516]:
+                - link "Barrie – Oro-Medonte – Springwater Boundary Adjustment Act, 2025" [ref=e1517] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-76
+              - gridcell [ref=e1518]:
+                - list [ref=e1520]:
+                  - listitem [ref=e1521]:
+                    - article [ref=e1522]:
+                      - generic [ref=e1523]:
+                        - generic [ref=e1524]: Flack, Hon. Rob
+                        - generic [ref=e1525]: Minister of Municipal Affairs and Housing
+            - row "77 Speaking Out About, and Reporting On, Workplace Violence and Harassment Act, 2025" [ref=e1526]:
+              - gridcell "77" [ref=e1527]
+              - gridcell "Speaking Out About, and Reporting On, Workplace Violence and Harassment Act, 2025" [ref=e1528]:
+                - link "Speaking Out About, and Reporting On, Workplace Violence and Harassment Act, 2025" [ref=e1529] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-77
+              - gridcell [ref=e1530]:
+                - list [ref=e1532]:
+                  - listitem [ref=e1533]:
+                    - article [ref=e1534]:
+                      - generic [ref=e1536]: Gélinas, France
+                  - listitem [ref=e1537]:
+                    - article [ref=e1538]:
+                      - generic [ref=e1540]: West, Jamie
+            - row "78 Commissioner for Democratic Rights Act, 2025" [ref=e1541]:
+              - gridcell "78" [ref=e1542]
+              - gridcell "Commissioner for Democratic Rights Act, 2025" [ref=e1543]:
+                - link "Commissioner for Democratic Rights Act, 2025" [ref=e1544] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-78
+              - gridcell [ref=e1545]:
+                - list [ref=e1547]:
+                  - listitem [ref=e1548]:
+                    - article [ref=e1549]:
+                      - generic [ref=e1551]: Glover, Chris
+            - row "79 Chad's Law (Enforcing Safer Passing), 2025" [ref=e1552]:
+              - gridcell "79" [ref=e1553]
+              - gridcell "Chad's Law (Enforcing Safer Passing), 2025" [ref=e1554]:
+                - link "Chad's Law (Enforcing Safer Passing), 2025" [ref=e1555] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-79
+              - gridcell [ref=e1556]:
+                - list [ref=e1558]:
+                  - listitem [ref=e1559]:
+                    - article [ref=e1560]:
+                      - generic [ref=e1562]: Bourgouin, Guy
+            - row "80 Gender Affirming Health Care Advisory Committee Act, 2025" [ref=e1563]:
+              - gridcell "80" [ref=e1564]
+              - gridcell "Gender Affirming Health Care Advisory Committee Act, 2025" [ref=e1565]:
+                - link "Gender Affirming Health Care Advisory Committee Act, 2025" [ref=e1566] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-80
+              - gridcell [ref=e1567]:
+                - list [ref=e1569]:
+                  - listitem [ref=e1570]:
+                    - article [ref=e1571]:
+                      - generic [ref=e1573]: Wong-Tam, Kristyn
+                  - listitem [ref=e1574]:
+                    - article [ref=e1575]:
+                      - generic [ref=e1577]: Kernaghan, Terence
+                  - listitem [ref=e1578]:
+                    - article [ref=e1579]:
+                      - generic [ref=e1581]: McKenney, Catherine
+                  - listitem [ref=e1582]:
+                    - article [ref=e1583]:
+                      - generic [ref=e1585]: Vaugeois, Lise
+            - row "81 Ontario Climate Change Adaptation and Resilience Act, 2025" [ref=e1586]:
+              - gridcell "81" [ref=e1587]
+              - gridcell "Ontario Climate Change Adaptation and Resilience Act, 2025" [ref=e1588]:
+                - link "Ontario Climate Change Adaptation and Resilience Act, 2025" [ref=e1589] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-81
+              - gridcell [ref=e1590]:
+                - list [ref=e1592]:
+                  - listitem [ref=e1593]:
+                    - article [ref=e1594]:
+                      - generic [ref=e1596]: Tabuns, Peter
+                  - listitem [ref=e1597]:
+                    - article [ref=e1598]:
+                      - generic [ref=e1600]: Bell, Jessica
+                  - listitem [ref=e1601]:
+                    - article [ref=e1602]:
+                      - generic [ref=e1604]: Wong-Tam, Kristyn
+            - row "82 Protecting Renters from Unfair Above Guideline Rent Increases Act, 2025" [ref=e1605]:
+              - gridcell "82" [ref=e1606]
+              - gridcell "Protecting Renters from Unfair Above Guideline Rent Increases Act, 2025" [ref=e1607]:
+                - link "Protecting Renters from Unfair Above Guideline Rent Increases Act, 2025" [ref=e1608] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-82
+              - gridcell [ref=e1609]:
+                - list [ref=e1611]:
+                  - listitem [ref=e1612]:
+                    - article [ref=e1613]:
+                      - generic [ref=e1615]: Smyth, Stephanie
+            - row "83 Christian Heritage Month Act, 2025" [ref=e1616]:
+              - gridcell "83" [ref=e1617]
+              - gridcell "Christian Heritage Month Act, 2025" [ref=e1618]:
+                - link "Christian Heritage Month Act, 2025" [ref=e1619] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-83
+              - gridcell [ref=e1620]:
+                - list [ref=e1622]:
+                  - listitem [ref=e1623]:
+                    - article [ref=e1624]:
+                      - generic [ref=e1626]: Blais, Stephen
+            - row "84 Mandatory Blood Testing Amendment Act, 2025" [ref=e1627]:
+              - gridcell "84" [ref=e1628]
+              - gridcell "Mandatory Blood Testing Amendment Act, 2025" [ref=e1629]:
+                - link "Mandatory Blood Testing Amendment Act, 2025" [ref=e1630] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-84
+              - gridcell [ref=e1631]:
+                - list [ref=e1633]:
+                  - listitem [ref=e1634]:
+                    - article [ref=e1635]:
+                      - generic [ref=e1637]: Smith, Laura
+            - row "85 Transparent and Accountable Health Care Act, 2025" [ref=e1638]:
+              - gridcell "85" [ref=e1639]
+              - gridcell "Transparent and Accountable Health Care Act, 2025" [ref=e1640]:
+                - link "Transparent and Accountable Health Care Act, 2025" [ref=e1641] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-85
+              - gridcell [ref=e1642]:
+                - list [ref=e1644]:
+                  - listitem [ref=e1645]:
+                    - article [ref=e1646]:
+                      - generic [ref=e1648]: Gélinas, France
+            - row "86 Meredith Act (Fair Compensation for Injured Workers), 2025" [ref=e1649]:
+              - gridcell "86" [ref=e1650]
+              - gridcell "Meredith Act (Fair Compensation for Injured Workers), 2025" [ref=e1651]:
+                - link "Meredith Act (Fair Compensation for Injured Workers), 2025" [ref=e1652] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-86
+              - gridcell [ref=e1653]:
+                - list [ref=e1655]:
+                  - listitem [ref=e1656]:
+                    - article [ref=e1657]:
+                      - generic [ref=e1659]: Vaugeois, Lise
+                  - listitem [ref=e1660]:
+                    - article [ref=e1661]:
+                      - generic [ref=e1663]: Gates, Wayne
+                  - listitem [ref=e1664]:
+                    - article [ref=e1665]:
+                      - generic [ref=e1667]: West, Jamie
+            - row "87 Environmental Protection Amendment Act (Industrial, Commercial and Institutional Source Separation Programs), 2025" [ref=e1668]:
+              - gridcell "87" [ref=e1669]
+              - gridcell "Environmental Protection Amendment Act (Industrial, Commercial and Institutional Source Separation Programs), 2025" [ref=e1670]:
+                - link "Environmental Protection Amendment Act (Industrial, Commercial and Institutional Source Separation Programs), 2025" [ref=e1671] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-87
+              - gridcell [ref=e1672]:
+                - list [ref=e1674]:
+                  - listitem [ref=e1675]:
+                    - article [ref=e1676]:
+                      - generic [ref=e1678]: McMahon, Mary-Margaret
+            - row "88 Safe Night Out Act, 2025" [ref=e1679]:
+              - gridcell "88" [ref=e1680]
+              - gridcell "Safe Night Out Act, 2025" [ref=e1681]:
+                - link "Safe Night Out Act, 2025" [ref=e1682] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-88
+              - gridcell [ref=e1683]:
+                - list [ref=e1685]:
+                  - listitem [ref=e1686]:
+                    - article [ref=e1687]:
+                      - generic [ref=e1689]: Sattler, Peggy
+                  - listitem [ref=e1690]:
+                    - article [ref=e1691]:
+                      - generic [ref=e1693]: Gilmour, Alexa
+                  - listitem [ref=e1694]:
+                    - article [ref=e1695]:
+                      - generic [ref=e1697]: West, Jamie
+                  - listitem [ref=e1698]:
+                    - article [ref=e1699]:
+                      - generic [ref=e1701]: Wong-Tam, Kristyn
+            - row "89 Massage Therapy Tax Act, 2025" [ref=e1702]:
+              - gridcell "89" [ref=e1703]
+              - gridcell "Massage Therapy Tax Act, 2025" [ref=e1704]:
+                - link "Massage Therapy Tax Act, 2025" [ref=e1705] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-89
+              - gridcell [ref=e1706]:
+                - list [ref=e1708]:
+                  - listitem [ref=e1709]:
+                    - article [ref=e1710]:
+                      - generic [ref=e1712]: Gélinas, France
+            - row "90 Textile Waste Act, 2025" [ref=e1713]:
+              - gridcell "90" [ref=e1714]
+              - gridcell "Textile Waste Act, 2025" [ref=e1715]:
+                - link "Textile Waste Act, 2025" [ref=e1716] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-90
+              - gridcell [ref=e1717]:
+                - list [ref=e1719]:
+                  - listitem [ref=e1720]:
+                    - article [ref=e1721]:
+                      - generic [ref=e1723]: McMahon, Mary-Margaret
+            - row "91 Right to Repair Act, 2025" [ref=e1724]:
+              - gridcell "91" [ref=e1725]
+              - gridcell "Right to Repair Act, 2025" [ref=e1726]:
+                - link "Right to Repair Act, 2025" [ref=e1727] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-91
+              - gridcell [ref=e1728]:
+                - list [ref=e1730]:
+                  - listitem [ref=e1731]:
+                    - article [ref=e1732]:
+                      - generic [ref=e1734]: Rakocevic, Tom
+                  - listitem [ref=e1735]:
+                    - article [ref=e1736]:
+                      - generic [ref=e1738]: Kernaghan, Terence
+                  - listitem [ref=e1739]:
+                    - article [ref=e1740]:
+                      - generic [ref=e1742]: Vanthof, John
+            - row "92 Ontario Consumer Watchdog Act, 2025" [ref=e1743]:
+              - gridcell "92" [ref=e1744]
+              - gridcell "Ontario Consumer Watchdog Act, 2025" [ref=e1745]:
+                - link "Ontario Consumer Watchdog Act, 2025" [ref=e1746] [cursor=pointer]:
+                  - /url: /en/legislative-business/bills/parliament-44/session-1/bill-92
+              - gridcell [ref=e1747]:
+                - list [ref=e1749]:
+                  - listitem [ref=e1750]:
+                    - article [ref=e1751]:
+                      - generic [ref=e1753]: Rakocevic, Tom
+                  - listitem [ref=e1754]:
+                    - article [ref=e1755]:
+                      - generic [ref=e1757]: Fife, Catherine
+                  - listitem [ref=e1758]:
+                    - article [ref=e1759]:
+                      - generic [ref=e1761]: McKenney, Catherine
+    - generic [ref=e1770]:
+      - text: Was this page helpful?
+      - link "Yes" [ref=e1771] [cursor=pointer]:
+        - /url: /en/web-survey?choice=yes
+        - generic [ref=e1772]: 
+        - text: "Yes"
+      - link "No" [ref=e1773] [cursor=pointer]:
+        - /url: /en/web-survey?choice=no
+        - generic [ref=e1774]: 
+        - text: "No"
+    - contentinfo [ref=e1775]:
+      - generic [ref=e1778]:
+        - generic [ref=e1780]:
+          - heading "Legislative Assembly of Ontario" [level=4] [ref=e1781]
+          - generic [ref=e1782]:
+            - link "Visit us on Instagram" [ref=e1785] [cursor=pointer]:
+              - /url: https://www.instagram.com/lao_english/
+              - img [ref=e1786]
+            - link "Visit us on Facebook" [ref=e1790] [cursor=pointer]:
+              - /url: https://www.facebook.com/laoenglish/
+              - img [ref=e1791]
+            - link "Visit us on X" [ref=e1795] [cursor=pointer]:
+              - /url: https://x.com/lao_english
+              - img [ref=e1796]
+            - link "Visit us on LinkedIn" [ref=e1800] [cursor=pointer]:
+              - /url: https://ca.linkedin.com/company/legislative-assembly-of-ontario
+              - img [ref=e1801]
+            - link "Listen to ON Parliament podcast" [ref=e1805] [cursor=pointer]:
+              - /url: /en/ON-parliament-podcast
+              - img [ref=e1806]
+            - link "Visit us on Flickr" [ref=e1810] [cursor=pointer]:
+              - /url: https://www.flickr.com/photos/130854426@N08/
+              - img [ref=e1811]
+            - link "Visit us on YouTube" [ref=e1815] [cursor=pointer]:
+              - /url: https://www.youtube.com/@lao-en
+              - img [ref=e1816]
+          - generic [ref=e1818]:
+            - paragraph [ref=e1819]: The Legislative Assembly of Ontario is made up of members of provincial Parliament (MPPs) who are elected by Ontarians to represent them and their constituencies. The Legislative Assembly's main responsibilities are to debate and pass legislation, to hold the government to account, and to approve government spending. The Legislative Assembly meets in the Legislative Building located in Queen's Park in Toronto.
+            - paragraph [ref=e1820]:
+              - link "Site map" [ref=e1821] [cursor=pointer]:
+                - /url: /en/site-map
+        - generic [ref=e1823]:
+          - heading "About us" [level=5] [ref=e1824]
+          - list [ref=e1825]:
+            - listitem [ref=e1826]:
+              - link "Office of the Assembly" [ref=e1827] [cursor=pointer]:
+                - /url: /en/office-assembly
+            - listitem [ref=e1828]:
+              - link "Contact us" [ref=e1829] [cursor=pointer]:
+                - /url: /en/office-assembly/contact-us
+            - listitem [ref=e1830]:
+              - link "Careers" [ref=e1831] [cursor=pointer]:
+                - /url: /en/office-assembly/careers
+            - listitem [ref=e1832]:
+              - link "Ontario Legislature Internship Programme (OLIP) (opens another site)" [ref=e1833] [cursor=pointer]:
+                - /url: https://www.olipinterns.ca/
+            - listitem [ref=e1834]:
+              - link "Accessibility" [ref=e1835] [cursor=pointer]:
+                - /url: /en/office-assembly/accessibility
+            - listitem [ref=e1836]:
+              - link "What's happening" [ref=e1837] [cursor=pointer]:
+                - /url: /en/office-assembly/whats-happening
+        - generic [ref=e1839]:
+          - heading "Resources" [level=5] [ref=e1840]
+          - list [ref=e1841]:
+            - listitem [ref=e1842]:
+              - link "House documents" [ref=e1843] [cursor=pointer]:
+                - /url: /en/legislative-business/house-documents
+            - listitem [ref=e1844]:
+              - link "Library and research" [ref=e1845] [cursor=pointer]:
+                - /url: /en/office-assembly/library-research
+            - listitem [ref=e1846]:
+              - link "Find an MPP" [ref=e1847] [cursor=pointer]:
+                - /url: /en/members/current#views-exposed-form-current-members-current-members-grid
+            - listitem [ref=e1848]:
+              - link "FAQ" [ref=e1849] [cursor=pointer]:
+                - /url: /en/office-assembly/faq
+            - listitem [ref=e1850]:
+              - link "Media centre" [ref=e1851] [cursor=pointer]:
+                - /url: /en/media-centre
+            - listitem [ref=e1852]:
+              - link "Data resources" [ref=e1853] [cursor=pointer]:
+                - /url: /en/office-assembly/library-research/data-resources
+            - listitem [ref=e1854]:
+              - link "Notices of hearings" [ref=e1855] [cursor=pointer]:
+                - /url: /en/legislative-business/committees/notices-hearings
+      - paragraph [ref=e1862]:
+        - img [ref=e1863] [cursor=pointer]
+        - link "Copyright and privacy" [ref=e1875] [cursor=pointer]:
+          - /url: /en/office-assembly/copyright-privacy
